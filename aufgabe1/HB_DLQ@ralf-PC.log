@@ -43,3 +43,4 @@ HBQ: HBQ ist leer 11.04 18:14:08,623|.
 DLQ: Nachricht 2 an Client<7448.61.0> ausgeliefert.
 DLQ: Nachricht 3 an Client<7448.61.0> ausgeliefert.
 DLQ: Nachricht 3 an Client<7448.61.0> ausgeliefert.
+HBQ: closing HBQ and DLQ
