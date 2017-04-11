@@ -1,10 +1,13 @@
 1) Wann wird der Nutzer aus CMEM vergessen? Lazy? Busy? Oder eine Mischung daraus?
+
 2) Läuft CMEM sequentiell mit der Nachrichtenvermittlung, oder als eigener Prozess? (Gilt auch für DLQ)
  -> Klauck meinte, dass auch wenn er als seperater Prozess läuft, so darf dies nicht erkennbar sein. Es
-    muss also immernoch so aussehen, als wäre es ein lokaler ADT.
+ muss also immernoch so aussehen, als wäre es ein lokaler ADT.
  Das bezieht sich wohl darauf, dass man nicht anfangen darf Messages an CMEM zu schicken. (Siehe 9 bei Klauck)
 
+
 3) Was für eine Datenstruktur wird für den CMEM genommen und was speichert er alles?
+
 
 
 4) "Der Leser-Client merkt sich die vom Server erhaltenen Nachrichtennummern und fügt einer als Leser-Client erhaltenen Nachricht, 
@@ -12,7 +15,9 @@ die durch sein Redakteur-Client erstellt wurde, die Zeichenfolge ******* an..." 
 Igor hat einfach überall die Zeichenfolge rangehängt, wohingegen ich angenommen hatte, dass man als Leser prüft, ob die übergebene
 Nachricht die eigene PID enthält und hier dann die Zeichenfolge ranhängt. Was meinst du?
 
+
 5) Wann wird von DLQ nach HBQ übertragen? (Siehe 2 bei Klauck)
+
 6) Die erste Nummer der Ausgabe beim Client ist die Client-Nummer. Bei Klauck kann es aber vorkommen, dass mehrere gleichzeitig zu
 laufen scheinen, sodass in einer Datei verschiedene Nummern auftauchen, wohingegen bei Igor immer nur eine je Datei vorkommt.
 
