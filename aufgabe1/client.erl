@@ -108,10 +108,10 @@ editor_send_message(0, LogFile, ClientNumber, _, MessageNumber, SendingInterval,
 % Ask the server for the message number (previously) and sends a message with it to him.
 % --> spec: 9
 editor_send_message(LoopCounter, LogFile, ClientNumber, Node, MessageNumber, SendingInterval, Server, EditorMessageList) ->
-  TSclientout = werkzeug:timeMilliSecond(),
+  TSclientout = erlang:now(),
 
-  Msg = editor_message(ClientNumber, Node, self(), MessageNumber),
-  werkzeug:logging(LogFile, Msg),
+  Msg = editor_message(ClientNumber, Node, self(), MessageNumber, werkzeug:now2string(TSclientout)),
+  werkzeug:logging(LogFile, Msg ++ " gesendet\n"),
 
   timer:sleep(SendingInterval),
   Server ! {dropmessage, [MessageNumber, Msg, TSclientout]},
@@ -143,12 +143,12 @@ reader(LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
   receive
     {die} ->
       shut_down_message(ClientNumber, Node, self());
-    {reply, [MessageNumber, _, TSclientout, TShbqin, TSdlqin, TSdlqout], Terminated} ->
+    {reply, [MessageNumber, Msg, TSclientout, TShbqin, TSdlqin, TSdlqout], Terminated} ->
       NewEditorMessageList = lists:delete(MessageNumber, EditorMessageList),
       WasMyEditor = (NewEditorMessageList =/= EditorMessageList),
 
       werkzeug:logging(LogFile,
-        reader_message(WasMyEditor, ClientNumber, Node, self(), MessageNumber, TSclientout, TShbqin, TSdlqin, TSdlqout)
+        reader_message(WasMyEditor, Msg, TSclientout, TShbqin, TSdlqin, TSdlqout)
       ),
       next(Terminated, LogFile, ClientNumber, SendingInterval, Server, NewEditorMessageList);
     Any ->
@@ -195,44 +195,42 @@ shut_down_message(ClientNumber, Node, PID) ->
   lists:concat([prefix_message_format(ClientNumber, Node, PID), "Lebenszeit um. Wird beendet.\n"]).
 
 %%% editor
-editor_message(ClientNumber, Node, PID, MessageNumber) ->
+editor_message(ClientNumber, Node, PID, MessageNumber, TSclientout) ->
   lists:concat(
     [prefix_message_format(ClientNumber, Node, PID),
-      MessageNumber, "te_Nachricht. Sendezeit: ", werkzeug:timeMilliSecond(), "(", MessageNumber, ")\n"]
+      MessageNumber, "te_Nachricht. C Out: ", TSclientout, "(", MessageNumber, ")"]
   ).
 
 % Returns the string to represent the message for interval switching.
 -spec new_interval_format(integer()) -> string().
 new_interval_format(NewInterval) ->
-  lists:concat(["Neues Sendeintervall: ", NewInterval, " Sekunden (", NewInterval, ")\n"]).
+  lists:concat(["Neues Sendeintervall: ", NewInterval, " Sekunden\n"]).
 
 forgotten_message_format(MessageNumber) ->
   lists:concat([MessageNumber, "te_Nachricht um ", werkzeug:timeMilliSecond(), "- vergessen zu senden ******\n"]).
 
 %%% reader
-reader_message(true, ClientNumber, Node, PID, MessageNumber, TSclientout, TShbqin, TSdlqin, TSdlqout) ->
-  lists:concat(
-    [prefix_message_format(ClientNumber, Node, PID),
-      MessageNumber, "te_Nachricht. C Out: ", TSclientout, " HBQ In: ", TShbqin,
-      " DLQ In: ", TSdlqin, " DLQ Out: ", TSdlqout, "*******; C In: ", werkzeug:timeMilliSecond(), "\n"]
-  );
+reader_message(true, Msg, TSclientout, TShbqin, TSdlqin, TSdlqout) ->
+  lists:concat([Msg, "*******; C In: ", erlang:now(),
+    time_difference_message(TSclientout, TShbqin, TSdlqin, TSdlqout), "\n"]);
 
-reader_message(false, ClientNumber, Node, PID, MessageNumber, TSclientout, TShbqin, TSdlqin, TSdlqout) ->
+reader_message(false, Msg, TSclientout, TShbqin, TSdlqin, TSdlqout) ->
   lists:concat(
-    [prefix_message_format(ClientNumber, Node, PID),
-      MessageNumber, "te_Nachricht. C Out: ", TSclientout, " HBQ In: ", TShbqin,
-      " DLQ In: ", TSdlqin, " DLQ Out: ", TSdlqout, " ; C In: ", werkzeug:timeMilliSecond(), "\n"]
-  ).
+    [Msg, " ; C In: ", werkzeug:now2string(erlang:now()),
+      time_difference_message(TSclientout, TShbqin, TSdlqin, TSdlqout), "\n"]).
 
 % --> spec: 13
-%time_difference_message(TSclientout,TShbqin, TSdlqin,TSdlqout) ->
-%  .
+time_difference_message(TSclientout, TShbqin, TSdlqin, TSdlqout) ->
+  lists:concat([time_diff_string(TSclientout, TShbqin), time_diff_string(TSdlqin, TSdlqout)]).
 
-%server_editor_time_diff(TSclientout,TShbqin) ->
-%  if (werkzeug:lessTS())
+time_diff_string(Out, In) ->
+  IsDiff = werkzeug:lessTS(In, Out),
+  if IsDiff ->
+    lists:concat(["(Diff: ", werkzeug:now2string(werkzeug:diffTS(In, Out)), ")"]);
+    true -> ""
+  end.
 
-
-no_message_left_format() -> "..getmessages..Done...".
+no_message_left_format() -> "..getmessages..Done...\n".
 %--------------------------------------------------------------------
 % config
 %--------------------------------------------------------------------
