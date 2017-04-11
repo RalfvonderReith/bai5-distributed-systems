@@ -3,7 +3,7 @@ Compilieren der Dateien:
 --------------------
 Zu dem Paket gehören die Dateien
 client.erl; cmem.erl; dlq.erl; hbq.erl; nummerndienst.erl;
-server; werkzeug.erl;
+server.erl; werkzeug.erl;
 
 sowie:
 Readme.txt; client.cfg; server.cfg

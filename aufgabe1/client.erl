@@ -1,7 +1,9 @@
 %%%-------------------------------------------------------------------
 %%% @author Eugen Deutsch
 %%% @doc
-%%%
+%%% Enthält den Clienten, der mit start() gestartet wird. Die Einstellungen erfolgen per client.cfg. Der Client
+%%% besteht aus einem Redakteur und eine Leser, wobei erster dem Server Nachrichten schickt und letzterer sie ausließt.
+%%% Für weitere Informationen die Readme oder den Entwurf aufsuchen.
 %%% @end
 %%%-------------------------------------------------------------------
 -module(client).
