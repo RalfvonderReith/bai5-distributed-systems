@@ -24,7 +24,7 @@
 -define(LIFETIME, lifetime).
 -define(SERVER_NAME, servername).
 -define(SERVER_NODE, servernode).
--define(SENDING_INTERVAL, sendeintervall).
+-define(SENDING_INTERVAL, sendeintervall). % --> spec: 9
 
 % messages
 -define(START_MESSAGE, "Start: ").
@@ -49,7 +49,8 @@ start() ->
 
 start_clients(ClientAmount, ClientAmount, _, _, _) -> io:format("Alle clienten gestartet (~w)~n", [ClientAmount]);
 start_clients(ClientNumber, ClientAmount, Lifetime, SendInterval, Server) ->
-  timer:send_after(Lifetime,
+  timer:send_after(
+    Lifetime,
     spawn(client, start_client, [ClientNumber, SendInterval, Server]),
     die
   ),
@@ -67,7 +68,9 @@ start_client(ClientNumber, SendingInterval, Server) ->
 %--------------------------------------------------------------------
 % editor
 %--------------------------------------------------------------------
--spec editor_message_loop(pos_integer(), string(), integer(), integer(), tuple(), list()) -> any(). % TODO: Does tuple work?
+% Ask the server for the message number and sends him a message (5 times) and once not. After that the editor mode is
+% over and the client switches into the reader mode.
+-spec editor_message_loop(pos_integer(), string(), integer(), integer(), tuple(), list()) -> any().
 editor_message_loop(LoopCounter, LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
   Server ! {self(), getmsgid},
   {_, Node} = Server,
@@ -90,7 +93,7 @@ editor_message_loop(LoopCounter, LogFile, ClientNumber, SendingInterval, Server,
       editor_message_loop(LoopCounter - 1, LogFile, ClientNumber, SendingInterval, Server, EditorMessageList)
   end.
 
-% Asks the server for the message number without sending a message and switches to the reader.
+% Asks the server for the message number (previously) without sending a message and switches to the reader.
 % EditorMessageList: Contains the message numbers send by this client. This is needed for the reader to mark the
 %  received messages which were created by his editor.
 % --> spec: 11
@@ -102,7 +105,7 @@ editor_send_message(0, LogFile, ClientNumber, _, MessageNumber, SendingInterval,
   timer:sleep(NewSendingInterval),
   reader(LogFile, ClientNumber, NewSendingInterval, Server, EditorMessageList);
 
-% Ask the server for the message number and sends a message with it to him.
+% Ask the server for the message number (previously) and sends a message with it to him.
 % --> spec: 9
 editor_send_message(LoopCounter, LogFile, ClientNumber, Node, MessageNumber, SendingInterval, Server, EditorMessageList) ->
   TSclientout = werkzeug:timeMilliSecond(),
@@ -132,6 +135,7 @@ sendingInterval(LogFile, SendingInterval) ->
 %--------------------------------------------------------------------
 % reader
 %--------------------------------------------------------------------
+% Asks the server for messages and logs them until he got all messages and switches then back to the editor mode.
 -spec reader(string(), integer(), pos_integer(), tuple(), list()) -> any().
 reader(LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
   Server ! {self(), getmessages},
@@ -139,9 +143,9 @@ reader(LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
   receive
     {die} ->
       shut_down_message(ClientNumber, Node, self());
-    {reply, [MessageNumber, _Msg, TSclientout, TShbqin, TSdlqin, TSdlqout], Terminated} ->
+    {reply, [MessageNumber, _, TSclientout, TShbqin, TSdlqin, TSdlqout], Terminated} ->
       NewEditorMessageList = lists:delete(MessageNumber, EditorMessageList),
-      WasMyEditor = (NewEditorMessageList == EditorMessageList),
+      WasMyEditor = (NewEditorMessageList =/= EditorMessageList),
 
       werkzeug:logging(LogFile,
         reader_message(WasMyEditor, ClientNumber, Node, self(), MessageNumber, TSclientout, TShbqin, TSdlqin, TSdlqout)
@@ -162,7 +166,7 @@ reader(LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
 next(false, LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
   reader(LogFile, ClientNumber, SendingInterval, Server, EditorMessageList);
 next(true, LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
-  no_message_left_format(),
+  werkzeug:logging(LogFile, no_message_left_format()),
   editor_message_loop(?EDITOR_LOOP_AMOUNT, LogFile, ClientNumber, SendingInterval, Server, EditorMessageList).
 %----------------------------------------------------------------------------------------------------------------------
 % private helper
@@ -220,6 +224,14 @@ reader_message(false, ClientNumber, Node, PID, MessageNumber, TSclientout, TShbq
       " DLQ In: ", TSdlqin, " DLQ Out: ", TSdlqout, " ; C In: ", werkzeug:timeMilliSecond(), "\n"]
   ).
 
+% --> spec: 13
+%time_difference_message(TSclientout,TShbqin, TSdlqin,TSdlqout) ->
+%  .
+
+%server_editor_time_diff(TSclientout,TShbqin) ->
+%  if (werkzeug:lessTS())
+
+
 no_message_left_format() -> "..getmessages..Done...".
 %--------------------------------------------------------------------
 % config
@@ -251,7 +263,6 @@ cfg_entry(EntryName, ConfigList) ->
 %--------------------------------------------------------------------
 % server connection
 %--------------------------------------------------------------------
-
 serverNodeConnection(ServerNode) ->
   net_adm:ping(ServerNode),
   timer:sleep(?SERVER_RESPONSE_TIME).
