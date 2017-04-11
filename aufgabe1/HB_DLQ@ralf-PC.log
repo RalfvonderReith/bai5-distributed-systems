@@ -1,62 +1,46 @@
-HBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: Nachricht 1 in HBQ eingefuegt
-DLQ: Nachricht 1 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 1 in HBQ eingefuegt
-HBQ: HBQ is empty.~nHBQ: Nachricht 1 in HBQ eingefuegt
-HBQ: HBQ is empty.~nHBQ: Nachricht 1 in HBQ eingefuegt
-HBQ: HBQ is empty.~nHBQ: Nachricht 2 in HBQ eingefuegt
-DLQ: Nachricht 2 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 4 in HBQ eingefuegt
-HBQ: Nachricht 5 in HBQ eingefuegt
+HBQ: initialising HBQ.DLQ: DLQ initialisiert
+HBQ: Nachricht 1 in HBQ eingefuegt
+DLQ: Nachricht 1 in DLQ eingefügt
+.HBQ: HBQ is empty.
 HBQ: Nachricht 3 in HBQ eingefuegt
-HBQ: closing HBQ and DLQ~nHBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: Nachricht 2 in HBQ eingefuegt
-HBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: Nachricht 1 in HBQ eingefuegt
-DLQ: Nachricht 1 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 2 in HBQ eingefuegt
-DLQ: Nachricht 2 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 4 in HBQ eingefuegt
+DLQ: Nachricht 1 an Client<7418.61.0> ausgeliefert
+.DLQ: Nachricht 2 an Client<7418.61.0> ausgeliefert
+.HBQ: Nachricht 3 in HBQ eingefuegt
+HBQ: initialising HBQ.DLQ: DLQ initialisiert
+HBQ: Nachricht 1 in HBQ eingefuegt
+DLQ: Nachricht 1 in DLQ eingefügt
+.HBQ: HBQ is empty.
 HBQ: Nachricht 3 in HBQ eingefuegt
-HBQ: closing HBQ and DLQ~nHBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: Nachricht 1 in HBQ eingefuegt
-DLQ: Nachricht 1 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 2 in HBQ eingefuegt
-DLQ: Nachricht 2 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 4 in HBQ eingefuegt
+DLQ: Nachricht 1 an Client<10035.61.0> ausgeliefert
+.HBQ: initialising HBQ.DLQ: DLQ initialisiert
+HBQ: Nachricht 1 in HBQ eingefuegt
+DLQ: Nachricht 1 in DLQ eingefügt
+.HBQ: HBQ is empty.
 HBQ: Nachricht 3 in HBQ eingefuegt
-DLQ: Nachricht 3 in DLQ eingefügt~n.DLQ: Nachricht 4 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 5 in HBQ eingefuegt
-DLQ: Nachricht 5 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 6 in HBQ eingefuegt
-DLQ: Nachricht 6 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 9 in HBQ eingefuegt
-HBQ: Nachricht 10 in HBQ eingefuegt
-HBQ: Nachricht 11 in HBQ eingefuegt
-HBQ: Nachricht 12 in HBQ eingefuegt
-HBQ: Nachrichten 7 bis 8 durch Fehlernachricht ersetzt
-HBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: Nachricht 1 in HBQ eingefuegt
-DLQ: Nachricht 1 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 2 in HBQ eingefuegt
-DLQ: Nachricht 2 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 4 in HBQ eingefuegt
+DLQ: Nachricht 1 an Client<10036.61.0> ausgeliefert
+.DLQ: Nachricht 2 an Client<10036.61.0> ausgeliefert
+.DLQ: Nachricht 2 an Client<10036.61.0> ausgeliefert
+.DLQ: Nachricht 2 an Client<10036.61.0> ausgeliefert
+.HBQ: Nachricht 2 in HBQ eingefuegt
+DLQ: Nachricht 2 in DLQ eingefügt
+.DLQ: Nachricht 3 in DLQ eingefügt
+.HBQ: HBQ is empty.
+DLQ: Nachricht 2 an Client<10036.61.0> ausgeliefert
+.DLQ: Nachricht 3 an Client<10036.61.0> ausgeliefert
+.HBQ: closing HBQ and DLQ
+HBQ: initialisiert 11.04 18:13:07,705|.
+DLQ: DLQ initialisiert
+HBQ: Nachricht 1 in HBQ eingefuegt
+DLQ: Nachricht 1 in DLQ eingefügt.
+HBQ: HBQ ist leer 11.04 18:13:43,991|.
 HBQ: Nachricht 3 in HBQ eingefuegt
-DLQ: Nachricht 3 in DLQ eingefügt~n.DLQ: Nachricht 4 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 5 in HBQ eingefuegt
-DLQ: Nachricht 5 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 6 in HBQ eingefuegt
-DLQ: Nachricht 6 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 9 in HBQ eingefuegt
-HBQ: Nachricht 10 in HBQ eingefuegt
-HBQ: Nachricht 11 in HBQ eingefuegt
-HBQ: Nachricht 12 in HBQ eingefuegt
-HBQ: Nachrichten 7 bis 8 durch Fehlernachricht ersetzt
-DLQ: Nachricht 8 in DLQ eingefügt~n.DLQ: Nachricht 9 in DLQ eingefügt~n.DLQ: Nachricht 10 in DLQ eingefügt~n.DLQ: Nachricht 11 in DLQ eingefügt~n.DLQ: Nachricht 12 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: closing HBQ and DLQ~nHBQ: initialising HBQ.DLQ: DLQ initialisiert~nHBQ: Nachricht 1 in HBQ eingefuegt
-DLQ: Nachricht 1 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 2 in HBQ eingefuegt
-DLQ: Nachricht 2 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 4 in HBQ eingefuegt
-HBQ: Nachricht 3 in HBQ eingefuegt
-DLQ: Nachricht 3 in DLQ eingefügt~n.DLQ: Nachricht 4 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 5 in HBQ eingefuegt
-DLQ: Nachricht 5 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 6 in HBQ eingefuegt
-DLQ: Nachricht 6 in DLQ eingefügt~n.HBQ: HBQ is empty.~nHBQ: Nachricht 9 in HBQ eingefuegt
-HBQ: Nachricht 10 in HBQ eingefuegt
-DLQ: Nachricht 1 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 1 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 2 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 1 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 2 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 2 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 2 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 1 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 2 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 2 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 2 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 1 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 3 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 4 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 5 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 6 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 7 an Client<7418.242.0> ausgeliefert
-.DLQ: Nachricht 7 an Client<7418.242.0> ausgeliefert
-.HBQ: closing HBQ and DLQ~n
+DLQ: Nachricht 1 an Client<7448.61.0> ausgeliefert.
+DLQ: Nachricht 1 an Client<7448.61.0> ausgeliefert.
+HBQ: Nachricht 2 in HBQ eingefuegt
+DLQ: Nachricht 2 in DLQ eingefügt.
+DLQ: Nachricht 3 in DLQ eingefügt.
+HBQ: HBQ ist leer 11.04 18:14:08,623|.
+DLQ: Nachricht 2 an Client<7448.61.0> ausgeliefert.
+DLQ: Nachricht 3 an Client<7448.61.0> ausgeliefert.
+DLQ: Nachricht 3 an Client<7448.61.0> ausgeliefert.
+HBQ: closing HBQ and DLQ

@@ -1,1 +1,39 @@
-CMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10101.61.0>.~nSende Nachricht 2 an Client <10101.61.0>.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10099.61.0>.~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10098.61.0>.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10122.61.0>.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10098.61.0>.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10098.61.0>.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10098.61.0>.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Beende Server und HBQ: 11.04 11:27:40,954|.~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10098.61.0>.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <7431.61.0>.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Beende Server und HBQ: 11.04 11:45:19,632|.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10122.61.0>.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10122.61.0>.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Beende Server und HBQ: 11.04 12:01:51,189|.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10122.242.0>.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nServer: Unerwartete Nachricht.~nCMEM: Initialisiere CMEM~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10066.242.0>.~nCMEM: adding client <10066.242.0> - Next Message: 2.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10070.242.0>.~nCMEM: adding client <10070.242.0> - Next Message: 2.~nCMEM: updating client <10070.242.0> - Next Message: 2.~nCMEM: updating client <10070.242.0> - Next Message: 2.~nCMEM: updating client <10070.242.0> - Next Message: 2.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10098.242.0>.~nCMEM: adding client <10098.242.0> - Next Message: 2.~nCMEM: updating client <10098.242.0> - Next Message: 2.~nCMEM: updating client <10098.242.0> - Next Message: 2.~nCMEM: updating client <10098.242.0> - Next Message: 2.~nCMEM: Initialisiere CMEM~nSende Nachricht 1 an Client <10121.242.0>.~nCMEM: adding client <10121.242.0> - Next Message: 2.~nCMEM: updating client <10121.242.0> - Next Message: 3.~nCMEM: updating client <10121.242.0> - Next Message: 4.~nCMEM: updating client <10121.242.0> - Next Message: 5.~nCMEM: updating client <10121.242.0> - Next Message: 6.~nCMEM: updating client <10121.242.0> - Next Message: 6.~nCMEM: updating client <10121.242.0> - Next Message: 6.~nServer: Beende Server und HBQ: 11.04 13:00:58,112|.~n
+CMEM: Initialisiere CMEM
+Sende Nachricht 1 an Client <7489.61.0>.
+Sende Nachricht 2 an Client <7489.61.0>.
+Server: Unerwartete Nachricht.
+Server: Unerwartete Nachricht.
+CMEM: adding client <7489.61.0> - Next Message: 1.
+CMEM: updating client <7489.61.0> - Next Message: 1.
+CMEM: Initialisiere CMEM
+Sende Nachricht 1 an Client <7431.61.0>.
+Sende Nachricht 2 an Client <7431.61.0>.
+Server: Unerwartete Nachricht.
+Server: Unerwartete Nachricht.
+CMEM: adding client <7431.61.0> - Next Message: 1.
+CMEM: Initialisiere CMEM
+Sende Nachricht 1 an Client <7431.61.0>.
+Sende Nachricht 2 an Client <7431.61.0>.
+Server: Unerwartete Nachricht.
+Server: Unerwartete Nachricht.
+CMEM: adding client <7431.61.0> - Next Message: 1.
+CMEM: updating client <7431.61.0> - Next Message: 1.
+Sende Nachricht 3 an Client <7431.61.0>.
+Sende Nachricht 4 an Client <7431.61.0>.
+CMEM: updating client <7431.61.0> - Next Message: 1.
+CMEM: updating client <7431.61.0> - Next Message: 1.
+Server: Unerwartete Nachricht.
+CMEM: updating client <7431.61.0> - Next Message: 2.
+CMEM: updating client <7431.61.0> - Next Message: 3.
+Server: Beende Server und HBQ: 11.04 17:48:18,739|.
+CMEM: Initialisiere CMEM
+CMEM: Initialisiere CMEM
+Sende Nachricht 1 an Client <10143.61.0>.
+CMEM: adding client <10143.61.0> - Next Message: 1.
+Sende Nachricht 2 an Client <10143.61.0>.
+CMEM: updating client <10143.61.0> - Next Message: 1.
+CMEM: updating client <10143.61.0> - Next Message: 2.
+Sende Nachricht 3 an Client <10143.61.0>.
+CMEM: updating client <10143.61.0> - Next Message: 3.
+CMEM: updating client <10143.61.0> - Next Message: 3.
+Server: Beende Server und HBQ: 11.04 18:26:00,379|.

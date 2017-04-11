@@ -23,10 +23,10 @@ start() ->
 	{ok, HBQName} = werkzeug:get_config_value(hbqname, ConfigListe),
 	{ok, DLQSize} = werkzeug:get_config_value(dlqlimit, ConfigListe),
 
-	io:format("started HB-DLQ on ~w@~w.~n",[HBQName, werkzeug:to_String(HostName)]),
+	io:format("started HB-DLQ on ~w@~w.\r\n",[HBQName, werkzeug:to_String(HostName)]),
 
 	register(HBQName,self()),
-	io:format("registered this process~w@~w as ~w~n",[self(), erlang:node(), HBQName]),
+	io:format("registered this process~w@~w as ~w\r\n",[self(), erlang:node(), HBQName]),
 	initCommunication(DLQSize, LogFile).
 
 initCommunication(DLQSize, LogFile) ->
@@ -34,55 +34,55 @@ initCommunication(DLQSize, LogFile) ->
 	receive
 		{PID, {request, initHBQ}} ->
 			%create hbq and dlq
-			io:format("hbq: received initHBQ~n"),
+			io:format("hbq: received initHBQ\r\n"),
 			NEW_HBQ = initHBQ(DLQSize * ?HBDLQ_FACTOR, LogFile), 
 			NEW_DLQ = dlq:initDLQ(DLQSize, LogFile),
 			PID ! {reply, ok},
 			communication(NEW_HBQ, NEW_DLQ, LogFile);
 		Any ->
-			io:format("hqb: received unexpected message: ~p~n", [Any]),
+			io:format("hqb: received unexpected message: ~p\r\n", [Any]),
 			initCommunication(DLQSize, LogFile)
 	end.
 
 communication(HBQ, DLQ, LogFile) ->
 	receive
 		{PID, {request, pushHBQ, [NNr, Msg, TSclientout]}} ->
-			io:format("received pushHBQ: ~w...~n", [NNr]), 
+			io:format("received pushHBQ: ~w...\r\n", [NNr]), 
 			%save message into hbq
 			{NEW_HBQ, NEW_DLQ} = pushHBQ([NNr, Msg, TSclientout], HBQ, DLQ, LogFile),
 			PID ! {reply, ok},
-			io:format("HBQ: ~p~nDLQ: ~p~n",[NEW_HBQ, NEW_DLQ]),
+			io:format("HBQ: ~p\r\nDLQ: ~p\r\n",[NEW_HBQ, NEW_DLQ]),
 			communication(NEW_HBQ, NEW_DLQ, LogFile);
 		{PID, {request, deliverMSG, NNr, ToClient}} ->
-			io:format("received deliverMSG: ~w...~n",[NNr]),
+			io:format("received deliverMSG: ~w...\r\n",[NNr]),
 			%get message from dlq
 			SentNNr = dlq:deliverMSG(NNr, ToClient, DLQ, LogFile),
 			PID ! {reply, SentNNr},
 			communication(HBQ, DLQ, LogFile);
 		{PID, {request, dellHBQ}} ->
-			io:format("received dellHBQ...~n",[]),
+			io:format("received dellHBQ...\r\n",[]),
 			%quit hbq
 			ok = dlq:delDLQ(DLQ),
-			werkzeug:logging(LogFile, "HBQ: closing HBQ and DLQ~n"),
+			werkzeug:logging(LogFile, "HBQ: closing HBQ and DLQ\r\n"),
 			PID ! {reply, ok};
 		{PID, {request, initHBQ}} ->	
-			io:format("received initHBQ...~n",[]),
+			io:format("received initHBQ...\r\n",[]),
 			PID ! {reply, alredy_initialized}, 
 			communication(HBQ, DLQ, LogFile);
 		Any ->
-			io:format("HBQ: received unexpected message: ~p~n", [Any]),
+			io:format("HBQ: received unexpected message: ~p\r\n", [Any]),
 			communication(HBQ, DLQ, LogFile)
 	end.
 	
 %initialize HBQ and DLQ
 initHBQ(HBQLimit, LogFile) ->
-	werkzeug:logging(LogFile, "HBQ: initialising HBQ."),
+	werkzeug:logging(LogFile, lists:concat(["HBQ: initialisiert ",werkzeug:timeMilliSecond(),".\r\n"])),
 	{HBQLimit, []}.
 
 pushHBQ([NNr, Msg, TSclientout], {HBQSize, HBQList}, DLQ, LogFile) ->
-	%append timestamp
-	Message = [NNr, Msg, TSclientout, erlang:now()],
-	werkzeug:logging(LogFile,io_lib:format("HBQ: Nachricht ~w in HBQ eingefuegt~n",[NNr])),
+	%hänge Zeitstempel an Text und Tupel entsprechend #03
+	Message = [NNr, lists:concat([Msg, "|hbqin:", werkzeug:timeMilliSecond()]), TSclientout, erlang:now()],
+	werkzeug:logging(LogFile,io_lib:format("HBQ: Nachricht ~w in HBQ eingefuegt\r\n",[NNr])),
 	%sort it into list!
 	NewHBQList = insertIntoHBQ(Message, HBQList),
 	checkHBQ({HBQSize, NewHBQList}, DLQ, LogFile).
@@ -109,7 +109,7 @@ insertIntoHBQHelper(Message, Checked, HBQList) ->
 	
 %if HBQ is empty, return empty HBQ and unchanged DLQ
 checkHBQ({HBQSize, []}, DLQ, LogFile) -> 
-	werkzeug:logging(LogFile, "HBQ: HBQ is empty.~n"),
+	werkzeug:logging(LogFile, lists:concat(["HBQ: HBQ ist leer ",werkzeug:timeMilliSecond(),".\r\n"])),
 	{{HBQSize, []}, DLQ};
 checkHBQ(HBQ, DLQ, LogFile) ->
 	%get expected Number from DLQ
@@ -136,10 +136,11 @@ checkHBQLength(HBQ, DLQ, LogFile) ->
 	HBQLength = length(HBQList),
 	Expected = dlq:expectedNr(DLQ),
 	if
+		%ersetze Nachrichten bei zu großer (=2/3 DLQ) HBQ entsprechend #06
 		HBQSize < HBQLength ->
 			[NNr, _Msg, _TSco, _TShbqin] = lists:last(HBQList),
-			werkzeug:logging(LogFile, io_lib:format("HBQ: Nachrichten ~w bis ~w durch Fehlernachricht ersetzt~n",[Expected, NNr-1])),
-			NEW_DLQ = dlq:push2DLQ([NNr-1, io_lib:format("HBQ: message ~w to ~w replaced~n",[Expected, NNr-1]), erlang:now(), erlang:now()], DLQ, LogFile),
+			werkzeug:logging(LogFile, io_lib:format("HBQ: Nachrichten ~w bis ~w durch Fehlernachricht ersetzt\r\n",[Expected, NNr-1])),
+			NEW_DLQ = dlq:push2DLQ([NNr-1, io_lib:format("HBQ: message ~w to ~w replaced\r\n",[Expected, NNr-1]), erlang:now(), erlang:now()], DLQ, LogFile),
 			checkHBQ(HBQ, NEW_DLQ, LogFile);
 		true ->
 			{HBQ, DLQ}

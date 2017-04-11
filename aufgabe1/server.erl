@@ -3,9 +3,9 @@
 
 %TODO: logging
 start() -> 
-	io:format("Starte Server ...~n", []),
+	io:format("Starte Server ...\r\n", []),
 	
-	io:format("Lese Config ...~n", []),
+	io:format("Lese Config ...\r\n", []),
 	ConfigFile = "server.cfg",
 	
 	{ok, ConfigListe} = file:consult(ConfigFile),
@@ -18,28 +18,29 @@ start() ->
 	{ok, HostName} = inet:gethostname(),
 	LogFile = lists:concat(["Server@",HostName,".log"]),
 	
-	io:format("Verbinde zu HBQ Node ~w ...~n", [HBQNode]),
+	io:format("Verbinde zu HBQ Node ~w ...\r\n", [HBQNode]),
 	Ping = net_adm:ping(HBQNode),
 	
 	io:format("initialisiere HBQ... ",[]),
 	{HBQName, HBQNode} ! {self(), {request, initHBQ}},
 	receive
 		{reply, ok} ->
-			io:format("Erfolgreich!~n",[]);
+			io:format("Erfolgreich!\r\n",[]);
 		{reply, alredy_initialized} ->
-			io:format("Ok. Bereits Initialisiert!~n",[]);
+			io:format("Ok. Bereits Initialisiert!\r\n",[]);
 		_Any ->
 			error("HBQ_not_found")
 	end,
-	io:format("~w~n", [Ping]),
+	io:format("~w\r\n", [Ping]),
 	timer:sleep(1000),
 	
+	% #10
 	register(ServerName,self()),
 	
 	CMEM = cmem:initCMEM(ClientLifeTime, LogFile),
 	CurrentNNr = nummerndienst:initND(),
 	
-	io:format("Server Bereit.~n", []),
+	io:format("Server Bereit.\r\n", []),
 	communication(CurrentNNr, CMEM, null, Latency, LogFile, {HBQName, HBQNode}).
 	
 	%TODO:
@@ -48,34 +49,37 @@ start() ->
 	
 communication(CurrentNNr, CMEM, Timer, Latency, LogFile, HBQ) ->
 	cmem:updateCMEM(CMEM), 
+	%Server terminiert, wenn für bestimmte Zeit keine Anfragen mehr reinkommen #07
 	NEW_Timer = werkzeug:reset_timer(Timer, Latency, shutdown),
 	io:format("waiting for message...",[]),
 	receive 
 		{PID, getmessages} -> 
-			io:format("received getmessages~n.",[]),
-			io:format("CMEM: ~p~n",[CMEM]),
+			io:format("received getmessages\r\n.",[]),
+			io:format("CMEM: ~p\r\n",[CMEM]),
 			NNr = cmem:getClientNNr(CMEM, PID),
 			HBQ ! {self(), {request, deliverMSG, NNr, PID}},
 			receive
 				{reply, SentNNr} ->
 					NEW_CMEM = cmem:updateClient(CMEM, PID, SentNNr, LogFile)
 			end,
-			io:format("NEW CMEM: ~p~n",[NEW_CMEM]),
+			io:format("NEW CMEM: ~p\r\n",[NEW_CMEM]),
 			%dadurch, dass die rückmeldung der HBQ nicht die ClientPID enthält, muss ich hier explizit auf die antwort warten... alternative?
 			communication(CurrentNNr, NEW_CMEM, NEW_Timer, Latency, LogFile, HBQ);
-		{PID, getmsgid} ->
-			io:format("received getmsgid~n.",[]),
+		{PID, getmsgid} -> %vergebe Nummern entsprechend #01
+			io:format("received getmsgid\r\n.",[]),
 			communication(nummerndienst:getNextNNr(CurrentNNr, PID, LogFile), CMEM, NEW_Timer, Latency, LogFile, HBQ);
 		{dropmessage, [NNr, Msg, TSclientout]} ->
-			io:format("received dropmessage: ~w~n.",[NNr]),
+			io:format("received dropmessage: ~w\r\n.",[NNr]),
 			HBQ ! {self(), {request, pushHBQ, [NNr, Msg, TSclientout]}},
 			communication(CurrentNNr, CMEM, NEW_Timer, Latency, LogFile, HBQ);
 		shutdown ->
-			io:format("received shutdown~n.",[]),
+			io:format("received shutdown\r\n.",[]),
 			shutdown(HBQ, LogFile);
+		{reply, ok} ->
+			communication(CurrentNNr, CMEM, NEW_Timer, Latency, LogFile, HBQ);
 		Any -> 
-			io:format("received ~w~n.",[Any]),
-			werkzeug:logging(LogFile, lists:concat(["Server: Unerwartete Nachricht.~n"])),
+			io:format("received ~w\r\n.",[Any]),
+			werkzeug:logging(LogFile, lists:concat(["Server: Unerwartete Nachricht.\r\n"])),
 			communication(CurrentNNr, CMEM, NEW_Timer, Latency, LogFile, HBQ)
 	end.
 		
@@ -83,5 +87,5 @@ shutdown(HBQ, LogFile) ->
 	HBQ ! {self(), {request,dellHBQ}},
 	receive
 		{reply,ok} -> 
-			werkzeug:logging(LogFile, lists:concat(["Server: Beende Server und HBQ: ",werkzeug:timeMilliSecond(),".~n"]))
+			werkzeug:logging(LogFile, lists:concat(["Server: Beende Server und HBQ: ",werkzeug:timeMilliSecond(),".\r\n"]))
 	end.

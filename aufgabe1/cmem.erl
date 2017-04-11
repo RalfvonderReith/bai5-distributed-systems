@@ -4,7 +4,7 @@
 %TODO: LOGGING!
 
 initCMEM(RemTime, LogFile) ->
-	werkzeug:logging(LogFile, "CMEM: Initialisiere CMEM~n"),
+	werkzeug:logging(LogFile, "CMEM: Initialisiere CMEM\r\n"),
 	{RemTime, []}.
 	
 delCMEM(_CMEM) ->
@@ -16,14 +16,14 @@ updateClient(CMEM, ClientID, NNr, LogFile) ->
 %check each entry of the CList
 %replace the entry if found:
 updateClientHelper(RemTime, Checked, [{ClientID, _NR, _TimeStamp}|Rest], ClientID, NNr, LogFile) ->
-	werkzeug:logging(LogFile, lists:concat(["CMEM: updating client ",pid_to_list(ClientID)," - Next Message: ",integer_to_list(NNr),".~n"])),
+	werkzeug:logging(LogFile, lists:concat(["CMEM: updating client ",pid_to_list(ClientID)," - Next Message: ",integer_to_list(NNr),".\r\n"])),
 	{RemTime, lists:concat([Checked, [{ClientID, NNr, erlang:now()}], Rest])};
 	%TODO: set Timer
 updateClientHelper(RemTime, Checked, [FirstEntry|Rest], ClientID, NNr, LogFile) ->
 	updateClientHelper(RemTime, lists:append(Checked, [FirstEntry]), Rest, ClientID, NNr, LogFile);
 %if there is no entry for ClientID, append it.
 updateClientHelper(RemTime, Checked, [], ClientID, NNr, LogFile) ->
-	werkzeug:logging(LogFile, lists:concat(["CMEM: adding client ",pid_to_list(ClientID)," - Next Message: ",integer_to_list(NNr),".~n"])),
+	werkzeug:logging(LogFile, lists:concat(["CMEM: adding client ",pid_to_list(ClientID)," - Next Message: ",integer_to_list(NNr),".\r\n"])),
 	{RemTime, lists:append(Checked, [{ClientID, NNr, erlang:now()}])}.
 	%TODO:set timer
 
