@@ -144,7 +144,7 @@ reader(LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
   {_, Node} = Server,
   receive
     die ->
-      shut_down_message(ClientNumber, Node, self());
+      werkzeug:logging(LogFile, shut_down_message(ClientNumber, Node, self()));
     {reply, [MessageNumber, Msg, TSclientout, TShbqin, TSdlqin, TSdlqout], Terminated} ->
       NewEditorMessageList = lists:delete(MessageNumber, EditorMessageList),
       WasMyEditor = (NewEditorMessageList =/= EditorMessageList),

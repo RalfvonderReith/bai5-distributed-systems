@@ -1,0 +1,67 @@
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: Start: 12.04 13:06:35,160|.
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 44te_Nachricht. C Out: 12.04 13:06:35,161|(44) gesendet
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 153te_Nachricht. C Out: 12.04 13:06:38,162|(153) gesendet
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 253te_Nachricht. C Out: 12.04 13:06:41,163|(253) gesendet
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 373te_Nachricht. C Out: 12.04 13:06:44,164|(373) gesendet
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 493te_Nachricht. C Out: 12.04 13:06:47,166|(493) gesendet
+633te_Nachricht um 12.04 13:06:50,167|- vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7472.0>-C-3-06:481te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,353| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,168| ; C In: 12.04 13:06:52,168|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7477.0>-C-3-06:482te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,353| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,170| ; C In: 12.04 13:06:52,170|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7479.0>-C-3-06:483te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,353| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,171| ; C In: 12.04 13:06:52,171|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7495.0>-C-3-06:484te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,353| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,174| ; C In: 12.04 13:06:52,174|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7481.0>-C-3-06:485te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,353| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,176| ; C In: 12.04 13:06:52,176|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7490.0>-C-3-06:486te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,353| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,179| ; C In: 12.04 13:06:52,179|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7485.0>-C-3-06:487te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,354| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,182| ; C In: 12.04 13:06:52,182|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7492.0>-C-3-06:488te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,354| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,184| ; C In: 12.04 13:06:52,184|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7487.0>-C-3-06:489te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,354| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,187| ; C In: 12.04 13:06:52,187|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7497.0>-C-3-06:490te Nachricht.C Out:12.04 13:06:49,353| HBQ In: 12.04 13:06:49,354| DLQ In: 12.04 13:06:49,595|DLQ Out: 12.04 13:06:52,190| ; C In: 12.04 13:06:52,190|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 491te_Nachricht. C Out: 12.04 13:06:47,165|(491) HBQ In: 12.04 13:06:50,166| DLQ In: 12.04 13:06:50,166|DLQ Out: 12.04 13:06:52,193| ; C In: 12.04 13:06:52,193|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.18413.0>-C-1-5: 492te_Nachricht. C Out: 12.04 13:06:47,165|(492) HBQ In: 12.04 13:06:50,167| DLQ In: 12.04 13:06:50,167|DLQ Out: 12.04 13:06:52,195| ; C In: 12.04 13:06:52,195|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 493te_Nachricht. C Out: 12.04 13:06:47,166|(493) HBQ In: 12.04 13:06:50,167| DLQ In: 12.04 13:06:50,167|DLQ Out: 12.04 13:06:52,198| ; C In: 12.04 13:06:52,198|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.18417.0>-C-1-5: 494te_Nachricht. C Out: 12.04 13:06:47,166|(494) HBQ In: 12.04 13:06:50,167| DLQ In: 12.04 13:06:50,167|DLQ Out: 12.04 13:06:52,201| ; C In: 12.04 13:06:52,201|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.18418.0>-C-1-5: 495te_Nachricht. C Out: 12.04 13:06:47,166|(495) HBQ In: 12.04 13:06:50,167| DLQ In: 12.04 13:06:50,167|DLQ Out: 12.04 13:06:52,203| ; C In: 12.04 13:06:52,203|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.18414.0>-C-1-5: 496te_Nachricht. C Out: 12.04 13:06:47,166|(496) HBQ In: 12.04 13:06:50,167| DLQ In: 12.04 13:06:50,167|DLQ Out: 12.04 13:06:52,206| ; C In: 12.04 13:06:52,206|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.18419.0>-C-1-5: 497te_Nachricht. C Out: 12.04 13:06:47,167|(497) HBQ In: 12.04 13:06:50,168| DLQ In: 12.04 13:06:50,168|DLQ Out: 12.04 13:06:52,209| ; C In: 12.04 13:06:52,209|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.18420.0>-C-1-5: 498te_Nachricht. C Out: 12.04 13:06:47,167|(498) HBQ In: 12.04 13:06:50,168| DLQ In: 12.04 13:06:50,168|DLQ Out: 12.04 13:06:52,211| ; C In: 12.04 13:06:52,211|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.18422.0>-C-1-5: 499te_Nachricht. C Out: 12.04 13:06:47,167|(499) HBQ In: 12.04 13:06:50,168| DLQ In: 12.04 13:06:50,168|DLQ Out: 12.04 13:06:52,214| ; C In: 12.04 13:06:52,214|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.18421.0>-C-1-5: 500te_Nachricht. C Out: 12.04 13:06:47,168|(500) HBQ In: 12.04 13:06:50,169| DLQ In: 12.04 13:06:50,169|DLQ Out: 12.04 13:06:52,216| ; C In: 12.04 13:06:52,216|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.18423.0>-C-1-5: 501te_Nachricht. C Out: 12.04 13:06:47,168|(501) HBQ In: 12.04 13:06:50,169| DLQ In: 12.04 13:06:50,169|DLQ Out: 12.04 13:06:52,219| ; C In: 12.04 13:06:52,219|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.18424.0>-C-1-5: 502te_Nachricht. C Out: 12.04 13:06:47,168|(502) HBQ In: 12.04 13:06:50,169| DLQ In: 12.04 13:06:50,169|DLQ Out: 12.04 13:06:52,222| ; C In: 12.04 13:06:52,222|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.18426.0>-C-1-5: 503te_Nachricht. C Out: 12.04 13:06:47,168|(503) HBQ In: 12.04 13:06:50,169| DLQ In: 12.04 13:06:50,169|DLQ Out: 12.04 13:06:52,224| ; C In: 12.04 13:06:52,224|
+15-clientserver@lab22.cpt.haw-hamburg.de<0.18428.0>-C-1-5: 504te_Nachricht. C Out: 12.04 13:06:47,168|(504) HBQ In: 12.04 13:06:50,169| DLQ In: 12.04 13:06:50,169|DLQ Out: 12.04 13:06:52,227| ; C In: 12.04 13:06:52,226|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.18430.0>-C-1-5: 505te_Nachricht. C Out: 12.04 13:06:47,168|(505) HBQ In: 12.04 13:06:50,169| DLQ In: 12.04 13:06:50,169|DLQ Out: 12.04 13:06:52,229| ; C In: 12.04 13:06:52,229|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.18432.0>-C-1-5: 506te_Nachricht. C Out: 12.04 13:06:47,169|(506) HBQ In: 12.04 13:06:50,170| DLQ In: 12.04 13:06:50,170|DLQ Out: 12.04 13:06:52,231| ; C In: 12.04 13:06:52,231|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.18425.0>-C-1-5: 507te_Nachricht. C Out: 12.04 13:06:47,169|(507) HBQ In: 12.04 13:06:50,170| DLQ In: 12.04 13:06:50,170|DLQ Out: 12.04 13:06:52,234| ; C In: 12.04 13:06:52,234|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.18427.0>-C-1-5: 508te_Nachricht. C Out: 12.04 13:06:47,169|(508) HBQ In: 12.04 13:06:50,170| DLQ In: 12.04 13:06:50,170|DLQ Out: 12.04 13:06:52,236| ; C In: 12.04 13:06:52,236|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.18429.0>-C-1-5: 509te_Nachricht. C Out: 12.04 13:06:47,169|(509) HBQ In: 12.04 13:06:50,170| DLQ In: 12.04 13:06:50,170|DLQ Out: 12.04 13:06:52,239| ; C In: 12.04 13:06:52,239|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.18431.0>-C-1-5: 510te_Nachricht. C Out: 12.04 13:06:47,169|(510) HBQ In: 12.04 13:06:50,170| DLQ In: 12.04 13:06:50,170|DLQ Out: 12.04 13:06:52,242| ; C In: 12.04 13:06:52,241|
+6-profB@lab31.cpt.haw-hamburg.de-<0.11062.0>-KLC: 511te_Nachricht. C Out: 12.04 13:06:50,490| HBQ In: 12.04 13:06:50,490| DLQ In: 12.04 13:06:50,490|DLQ Out: 12.04 13:06:52,244| ; C In: 12.04 13:06:52,244|
+0-profB@lab31.cpt.haw-hamburg.de-<0.11056.0>-KLC: 512te_Nachricht. C Out: 12.04 13:06:50,490| HBQ In: 12.04 13:06:50,490| DLQ In: 12.04 13:06:50,490|DLQ Out: 12.04 13:06:52,246| ; C In: 12.04 13:06:52,246|
+9-profB@lab31.cpt.haw-hamburg.de-<0.11065.0>-KLC: 513te_Nachricht. C Out: 12.04 13:06:50,490| HBQ In: 12.04 13:06:50,490| DLQ In: 12.04 13:06:50,490|DLQ Out: 12.04 13:06:52,249| ; C In: 12.04 13:06:52,249|
+2-profB@lab31.cpt.haw-hamburg.de-<0.11058.0>-KLC: 514te_Nachricht. C Out: 12.04 13:06:50,490| HBQ In: 12.04 13:06:50,491| DLQ In: 12.04 13:06:50,491|DLQ Out: 12.04 13:06:52,251| ; C In: 12.04 13:06:52,251|
+1-profB@lab31.cpt.haw-hamburg.de-<0.11057.0>-KLC: 515te_Nachricht. C Out: 12.04 13:06:50,491| HBQ In: 12.04 13:06:50,491| DLQ In: 12.04 13:06:50,491|DLQ Out: 12.04 13:06:52,254| ; C In: 12.04 13:06:52,254|
+4-profB@lab31.cpt.haw-hamburg.de-<0.11060.0>-KLC: 516te_Nachricht. C Out: 12.04 13:06:50,491| HBQ In: 12.04 13:06:50,491| DLQ In: 12.04 13:06:50,491|DLQ Out: 12.04 13:06:52,256| ; C In: 12.04 13:06:52,256|
+3-profB@lab31.cpt.haw-hamburg.de-<0.11059.0>-KLC: 517te_Nachricht. C Out: 12.04 13:06:50,491| HBQ In: 12.04 13:06:50,491| DLQ In: 12.04 13:06:50,491|DLQ Out: 12.04 13:06:52,259| ; C In: 12.04 13:06:52,259|
+5-profB@lab31.cpt.haw-hamburg.de-<0.11061.0>-KLC: 518te_Nachricht. C Out: 12.04 13:06:50,491| HBQ In: 12.04 13:06:50,491| DLQ In: 12.04 13:06:50,491|DLQ Out: 12.04 13:06:52,262| ; C In: 12.04 13:06:52,262|
+7-profB@lab31.cpt.haw-hamburg.de-<0.11063.0>-KLC: 519te_Nachricht. C Out: 12.04 13:06:50,491| HBQ In: 12.04 13:06:50,492| DLQ In: 12.04 13:06:50,492|DLQ Out: 12.04 13:06:52,264| ; C In: 12.04 13:06:52,264|
+8-profB@lab31.cpt.haw-hamburg.de-<0.11064.0>-KLC: 520te_Nachricht. C Out: 12.04 13:06:50,491| HBQ In: 12.04 13:06:50,492| DLQ In: 12.04 13:06:50,492|DLQ Out: 12.04 13:06:52,267| ; C In: 12.04 13:06:52,267|
+4-profA@lab31.cpt.haw-hamburg.de-<0.9773.0>-KLC: 521te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,742| DLQ In: 12.04 13:06:50,742|DLQ Out: 12.04 13:06:52,269| ; C In: 12.04 13:06:52,269|
+1-profA@lab31.cpt.haw-hamburg.de-<0.9770.0>-KLC: 522te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,742| DLQ In: 12.04 13:06:50,742|DLQ Out: 12.04 13:06:52,272| ; C In: 12.04 13:06:52,272|
+6-profA@lab31.cpt.haw-hamburg.de-<0.9775.0>-KLC: 523te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,742| DLQ In: 12.04 13:06:50,742|DLQ Out: 12.04 13:06:52,275| ; C In: 12.04 13:06:52,274|
+2-profA@lab31.cpt.haw-hamburg.de-<0.9771.0>-KLC: 524te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,742| DLQ In: 12.04 13:06:50,742|DLQ Out: 12.04 13:06:52,277| ; C In: 12.04 13:06:52,277|
+0-profA@lab31.cpt.haw-hamburg.de-<0.9769.0>-KLC: 525te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,742| DLQ In: 12.04 13:06:50,743|DLQ Out: 12.04 13:06:52,280| ; C In: 12.04 13:06:52,280|
+8-profA@lab31.cpt.haw-hamburg.de-<0.9777.0>-KLC: 526te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,743| DLQ In: 12.04 13:06:50,743|DLQ Out: 12.04 13:06:52,282| ; C In: 12.04 13:06:52,282|
+3-profA@lab31.cpt.haw-hamburg.de-<0.9772.0>-KLC: 527te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,743| DLQ In: 12.04 13:06:50,743|DLQ Out: 12.04 13:06:52,285| ; C In: 12.04 13:06:52,285|
+5-profA@lab31.cpt.haw-hamburg.de-<0.9774.0>-KLC: 528te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,743| DLQ In: 12.04 13:06:50,743|DLQ Out: 12.04 13:06:52,287| ; C In: 12.04 13:06:52,287|
+7-profA@lab31.cpt.haw-hamburg.de-<0.9776.0>-KLC: 529te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,743| DLQ In: 12.04 13:06:50,743|DLQ Out: 12.04 13:06:52,290| ; C In: 12.04 13:06:52,290|
+9-profA@lab31.cpt.haw-hamburg.de-<0.9778.0>-KLC: 530te_Nachricht. C Out: 12.04 13:06:50,742| HBQ In: 12.04 13:06:50,743| DLQ In: 12.04 13:06:50,743|DLQ Out: 12.04 13:06:52,292| ; C In: 12.04 13:06:52,292|
+..getmessages..Done...
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 786te_Nachricht. C Out: 12.04 13:06:52,292|(786) gesendet
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 976te_Nachricht. C Out: 12.04 13:06:54,294|(976) gesendet
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 1039te_Nachricht. C Out: 12.04 13:06:56,295|(1039) gesendet
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 1121te_Nachricht. C Out: 12.04 13:06:58,296|(1121) gesendet
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: 1199te_Nachricht. C Out: 12.04 13:07:00,297|(1199) gesendet
+1326te_Nachricht um 12.04 13:07:02,298|- vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden
+3-clientserver@lab22.cpt.haw-hamburg.de<0.18416.0>-C-1-5: Lebenszeit um. Wird beendet.
