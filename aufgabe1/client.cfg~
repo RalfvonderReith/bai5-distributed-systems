@@ -1,4 +1,4 @@
-{clients, 5}.
+{clients, 2}.
 {lifetime, 42}.
 {servername, wk}.
 {servernode, 'server@lab25.cpt.haw-hamburg.de'}.

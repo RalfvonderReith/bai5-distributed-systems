@@ -1,0 +1,35 @@
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: Start: 12.04 12:32:20,294|.
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 5te_Nachricht. C Out: 12.04 12:32:20,294|(5) gesendet
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 10te_Nachricht. C Out: 12.04 12:32:23,298|(10) gesendet
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 15te_Nachricht. C Out: 12.04 12:32:26,302|(15) gesendet
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 20te_Nachricht. C Out: 12.04 12:32:29,306|(20) gesendet
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 25te_Nachricht. C Out: 12.04 12:32:32,308|(25) gesendet
+30te_Nachricht um 12.04 12:32:35,313|- vergessen zu senden ******
+Neues Sendeintervall: 4 Sekunden
+0-clientserver@lab25.cpt.haw-hamburg.de<0.53.0>-C-1-5: 6te_Nachricht. C Out: 12.04 12:32:23,298|(6)|hbqin:12.04 12:32:26,300||dlqin:12.04 12:32:26,300| ; C In: 12.04 12:32:39,815|
+1-clientserver@lab25.cpt.haw-hamburg.de<0.55.0>-C-1-5: 7te_Nachricht. C Out: 12.04 12:32:23,298|(7)|hbqin:12.04 12:32:26,301||dlqin:12.04 12:32:26,302| ; C In: 12.04 12:32:39,816|
+2-clientserver@lab25.cpt.haw-hamburg.de<0.56.0>-C-1-5: 8te_Nachricht. C Out: 12.04 12:32:23,298|(8)|hbqin:12.04 12:32:26,303||dlqin:12.04 12:32:26,303| ; C In: 12.04 12:32:39,817|
+3-clientserver@lab25.cpt.haw-hamburg.de<0.57.0>-C-1-5: 9te_Nachricht. C Out: 12.04 12:32:23,298|(9)|hbqin:12.04 12:32:26,304||dlqin:12.04 12:32:26,304| ; C In: 12.04 12:32:39,817|
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 10te_Nachricht. C Out: 12.04 12:32:23,298|(10)|hbqin:12.04 12:32:26,305||dlqin:12.04 12:32:26,306| ; C In: 12.04 12:32:39,819|
+0-clientserver@lab25.cpt.haw-hamburg.de<0.53.0>-C-1-5: 11te_Nachricht. C Out: 12.04 12:32:26,300|(11)|hbqin:12.04 12:32:29,303||dlqin:12.04 12:32:29,304| ; C In: 12.04 12:32:39,820|
+1-clientserver@lab25.cpt.haw-hamburg.de<0.55.0>-C-1-5: 12te_Nachricht. C Out: 12.04 12:32:26,301|(12)|hbqin:12.04 12:32:29,306||dlqin:12.04 12:32:29,306| ; C In: 12.04 12:32:39,822|
+2-clientserver@lab25.cpt.haw-hamburg.de<0.56.0>-C-1-5: 13te_Nachricht. C Out: 12.04 12:32:26,301|(13)|hbqin:12.04 12:32:29,308||dlqin:12.04 12:32:29,309| ; C In: 12.04 12:32:39,823|
+3-clientserver@lab25.cpt.haw-hamburg.de<0.57.0>-C-1-5: 14te_Nachricht. C Out: 12.04 12:32:26,301|(14)|hbqin:12.04 12:32:29,310||dlqin:12.04 12:32:29,310| ; C In: 12.04 12:32:39,825|
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 15te_Nachricht. C Out: 12.04 12:32:26,302|(15)|hbqin:12.04 12:32:29,312||dlqin:12.04 12:32:29,312| ; C In: 12.04 12:32:39,825|
+0-clientserver@lab25.cpt.haw-hamburg.de<0.53.0>-C-1-5: 16te_Nachricht. C Out: 12.04 12:32:29,303|(16)|hbqin:12.04 12:32:32,306||dlqin:12.04 12:32:32,306| ; C In: 12.04 12:32:39,826|
+1-clientserver@lab25.cpt.haw-hamburg.de<0.55.0>-C-1-5: 17te_Nachricht. C Out: 12.04 12:32:29,304|(17)|hbqin:12.04 12:32:32,308||dlqin:12.04 12:32:32,308| ; C In: 12.04 12:32:39,827|
+2-clientserver@lab25.cpt.haw-hamburg.de<0.56.0>-C-1-5: 18te_Nachricht. C Out: 12.04 12:32:29,305|(18)|hbqin:12.04 12:32:32,310||dlqin:12.04 12:32:32,310| ; C In: 12.04 12:32:39,828|
+3-clientserver@lab25.cpt.haw-hamburg.de<0.57.0>-C-1-5: 19te_Nachricht. C Out: 12.04 12:32:29,305|(19)|hbqin:12.04 12:32:32,311||dlqin:12.04 12:32:32,312| ; C In: 12.04 12:32:39,829|
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 20te_Nachricht. C Out: 12.04 12:32:29,306|(20)|hbqin:12.04 12:32:32,314||dlqin:12.04 12:32:32,314| ; C In: 12.04 12:32:39,829|
+0-clientserver@lab25.cpt.haw-hamburg.de<0.53.0>-C-1-5: 21te_Nachricht. C Out: 12.04 12:32:32,306|(21)|hbqin:12.04 12:32:35,308||dlqin:12.04 12:32:35,308| ; C In: 12.04 12:32:39,830|
+1-clientserver@lab25.cpt.haw-hamburg.de<0.55.0>-C-1-5: 22te_Nachricht. C Out: 12.04 12:32:32,307|(22)|hbqin:12.04 12:32:35,312||dlqin:12.04 12:32:35,312| ; C In: 12.04 12:32:39,831|
+2-clientserver@lab25.cpt.haw-hamburg.de<0.56.0>-C-1-5: 23te_Nachricht. C Out: 12.04 12:32:32,307|(23)|hbqin:12.04 12:32:35,315||dlqin:12.04 12:32:35,315| ; C In: 12.04 12:32:39,832|
+3-clientserver@lab25.cpt.haw-hamburg.de<0.57.0>-C-1-5: 24te_Nachricht. C Out: 12.04 12:32:32,307|(24)|hbqin:12.04 12:32:35,317||dlqin:12.04 12:32:35,317| ; C In: 12.04 12:32:39,833|
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 25te_Nachricht. C Out: 12.04 12:32:32,308|(25)|hbqin:12.04 12:32:35,319||dlqin:12.04 12:32:35,320| ; C In: 12.04 12:32:39,833|
+..getmessages..Done...
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 37te_Nachricht. C Out: 12.04 12:32:39,834|(37) gesendet
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 44te_Nachricht. C Out: 12.04 12:32:44,336|(44) gesendet
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 51te_Nachricht. C Out: 12.04 12:32:48,839|(51) gesendet
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 57te_Nachricht. C Out: 12.04 12:32:53,341|(57) gesendet
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: 65te_Nachricht. C Out: 12.04 12:32:57,844|(65) gesendet
+4-clientserver@lab25.cpt.haw-hamburg.de<0.58.0>-C-1-5: Lebenszeit um. Wird beendet.

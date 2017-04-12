@@ -143,7 +143,7 @@ reader(LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
   Server ! {self(), getmessages},
   {_, Node} = Server,
   receive
-    die ->
+    {die} ->
       shut_down_message(ClientNumber, Node, self());
     {reply, [MessageNumber, Msg, TSclientout, TShbqin, TSdlqin, TSdlqout], Terminated} ->
       NewEditorMessageList = lists:delete(MessageNumber, EditorMessageList),
