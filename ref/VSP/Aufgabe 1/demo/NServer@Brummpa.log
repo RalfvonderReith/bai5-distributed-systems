@@ -1,0 +1,787 @@
+Server Startzeit: 30.04 17:37:12,375| mit PID <0.870.0>
+Server: Nachrichtennummer 1 an <9595.769.0> gesendet
+Server: Nachrichtennummer 2 an <9595.770.0> gesendet
+Server: Nachrichtennummer 3 an <9595.771.0> gesendet
+Server: Nachrichtennummer 4 an <9595.772.0> gesendet
+Server: Nachrichtennummer 5 an <9595.773.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 5te_Nachricht. C Out: 30.04 17:37:16,515|(5); HBQ In: 30.04 17:37:16,516|-dropmessage
+Server: Nachrichtennummer 6 an <9595.773.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 4te_Nachricht. C Out: 30.04 17:37:16,515|(4); HBQ In: 30.04 17:37:16,516|-dropmessage
+Server: Nachrichtennummer 7 an <9595.772.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 3te_Nachricht. C Out: 30.04 17:37:16,515|(3); HBQ In: 30.04 17:37:16,516|-dropmessage
+Server: Nachrichtennummer 8 an <9595.771.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 2te_Nachricht. C Out: 30.04 17:37:16,515|(2); HBQ In: 30.04 17:37:16,516|-dropmessage
+Server: Nachrichtennummer 9 an <9595.770.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 1te_Nachricht. C Out: 30.04 17:37:16,515|(1); HBQ In: 30.04 17:37:16,516|-dropmessage
+Server: Nachrichtennummer 10 an <9595.769.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531|-dropmessage
+Server: Nachrichtennummer 11 an <9595.769.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 9te_Nachricht. C Out: 30.04 17:37:19,530|(9); HBQ In: 30.04 17:37:19,531|-dropmessage
+Server: Nachrichtennummer 12 an <9595.770.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 8te_Nachricht. C Out: 30.04 17:37:19,530|(8); HBQ In: 30.04 17:37:19,531|-dropmessage
+Server: Nachrichtennummer 13 an <9595.771.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531|-dropmessage
+Server: Nachrichtennummer 14 an <9595.772.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 6te_Nachricht. C Out: 30.04 17:37:19,530|(6); HBQ In: 30.04 17:37:19,531|-dropmessage
+QVerwaltung1>>> Nachrichten [10,9,8,7,6,5,4,3,2,1] von HBQ in DLQ transferiert.
+Server: Nachrichtennummer 15 an <9595.773.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547|-dropmessage
+Server: Nachrichtennummer 16 an <9595.773.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547|-dropmessage
+Server: Nachrichtennummer 17 an <9595.772.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547|-dropmessage
+Server: Nachrichtennummer 18 an <9595.771.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547|-dropmessage
+Server: Nachrichtennummer 19 an <9595.770.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547|-dropmessage
+Server: Nachrichtennummer 20 an <9595.769.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563|-dropmessage
+Server: Nachrichtennummer 21 an <9595.769.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563|-dropmessage
+Server: Nachrichtennummer 22 an <9595.770.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563|-dropmessage
+Server: Nachrichtennummer 23 an <9595.771.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563|-dropmessage
+Server: Nachrichtennummer 24 an <9595.772.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563|-dropmessage
+QVerwaltung1>>> Nachrichten [20,19,18,17,16,15,14,13,12,11] von HBQ in DLQ transferiert.
+Server: Nachrichtennummer 25 an <9595.773.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578|-dropmessage
+Server: Nachrichtennummer 26 an <9595.773.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578|-dropmessage
+Server: Nachrichtennummer 27 an <9595.772.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578|-dropmessage
+Server: Nachrichtennummer 28 an <9595.771.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578|-dropmessage
+Server: Nachrichtennummer 29 an <9595.770.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578|-dropmessage
+Server: Nachrichtennummer 30 an <9595.769.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 1te_Nachricht. C Out: 30.04 17:37:16,515|(1); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(1)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 1te_Nachricht. C Out: 30.04 17:37:16,515|(1); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(1)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 1te_Nachricht. C Out: 30.04 17:37:16,515|(1); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(1)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 1te_Nachricht. C Out: 30.04 17:37:16,515|(1); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(1)-getmessages von <9595.770.0>-false
+QVerwaltung1>>> Nachrichten [25,24,23,22,21] von HBQ in DLQ transferiert.
+0-client@Brummpa-<0.769.0>-KLC: 1te_Nachricht. C Out: 30.04 17:37:16,515|(1); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(1)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 2te_Nachricht. C Out: 30.04 17:37:16,515|(2); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(2)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 2te_Nachricht. C Out: 30.04 17:37:16,515|(2); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(2)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 2te_Nachricht. C Out: 30.04 17:37:16,515|(2); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(2)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 2te_Nachricht. C Out: 30.04 17:37:16,515|(2); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(2)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 2te_Nachricht. C Out: 30.04 17:37:16,515|(2); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(2)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 3te_Nachricht. C Out: 30.04 17:37:16,515|(3); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(3)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 3te_Nachricht. C Out: 30.04 17:37:16,515|(3); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(3)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 3te_Nachricht. C Out: 30.04 17:37:16,515|(3); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(3)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 3te_Nachricht. C Out: 30.04 17:37:16,515|(3); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(3)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 3te_Nachricht. C Out: 30.04 17:37:16,515|(3); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(3)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 4te_Nachricht. C Out: 30.04 17:37:16,515|(4); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(4)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 4te_Nachricht. C Out: 30.04 17:37:16,515|(4); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(4)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 4te_Nachricht. C Out: 30.04 17:37:16,515|(4); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(4)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 4te_Nachricht. C Out: 30.04 17:37:16,515|(4); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(4)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 4te_Nachricht. C Out: 30.04 17:37:16,515|(4); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(4)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 5te_Nachricht. C Out: 30.04 17:37:16,515|(5); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(5)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 5te_Nachricht. C Out: 30.04 17:37:16,515|(5); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(5)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 5te_Nachricht. C Out: 30.04 17:37:16,515|(5); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(5)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 5te_Nachricht. C Out: 30.04 17:37:16,515|(5); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(5)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 5te_Nachricht. C Out: 30.04 17:37:16,515|(5); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(5)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 6te_Nachricht. C Out: 30.04 17:37:19,530|(6); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(6)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 6te_Nachricht. C Out: 30.04 17:37:19,530|(6); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(6)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 6te_Nachricht. C Out: 30.04 17:37:19,530|(6); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(6)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 6te_Nachricht. C Out: 30.04 17:37:19,530|(6); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(6)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 6te_Nachricht. C Out: 30.04 17:37:19,530|(6); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(6)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 8te_Nachricht. C Out: 30.04 17:37:19,530|(8); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(8)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 8te_Nachricht. C Out: 30.04 17:37:19,530|(8); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(8)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 8te_Nachricht. C Out: 30.04 17:37:19,530|(8); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(8)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 8te_Nachricht. C Out: 30.04 17:37:19,530|(8); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(8)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 8te_Nachricht. C Out: 30.04 17:37:19,530|(8); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(8)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 9te_Nachricht. C Out: 30.04 17:37:19,530|(9); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(9)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 9te_Nachricht. C Out: 30.04 17:37:19,530|(9); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(9)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 9te_Nachricht. C Out: 30.04 17:37:19,530|(9); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(9)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 9te_Nachricht. C Out: 30.04 17:37:19,530|(9); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(9)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 9te_Nachricht. C Out: 30.04 17:37:19,530|(9); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(9)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.773.0>-true
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.772.0>-true
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.771.0>-true
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.770.0>-true
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.769.0>-true
+Server: Nachrichtennummer 31 an <9595.773.0> gesendet
+Server: Nachrichtennummer 32 an <9595.772.0> gesendet
+Server: Nachrichtennummer 33 an <9595.771.0> gesendet
+Server: Nachrichtennummer 34 an <9595.770.0> gesendet
+Server: Nachrichtennummer 35 an <9595.769.0> gesendet
+Server: Nachrichtennummer 36 an <9595.773.0> gesendet
+Server: Nachrichtennummer 37 an <9595.772.0> gesendet
+Server: Nachrichtennummer 38 an <9595.771.0> gesendet
+Server: Nachrichtennummer 39 an <9595.770.0> gesendet
+Server: Nachrichtennummer 40 an <9595.769.0> gesendet
+Client <9595.773.0> wird vergessen! *************
+Client <9595.772.0> wird vergessen! *************
+Client <9595.771.0> wird vergessen! *************
+Client <9595.770.0> wird vergessen! *************
+Client <9595.769.0> wird vergessen! *************
+3-client@Brummpa-<0.772.0>-KLC: 37te_Nachricht. C Out: 30.04 17:37:30,827|(37); HBQ In: 30.04 17:37:30,828|-dropmessage
+Server: Nachrichtennummer 41 an <9595.772.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 36te_Nachricht. C Out: 30.04 17:37:30,827|(36); HBQ In: 30.04 17:37:30,828|-dropmessage
+Server: Nachrichtennummer 42 an <9595.773.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 40te_Nachricht. C Out: 30.04 17:37:30,843|(40); HBQ In: 30.04 17:37:30,844|-dropmessage
+Server: Nachrichtennummer 43 an <9595.769.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 39te_Nachricht. C Out: 30.04 17:37:30,843|(39); HBQ In: 30.04 17:37:30,844|-dropmessage
+Server: Nachrichtennummer 44 an <9595.770.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 38te_Nachricht. C Out: 30.04 17:37:30,843|(38); HBQ In: 30.04 17:37:30,844|-dropmessage
+Server: Nachrichtennummer 45 an <9595.771.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 42te_Nachricht. C Out: 30.04 17:37:32,843|(42); HBQ In: 30.04 17:37:32,844|-dropmessage
+Server: Nachrichtennummer 46 an <9595.773.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 41te_Nachricht. C Out: 30.04 17:37:32,843|(41); HBQ In: 30.04 17:37:32,844|-dropmessage
+Server: Nachrichtennummer 47 an <9595.772.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875|-dropmessage
+Server: Nachrichtennummer 48 an <9595.771.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 44te_Nachricht. C Out: 30.04 17:37:32,874|(44); HBQ In: 30.04 17:37:32,875|-dropmessage
+Server: Nachrichtennummer 49 an <9595.770.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 43te_Nachricht. C Out: 30.04 17:37:32,874|(43); HBQ In: 30.04 17:37:32,875|-dropmessage
+Server: Nachrichtennummer 50 an <9595.769.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859|-dropmessage
+Server: Nachrichtennummer 51 an <9595.772.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938|-dropmessage
+Server: Nachrichtennummer 52 an <9595.773.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952|-dropmessage
+Server: Nachrichtennummer 53 an <9595.769.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953|-dropmessage
+Server: Nachrichtennummer 54 an <9595.770.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953|-dropmessage
+Server: Nachrichtennummer 55 an <9595.771.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953|-dropmessage
+Server: Nachrichtennummer 56 an <9595.773.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953|-dropmessage
+Server: Nachrichtennummer 57 an <9595.772.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969|-dropmessage
+Server: Nachrichtennummer 58 an <9595.771.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969|-dropmessage
+Server: Nachrichtennummer 59 an <9595.770.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969|-dropmessage
+Server: Nachrichtennummer 60 an <9595.769.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969|-dropmessage
+Server: Nachrichtennummer 61 an <9595.772.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969|-dropmessage
+Server: Nachrichtennummer 62 an <9595.773.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 1te_Nachricht. C Out: 30.04 17:37:16,515|(1); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(1)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 1te_Nachricht. C Out: 30.04 17:37:16,515|(1); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(1)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 2te_Nachricht. C Out: 30.04 17:37:16,515|(2); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(2)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 2te_Nachricht. C Out: 30.04 17:37:16,515|(2); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(2)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 3te_Nachricht. C Out: 30.04 17:37:16,515|(3); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(3)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 3te_Nachricht. C Out: 30.04 17:37:16,515|(3); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(3)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 4te_Nachricht. C Out: 30.04 17:37:16,515|(4); HBQ In: 30.04 17:37:16,516| DLQ In:30.04 17:37:19,531|.(4)-getmessages von <9595.772.0>-false
+***Fehlernachricht fuer Nachrichten 26 bis 35 um 30.04 17:37:38,969|.
+QVerwaltung1>>> Nachrichten [57,56,55,54,53,52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36] von HBQ in DLQ transferiert.
+QVerwaltung1>>> Nachrichten [6,5,4,3,2,1] von DLQ geloescht.
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984|-dropmessage
+Server: Nachrichtennummer 63 an <9595.769.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984|-dropmessage
+Server: Nachrichtennummer 64 an <9595.770.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984|-dropmessage
+Server: Nachrichtennummer 65 an <9595.771.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 8te_Nachricht. C Out: 30.04 17:37:19,530|(8); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(8)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 7te_Nachricht. C Out: 30.04 17:37:19,530|(7); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(7)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 8te_Nachricht. C Out: 30.04 17:37:19,530|(8); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(8)-getmessages von <9595.772.0>-false
+QVerwaltung1>>> Nachrichten [60,59,58] von HBQ in DLQ transferiert.
+QVerwaltung1>>> Nachrichten [9,8,7] von DLQ geloescht.
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 11te_Nachricht. C Out: 30.04 17:37:22,546|(11); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(11)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 12te_Nachricht. C Out: 30.04 17:37:22,546|(12); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(12)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 13te_Nachricht. C Out: 30.04 17:37:22,546|(13); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(13)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 14te_Nachricht. C Out: 30.04 17:37:22,546|(14); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(14)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 15te_Nachricht. C Out: 30.04 17:37:22,546|(15); HBQ In: 30.04 17:37:22,547| DLQ In:30.04 17:37:25,563|.(15)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 16te_Nachricht. C Out: 30.04 17:37:25,562|(16); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(16)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 17te_Nachricht. C Out: 30.04 17:37:25,562|(17); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(17)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 18te_Nachricht. C Out: 30.04 17:37:25,562|(18); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(18)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 19te_Nachricht. C Out: 30.04 17:37:25,562|(19); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(19)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 20te_Nachricht. C Out: 30.04 17:37:25,562|(20); HBQ In: 30.04 17:37:25,563| DLQ In:30.04 17:37:25,563|.(20)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 21te_Nachricht. C Out: 30.04 17:37:28,577|(21); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(21)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 22te_Nachricht. C Out: 30.04 17:37:28,577|(22); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(22)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 23te_Nachricht. C Out: 30.04 17:37:28,577|(23); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(23)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 24te_Nachricht. C Out: 30.04 17:37:28,577|(24); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(24)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 25te_Nachricht. C Out: 30.04 17:37:28,577|(25); HBQ In: 30.04 17:37:28,578| DLQ In:30.04 17:37:28,594|.(25)-getmessages von <9595.772.0>-false
+***Fehlernachricht fuer Nachrichten 26 bis 35 um 30.04 17:37:38,969|.(26)-getmessages von <9595.773.0>-false
+***Fehlernachricht fuer Nachrichten 26 bis 35 um 30.04 17:37:38,969|.(26)-getmessages von <9595.769.0>-false
+***Fehlernachricht fuer Nachrichten 26 bis 35 um 30.04 17:37:38,969|.(26)-getmessages von <9595.770.0>-false
+***Fehlernachricht fuer Nachrichten 26 bis 35 um 30.04 17:37:38,969|.(26)-getmessages von <9595.771.0>-false
+***Fehlernachricht fuer Nachrichten 26 bis 35 um 30.04 17:37:38,969|.(26)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 36te_Nachricht. C Out: 30.04 17:37:30,827|(36); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(36)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 36te_Nachricht. C Out: 30.04 17:37:30,827|(36); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(36)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 36te_Nachricht. C Out: 30.04 17:37:30,827|(36); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(36)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 36te_Nachricht. C Out: 30.04 17:37:30,827|(36); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(36)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 36te_Nachricht. C Out: 30.04 17:37:30,827|(36); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(36)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 37te_Nachricht. C Out: 30.04 17:37:30,827|(37); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(37)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 37te_Nachricht. C Out: 30.04 17:37:30,827|(37); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(37)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 37te_Nachricht. C Out: 30.04 17:37:30,827|(37); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(37)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 37te_Nachricht. C Out: 30.04 17:37:30,827|(37); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(37)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 37te_Nachricht. C Out: 30.04 17:37:30,827|(37); HBQ In: 30.04 17:37:30,828| DLQ In:30.04 17:37:38,969|.(37)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 38te_Nachricht. C Out: 30.04 17:37:30,843|(38); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(38)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 38te_Nachricht. C Out: 30.04 17:37:30,843|(38); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(38)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 38te_Nachricht. C Out: 30.04 17:37:30,843|(38); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(38)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 38te_Nachricht. C Out: 30.04 17:37:30,843|(38); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(38)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 38te_Nachricht. C Out: 30.04 17:37:30,843|(38); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(38)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 39te_Nachricht. C Out: 30.04 17:37:30,843|(39); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(39)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 39te_Nachricht. C Out: 30.04 17:37:30,843|(39); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(39)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 39te_Nachricht. C Out: 30.04 17:37:30,843|(39); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(39)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 39te_Nachricht. C Out: 30.04 17:37:30,843|(39); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(39)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 39te_Nachricht. C Out: 30.04 17:37:30,843|(39); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(39)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 40te_Nachricht. C Out: 30.04 17:37:30,843|(40); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(40)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 40te_Nachricht. C Out: 30.04 17:37:30,843|(40); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(40)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 40te_Nachricht. C Out: 30.04 17:37:30,843|(40); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(40)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 40te_Nachricht. C Out: 30.04 17:37:30,843|(40); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(40)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 40te_Nachricht. C Out: 30.04 17:37:30,843|(40); HBQ In: 30.04 17:37:30,844| DLQ In:30.04 17:37:38,969|.(40)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 41te_Nachricht. C Out: 30.04 17:37:32,843|(41); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(41)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 41te_Nachricht. C Out: 30.04 17:37:32,843|(41); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(41)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 41te_Nachricht. C Out: 30.04 17:37:32,843|(41); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(41)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 41te_Nachricht. C Out: 30.04 17:37:32,843|(41); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(41)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 41te_Nachricht. C Out: 30.04 17:37:32,843|(41); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(41)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 42te_Nachricht. C Out: 30.04 17:37:32,843|(42); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(42)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 42te_Nachricht. C Out: 30.04 17:37:32,843|(42); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(42)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 42te_Nachricht. C Out: 30.04 17:37:32,843|(42); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(42)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 42te_Nachricht. C Out: 30.04 17:37:32,843|(42); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(42)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 42te_Nachricht. C Out: 30.04 17:37:32,843|(42); HBQ In: 30.04 17:37:32,844| DLQ In:30.04 17:37:38,969|.(42)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 43te_Nachricht. C Out: 30.04 17:37:32,874|(43); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(43)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 43te_Nachricht. C Out: 30.04 17:37:32,874|(43); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(43)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 43te_Nachricht. C Out: 30.04 17:37:32,874|(43); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(43)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 43te_Nachricht. C Out: 30.04 17:37:32,874|(43); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(43)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 43te_Nachricht. C Out: 30.04 17:37:32,874|(43); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(43)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 44te_Nachricht. C Out: 30.04 17:37:32,874|(44); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(44)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 44te_Nachricht. C Out: 30.04 17:37:32,874|(44); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(44)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 44te_Nachricht. C Out: 30.04 17:37:32,874|(44); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(44)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 44te_Nachricht. C Out: 30.04 17:37:32,874|(44); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(44)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 44te_Nachricht. C Out: 30.04 17:37:32,874|(44); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(44)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.773.0>-true
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.769.0>-true
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.770.0>-true
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.771.0>-true
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.772.0>-true
+Server: Nachrichtennummer 66 an <9595.773.0> gesendet
+Server: Nachrichtennummer 67 an <9595.769.0> gesendet
+Server: Nachrichtennummer 68 an <9595.770.0> gesendet
+Server: Nachrichtennummer 69 an <9595.771.0> gesendet
+Server: Nachrichtennummer 70 an <9595.772.0> gesendet
+Server: Nachrichtennummer 71 an <9595.773.0> gesendet
+Server: Nachrichtennummer 72 an <9595.769.0> gesendet
+Server: Nachrichtennummer 73 an <9595.770.0> gesendet
+Server: Nachrichtennummer 74 an <9595.771.0> gesendet
+Server: Nachrichtennummer 75 an <9595.772.0> gesendet
+Client <9595.773.0> wird vergessen! *************
+Client <9595.769.0> wird vergessen! *************
+Client <9595.770.0> wird vergessen! *************
+Client <9595.771.0> wird vergessen! *************
+Client <9595.772.0> wird vergessen! *************
+3-client@Brummpa-<0.772.0>-KLC: 75te_Nachricht. C Out: 30.04 17:37:42,233|(75); HBQ In: 30.04 17:37:42,234|-dropmessage
+Server: Nachrichtennummer 76 an <9595.772.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 74te_Nachricht. C Out: 30.04 17:37:42,233|(74); HBQ In: 30.04 17:37:42,234|-dropmessage
+Server: Nachrichtennummer 77 an <9595.771.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 73te_Nachricht. C Out: 30.04 17:37:42,233|(73); HBQ In: 30.04 17:37:42,234|-dropmessage
+Server: Nachrichtennummer 78 an <9595.770.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 72te_Nachricht. C Out: 30.04 17:37:42,233|(72); HBQ In: 30.04 17:37:42,234|-dropmessage
+Server: Nachrichtennummer 79 an <9595.769.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 71te_Nachricht. C Out: 30.04 17:37:42,233|(71); HBQ In: 30.04 17:37:42,234|-dropmessage
+Server: Nachrichtennummer 80 an <9595.773.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 80te_Nachricht. C Out: 30.04 17:37:45,249|(80); HBQ In: 30.04 17:37:45,250|-dropmessage
+Server: Nachrichtennummer 81 an <9595.773.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 79te_Nachricht. C Out: 30.04 17:37:45,249|(79); HBQ In: 30.04 17:37:45,250|-dropmessage
+Server: Nachrichtennummer 82 an <9595.769.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 78te_Nachricht. C Out: 30.04 17:37:45,249|(78); HBQ In: 30.04 17:37:45,250|-dropmessage
+Server: Nachrichtennummer 83 an <9595.770.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 77te_Nachricht. C Out: 30.04 17:37:45,249|(77); HBQ In: 30.04 17:37:45,250|-dropmessage
+Server: Nachrichtennummer 84 an <9595.771.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 76te_Nachricht. C Out: 30.04 17:37:45,249|(76); HBQ In: 30.04 17:37:45,250|-dropmessage
+Server: Nachrichtennummer 85 an <9595.772.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 85te_Nachricht. C Out: 30.04 17:37:48,265|(85); HBQ In: 30.04 17:37:48,266|-dropmessage
+Server: Nachrichtennummer 86 an <9595.772.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 84te_Nachricht. C Out: 30.04 17:37:48,265|(84); HBQ In: 30.04 17:37:48,266|-dropmessage
+Server: Nachrichtennummer 87 an <9595.771.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 83te_Nachricht. C Out: 30.04 17:37:48,265|(83); HBQ In: 30.04 17:37:48,266|-dropmessage
+Server: Nachrichtennummer 88 an <9595.770.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 82te_Nachricht. C Out: 30.04 17:37:48,265|(82); HBQ In: 30.04 17:37:48,266|-dropmessage
+Server: Nachrichtennummer 89 an <9595.769.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 81te_Nachricht. C Out: 30.04 17:37:48,265|(81); HBQ In: 30.04 17:37:48,266|-dropmessage
+Server: Nachrichtennummer 90 an <9595.773.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 90te_Nachricht. C Out: 30.04 17:37:51,280|(90); HBQ In: 30.04 17:37:51,281|-dropmessage
+Server: Nachrichtennummer 91 an <9595.773.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 89te_Nachricht. C Out: 30.04 17:37:51,280|(89); HBQ In: 30.04 17:37:51,281|-dropmessage
+Server: Nachrichtennummer 92 an <9595.769.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 88te_Nachricht. C Out: 30.04 17:37:51,280|(88); HBQ In: 30.04 17:37:51,281|-dropmessage
+Server: Nachrichtennummer 93 an <9595.770.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 87te_Nachricht. C Out: 30.04 17:37:51,280|(87); HBQ In: 30.04 17:37:51,281|-dropmessage
+Server: Nachrichtennummer 94 an <9595.771.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 86te_Nachricht. C Out: 30.04 17:37:51,280|(86); HBQ In: 30.04 17:37:51,297|-dropmessage
+Server: Nachrichtennummer 95 an <9595.772.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 94te_Nachricht. C Out: 30.04 17:37:54,296|(94); HBQ In: 30.04 17:37:54,297|-dropmessage
+Server: Nachrichtennummer 96 an <9595.771.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 93te_Nachricht. C Out: 30.04 17:37:54,296|(93); HBQ In: 30.04 17:37:54,313|-dropmessage
+Server: Nachrichtennummer 97 an <9595.770.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 92te_Nachricht. C Out: 30.04 17:37:54,296|(92); HBQ In: 30.04 17:37:54,313|-dropmessage
+Server: Nachrichtennummer 98 an <9595.769.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 91te_Nachricht. C Out: 30.04 17:37:54,296|(91); HBQ In: 30.04 17:37:54,313|-dropmessage
+Server: Nachrichtennummer 99 an <9595.773.0> gesendet
+3-client@Brummpa-<0.772.0>-KLC: 95te_Nachricht. C Out: 30.04 17:37:54,312|(95); HBQ In: 30.04 17:37:54,313|-dropmessage
+Server: Nachrichtennummer 100 an <9595.772.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 10te_Nachricht. C Out: 30.04 17:37:19,530|(10); HBQ In: 30.04 17:37:19,531| DLQ In:30.04 17:37:19,531|.(10)-getmessages von <9595.772.0>-false
+***Fehlernachricht fuer Nachrichten 61 bis 70 um 30.04 17:37:54,328|.
+QVerwaltung1>>> Nachrichten [95,94,93,92,91,90,89,88,87,86,85,84,83,82,81,80,79,78,77,76,75,74,73,72,71] von HBQ in DLQ transferiert.
+QVerwaltung1>>> Nachrichten [44,43,42,41,40,39,38,37,36,35,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10] von DLQ geloescht.
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 45te_Nachricht. C Out: 30.04 17:37:32,874|(45); HBQ In: 30.04 17:37:32,875| DLQ In:30.04 17:37:38,969|.(45)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 46te_Nachricht. C Out: 30.04 17:37:34,858|(46); HBQ In: 30.04 17:37:34,938| DLQ In:30.04 17:37:38,969|.(46)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 47te_Nachricht. C Out: 30.04 17:37:34,858|(47); HBQ In: 30.04 17:37:34,859| DLQ In:30.04 17:37:38,969|.(47)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 48te_Nachricht. C Out: 30.04 17:37:34,890|(48); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(48)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 49te_Nachricht. C Out: 30.04 17:37:34,890|(49); HBQ In: 30.04 17:37:34,953| DLQ In:30.04 17:37:38,969|.(49)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 50te_Nachricht. C Out: 30.04 17:37:34,890|(50); HBQ In: 30.04 17:37:34,952| DLQ In:30.04 17:37:38,969|.(50)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 51te_Nachricht. C Out: 30.04 17:37:36,952|(51); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(51)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 52te_Nachricht. C Out: 30.04 17:37:36,952|(52); HBQ In: 30.04 17:37:36,953| DLQ In:30.04 17:37:38,969|.(52)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 53te_Nachricht. C Out: 30.04 17:37:36,968|(53); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(53)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 54te_Nachricht. C Out: 30.04 17:37:36,968|(54); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(54)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 55te_Nachricht. C Out: 30.04 17:37:36,968|(55); HBQ In: 30.04 17:37:36,969| DLQ In:30.04 17:37:38,969|.(55)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 56te_Nachricht. C Out: 30.04 17:37:38,968|(56); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(56)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 57te_Nachricht. C Out: 30.04 17:37:38,968|(57); HBQ In: 30.04 17:37:38,969| DLQ In:30.04 17:37:38,969|.(57)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 58te_Nachricht. C Out: 30.04 17:37:38,983|(58); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(58)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 59te_Nachricht. C Out: 30.04 17:37:38,983|(59); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(59)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 60te_Nachricht. C Out: 30.04 17:37:38,983|(60); HBQ In: 30.04 17:37:38,984| DLQ In:30.04 17:37:38,984|.(60)-getmessages von <9595.772.0>-false
+***Fehlernachricht fuer Nachrichten 61 bis 70 um 30.04 17:37:54,328|.(61)-getmessages von <9595.771.0>-false
+***Fehlernachricht fuer Nachrichten 61 bis 70 um 30.04 17:37:54,328|.(61)-getmessages von <9595.770.0>-false
+***Fehlernachricht fuer Nachrichten 61 bis 70 um 30.04 17:37:54,328|.(61)-getmessages von <9595.769.0>-false
+***Fehlernachricht fuer Nachrichten 61 bis 70 um 30.04 17:37:54,328|.(61)-getmessages von <9595.773.0>-false
+***Fehlernachricht fuer Nachrichten 61 bis 70 um 30.04 17:37:54,328|.(61)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 71te_Nachricht. C Out: 30.04 17:37:42,233|(71); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(71)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 71te_Nachricht. C Out: 30.04 17:37:42,233|(71); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(71)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 71te_Nachricht. C Out: 30.04 17:37:42,233|(71); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(71)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 71te_Nachricht. C Out: 30.04 17:37:42,233|(71); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(71)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 71te_Nachricht. C Out: 30.04 17:37:42,233|(71); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(71)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 72te_Nachricht. C Out: 30.04 17:37:42,233|(72); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(72)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 72te_Nachricht. C Out: 30.04 17:37:42,233|(72); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(72)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 72te_Nachricht. C Out: 30.04 17:37:42,233|(72); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(72)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 72te_Nachricht. C Out: 30.04 17:37:42,233|(72); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(72)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 72te_Nachricht. C Out: 30.04 17:37:42,233|(72); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(72)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 73te_Nachricht. C Out: 30.04 17:37:42,233|(73); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(73)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 73te_Nachricht. C Out: 30.04 17:37:42,233|(73); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(73)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 73te_Nachricht. C Out: 30.04 17:37:42,233|(73); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(73)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 73te_Nachricht. C Out: 30.04 17:37:42,233|(73); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(73)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 73te_Nachricht. C Out: 30.04 17:37:42,233|(73); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(73)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 74te_Nachricht. C Out: 30.04 17:37:42,233|(74); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(74)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 74te_Nachricht. C Out: 30.04 17:37:42,233|(74); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(74)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 74te_Nachricht. C Out: 30.04 17:37:42,233|(74); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(74)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 74te_Nachricht. C Out: 30.04 17:37:42,233|(74); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(74)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 74te_Nachricht. C Out: 30.04 17:37:42,233|(74); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(74)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 75te_Nachricht. C Out: 30.04 17:37:42,233|(75); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(75)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 75te_Nachricht. C Out: 30.04 17:37:42,233|(75); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(75)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 75te_Nachricht. C Out: 30.04 17:37:42,233|(75); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(75)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 75te_Nachricht. C Out: 30.04 17:37:42,233|(75); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(75)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 75te_Nachricht. C Out: 30.04 17:37:42,233|(75); HBQ In: 30.04 17:37:42,234| DLQ In:30.04 17:37:54,328|.(75)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 76te_Nachricht. C Out: 30.04 17:37:45,249|(76); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(76)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 76te_Nachricht. C Out: 30.04 17:37:45,249|(76); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(76)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 76te_Nachricht. C Out: 30.04 17:37:45,249|(76); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(76)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 76te_Nachricht. C Out: 30.04 17:37:45,249|(76); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(76)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 76te_Nachricht. C Out: 30.04 17:37:45,249|(76); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(76)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 77te_Nachricht. C Out: 30.04 17:37:45,249|(77); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(77)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 77te_Nachricht. C Out: 30.04 17:37:45,249|(77); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(77)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 77te_Nachricht. C Out: 30.04 17:37:45,249|(77); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(77)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 77te_Nachricht. C Out: 30.04 17:37:45,249|(77); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(77)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 77te_Nachricht. C Out: 30.04 17:37:45,249|(77); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,328|.(77)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 78te_Nachricht. C Out: 30.04 17:37:45,249|(78); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,343|.(78)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 78te_Nachricht. C Out: 30.04 17:37:45,249|(78); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,343|.(78)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 78te_Nachricht. C Out: 30.04 17:37:45,249|(78); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,343|.(78)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 78te_Nachricht. C Out: 30.04 17:37:45,249|(78); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,343|.(78)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 78te_Nachricht. C Out: 30.04 17:37:45,249|(78); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,343|.(78)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 79te_Nachricht. C Out: 30.04 17:37:45,249|(79); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(79)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 79te_Nachricht. C Out: 30.04 17:37:45,249|(79); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(79)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 79te_Nachricht. C Out: 30.04 17:37:45,249|(79); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(79)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 79te_Nachricht. C Out: 30.04 17:37:45,249|(79); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(79)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 79te_Nachricht. C Out: 30.04 17:37:45,249|(79); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(79)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 80te_Nachricht. C Out: 30.04 17:37:45,249|(80); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(80)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 80te_Nachricht. C Out: 30.04 17:37:45,249|(80); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(80)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 80te_Nachricht. C Out: 30.04 17:37:45,249|(80); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(80)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 80te_Nachricht. C Out: 30.04 17:37:45,249|(80); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(80)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 80te_Nachricht. C Out: 30.04 17:37:45,249|(80); HBQ In: 30.04 17:37:45,250| DLQ In:30.04 17:37:54,344|.(80)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 81te_Nachricht. C Out: 30.04 17:37:48,265|(81); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(81)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 81te_Nachricht. C Out: 30.04 17:37:48,265|(81); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(81)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 81te_Nachricht. C Out: 30.04 17:37:48,265|(81); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(81)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 81te_Nachricht. C Out: 30.04 17:37:48,265|(81); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(81)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 81te_Nachricht. C Out: 30.04 17:37:48,265|(81); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(81)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 82te_Nachricht. C Out: 30.04 17:37:48,265|(82); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(82)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 82te_Nachricht. C Out: 30.04 17:37:48,265|(82); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(82)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 82te_Nachricht. C Out: 30.04 17:37:48,265|(82); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(82)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 82te_Nachricht. C Out: 30.04 17:37:48,265|(82); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(82)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 82te_Nachricht. C Out: 30.04 17:37:48,265|(82); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(82)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 83te_Nachricht. C Out: 30.04 17:37:48,265|(83); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(83)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 83te_Nachricht. C Out: 30.04 17:37:48,265|(83); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(83)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 83te_Nachricht. C Out: 30.04 17:37:48,265|(83); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(83)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 83te_Nachricht. C Out: 30.04 17:37:48,265|(83); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(83)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 83te_Nachricht. C Out: 30.04 17:37:48,265|(83); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(83)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 84te_Nachricht. C Out: 30.04 17:37:48,265|(84); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(84)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 84te_Nachricht. C Out: 30.04 17:37:48,265|(84); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(84)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 84te_Nachricht. C Out: 30.04 17:37:48,265|(84); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(84)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 84te_Nachricht. C Out: 30.04 17:37:48,265|(84); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(84)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 84te_Nachricht. C Out: 30.04 17:37:48,265|(84); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(84)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 85te_Nachricht. C Out: 30.04 17:37:48,265|(85); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(85)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 85te_Nachricht. C Out: 30.04 17:37:48,265|(85); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(85)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 85te_Nachricht. C Out: 30.04 17:37:48,265|(85); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(85)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 85te_Nachricht. C Out: 30.04 17:37:48,265|(85); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(85)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 85te_Nachricht. C Out: 30.04 17:37:48,265|(85); HBQ In: 30.04 17:37:48,266| DLQ In:30.04 17:37:54,344|.(85)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 86te_Nachricht. C Out: 30.04 17:37:51,280|(86); HBQ In: 30.04 17:37:51,297| DLQ In:30.04 17:37:54,344|.(86)-getmessages von <9595.771.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 86te_Nachricht. C Out: 30.04 17:37:51,280|(86); HBQ In: 30.04 17:37:51,297| DLQ In:30.04 17:37:54,344|.(86)-getmessages von <9595.770.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 86te_Nachricht. C Out: 30.04 17:37:51,280|(86); HBQ In: 30.04 17:37:51,297| DLQ In:30.04 17:37:54,344|.(86)-getmessages von <9595.769.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 86te_Nachricht. C Out: 30.04 17:37:51,280|(86); HBQ In: 30.04 17:37:51,297| DLQ In:30.04 17:37:54,344|.(86)-getmessages von <9595.773.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 86te_Nachricht. C Out: 30.04 17:37:51,280|(86); HBQ In: 30.04 17:37:51,297| DLQ In:30.04 17:37:54,344|.(86)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 87te_Nachricht. C Out: 30.04 17:37:51,280|(87); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(87)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 87te_Nachricht. C Out: 30.04 17:37:51,280|(87); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(87)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 87te_Nachricht. C Out: 30.04 17:37:51,280|(87); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(87)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 87te_Nachricht. C Out: 30.04 17:37:51,280|(87); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(87)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 87te_Nachricht. C Out: 30.04 17:37:51,280|(87); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(87)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 88te_Nachricht. C Out: 30.04 17:37:51,280|(88); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(88)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 88te_Nachricht. C Out: 30.04 17:37:51,280|(88); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(88)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 88te_Nachricht. C Out: 30.04 17:37:51,280|(88); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(88)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 88te_Nachricht. C Out: 30.04 17:37:51,280|(88); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(88)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 88te_Nachricht. C Out: 30.04 17:37:51,280|(88); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(88)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 89te_Nachricht. C Out: 30.04 17:37:51,280|(89); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(89)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 89te_Nachricht. C Out: 30.04 17:37:51,280|(89); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(89)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 89te_Nachricht. C Out: 30.04 17:37:51,280|(89); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(89)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 89te_Nachricht. C Out: 30.04 17:37:51,280|(89); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(89)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 89te_Nachricht. C Out: 30.04 17:37:51,280|(89); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(89)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 90te_Nachricht. C Out: 30.04 17:37:51,280|(90); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(90)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 90te_Nachricht. C Out: 30.04 17:37:51,280|(90); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(90)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 90te_Nachricht. C Out: 30.04 17:37:51,280|(90); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(90)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 90te_Nachricht. C Out: 30.04 17:37:51,280|(90); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(90)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 90te_Nachricht. C Out: 30.04 17:37:51,280|(90); HBQ In: 30.04 17:37:51,281| DLQ In:30.04 17:37:54,344|.(90)-getmessages von <9595.772.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 91te_Nachricht. C Out: 30.04 17:37:54,296|(91); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(91)-getmessages von <9595.771.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 91te_Nachricht. C Out: 30.04 17:37:54,296|(91); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(91)-getmessages von <9595.770.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 91te_Nachricht. C Out: 30.04 17:37:54,296|(91); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(91)-getmessages von <9595.769.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 91te_Nachricht. C Out: 30.04 17:37:54,296|(91); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(91)-getmessages von <9595.773.0>-false
+4-client@Brummpa-<0.773.0>-KLC: 91te_Nachricht. C Out: 30.04 17:37:54,296|(91); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(91)-getmessages von <9595.772.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 92te_Nachricht. C Out: 30.04 17:37:54,296|(92); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(92)-getmessages von <9595.771.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 92te_Nachricht. C Out: 30.04 17:37:54,296|(92); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(92)-getmessages von <9595.770.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 92te_Nachricht. C Out: 30.04 17:37:54,296|(92); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(92)-getmessages von <9595.769.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 92te_Nachricht. C Out: 30.04 17:37:54,296|(92); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(92)-getmessages von <9595.773.0>-false
+0-client@Brummpa-<0.769.0>-KLC: 92te_Nachricht. C Out: 30.04 17:37:54,296|(92); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(92)-getmessages von <9595.772.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 93te_Nachricht. C Out: 30.04 17:37:54,296|(93); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(93)-getmessages von <9595.771.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 93te_Nachricht. C Out: 30.04 17:37:54,296|(93); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(93)-getmessages von <9595.770.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 93te_Nachricht. C Out: 30.04 17:37:54,296|(93); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(93)-getmessages von <9595.769.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 93te_Nachricht. C Out: 30.04 17:37:54,296|(93); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(93)-getmessages von <9595.773.0>-false
+1-client@Brummpa-<0.770.0>-KLC: 93te_Nachricht. C Out: 30.04 17:37:54,296|(93); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(93)-getmessages von <9595.772.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 94te_Nachricht. C Out: 30.04 17:37:54,296|(94); HBQ In: 30.04 17:37:54,297| DLQ In:30.04 17:37:54,344|.(94)-getmessages von <9595.771.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 94te_Nachricht. C Out: 30.04 17:37:54,296|(94); HBQ In: 30.04 17:37:54,297| DLQ In:30.04 17:37:54,344|.(94)-getmessages von <9595.770.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 94te_Nachricht. C Out: 30.04 17:37:54,296|(94); HBQ In: 30.04 17:37:54,297| DLQ In:30.04 17:37:54,344|.(94)-getmessages von <9595.769.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 94te_Nachricht. C Out: 30.04 17:37:54,296|(94); HBQ In: 30.04 17:37:54,297| DLQ In:30.04 17:37:54,344|.(94)-getmessages von <9595.773.0>-false
+2-client@Brummpa-<0.771.0>-KLC: 94te_Nachricht. C Out: 30.04 17:37:54,296|(94); HBQ In: 30.04 17:37:54,297| DLQ In:30.04 17:37:54,344|.(94)-getmessages von <9595.772.0>-false
+3-client@Brummpa-<0.772.0>-KLC: 95te_Nachricht. C Out: 30.04 17:37:54,312|(95); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(95)-getmessages von <9595.771.0>-true
+3-client@Brummpa-<0.772.0>-KLC: 95te_Nachricht. C Out: 30.04 17:37:54,312|(95); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(95)-getmessages von <9595.770.0>-true
+3-client@Brummpa-<0.772.0>-KLC: 95te_Nachricht. C Out: 30.04 17:37:54,312|(95); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(95)-getmessages von <9595.769.0>-true
+3-client@Brummpa-<0.772.0>-KLC: 95te_Nachricht. C Out: 30.04 17:37:54,312|(95); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(95)-getmessages von <9595.773.0>-true
+3-client@Brummpa-<0.772.0>-KLC: 95te_Nachricht. C Out: 30.04 17:37:54,312|(95); HBQ In: 30.04 17:37:54,313| DLQ In:30.04 17:37:54,344|.(95)-getmessages von <9595.772.0>-true
+Server: Nachrichtennummer 101 an <9595.771.0> gesendet
+Server: Nachrichtennummer 102 an <9595.770.0> gesendet
+Server: Nachrichtennummer 103 an <9595.769.0> gesendet
+Server: Nachrichtennummer 104 an <9595.773.0> gesendet
+Server: Nachrichtennummer 105 an <9595.772.0> gesendet
+Server: Nachrichtennummer 106 an <9595.771.0> gesendet
+Server: Nachrichtennummer 107 an <9595.770.0> gesendet
+Server: Nachrichtennummer 108 an <9595.769.0> gesendet
+Server: Nachrichtennummer 109 an <9595.773.0> gesendet
+Server: Nachrichtennummer 110 an <9595.772.0> gesendet
+Client <9595.771.0> wird vergessen! *************
+Client <9595.770.0> wird vergessen! *************
+Client <9595.769.0> wird vergessen! *************
+Client <9595.773.0> wird vergessen! *************
+Client <9595.772.0> wird vergessen! *************
+3-client@Brummpa-<0.772.0>-KLC: 110te_Nachricht. C Out: 30.04 17:37:58,702|(110); HBQ In: 30.04 17:37:58,703|-dropmessage
+Server: Nachrichtennummer 111 an <9595.772.0> gesendet
+4-client@Brummpa-<0.773.0>-KLC: 109te_Nachricht. C Out: 30.04 17:37:58,702|(109); HBQ In: 30.04 17:37:58,703|-dropmessage
+Server: Nachrichtennummer 112 an <9595.773.0> gesendet
+0-client@Brummpa-<0.769.0>-KLC: 108te_Nachricht. C Out: 30.04 17:37:58,702|(108); HBQ In: 30.04 17:37:58,703|-dropmessage
+Server: Nachrichtennummer 113 an <9595.769.0> gesendet
+1-client@Brummpa-<0.770.0>-KLC: 107te_Nachricht. C Out: 30.04 17:37:58,702|(107); HBQ In: 30.04 17:37:58,703|-dropmessage
+Server: Nachrichtennummer 114 an <9595.770.0> gesendet
+2-client@Brummpa-<0.771.0>-KLC: 106te_Nachricht. C Out: 30.04 17:37:58,702|(106); HBQ In: 30.04 17:37:58,703|-dropmessage
+Server: Nachrichtennummer 115 an <9595.771.0> gesendet
+Downtime: 30.04 17:38:40,719| vom Nachrichtenserver <0.870.0>; Anzahl Restnachrichten in der HBQ:5

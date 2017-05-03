@@ -1,0 +1,242 @@
+verteilter GGT-Algorithmus
+
+Initialisierungsphase
+
+DONE	/* Initialisieren des Namenservice */
+	
+	global:register_name(nameservice,NServerPid)
+	% passiert automatisch in nameservice.beam ?
+
+TODO	/* Initialisieren des Koordinator */
+
+	register(KoName,KoPID)
+	Nameservice ! {self(),{rebind,KoName,KoNode}}
+	receive ok -> io:format("..rebind.done.\n”)
+
+	+ Log:
+		Koordinator-ko@Brummpa-KLC Startzeit: 24.02 14:39:32,453| mit PID <0.37.0>
+		koordinator.cfg geöffnet...
+		koordinator.cfg gelesen...
+		Nameservice gebunden...
+		lokal registriert...
+		beim Namensdienst registriert.
+
+
+	Zustand “initial”
+
+
+TODO	/* Initialisieren des Starter */
+
+	register(StarterName,StarterPID)
+	Nameservice ! {self(),{rebind,StarterName,StarterNode}}
+	receive ok -> io:format("..rebind.done.\n”)
+	Koordinator ! {self(), getsteeringval}
+	receive {steeringval, ArbeitsZeit, TermZeit, Quota, GGTProzessAnzahl}
+		% ArbeitsZeit -> die simulierte Verzögerungszeit zur Berechnung in Sekunden.
+		% TermZeit -> die Wartezeit in Sekunden, bis eine Wahl für eine Terminierung initiiert wird.
+		% Quota -> die konkrete Anzahl an benotwendigten Zustimmungen zu einer Terminierungsabstimmung.
+		% GGTProzessAnzahl -> die Anzahl der zu startenden ggT-Prozesse.
+?	GGT-Prozess ! start(ArbeitsZeit, TermZeit, Quota, GGTProcNr, StarterNr, GruppeNr, TeamNr, Nameservice , Koordinator) 
+		% wir müssen die angegebene Anzahl von GGTs starten
+
+	+ Log: 
+		Starter_5-ggt@KI-VS-KLC Startzeit: 24.02 14:40:14,222| mit PID <0.40.0>
+		ggt.cfg geöffnet...
+		ggt.cfg gelesen...
+		Nameservice gebunden...
+		Koordinator chef (chef) gebunden.
+		getsteeringval: 2 Arbeitszeit ggT; 42 Wartezeit Terminierung ggT; 7 Abstimmungsquote ggT; 9-te GGT Prozess.
+	
+TODO	/* Initialisieren des ggT-Prozess */
+	
+	register(meindienst,node())
+	Nameservice ! {self(),{rebind,meindienst,node()}}
+	receive ok -> io:format("..rebind.done.\n”)
+	Koordinator ! {hello, Clientname}
+		% Clientname -> Name ist der lokal registrierte Name, keine PID!
+	receive {setneighbors,LeftN,RightN}
+		% die (lokal auf deren Node registrieten und im Namensdienst registrierten) Namen (keine PID!) des linken und rechten Nachbarn
+	
+	+ Log: 
+		48896 Startzeit: 24.02 14:40:15,345| mit PID <0.144.0> auf ggt@KI-VS
+		beim Namensdienst und auf Node lokal registriert.
+		beim Koordinator gemeldet.
+		Linker Nachbar 48885 (48885) gebunden.
+		Rechter Nachbar 48835 (48835) gebunden.
+	
+	
+TODO	/* manuelle Steuerung / Starten der Berechung */
+		
+	Koordinator ! {self(), step)
+		% Der Koordinator beendet die Initialphase und bildet den Ring. Er wartet nun auf den Start einer ggT-Berechnung.
+	receive ok
+	
+
+	Zustand "bereit"
+
+TODO   /* manuelle Steuerung */
+
+	Koordinator ! {self(), {calc,WggT}}
+		% eine ggT-Berechnung wird per manuellem Befehl (calc) gestartet.
+		% WggT -> Wunsch-ggT
+
+TODO	/* Koordinator */
+
+	GGT ! {setpm, MiNeu}
+	GGT ! {sendy, Y}
+
+TODO	/* GGT */
+
+	Koordinator ! {briefmi,{Clientname,CMi,CZeit}}
+		% Ein ggT-Prozess mit Namen Clientname (keine PID!) informiert über sein neues Mi CMi um CZeit Uhr. 
+	LeftN ! {sendy, Y}
+	RightN ! {sendy, Y}
+	…
+	Nameservice ! {self(),{multicast, vote, meinname}}
+
+DONE	/* Nameservice */
+
+	Koordinator ! {From, {vote,meinname}}
+	GGT ! {From, {vote,meinname}}
+
+TODO	/* GGT */
+
+	LeftN / RightN / GGT ! {voteYes,Clientname}
+	
+/alt
+	/* Starter */
+		
+	Koordinator ! {self(), getsteeringval}
+
+	/* Koordinator */
+
+	Starter ! rejected
+		% Da der Koordinator nicht mehr im Zustand "initial" ist, wird der Starter abgewiesen
+
+	+ Log : Starter: <PID> rejected
+
+	/* GGT-Prozess */
+		
+	Koordinator ! {hello, Clientname}
+	receive {self(), kill}
+		% Da der Koordinator nicht mehr im Zustand "initial" ist, wird der GGT-Prozess abgewiesen
+	
+	+ Log : ggT-Prozess: <PID> rejected
+alt/
+	
+	
+TODO	/* GGT-Prozess */	
+
+	Koordinator ! {From, briefterm, {Clientname, NewMi, CZeit}}
+		% Terminierungsnachricht des GGT-Prozesses an den Koordinator mit dem entsprechenden Wert
+		
+	GGT-Prozess ! {From, tellmi}
+	From ! {mi, Mi}
+		Mi -> Aktuelles Mi
+
+	
+	Zustand "beenden"
+	
+TODO	/* Terminierung des Koordinator */
+
+	receive {self(), kill}
+	GGT-Prozess ! {self(), kill}
+	Nameservice ! {self(), {unbind,meindienst}},
+	receive ok -> io:format("..unbind..done.\n")
+
+
+	+ Log
+		Allen ggT-Prozessen ein 'kill' gesendet.
+		Downtime: 24.02 14:44:43,094| vom Koordinator chef
+
+TODO	/* Terminierung des GGT */
+	
+	receive {self(), kill}
+	Nameservice ! {self(), {unbind,meindienst}},
+	receive ok -> io:format("..unbind..done.\n")
+		% Der GGT-Prozess meldet sich vom Namensdienst ab und beendet dann sofort alle Kind-Prozesse und sich selber.
+
+	+ Log:
+		Downtime: 24.02 14:44:45,409| vom Client 48896
+
+	/* Ausserdem */
+
+	/* GGT */
+	receive {From,pingGGT}
+	From ! {pongGGT,GGTname}
+		% Sendet ein pongGGT an From (ist PID). Wird vom Koordinator z.B. genutzt, um auf manuelle Anforderung hin die Lebendigkeit des Rings zu prüfen.
+TODO	/* MSteuerung */
+		
+	
+	Koordinator ! {self(),reset} 
+		% Der Koordinator sendet allen ggT-Prozessen das kill-Kommando und bringt sich selbst in den initialen Zustand, indem sich Starter wieder melden können.	
+	Koordinator ! {self(),prompt}
+		% Der Koordinator erfragt bei allen ggT-Prozessen per tellmi deren aktuelles Mi ab und zeigt dies im log an.
+	Koordinator ! {self(),nudge}
+		% Der Koordinator erfragt bei allen ggT-Prozessen per pingGGT deren Lebenszustand ab und zeigt dies im log an.
+	Koordinator ! {self(),toggle}
+		% Der Koordinator verändert den Flag zur Korrektur bei falschen Terminierungsmeldungen.
+	
+
+Aufgabenstellung
+————————————————
+
+In dieser Aufgabe ist ein einfacher verteilter Algorithmus und dessen Verwaltung/Koordination zu implementieren. Jeder Arbeitsprozess (ggT-Prozess) durchläuft den gleichen Algorithmus! Das System für den verteilten Algorithmus ist so ausgelegt, dass es für eine längere Betriebszeit gestartet wird und dann mehrere ggT-Berechnungen hintereinander durchführen kann! 
+
+Das System soll aus 5 wesentlichen Komponenten bestehen:
+
+einem Namensdienst, der PIDs Namen zuordnet;
+einem Koordinator, der den verteilten Algorithmus verwaltet. Dazu gehören das hochfahren des Systems, den Start einer ggT-Berechnung und das herunterfahren des Systems. Der Koordinator verfügt über eine GUI (Textausgabe), in der der Ablauf des Algorithmus beobachtet werden kann;
+den Starter-Prozessen, die jeweils eine Menge von den GGT-Prozessen starten;
+den GGT-Prozessen, die die eigentliche Arbeit leisten;
+einem MSteuerung, der die manuellen Befehle verwaltet.
+
+Systemphasen
+
+Initialisierungsphase: 
+Nachdem der Namensdienst und der Koordinator gestartet wurden, werden die Starter gestartet und erfragen beim Koordinator die steuernden Werte für die ggT-Prozesse (getsteeringval). Diese werden gemäß den Vorgaben des Koordinators gestartet. Die ggT-Prozesse registrieren sich lokal bei der Erlang-Node und beim Namensdienst (rebind) und sie melden sich beim Koordinator an (hello). Der Koordinator baut einen (zufällig gemischten) Ring auf und informiert die ggT-Prozesse über ihre (linken und rechten) Nachbarn (setneighbors). Das System ist nun bereit, ggT-Aufgaben für soviele Zahlen zu lösen, wie es ggT-Prozesse gibt.
+
+Arbeitsphase: 
+Für eine ggT-Berechnung wird das System initialisiert: Der Koordinator informiert die ggT-Prozesse über ihre Werte #Mi (setpm). Er wählt per Zufall 20% aller ggT-Prozesse (mindestens jedoch zwei) aus, die mit der Berechnung beginnen sollen. Eine weitere Nachricht "sendy" startet die GGT-Berechnung. Verändert sich bei einem ggT-Prozess auf Grund der Berechnung sein Wert #Mi, so informiert er den Koordinator darüber (briefmi) und seine linken und rechten Nachbarn (sendy). Stellt ein ggT-Prozess die Terminierung der aktuellen Berechnung fest, so meldet er dem Koordinator das Endergebnis der Berechnung (briefterm). Das System steht für weitere ggT-Berechnungen zur Verfügung. 
+
+Erhält während einer Berechnung ein ggT-Prozess ** Sekunden lang keine Zahl y (sendy oder setpm), startet er eine Terminierungsabstimmung: Dazu befragt er per Multicast über den Namensdienst alle anderen ggT-Prozesse (multicast). Erhält er eine bestimmte Anzah (Quote)l an Zustimmungen (voteYes), ist die Abstimmung positiv verlaufen. .
+
+Beendigungsphase: 
+Der Starter wird in der Initialisierungsphase nach dem Start aller ggT-Prozesse beendet. Die ggT-Prozesse werden vom Koordinator über die Beendigung des Systems informiert (kill). Stellt ein ggT-Prozess fest, dass er sich beenden soll (nur durch explizites kill-Kommando!), hat er dies unverzüglich zu tun, unabhängig von seinem aktuellen Zustand. Die einzige dann noch zulässige (und zwingend durchzuführende) Aktion ist, sich beim Namensdienst abzumelden (unbind). Hat der Koordinator alle  ggT-Prozesse über die Beendigung informiert, meldet er sich beim Namensdienst ab und beendet sich.
+
+Funktionalität
+
+Koordinator
+
+    1. Die benötigten steuernden Werte sind aus der Datei koordinator.cfg auszulesen und umfassen: die Erlang-Node (nameservicenode) und den Namen (nameservicename) des Namensdienstes, die Anzahl der von einem Starter zu startenden ggT-Prozesse (ggtprozessnummer), die Verzögerungszeit der ggT-Prozesse als simulierter Arbeitsaufwand für die Berechnung (arbeitszeit) sowie die Terminierungszeit ** (termzeit), nach der ein ggT-Prozess eine Terminierungsabstimmung durchführt. Ebenso enthalten ist der Name des Koordinators (koordinatorname), inwieweit der Koordinator bei Terminierungsmeldungen korrigierend eingreifen soll (korrigieren) und die für die Abstimmung benötigte Quote (quote) als prozentualer Wert. Der Koordinator registriert sich lokal bei der Erlang-Node.
+    2. Nach dem Start des Koordinators können sich Starter und/oder ggT-Prozesse bei ihm melden.
+    3. Ist der Koordinator im Zustand "initial", gibt er den Startern auf Anfrage die benötigten Informationen über Anzahl der zu startenden ggT-Prozesse, deren Verzögerungszeit, deren **-Terminierungszeit und die Abstimmungsquote als konkrete Anzahl. Die Abstimmungsquote berechnet sich aus der zum Zeitpunkt der Abfrage bekannten Anzahl an erwarteten ggT-Prozessen und dem in der koordinator.cfg vorgegebenem prozentualem Wert.  
+    4. Wird manuell der Koordinator in den Zustand "bereit" versetzt (step), gibt er keinem Starter mehr Auskunft und registriert keine ggT-Prozesse mehr. Er baut nun den Ring auf, indem er per Zufall die ggT-Prozesse in einem Ring anordnet. Erst danach geht er in den Zustand "bereit". 
+    5. Ist der Koordinator im Zustand "bereit" wird per manuellem Befehl (calc) eine ggT-Berechnung gestartet. Der Koordinator informiert dann alle ggT-Prozesse über deren jeweilige Startwerte #Mi und startet die Berechnung. Für die Startwerte #Mi verwendet er die Funktion werkzeug:bestimme_mis/2 zusammen mit dem gewünschten ggT (dieser dient zur Kontrolle der Berechnung!). 
+    6. Er wählt dann per Zufall 20% aller ggT-Prozesse aus, denen er zum Start der Berechnung eine Zahl per sendy sendet, die sich analog zu Punkt 5. berechnet.
+    7. Der Koordinator wird von den ggT-Prozessen über deren Terminierung informiert. Sollte die dort gesendete Zahl größer als die bisher bekannte kleinste Zahl sein, notiert der Koordinator diese Fehlmeldung in seiner log. Ist ein spezielles Flag gesetzt, sendet er dem ggT-Prozess diese kleinste Zahl per sendy. 
+    8. Per manueller Eingabe (kill) kann der Koordinator in den Zustand "beenden" versetzt werden.
+    9. Ist der Koordinator im Zustand "beenden" informiert er die ggT-Prozesse über die Beendigung (kill).
+    10. Der Koordinator ist in Erlang/OTP zu implementieren und muss auf jedem Rechner im Labor startbar sein! Ein ausführliches log, das  die Kommunikation mit den anderen Einheiten detailliert darstellt, ist zu erstellen.
+
+Starter
+
+    11. Der Starter (mit eindeutiger Nummer) erfragt beim Koordinator die steuernden Werte (getsteeringval) asynchron und erwartet einen entsprechenden Rückruf (steeringval).
+    12. Der Starter liest aus der Datei ggt.cfg die weiteren Werte aus: die Erlang-Node des Namensdienstes, der Name des Koordinators, die Nummer der Praktikumsgruppe und die Nummer des Teams.
+    13. Der Starter startet die ggT-Prozesse mit den zugehörigen Werten: der Verzögerungszeit, die Terminierungszeit, der Startnummer dieses Prozesses (also der wievielte gestartete ggT-Prozess er ist), seine eindeutige Starternummer, die Praktikumsgruppennummer, die Teamnummer sowie die benötigten Kontaktdaten für den Namensdienst und den Koordinator und die Abstimmungsquote als konkrete Anzahl. 
+    14. Beim starten des Starters wird ihm seine Starternummer mitgegeben.
+    15. Der Starter ist in Erlang/OTP zu implementieren und muss auf jedem Rechner im Labor startbar sein! 
+
+ggT-Prozess
+
+    16. Ein ggT-Prozess hat den Namen ?????, wobei ????? eine Zahl ist, die sich wie folgt zusammensetzt: 
+   <PraktikumsgruppenID><TeamID><Nummer des ggT-Prozess><Nummer des Starters>, 
+also z.B. ist in der Praktikumsgruppe 4 von dem Team 03 ein zweiter ggT-Prozess von ihrem ersten Starter gestartet worden, so erhält dieser ggT-Prozess den Namen 4321. In der Kommunikation mit externen Prozessen wird dieser Name als atom verwendet, wenn er nicht als Absender dient (From)! 
+    17. Der ggT-Prozess meldet sich beim Koordinator mit seinem Namen an (hello) und beim Namensdienst (rebind). Er registriert sich ebenfalls lokal auf der Erlang-Node mit seinem Namen (register). Der ggT-Prozess erwartet dann vom Koordinator die Informationen über seine Nachbarn (setneighbors).
+    18. Vor einer ggT-Berechnung erwartet der ggT-Prozess vom Koordinator seine Zahl Mi (setpm). Der ggT-Prozess kann zu jeder Zeit zu einer neuen Berechnung aufgefordert werden!
+    19. Der ggT-Prozess reagiert auf die jeweiligen Nachrichten. Wenn er z.B. eine Zahl erhält (sendy) führt er den ggT-Algorithmus aus. Ändert sich seine Zahl dadurch (also hat er echt etwas berechnet), informiert er zusätzlich den Koordinator darüber, indem er diesem seinen Namen, seine neue Zahl und die aktuelle Systemzeit überträgt (briefmi). Ändert sich seine Zahl dadurch nicht, macht der ggT-Prozess gar nichts und erwartet die nächste Nachricht.
+    20. Für eine ggT-Berechnung braucht er jedoch eine gewisse Zeit (die Verzögerungszeit), die ihm vom Starter bei der Initialisierung mitgegeben wurde. Dies simuliert eine größere, Zeit intensivere Aufgabe. Der ggT-Prozess soll in dieser Zeit einfach nichts tun (timer:sleep).
+    21. Der ggT-Prozess beobachtet die Zeit seit dem letzten Empfang einer Zahl (sendy oder setpm). Hat diese ** Sekunden überschritten (Terminierungszeit), startet er eine Terminierungsanfrage (multicast,vote). Es wird von ihm zu einer Zeit nur genau eine Terminierungsanfrage gestartet. Eine weitere kann frühstens dann gestartet werden, wenn zwischenzeitlich eine Zahl (sendy, setpm) an ihn gesendet wurde! 
+    22. Ist die Terminierungsanfrage erfolgreich durchgeführt (voteYes ist bzgl. der Quote oft genug eingegangen), sendet er dem Koordinator eine Mitteilung über die Terminierung der aktuellen Berechnung, die seinen Namen, den errechneten ggT (sein aktuelles Mi) und seine aktuelle Systemzeit beinhaltet. Zudem zählt er seine erfolgreich gemeldeten Terminierungsmeldungen und notiert dies in seinem log. Wenn ein ggT-Prozess eine Anfrage nach der Terminierung (vote) erhält: ist seit dem letzten Empfang einer Zahl mehr als **/2 (** halbe) Sekunden vergangen, dann antwortet er dem Initiator mit voteYes (explizites Zustimmen). Sonst ignoriert er die Nachricht (implizites ablehnen). 
+    23. Der ggT-Prozess ist in Erlang/OTP zu implementieren und muss auf jedem Rechner im Labor startbar sein!
+		

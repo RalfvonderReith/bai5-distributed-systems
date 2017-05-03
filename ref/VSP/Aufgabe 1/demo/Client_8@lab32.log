@@ -1,0 +1,440 @@
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC Startzeit: 16.06 09:55:28,141| mit PID <0.55.0>
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC Startzeit: 16.06 09:55:31,442| mit PID <0.55.0>
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 8te_Nachricht. Sendezeit: 16.06 09:55:31,292| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 16te_Nachricht. Sendezeit: 16.06 09:55:34,070| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 25te_Nachricht. Sendezeit: 16.06 09:55:34,332| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 34te_Nachricht. Sendezeit: 16.06 09:55:37,092| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 42te_Nachricht. Sendezeit: 16.06 09:55:37,413| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 51te_Nachricht. Sendezeit: 16.06 09:55:40,162| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 60te_Nachricht. Sendezeit: 16.06 09:55:40,453| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 78te_Nachricht. Sendezeit: 16.06 09:55:43,266| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 89te_Nachricht. Sendezeit: 16.06 09:55:43,491| gesendet
+121te_Nachricht um 16.06 09:55:43,525| vergessen zu senden ******
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 53te_Nachricht. Sendezeit: 16.06 09:55:40,370|(53); Empfangszeit: 16.06 09:55:40,469|; Durchlesezeit: 16.06 09:55:43,735|
+3-c3@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 54te_Nachricht. Sendezeit: 16.06 09:55:40,450|(54); Empfangszeit: 16.06 09:55:40,576|; Durchlesezeit: 16.06 09:55:43,805|
+7-c4@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 55te_Nachricht. Sendezeit: 16.06 09:55:40,451|(55); Empfangszeit: 16.06 09:55:40,531|; Durchlesezeit: 16.06 09:55:43,909|
+5-c4@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 56te_Nachricht. Sendezeit: 16.06 09:55:40,451|(56); Empfangszeit: 16.06 09:55:40,528|; Durchlesezeit: 16.06 09:55:43,028|
+3-c4@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 57te_Nachricht. Sendezeit: 16.06 09:55:40,451|(57); Empfangszeit: 16.06 09:55:40,524|; Durchlesezeit: 16.06 09:55:43,100|
+1-c4@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 58te_Nachricht. Sendezeit: 16.06 09:55:40,450|(58); Empfangszeit: 16.06 09:55:40,521|; Durchlesezeit: 16.06 09:55:43,164|
+6-c4@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 59te_Nachricht. Sendezeit: 16.06 09:55:40,453|(59); Empfangszeit: 16.06 09:55:40,546|; Durchlesezeit: 16.06 09:55:43,262|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 60te_Nachricht. Sendezeit: 16.06 09:55:40,453|(60); Empfangszeit: 16.06 09:55:40,543|; Durchlesezeit: 16.06 09:55:43,473|
+2-c4@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 62te_Nachricht. Sendezeit: 16.06 09:55:40,452|(62); Empfangszeit: 16.06 09:55:40,537|; Durchlesezeit: 16.06 09:55:43,559|
+4-c4@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 61te_Nachricht. Sendezeit: 16.06 09:55:40,452|(61); Empfangszeit: 16.06 09:55:40,540|; Durchlesezeit: 16.06 09:55:43,512|
+0-c4@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 63te_Nachricht. Sendezeit: 16.06 09:55:40,452|(63); Empfangszeit: 16.06 09:55:40,534|; Durchlesezeit: 16.06 09:55:43,960|
+3-c2@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 64te_Nachricht. Sendezeit: 16.06 09:55:42,770|(64); Empfangszeit: 16.06 09:55:42,782|; Durchlesezeit: 16.06 09:55:43,134|
+4-c2@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 65te_Nachricht. Sendezeit: 16.06 09:55:42,769|(65); Empfangszeit: 16.06 09:55:42,781|; Durchlesezeit: 16.06 09:55:43,170|
+6-c2@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 66te_Nachricht. Sendezeit: 16.06 09:55:42,769|(66); Empfangszeit: 16.06 09:55:42,780|; Durchlesezeit: 16.06 09:55:43,287|
+7-c2@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 67te_Nachricht. Sendezeit: 16.06 09:55:42,768|(67); Empfangszeit: 16.06 09:55:42,778|; Durchlesezeit: 16.06 09:55:43,372|
+0-c2@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 68te_Nachricht. Sendezeit: 16.06 09:55:42,768|(68); Empfangszeit: 16.06 09:55:42,777|; Durchlesezeit: 16.06 09:55:43,932|
+2-c2@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 69te_Nachricht. Sendezeit: 16.06 09:55:42,767|(69); Empfangszeit: 16.06 09:55:42,776|; Durchlesezeit: 16.06 09:55:43,961|
+8-c2@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 70te_Nachricht. Sendezeit: 16.06 09:55:42,767|(70); Empfangszeit: 16.06 09:55:42,775|; Durchlesezeit: 16.06 09:55:44,429|
+5-c2@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 71te_Nachricht. Sendezeit: 16.06 09:55:42,765|(71); Empfangszeit: 16.06 09:55:42,773|; Durchlesezeit: 16.06 09:55:44,045|
+1-c2@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 72te_Nachricht. Sendezeit: 16.06 09:55:42,770|(72); Empfangszeit: 16.06 09:55:42,783|; Durchlesezeit: 16.06 09:55:44,168|
+7-c3@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 73te_Nachricht. Sendezeit: 16.06 09:55:43,211|(73); Empfangszeit: 16.06 09:55:43,293|; Durchlesezeit: 16.06 09:55:44,576|
+4-c3@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 74te_Nachricht. Sendezeit: 16.06 09:55:43,211|(74); Empfangszeit: 16.06 09:55:43,290|; Durchlesezeit: 16.06 09:55:44,723|
+0-c3@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 75te_Nachricht. Sendezeit: 16.06 09:55:43,210|(75); Empfangszeit: 16.06 09:55:43,287|; Durchlesezeit: 16.06 09:55:44,464|
+2-c3@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 76te_Nachricht. Sendezeit: 16.06 09:55:43,210|(76); Empfangszeit: 16.06 09:55:43,284|; Durchlesezeit: 16.06 09:55:44,207|
+6-c3@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 77te_Nachricht. Sendezeit: 16.06 09:55:43,214|(77); Empfangszeit: 16.06 09:55:43,296|; Durchlesezeit: 16.06 09:55:44,875|
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 78te_Nachricht. Sendezeit: 16.06 09:55:43,266|(78); Empfangszeit: 16.06 09:55:43,394|; Durchlesezeit: 16.06 09:55:44,884|
+1-c3@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 79te_Nachricht. Sendezeit: 16.06 09:55:43,265|(79); Empfangszeit: 16.06 09:55:43,391|; Durchlesezeit: 16.06 09:55:44,933|
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 80te_Nachricht. Sendezeit: 16.06 09:55:43,450|(80); Empfangszeit: 16.06 09:55:43,535|; Durchlesezeit: 16.06 09:55:44,142|
+3-c3@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 81te_Nachricht. Sendezeit: 16.06 09:55:43,530|(81); Empfangszeit: 16.06 09:55:43,634|; Durchlesezeit: 16.06 09:55:44,031|
+1-c4@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 82te_Nachricht. Sendezeit: 16.06 09:55:43,490|(82); Empfangszeit: 16.06 09:55:43,564|; Durchlesezeit: 16.06 09:55:44,052|
+3-c4@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 83te_Nachricht. Sendezeit: 16.06 09:55:43,490|(83); Empfangszeit: 16.06 09:55:43,561|; Durchlesezeit: 16.06 09:55:44,210|
+..getmessages..Done...
+128te_Nachricht um 16.06 09:55:44,382| vergessen zu senden ******
+Neues Sendeintervall: 1 Sekunden (3).
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 136te_Nachricht. Sendezeit: 16.06 09:55:45,731| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 115te_Nachricht. Sendezeit: 16.06 09:55:46,407| gesendet
+178te_Nachricht um 16.06 09:55:46,443| vergessen zu senden ******
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 80te_Nachricht. Sendezeit: 16.06 09:55:43,450|(80); Empfangszeit: 16.06 09:55:43,535|; Durchlesezeit: 16.06 09:55:46,522|
+3-c3@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 81te_Nachricht. Sendezeit: 16.06 09:55:43,530|(81); Empfangszeit: 16.06 09:55:43,634|; Durchlesezeit: 16.06 09:55:46,723|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 148te_Nachricht. Sendezeit: 16.06 09:55:46,771| gesendet
+2-c4@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 87te_Nachricht. Sendezeit: 16.06 09:55:43,492|(87); Empfangszeit: 16.06 09:55:43,576|; Durchlesezeit: 16.06 09:55:46,801|
+4-c4@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 88te_Nachricht. Sendezeit: 16.06 09:55:43,491|(88); Empfangszeit: 16.06 09:55:43,573|; Durchlesezeit: 16.06 09:55:46,895|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 89te_Nachricht. Sendezeit: 16.06 09:55:43,491|(89); Empfangszeit: 16.06 09:55:43,570|; Durchlesezeit: 16.06 09:55:46,016|
+6-c4@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 90te_Nachricht. Sendezeit: 16.06 09:55:43,491|(90); Empfangszeit: 16.06 09:55:43,567|; Durchlesezeit: 16.06 09:55:46,186|
+3-c1@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 91te_Nachricht. Sendezeit: 16.06 09:55:45,926|(91); Empfangszeit: 16.06 09:55:45,928|; Durchlesezeit: 16.06 09:55:46,271|
+7-c1@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 92te_Nachricht. Sendezeit: 16.06 09:55:45,927|(92); Empfangszeit: 16.06 09:55:45,942|; Durchlesezeit: 16.06 09:55:46,381|
+1-c1@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 93te_Nachricht. Sendezeit: 16.06 09:55:45,926|(93); Empfangszeit: 16.06 09:55:45,936|; Durchlesezeit: 16.06 09:55:46,485|
+8-c1@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 94te_Nachricht. Sendezeit: 16.06 09:55:45,926|(94); Empfangszeit: 16.06 09:55:45,935|; Durchlesezeit: 16.06 09:55:46,571|
+4-c1@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 95te_Nachricht. Sendezeit: 16.06 09:55:45,926|(95); Empfangszeit: 16.06 09:55:45,933|; Durchlesezeit: 16.06 09:55:46,673|
+2-c1@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 96te_Nachricht. Sendezeit: 16.06 09:55:45,090|(96); Empfangszeit: 16.06 09:55:45,128|; Durchlesezeit: 16.06 09:55:46,757|
+5-c1@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 97te_Nachricht. Sendezeit: 16.06 09:55:45,091|(97); Empfangszeit: 16.06 09:55:45,132|; Durchlesezeit: 16.06 09:55:46,809|
+6-c1@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 98te_Nachricht. Sendezeit: 16.06 09:55:45,091|(98); Empfangszeit: 16.06 09:55:45,135|; Durchlesezeit: 16.06 09:55:46,890|
+0-c1@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 99te_Nachricht. Sendezeit: 16.06 09:55:45,091|(99); Empfangszeit: 16.06 09:55:45,139|; Durchlesezeit: 16.06 09:55:46,928|
+5-c2@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 100te_Nachricht. Sendezeit: 16.06 09:55:45,845|(100); Empfangszeit: 16.06 09:55:45,848|; Durchlesezeit: 16.06 09:55:46,036|
+8-c2@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 101te_Nachricht. Sendezeit: 16.06 09:55:45,849|(101); Empfangszeit: 16.06 09:55:45,905|; Durchlesezeit: 16.06 09:55:46,111|
+2-c2@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 102te_Nachricht. Sendezeit: 16.06 09:55:45,849|(102); Empfangszeit: 16.06 09:55:45,902|; Durchlesezeit: 16.06 09:55:46,172|
+0-c2@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 103te_Nachricht. Sendezeit: 16.06 09:55:45,848|(103); Empfangszeit: 16.06 09:55:45,899|; Durchlesezeit: 16.06 09:55:46,272|
+7-c2@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 104te_Nachricht. Sendezeit: 16.06 09:55:45,848|(104); Empfangszeit: 16.06 09:55:45,896|; Durchlesezeit: 16.06 09:55:46,306|
+6-c2@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 105te_Nachricht. Sendezeit: 16.06 09:55:45,847|(105); Empfangszeit: 16.06 09:55:45,893|; Durchlesezeit: 16.06 09:55:46,382|
+4-c2@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 106te_Nachricht. Sendezeit: 16.06 09:55:45,847|(106); Empfangszeit: 16.06 09:55:45,889|; Durchlesezeit: 16.06 09:55:46,478|
+3-c2@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 107te_Nachricht. Sendezeit: 16.06 09:55:45,846|(107); Empfangszeit: 16.06 09:55:45,873|; Durchlesezeit: 16.06 09:55:46,517|
+1-c2@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 108te_Nachricht. Sendezeit: 16.06 09:55:45,845|(108); Empfangszeit: 16.06 09:55:45,849|; Durchlesezeit: 16.06 09:55:46,614|
+2-c3@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 109te_Nachricht. Sendezeit: 16.06 09:55:46,290|(109); Empfangszeit: 16.06 09:55:46,361|; Durchlesezeit: 16.06 09:55:46,760|
+0-c3@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 110te_Nachricht. Sendezeit: 16.06 09:55:46,291|(110); Empfangszeit: 16.06 09:55:46,363|; Durchlesezeit: 16.06 09:55:46,903|
+4-c3@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 111te_Nachricht. Sendezeit: 16.06 09:55:46,291|(111); Empfangszeit: 16.06 09:55:46,369|; Durchlesezeit: 16.06 09:55:46,964|
+7-c3@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 112te_Nachricht. Sendezeit: 16.06 09:55:46,291|(112); Empfangszeit: 16.06 09:55:46,371|; Durchlesezeit: 16.06 09:55:46,305|
+6-c3@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 113te_Nachricht. Sendezeit: 16.06 09:55:46,292|(113); Empfangszeit: 16.06 09:55:46,374|; Durchlesezeit: 16.06 09:55:46,486|
+1-c3@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 114te_Nachricht. Sendezeit: 16.06 09:55:46,357|(114); Empfangszeit: 16.06 09:55:46,485|; Durchlesezeit: 16.06 09:55:46,494|
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 115te_Nachricht. Sendezeit: 16.06 09:55:46,407|(115); Empfangszeit: 16.06 09:55:46,493|; Durchlesezeit: 16.06 09:55:46,514|
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 116te_Nachricht. Sendezeit: 16.06 09:55:46,488|(116); Empfangszeit: 16.06 09:55:46,735|; Durchlesezeit: 16.06 09:55:46,691|
+3-c3@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 117te_Nachricht. Sendezeit: 16.06 09:55:46,646|(117); Empfangszeit: 16.06 09:55:46,754|; Durchlesezeit: 16.06 09:55:46,760|
+..getmessages..Done...
+Neues Sendeintervall: 1 Sekunden (3).
+192te_Nachricht um 16.06 09:55:46,971| vergessen zu senden ******
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 183te_Nachricht. Sendezeit: 16.06 09:55:47,955| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 199te_Nachricht. Sendezeit: 16.06 09:55:47,015| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 214te_Nachricht. Sendezeit: 16.06 09:55:48,035| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 220te_Nachricht. Sendezeit: 16.06 09:55:48,050| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 232te_Nachricht. Sendezeit: 16.06 09:55:49,076| gesendet
+268te_Nachricht um 16.06 09:55:49,131| vergessen zu senden ******
+0-c3@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 110te_Nachricht. Sendezeit: 16.06 09:55:46,291|(110); Empfangszeit: 16.06 09:55:46,363|; Durchlesezeit: 16.06 09:55:49,301|
+4-c3@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 111te_Nachricht. Sendezeit: 16.06 09:55:46,291|(111); Empfangszeit: 16.06 09:55:46,369|; Durchlesezeit: 16.06 09:55:49,350|
+7-c3@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 112te_Nachricht. Sendezeit: 16.06 09:55:46,291|(112); Empfangszeit: 16.06 09:55:46,371|; Durchlesezeit: 16.06 09:55:49,406|
+6-c3@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 113te_Nachricht. Sendezeit: 16.06 09:55:46,292|(113); Empfangszeit: 16.06 09:55:46,374|; Durchlesezeit: 16.06 09:55:49,441|
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 115te_Nachricht. Sendezeit: 16.06 09:55:46,407|(115); Empfangszeit: 16.06 09:55:46,493|; Durchlesezeit: 16.06 09:55:49,683|
+1-c3@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 114te_Nachricht. Sendezeit: 16.06 09:55:46,357|(114); Empfangszeit: 16.06 09:55:46,485|; Durchlesezeit: 16.06 09:55:49,679|
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 116te_Nachricht. Sendezeit: 16.06 09:55:46,488|(116); Empfangszeit: 16.06 09:55:46,735|; Durchlesezeit: 16.06 09:55:49,772|
+3-c3@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 117te_Nachricht. Sendezeit: 16.06 09:55:46,646|(117); Empfangszeit: 16.06 09:55:46,754|; Durchlesezeit: 16.06 09:55:49,844|
+***Fehlernachricht fuer Nachrichtennummer 118 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:49,008|
+***Fehlernachricht fuer Nachrichtennummer 119 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:49,048|
+***Fehlernachricht fuer Nachrichtennummer 120 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:49,106|
+***Fehlernachricht fuer Nachrichtennummer 121 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:49,170|
+***Fehlernachricht fuer Nachrichtennummer 122 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:49,208|
+***Fehlernachricht fuer Nachrichtennummer 123 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,234|
+***Fehlernachricht fuer Nachrichtennummer 124 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,318|
+***Fehlernachricht fuer Nachrichtennummer 125 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,366|
+***Fehlernachricht fuer Nachrichtennummer 126 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,459|
+***Fehlernachricht fuer Nachrichtennummer 127 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,536|
+***Fehlernachricht fuer Nachrichtennummer 128 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,554|
+***Fehlernachricht fuer Nachrichtennummer 129 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,588|
+***Fehlernachricht fuer Nachrichtennummer 130 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,663|
+***Fehlernachricht fuer Nachrichtennummer 131 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,730|
+***Fehlernachricht fuer Nachrichtennummer 132 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,805|
+***Fehlernachricht fuer Nachrichtennummer 133 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:49,036|
+***Fehlernachricht fuer Nachrichtennummer 134 um 16.06 09:55:46,164|.; Durchlesezeit: 16.06 09:55:49,153|
+1-c4@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 135te_Nachricht. Sendezeit: 16.06 09:55:45,732|(135); Empfangszeit: 16.06 09:55:45,808|; Durchlesezeit: 16.06 09:55:49,244|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 136te_Nachricht. Sendezeit: 16.06 09:55:45,731|(136); Empfangszeit: 16.06 09:55:45,807|; Durchlesezeit: 16.06 09:55:49,340|
+2-c4@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 137te_Nachricht. Sendezeit: 16.06 09:55:45,730|(137); Empfangszeit: 16.06 09:55:45,804|; Durchlesezeit: 16.06 09:55:49,438|
+6-c4@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 138te_Nachricht. Sendezeit: 16.06 09:55:45,732|(138); Empfangszeit: 16.06 09:55:45,810|; Durchlesezeit: 16.06 09:55:49,463|
+3-c4@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 139te_Nachricht. Sendezeit: 16.06 09:55:45,733|(139); Empfangszeit: 16.06 09:55:45,811|; Durchlesezeit: 16.06 09:55:49,553|
+0-c4@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 140te_Nachricht. Sendezeit: 16.06 09:55:45,731|(140); Empfangszeit: 16.06 09:55:45,806|; Durchlesezeit: 16.06 09:55:49,585|
+..getmessages..Done...
+277te_Nachricht um 16.06 09:55:49,763| vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden (1).
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 244te_Nachricht. Sendezeit: 16.06 09:55:49,090| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 290te_Nachricht. Sendezeit: 16.06 09:55:50,292| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 281te_Nachricht. Sendezeit: 16.06 09:55:51,820| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 302te_Nachricht. Sendezeit: 16.06 09:55:51,347| gesendet
+327te_Nachricht um 16.06 09:55:51,407| vergessen zu senden ******
+0-c3@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 110te_Nachricht. Sendezeit: 16.06 09:55:46,291|(110); Empfangszeit: 16.06 09:55:46,363|; Durchlesezeit: 16.06 09:55:51,515|
+4-c3@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 111te_Nachricht. Sendezeit: 16.06 09:55:46,291|(111); Empfangszeit: 16.06 09:55:46,369|; Durchlesezeit: 16.06 09:55:51,555|
+7-c3@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 112te_Nachricht. Sendezeit: 16.06 09:55:46,291|(112); Empfangszeit: 16.06 09:55:46,371|; Durchlesezeit: 16.06 09:55:51,865|
+6-c3@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 113te_Nachricht. Sendezeit: 16.06 09:55:46,292|(113); Empfangszeit: 16.06 09:55:46,374|; Durchlesezeit: 16.06 09:55:51,926|
+1-c3@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 114te_Nachricht. Sendezeit: 16.06 09:55:46,357|(114); Empfangszeit: 16.06 09:55:46,485|; Durchlesezeit: 16.06 09:55:51,008|
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 115te_Nachricht. Sendezeit: 16.06 09:55:46,407|(115); Empfangszeit: 16.06 09:55:46,493|; Durchlesezeit: 16.06 09:55:51,151|
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 116te_Nachricht. Sendezeit: 16.06 09:55:46,488|(116); Empfangszeit: 16.06 09:55:46,735|; Durchlesezeit: 16.06 09:55:51,298|
+3-c3@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 117te_Nachricht. Sendezeit: 16.06 09:55:46,646|(117); Empfangszeit: 16.06 09:55:46,754|; Durchlesezeit: 16.06 09:55:51,640|
+***Fehlernachricht fuer Nachrichtennummer 118 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:51,022|
+***Fehlernachricht fuer Nachrichtennummer 119 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:51,066|
+***Fehlernachricht fuer Nachrichtennummer 120 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:51,120|
+***Fehlernachricht fuer Nachrichtennummer 121 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:51,166|
+***Fehlernachricht fuer Nachrichtennummer 122 um 16.06 09:55:46,166|.; Durchlesezeit: 16.06 09:55:51,313|
+***Fehlernachricht fuer Nachrichtennummer 123 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,421|
+***Fehlernachricht fuer Nachrichtennummer 124 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,502|
+***Fehlernachricht fuer Nachrichtennummer 125 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,616|
+***Fehlernachricht fuer Nachrichtennummer 127 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,755|
+***Fehlernachricht fuer Nachrichtennummer 126 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,706|
+***Fehlernachricht fuer Nachrichtennummer 128 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,001|
+***Fehlernachricht fuer Nachrichtennummer 129 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,088|
+***Fehlernachricht fuer Nachrichtennummer 130 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,199|
+***Fehlernachricht fuer Nachrichtennummer 131 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,281|
+***Fehlernachricht fuer Nachrichtennummer 132 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,502|
+***Fehlernachricht fuer Nachrichtennummer 133 um 16.06 09:55:46,165|.; Durchlesezeit: 16.06 09:55:51,619|
+***Fehlernachricht fuer Nachrichtennummer 134 um 16.06 09:55:46,164|.; Durchlesezeit: 16.06 09:55:51,704|
+1-c4@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 135te_Nachricht. Sendezeit: 16.06 09:55:45,732|(135); Empfangszeit: 16.06 09:55:45,808|; Durchlesezeit: 16.06 09:55:51,215|
+***Fehlernachricht fuer Nachrichtennummer 141 um 16.06 09:55:51,311|.; Durchlesezeit: 16.06 09:55:51,278|
+7-c4@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 142te_Nachricht. Sendezeit: 16.06 09:55:45,730|(142); Empfangszeit: 16.06 09:55:45,801|; Durchlesezeit: 16.06 09:55:51,437|
+5-c4@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 143te_Nachricht. Sendezeit: 16.06 09:55:45,733|(143); Empfangszeit: 16.06 09:55:45,813|; Durchlesezeit: 16.06 09:55:51,537|
+4-c4@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 144te_Nachricht. Sendezeit: 16.06 09:55:45,095|(144); Empfangszeit: 16.06 09:55:45,169|; Durchlesezeit: 16.06 09:55:51,764|
+7-c4@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 145te_Nachricht. Sendezeit: 16.06 09:55:46,772|(145); Empfangszeit: 16.06 09:55:46,935|; Durchlesezeit: 16.06 09:55:51,874|
+2-c4@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 146te_Nachricht. Sendezeit: 16.06 09:55:46,771|(146); Empfangszeit: 16.06 09:55:46,923|; Durchlesezeit: 16.06 09:55:51,968|
+0-c4@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 147te_Nachricht. Sendezeit: 16.06 09:55:46,771|(147); Empfangszeit: 16.06 09:55:46,925|; Durchlesezeit: 16.06 09:55:52,060|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 148te_Nachricht. Sendezeit: 16.06 09:55:46,771|(148); Empfangszeit: 16.06 09:55:46,929|; Durchlesezeit: 16.06 09:55:52,381|
+1-c4@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 149te_Nachricht. Sendezeit: 16.06 09:55:46,771|(149); Empfangszeit: 16.06 09:55:46,932|; Durchlesezeit: 16.06 09:55:52,834|
+6-c4@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 150te_Nachricht. Sendezeit: 16.06 09:55:46,772|(150); Empfangszeit: 16.06 09:55:46,937|; Durchlesezeit: 16.06 09:55:52,070|
+3-c4@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 151te_Nachricht. Sendezeit: 16.06 09:55:46,772|(151); Empfangszeit: 16.06 09:55:46,941|; Durchlesezeit: 16.06 09:55:52,349|
+5-c4@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 152te_Nachricht. Sendezeit: 16.06 09:55:46,772|(152); Empfangszeit: 16.06 09:55:46,944|; Durchlesezeit: 16.06 09:55:52,583|
+4-c4@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 153te_Nachricht. Sendezeit: 16.06 09:55:46,170|(153); Empfangszeit: 16.06 09:55:46,311|; Durchlesezeit: 16.06 09:55:52,135|
+3-c1@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 154te_Nachricht. Sendezeit: 16.06 09:55:48,006|(154); Empfangszeit: 16.06 09:55:48,022|; Durchlesezeit: 16.06 09:55:52,075|
+4-c1@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 155te_Nachricht. Sendezeit: 16.06 09:55:48,006|(155); Empfangszeit: 16.06 09:55:48,019|; Durchlesezeit: 16.06 09:55:52,303|
+8-c1@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 156te_Nachricht. Sendezeit: 16.06 09:55:48,005|(156); Empfangszeit: 16.06 09:55:48,015|; Durchlesezeit: 16.06 09:55:52,026|
+1-c1@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 157te_Nachricht. Sendezeit: 16.06 09:55:48,009|(157); Empfangszeit: 16.06 09:55:48,027|; Durchlesezeit: 16.06 09:55:52,072|
+7-c1@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 158te_Nachricht. Sendezeit: 16.06 09:55:48,005|(158); Empfangszeit: 16.06 09:55:48,007|; Durchlesezeit: 16.06 09:55:52,302|
+2-c1@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 159te_Nachricht. Sendezeit: 16.06 09:55:48,175|(159); Empfangszeit: 16.06 09:55:48,226|; Durchlesezeit: 16.06 09:55:52,605|
+5-c1@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 160te_Nachricht. Sendezeit: 16.06 09:55:48,176|(160); Empfangszeit: 16.06 09:55:48,274|; Durchlesezeit: 16.06 09:55:52,660|
+6-c1@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 161te_Nachricht. Sendezeit: 16.06 09:55:48,175|(161); Empfangszeit: 16.06 09:55:48,224|; Durchlesezeit: 16.06 09:55:52,699|
+0-c1@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 162te_Nachricht. Sendezeit: 16.06 09:55:48,175|(162); Empfangszeit: 16.06 09:55:48,243|; Durchlesezeit: 16.06 09:55:52,788|
+5-c2@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 163te_Nachricht. Sendezeit: 16.06 09:55:48,885|(163); Empfangszeit: 16.06 09:55:48,887|; Durchlesezeit: 16.06 09:55:52,356|
+1-c2@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 164te_Nachricht. Sendezeit: 16.06 09:55:48,885|(164); Empfangszeit: 16.06 09:55:48,889|; Durchlesezeit: 16.06 09:55:52,493|
+3-c2@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 165te_Nachricht. Sendezeit: 16.06 09:55:48,890|(165); Empfangszeit: 16.06 09:55:48,896|; Durchlesezeit: 16.06 09:55:52,601|
+4-c2@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 166te_Nachricht. Sendezeit: 16.06 09:55:48,920|(166); Empfangszeit: 16.06 09:55:48,993|; Durchlesezeit: 16.06 09:55:52,678|
+6-c2@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 167te_Nachricht. Sendezeit: 16.06 09:55:48,920|(167); Empfangszeit: 16.06 09:55:48,996|; Durchlesezeit: 16.06 09:55:52,868|
+7-c2@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 168te_Nachricht. Sendezeit: 16.06 09:55:48,920|(168); Empfangszeit: 16.06 09:55:48,008|; Durchlesezeit: 16.06 09:55:52,882|
+0-c2@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 169te_Nachricht. Sendezeit: 16.06 09:55:48,921|(169); Empfangszeit: 16.06 09:55:48,011|; Durchlesezeit: 16.06 09:55:52,894|
+2-c2@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 170te_Nachricht. Sendezeit: 16.06 09:55:48,921|(170); Empfangszeit: 16.06 09:55:48,014|; Durchlesezeit: 16.06 09:55:52,935|
+8-c2@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 171te_Nachricht. Sendezeit: 16.06 09:55:48,921|(171); Empfangszeit: 16.06 09:55:48,017|; Durchlesezeit: 16.06 09:55:52,108|
+..getmessages..Done...
+351te_Nachricht um 16.06 09:55:52,344| vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden (1).
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 320te_Nachricht. Sendezeit: 16.06 09:55:53,890| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 356te_Nachricht. Sendezeit: 16.06 09:55:54,439| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 365te_Nachricht. Sendezeit: 16.06 09:55:55,975| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 387te_Nachricht. Sendezeit: 16.06 09:55:56,572| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 417te_Nachricht. Sendezeit: 16.06 09:55:57,091| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 438te_Nachricht. Sendezeit: 16.06 09:55:58,654| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 463te_Nachricht. Sendezeit: 16.06 09:55:59,250| gesendet
+524te_Nachricht um 16.06 09:55:59,327| vergessen zu senden ******
+2-c1@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 159te_Nachricht. Sendezeit: 16.06 09:55:48,175|(159); Empfangszeit: 16.06 09:55:48,226|; Durchlesezeit: 16.06 09:55:59,487|
+5-c1@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 160te_Nachricht. Sendezeit: 16.06 09:55:48,176|(160); Empfangszeit: 16.06 09:55:48,274|; Durchlesezeit: 16.06 09:55:59,521|
+6-c1@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 161te_Nachricht. Sendezeit: 16.06 09:55:48,175|(161); Empfangszeit: 16.06 09:55:48,224|; Durchlesezeit: 16.06 09:55:59,634|
+0-c1@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 162te_Nachricht. Sendezeit: 16.06 09:55:48,175|(162); Empfangszeit: 16.06 09:55:48,243|; Durchlesezeit: 16.06 09:55:59,740|
+5-c2@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 163te_Nachricht. Sendezeit: 16.06 09:55:48,885|(163); Empfangszeit: 16.06 09:55:48,887|; Durchlesezeit: 16.06 09:55:59,848|
+1-c2@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 164te_Nachricht. Sendezeit: 16.06 09:55:48,885|(164); Empfangszeit: 16.06 09:55:48,889|; Durchlesezeit: 16.06 09:55:59,958|
+3-c2@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 165te_Nachricht. Sendezeit: 16.06 09:55:48,890|(165); Empfangszeit: 16.06 09:55:48,896|; Durchlesezeit: 16.06 09:55:59,092|
+4-c2@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 166te_Nachricht. Sendezeit: 16.06 09:55:48,920|(166); Empfangszeit: 16.06 09:55:48,993|; Durchlesezeit: 16.06 09:55:59,159|
+6-c2@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 167te_Nachricht. Sendezeit: 16.06 09:55:48,920|(167); Empfangszeit: 16.06 09:55:48,996|; Durchlesezeit: 16.06 09:55:59,202|
+7-c2@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 168te_Nachricht. Sendezeit: 16.06 09:55:48,920|(168); Empfangszeit: 16.06 09:55:48,008|; Durchlesezeit: 16.06 09:55:59,275|
+0-c2@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 169te_Nachricht. Sendezeit: 16.06 09:55:48,921|(169); Empfangszeit: 16.06 09:55:48,011|; Durchlesezeit: 16.06 09:55:59,373|
+2-c2@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 170te_Nachricht. Sendezeit: 16.06 09:55:48,921|(170); Empfangszeit: 16.06 09:55:48,014|; Durchlesezeit: 16.06 09:55:59,571|
+8-c2@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 171te_Nachricht. Sendezeit: 16.06 09:55:48,921|(171); Empfangszeit: 16.06 09:55:48,017|; Durchlesezeit: 16.06 09:55:59,942|
+***Fehlernachricht fuer Nachrichtennummer 172 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:55:59,993|
+***Fehlernachricht fuer Nachrichtennummer 173 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:55:59,045|
+***Fehlernachricht fuer Nachrichtennummer 174 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:55:59,082|
+***Fehlernachricht fuer Nachrichtennummer 175 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:55:59,134|
+***Fehlernachricht fuer Nachrichtennummer 176 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:55:59,165|
+***Fehlernachricht fuer Nachrichtennummer 177 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:55:59,188|
+0-c4@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 181te_Nachricht. Sendezeit: 16.06 09:55:47,955|(181); Empfangszeit: 16.06 09:55:47,055|; Durchlesezeit: 16.06 09:55:59,522|
+2-c4@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 182te_Nachricht. Sendezeit: 16.06 09:55:47,930|(182); Empfangszeit: 16.06 09:55:47,001|; Durchlesezeit: 16.06 09:55:59,614|
+***Fehlernachricht fuer Nachrichtennummer 178 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:55:59,264|
+***Fehlernachricht fuer Nachrichtennummer 179 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:55:59,350|
+***Fehlernachricht fuer Nachrichtennummer 180 um 16.06 09:55:56,365|.; Durchlesezeit: 16.06 09:55:59,410|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 183te_Nachricht. Sendezeit: 16.06 09:55:47,955|(183); Empfangszeit: 16.06 09:55:47,052|; Durchlesezeit: 16.06 09:55:59,820|
+1-c4@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 184te_Nachricht. Sendezeit: 16.06 09:55:47,954|(184); Empfangszeit: 16.06 09:55:47,049|; Durchlesezeit: 16.06 09:55:59,922|
+7-c4@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 185te_Nachricht. Sendezeit: 16.06 09:55:47,941|(185); Empfangszeit: 16.06 09:55:47,021|; Durchlesezeit: 16.06 09:55:59,015|
+6-c4@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 186te_Nachricht. Sendezeit: 16.06 09:55:47,940|(186); Empfangszeit: 16.06 09:55:47,010|; Durchlesezeit: 16.06 09:55:59,072|
+3-c4@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 187te_Nachricht. Sendezeit: 16.06 09:55:47,940|(187); Empfangszeit: 16.06 09:55:47,014|; Durchlesezeit: 16.06 09:55:59,146|
+5-c4@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 188te_Nachricht. Sendezeit: 16.06 09:55:47,941|(188); Empfangszeit: 16.06 09:55:47,018|; Durchlesezeit: 16.06 09:55:59,220|
+4-c4@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 189te_Nachricht. Sendezeit: 16.06 09:55:47,290|(189); Empfangszeit: 16.06 09:55:47,362|; Durchlesezeit: 16.06 09:55:59,309|
+..getmessages..Done...
+541te_Nachricht um 16.06 09:55:59,431| vergessen zu senden ******
+Neues Sendeintervall: 3 Sekunden (2).
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 503te_Nachricht. Sendezeit: 16.06 09:56:00,810| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 571te_Nachricht. Sendezeit: 16.06 09:56:02,965| gesendet
+618te_Nachricht um 16.06 09:56:02,200| vergessen zu senden ******
+3-c2@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 165te_Nachricht. Sendezeit: 16.06 09:55:48,890|(165); Empfangszeit: 16.06 09:55:48,896|; Durchlesezeit: 16.06 09:56:02,332|
+4-c2@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 166te_Nachricht. Sendezeit: 16.06 09:55:48,920|(166); Empfangszeit: 16.06 09:55:48,993|; Durchlesezeit: 16.06 09:56:02,469|
+6-c2@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 167te_Nachricht. Sendezeit: 16.06 09:55:48,920|(167); Empfangszeit: 16.06 09:55:48,996|; Durchlesezeit: 16.06 09:56:02,619|
+7-c2@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 168te_Nachricht. Sendezeit: 16.06 09:55:48,920|(168); Empfangszeit: 16.06 09:55:48,008|; Durchlesezeit: 16.06 09:56:02,750|
+0-c2@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 169te_Nachricht. Sendezeit: 16.06 09:55:48,921|(169); Empfangszeit: 16.06 09:55:48,011|; Durchlesezeit: 16.06 09:56:02,805|
+2-c2@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 170te_Nachricht. Sendezeit: 16.06 09:55:48,921|(170); Empfangszeit: 16.06 09:55:48,014|; Durchlesezeit: 16.06 09:56:02,828|
+8-c2@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 171te_Nachricht. Sendezeit: 16.06 09:55:48,921|(171); Empfangszeit: 16.06 09:55:48,017|; Durchlesezeit: 16.06 09:56:02,971|
+***Fehlernachricht fuer Nachrichtennummer 172 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:56:02,142|
+***Fehlernachricht fuer Nachrichtennummer 173 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:56:02,282|
+***Fehlernachricht fuer Nachrichtennummer 174 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:56:02,453|
+***Fehlernachricht fuer Nachrichtennummer 175 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:56:02,521|
+***Fehlernachricht fuer Nachrichtennummer 176 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:56:02,689|
+***Fehlernachricht fuer Nachrichtennummer 177 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:56:02,938|
+***Fehlernachricht fuer Nachrichtennummer 178 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:56:02,075|
+***Fehlernachricht fuer Nachrichtennummer 179 um 16.06 09:55:56,366|.; Durchlesezeit: 16.06 09:56:02,453|
+***Fehlernachricht fuer Nachrichtennummer 180 um 16.06 09:55:56,365|.; Durchlesezeit: 16.06 09:56:02,821|
+2-c4@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 182te_Nachricht. Sendezeit: 16.06 09:55:47,930|(182); Empfangszeit: 16.06 09:55:47,001|; Durchlesezeit: 16.06 09:56:02,977|
+0-c4@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 181te_Nachricht. Sendezeit: 16.06 09:55:47,955|(181); Empfangszeit: 16.06 09:55:47,055|; Durchlesezeit: 16.06 09:56:02,887|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 183te_Nachricht. Sendezeit: 16.06 09:55:47,955|(183); Empfangszeit: 16.06 09:55:47,052|; Durchlesezeit: 16.06 09:56:02,119|
+1-c4@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 184te_Nachricht. Sendezeit: 16.06 09:55:47,954|(184); Empfangszeit: 16.06 09:55:47,049|; Durchlesezeit: 16.06 09:56:02,301|
+7-c4@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 185te_Nachricht. Sendezeit: 16.06 09:55:47,941|(185); Empfangszeit: 16.06 09:55:47,021|; Durchlesezeit: 16.06 09:56:02,356|
+6-c4@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 186te_Nachricht. Sendezeit: 16.06 09:55:47,940|(186); Empfangszeit: 16.06 09:55:47,010|; Durchlesezeit: 16.06 09:56:02,410|
+3-c4@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 187te_Nachricht. Sendezeit: 16.06 09:55:47,940|(187); Empfangszeit: 16.06 09:55:47,014|; Durchlesezeit: 16.06 09:56:02,485|
+5-c4@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 188te_Nachricht. Sendezeit: 16.06 09:55:47,941|(188); Empfangszeit: 16.06 09:55:47,018|; Durchlesezeit: 16.06 09:56:02,576|
+4-c4@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 189te_Nachricht. Sendezeit: 16.06 09:55:47,290|(189); Empfangszeit: 16.06 09:55:47,362|; Durchlesezeit: 16.06 09:56:02,775|
+***Fehlernachricht fuer Nachrichtennummer 190 um 16.06 09:56:01,416|.; Durchlesezeit: 16.06 09:56:02,912|
+***Fehlernachricht fuer Nachrichtennummer 191 um 16.06 09:56:01,416|.; Durchlesezeit: 16.06 09:56:02,979|
+***Fehlernachricht fuer Nachrichtennummer 192 um 16.06 09:56:01,416|.; Durchlesezeit: 16.06 09:56:02,447|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 542te_Nachricht. Sendezeit: 16.06 09:56:02,503| gesendet
+***Fehlernachricht fuer Nachrichtennummer 193 um 16.06 09:56:01,416|.; Durchlesezeit: 16.06 09:56:02,455|
+4-c3@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 194te_Nachricht. Sendezeit: 16.06 09:55:47,012|(194); Empfangszeit: 16.06 09:55:47,083|; Durchlesezeit: 16.06 09:56:02,465|
+2-c3@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 195te_Nachricht. Sendezeit: 16.06 09:55:47,016|(195); Empfangszeit: 16.06 09:55:47,089|; Durchlesezeit: 16.06 09:56:02,537|
+..getmessages..Done...
+Neues Sendeintervall: 3 Sekunden (2).
+650te_Nachricht um 16.06 09:56:02,713| vergessen zu senden ******
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 645te_Nachricht. Sendezeit: 16.06 09:56:05,615| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 654te_Nachricht. Sendezeit: 16.06 09:56:05,776| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 705te_Nachricht. Sendezeit: 16.06 09:56:08,690| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 711te_Nachricht. Sendezeit: 16.06 09:56:08,850| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 751te_Nachricht. Sendezeit: 16.06 09:56:11,771| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 753te_Nachricht. Sendezeit: 16.06 09:56:11,936| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 815te_Nachricht. Sendezeit: 16.06 09:56:14,850| gesendet
+867te_Nachricht um 16.06 09:56:14,885| vergessen zu senden ******
+1-c4@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 231te_Nachricht. Sendezeit: 16.06 09:55:49,076|(231); Empfangszeit: 16.06 09:55:49,187|; Durchlesezeit: 16.06 09:56:14,958|
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 819te_Nachricht. Sendezeit: 16.06 09:56:14,013| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 232te_Nachricht. Sendezeit: 16.06 09:55:49,076|(232); Empfangszeit: 16.06 09:55:49,186|; Durchlesezeit: 16.06 09:56:14,181|
+0-c4@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 233te_Nachricht. Sendezeit: 16.06 09:55:49,076|(233); Empfangszeit: 16.06 09:55:49,185|; Durchlesezeit: 16.06 09:56:14,205|
+4-c4@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 234te_Nachricht. Sendezeit: 16.06 09:55:49,352|(234); Empfangszeit: 16.06 09:55:49,470|; Durchlesezeit: 16.06 09:56:14,296|
+7-c1@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 235te_Nachricht. Sendezeit: 16.06 09:55:51,089|(235); Empfangszeit: 16.06 09:55:51,101|; Durchlesezeit: 16.06 09:56:14,508|
+8-c1@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 236te_Nachricht. Sendezeit: 16.06 09:55:51,089|(236); Empfangszeit: 16.06 09:55:51,104|; Durchlesezeit: 16.06 09:56:14,563|
+4-c1@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 237te_Nachricht. Sendezeit: 16.06 09:55:51,088|(237); Empfangszeit: 16.06 09:55:51,094|; Durchlesezeit: 16.06 09:56:14,683|
+3-c1@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 238te_Nachricht. Sendezeit: 16.06 09:55:51,089|(238); Empfangszeit: 16.06 09:55:51,098|; Durchlesezeit: 16.06 09:56:14,836|
+1-c1@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 239te_Nachricht. Sendezeit: 16.06 09:55:51,085|(239); Empfangszeit: 16.06 09:55:51,088|; Durchlesezeit: 16.06 09:56:14,967|
+6-c1@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 240te_Nachricht. Sendezeit: 16.06 09:55:51,285|(240); Empfangszeit: 16.06 09:55:51,320|; Durchlesezeit: 16.06 09:56:15,296|
+0-c1@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 241te_Nachricht. Sendezeit: 16.06 09:55:51,290|(241); Empfangszeit: 16.06 09:55:51,324|; Durchlesezeit: 16.06 09:56:15,093|
+2-c1@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 242te_Nachricht. Sendezeit: 16.06 09:55:51,290|(242); Empfangszeit: 16.06 09:55:51,322|; Durchlesezeit: 16.06 09:56:15,625|
+5-c1@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 243te_Nachricht. Sendezeit: 16.06 09:55:51,290|(243); Empfangszeit: 16.06 09:55:51,331|; Durchlesezeit: 16.06 09:56:15,844|
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 244te_Nachricht. Sendezeit: 16.06 09:55:49,090|(244); Empfangszeit: 16.06 09:55:49,228|; Durchlesezeit: 16.06 09:56:15,760|
+4-c3@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 245te_Nachricht. Sendezeit: 16.06 09:55:49,100|(245); Empfangszeit: 16.06 09:55:49,308|; Durchlesezeit: 16.06 09:56:15,040|
+3-c3@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 246te_Nachricht. Sendezeit: 16.06 09:55:49,090|(246); Empfangszeit: 16.06 09:55:49,225|; Durchlesezeit: 16.06 09:56:15,095|
+6-c3@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 247te_Nachricht. Sendezeit: 16.06 09:55:49,130|(247); Empfangszeit: 16.06 09:55:49,311|; Durchlesezeit: 16.06 09:56:15,195|
+2-c3@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 248te_Nachricht. Sendezeit: 16.06 09:55:49,130|(248); Empfangszeit: 16.06 09:55:49,314|; Durchlesezeit: 16.06 09:56:15,293|
+0-c3@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 250te_Nachricht. Sendezeit: 16.06 09:55:49,370|(250); Empfangszeit: 16.06 09:55:49,529|; Durchlesezeit: 16.06 09:56:15,586|
+1-c3@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 249te_Nachricht. Sendezeit: 16.06 09:55:49,370|(249); Empfangszeit: 16.06 09:55:49,526|; Durchlesezeit: 16.06 09:56:15,574|
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 251te_Nachricht. Sendezeit: 16.06 09:55:49,462|(251); Empfangszeit: 16.06 09:55:49,555|; Durchlesezeit: 16.06 09:56:15,789|
+7-c3@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 252te_Nachricht. Sendezeit: 16.06 09:55:49,463|(252); Empfangszeit: 16.06 09:55:49,558|; Durchlesezeit: 16.06 09:56:15,988|
+5-c2@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 253te_Nachricht. Sendezeit: 16.06 09:55:51,928|(253); Empfangszeit: 16.06 09:55:51,067|; Durchlesezeit: 16.06 09:56:15,061|
+1-c2@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 254te_Nachricht. Sendezeit: 16.06 09:55:51,929|(254); Empfangszeit: 16.06 09:55:51,070|; Durchlesezeit: 16.06 09:56:15,108|
+3-c2@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 255te_Nachricht. Sendezeit: 16.06 09:55:51,929|(255); Empfangszeit: 16.06 09:55:51,074|; Durchlesezeit: 16.06 09:56:15,162|
+4-c2@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 256te_Nachricht. Sendezeit: 16.06 09:55:51,006|(256); Empfangszeit: 16.06 09:55:51,076|; Durchlesezeit: 16.06 09:56:15,292|
+6-c2@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 257te_Nachricht. Sendezeit: 16.06 09:55:51,010|(257); Empfangszeit: 16.06 09:55:51,080|; Durchlesezeit: 16.06 09:56:15,346|
+7-c2@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 258te_Nachricht. Sendezeit: 16.06 09:55:51,020|(258); Empfangszeit: 16.06 09:55:51,083|; Durchlesezeit: 16.06 09:56:15,499|
+0-c2@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 259te_Nachricht. Sendezeit: 16.06 09:55:51,021|(259); Empfangszeit: 16.06 09:55:51,085|; Durchlesezeit: 16.06 09:56:15,569|
+8-c2@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 261te_Nachricht. Sendezeit: 16.06 09:55:51,024|(261); Empfangszeit: 16.06 09:55:51,090|; Durchlesezeit: 16.06 09:56:15,736|
+2-c2@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 260te_Nachricht. Sendezeit: 16.06 09:55:51,022|(260); Empfangszeit: 16.06 09:55:51,088|; Durchlesezeit: 16.06 09:56:15,720|
+..getmessages..Done...
+887te_Nachricht um 16.06 09:56:15,775| vergessen zu senden ******
+Neues Sendeintervall: 4 Sekunden (3).
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 873te_Nachricht. Sendezeit: 16.06 09:56:17,222| gesendet
+923te_Nachricht um 16.06 09:56:17,339| vergessen zu senden ******
+5-c1@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 243te_Nachricht. Sendezeit: 16.06 09:55:51,290|(243); Empfangszeit: 16.06 09:55:51,331|; Durchlesezeit: 16.06 09:56:17,424|
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 244te_Nachricht. Sendezeit: 16.06 09:55:49,090|(244); Empfangszeit: 16.06 09:55:49,228|; Durchlesezeit: 16.06 09:56:17,487|
+4-c3@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 245te_Nachricht. Sendezeit: 16.06 09:55:49,100|(245); Empfangszeit: 16.06 09:55:49,308|; Durchlesezeit: 16.06 09:56:17,613|
+3-c3@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 246te_Nachricht. Sendezeit: 16.06 09:55:49,090|(246); Empfangszeit: 16.06 09:55:49,225|; Durchlesezeit: 16.06 09:56:17,929|
+6-c3@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 247te_Nachricht. Sendezeit: 16.06 09:55:49,130|(247); Empfangszeit: 16.06 09:55:49,311|; Durchlesezeit: 16.06 09:56:18,504|
+2-c3@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 248te_Nachricht. Sendezeit: 16.06 09:55:49,130|(248); Empfangszeit: 16.06 09:55:49,314|; Durchlesezeit: 16.06 09:56:18,367|
+1-c3@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 249te_Nachricht. Sendezeit: 16.06 09:55:49,370|(249); Empfangszeit: 16.06 09:55:49,526|; Durchlesezeit: 16.06 09:56:18,395|
+0-c3@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 250te_Nachricht. Sendezeit: 16.06 09:55:49,370|(250); Empfangszeit: 16.06 09:55:49,529|; Durchlesezeit: 16.06 09:56:18,047|
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 251te_Nachricht. Sendezeit: 16.06 09:55:49,462|(251); Empfangszeit: 16.06 09:55:49,555|; Durchlesezeit: 16.06 09:56:18,248|
+7-c3@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 252te_Nachricht. Sendezeit: 16.06 09:55:49,463|(252); Empfangszeit: 16.06 09:55:49,558|; Durchlesezeit: 16.06 09:56:18,567|
+5-c2@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 253te_Nachricht. Sendezeit: 16.06 09:55:51,928|(253); Empfangszeit: 16.06 09:55:51,067|; Durchlesezeit: 16.06 09:56:18,171|
+1-c2@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 254te_Nachricht. Sendezeit: 16.06 09:55:51,929|(254); Empfangszeit: 16.06 09:55:51,070|; Durchlesezeit: 16.06 09:56:18,536|
+3-c2@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 255te_Nachricht. Sendezeit: 16.06 09:55:51,929|(255); Empfangszeit: 16.06 09:55:51,074|; Durchlesezeit: 16.06 09:56:18,519|
+4-c2@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 256te_Nachricht. Sendezeit: 16.06 09:55:51,006|(256); Empfangszeit: 16.06 09:55:51,076|; Durchlesezeit: 16.06 09:56:18,632|
+6-c2@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 257te_Nachricht. Sendezeit: 16.06 09:55:51,010|(257); Empfangszeit: 16.06 09:55:51,080|; Durchlesezeit: 16.06 09:56:18,126|
+7-c2@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 258te_Nachricht. Sendezeit: 16.06 09:55:51,020|(258); Empfangszeit: 16.06 09:55:51,083|; Durchlesezeit: 16.06 09:56:18,183|
+0-c2@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 259te_Nachricht. Sendezeit: 16.06 09:55:51,021|(259); Empfangszeit: 16.06 09:55:51,085|; Durchlesezeit: 16.06 09:56:18,301|
+2-c2@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 260te_Nachricht. Sendezeit: 16.06 09:55:51,022|(260); Empfangszeit: 16.06 09:55:51,088|; Durchlesezeit: 16.06 09:56:18,381|
+8-c2@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 261te_Nachricht. Sendezeit: 16.06 09:55:51,024|(261); Empfangszeit: 16.06 09:55:51,090|; Durchlesezeit: 16.06 09:56:18,427|
+***Fehlernachricht fuer Nachrichtennummer 262 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,464|
+***Fehlernachricht fuer Nachrichtennummer 263 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,529|
+***Fehlernachricht fuer Nachrichtennummer 264 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,609|
+***Fehlernachricht fuer Nachrichtennummer 265 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,000|
+***Fehlernachricht fuer Nachrichtennummer 266 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,024|
+***Fehlernachricht fuer Nachrichtennummer 267 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,134|
+***Fehlernachricht fuer Nachrichtennummer 268 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,256|
+***Fehlernachricht fuer Nachrichtennummer 269 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,312|
+***Fehlernachricht fuer Nachrichtennummer 270 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,327|
+***Fehlernachricht fuer Nachrichtennummer 271 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:18,458|
+***Fehlernachricht fuer Nachrichtennummer 272 um 16.06 09:56:16,525|.; Durchlesezeit: 16.06 09:56:18,640|
+2-c4@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 273te_Nachricht. Sendezeit: 16.06 09:55:51,690|(273); Empfangszeit: 16.06 09:55:51,762|; Durchlesezeit: 16.06 09:56:18,757|
+..getmessages..Done...
+936te_Nachricht um 16.06 09:56:18,058| vergessen zu senden ******
+Neues Sendeintervall: 4 Sekunden (3).
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 888te_Nachricht. Sendezeit: 16.06 09:56:19,945| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 942te_Nachricht. Sendezeit: 16.06 09:56:22,255| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 948te_Nachricht. Sendezeit: 16.06 09:56:23,010| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 979te_Nachricht. Sendezeit: 16.06 09:56:26,741| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1002te_Nachricht. Sendezeit: 16.06 09:56:27,050| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1034te_Nachricht. Sendezeit: 16.06 09:56:30,810| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1056te_Nachricht. Sendezeit: 16.06 09:56:31,170| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1098te_Nachricht. Sendezeit: 16.06 09:56:34,937| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1111te_Nachricht. Sendezeit: 16.06 09:56:35,224| gesendet
+1147te_Nachricht um 16.06 09:56:35,282| vergessen zu senden ******
+5-c2@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 253te_Nachricht. Sendezeit: 16.06 09:55:51,928|(253); Empfangszeit: 16.06 09:55:51,067|; Durchlesezeit: 16.06 09:56:35,356|
+1-c2@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 254te_Nachricht. Sendezeit: 16.06 09:55:51,929|(254); Empfangszeit: 16.06 09:55:51,070|; Durchlesezeit: 16.06 09:56:35,458|
+3-c2@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 255te_Nachricht. Sendezeit: 16.06 09:55:51,929|(255); Empfangszeit: 16.06 09:55:51,074|; Durchlesezeit: 16.06 09:56:35,550|
+4-c2@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 256te_Nachricht. Sendezeit: 16.06 09:55:51,006|(256); Empfangszeit: 16.06 09:55:51,076|; Durchlesezeit: 16.06 09:56:35,582|
+6-c2@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 257te_Nachricht. Sendezeit: 16.06 09:55:51,010|(257); Empfangszeit: 16.06 09:55:51,080|; Durchlesezeit: 16.06 09:56:35,637|
+7-c2@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 258te_Nachricht. Sendezeit: 16.06 09:55:51,020|(258); Empfangszeit: 16.06 09:55:51,083|; Durchlesezeit: 16.06 09:56:35,748|
+0-c2@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 259te_Nachricht. Sendezeit: 16.06 09:55:51,021|(259); Empfangszeit: 16.06 09:55:51,085|; Durchlesezeit: 16.06 09:56:35,801|
+2-c2@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 260te_Nachricht. Sendezeit: 16.06 09:55:51,022|(260); Empfangszeit: 16.06 09:55:51,088|; Durchlesezeit: 16.06 09:56:35,850|
+8-c2@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 261te_Nachricht. Sendezeit: 16.06 09:55:51,024|(261); Empfangszeit: 16.06 09:55:51,090|; Durchlesezeit: 16.06 09:56:35,007|
+***Fehlernachricht fuer Nachrichtennummer 262 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,102|
+***Fehlernachricht fuer Nachrichtennummer 263 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,182|
+***Fehlernachricht fuer Nachrichtennummer 264 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,209|
+***Fehlernachricht fuer Nachrichtennummer 265 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,278|
+***Fehlernachricht fuer Nachrichtennummer 266 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,457|
+***Fehlernachricht fuer Nachrichtennummer 267 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,539|
+***Fehlernachricht fuer Nachrichtennummer 268 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,865|
+***Fehlernachricht fuer Nachrichtennummer 269 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,945|
+***Fehlernachricht fuer Nachrichtennummer 270 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,990|
+***Fehlernachricht fuer Nachrichtennummer 271 um 16.06 09:56:16,526|.; Durchlesezeit: 16.06 09:56:35,061|
+***Fehlernachricht fuer Nachrichtennummer 272 um 16.06 09:56:16,525|.; Durchlesezeit: 16.06 09:56:35,109|
+2-c4@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 273te_Nachricht. Sendezeit: 16.06 09:55:51,690|(273); Empfangszeit: 16.06 09:55:51,762|; Durchlesezeit: 16.06 09:56:35,173|
+***Fehlernachricht fuer Nachrichtennummer 274 um 16.06 09:56:21,565|.; Durchlesezeit: 16.06 09:56:35,224|
+3-c4@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 275te_Nachricht. Sendezeit: 16.06 09:55:51,690|(275); Empfangszeit: 16.06 09:55:51,764|; Durchlesezeit: 16.06 09:56:35,340|
+***Fehlernachricht fuer Nachrichtennummer 276 um 16.06 09:56:26,665|.; Durchlesezeit: 16.06 09:56:35,443|
+***Fehlernachricht fuer Nachrichtennummer 277 um 16.06 09:56:26,665|.; Durchlesezeit: 16.06 09:56:35,495|
+***Fehlernachricht fuer Nachrichtennummer 278 um 16.06 09:56:26,665|.; Durchlesezeit: 16.06 09:56:35,561|
+6-c4@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 279te_Nachricht. Sendezeit: 16.06 09:55:51,761|(279); Empfangszeit: 16.06 09:55:51,883|; Durchlesezeit: 16.06 09:56:35,627|
+0-c4@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 280te_Nachricht. Sendezeit: 16.06 09:55:51,755|(280); Empfangszeit: 16.06 09:55:51,880|; Durchlesezeit: 16.06 09:56:35,730|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 281te_Nachricht. Sendezeit: 16.06 09:55:51,820|(281); Empfangszeit: 16.06 09:55:51,948|; Durchlesezeit: 16.06 09:56:35,778|
+***Fehlernachricht fuer Nachrichtennummer 282 um 16.06 09:56:31,695|.; Durchlesezeit: 16.06 09:56:35,843|
+7-c4@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 283te_Nachricht. Sendezeit: 16.06 09:55:51,885|(283); Empfangszeit: 16.06 09:55:51,012|; Durchlesezeit: 16.06 09:56:35,930|
+..getmessages..Done...
+Neues Sendeintervall: 6 Sekunden (4).
+1154te_Nachricht um 16.06 09:56:35,117| vergessen zu senden ******
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1134te_Nachricht. Sendezeit: 16.06 09:56:38,992| gesendet
+1192te_Nachricht um 16.06 09:56:38,076| vergessen zu senden ******
+1-c3@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 294te_Nachricht. Sendezeit: 16.06 09:55:50,530|(294); Empfangszeit: 16.06 09:55:50,605|; Durchlesezeit: 16.06 09:56:38,160|
+0-c3@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 295te_Nachricht. Sendezeit: 16.06 09:55:50,530|(295); Empfangszeit: 16.06 09:55:50,603|; Durchlesezeit: 16.06 09:56:38,250|
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 296te_Nachricht. Sendezeit: 16.06 09:55:50,531|(296); Empfangszeit: 16.06 09:55:50,610|; Durchlesezeit: 16.06 09:56:38,346|
+7-c3@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 297te_Nachricht. Sendezeit: 16.06 09:55:50,530|(297); Empfangszeit: 16.06 09:55:50,608|; Durchlesezeit: 16.06 09:56:38,367|
+3-c3@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 298te_Nachricht. Sendezeit: 16.06 09:55:51,250|(298); Empfangszeit: 16.06 09:55:51,321|; Durchlesezeit: 16.06 09:56:38,587|
+6-c3@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 299te_Nachricht. Sendezeit: 16.06 09:55:51,349|(299); Empfangszeit: 16.06 09:55:51,455|; Durchlesezeit: 16.06 09:56:38,611|
+2-c3@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 300te_Nachricht. Sendezeit: 16.06 09:55:51,348|(300); Empfangszeit: 16.06 09:55:51,453|; Durchlesezeit: 16.06 09:56:38,681|
+4-c3@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 301te_Nachricht. Sendezeit: 16.06 09:55:51,347|(301); Empfangszeit: 16.06 09:55:51,420|; Durchlesezeit: 16.06 09:56:38,771|
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 302te_Nachricht. Sendezeit: 16.06 09:55:51,347|(302); Empfangszeit: 16.06 09:55:51,421|; Durchlesezeit: 16.06 09:56:38,860|
+1-c3@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 303te_Nachricht. Sendezeit: 16.06 09:55:51,570|(303); Empfangszeit: 16.06 09:55:51,929|; Durchlesezeit: 16.06 09:56:38,893|
+0-c3@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 304te_Nachricht. Sendezeit: 16.06 09:55:51,570|(304); Empfangszeit: 16.06 09:55:51,936|; Durchlesezeit: 16.06 09:56:38,080|
+7-c3@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 305te_Nachricht. Sendezeit: 16.06 09:55:51,570|(305); Empfangszeit: 16.06 09:55:51,933|; Durchlesezeit: 16.06 09:56:38,186|
+5-c3@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 306te_Nachricht. Sendezeit: 16.06 09:55:51,573|(306); Empfangszeit: 16.06 09:55:51,940|; Durchlesezeit: 16.06 09:56:38,302|
+1-c1@lab33.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 307te_Nachricht. Sendezeit: 16.06 09:55:54,130|(307); Empfangszeit: 16.06 09:55:54,132|; Durchlesezeit: 16.06 09:56:38,356|
+4-c1@lab33.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 308te_Nachricht. Sendezeit: 16.06 09:55:54,131|(308); Empfangszeit: 16.06 09:55:54,138|; Durchlesezeit: 16.06 09:56:38,431|
+3-c1@lab33.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 309te_Nachricht. Sendezeit: 16.06 09:55:54,189|(309); Empfangszeit: 16.06 09:55:54,338|; Durchlesezeit: 16.06 09:56:38,482|
+7-c1@lab33.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 310te_Nachricht. Sendezeit: 16.06 09:55:54,189|(310); Empfangszeit: 16.06 09:55:54,342|; Durchlesezeit: 16.06 09:56:38,560|
+8-c1@lab33.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 311te_Nachricht. Sendezeit: 16.06 09:55:54,190|(311); Empfangszeit: 16.06 09:55:54,356|; Durchlesezeit: 16.06 09:56:38,691|
+6-c1@lab33.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 312te_Nachricht. Sendezeit: 16.06 09:55:54,345|(312); Empfangszeit: 16.06 09:55:54,365|; Durchlesezeit: 16.06 09:56:38,865|
+2-c1@lab33.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 313te_Nachricht. Sendezeit: 16.06 09:55:54,346|(313); Empfangszeit: 16.06 09:55:54,370|; Durchlesezeit: 16.06 09:56:38,065|
+0-c1@lab33.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 314te_Nachricht. Sendezeit: 16.06 09:55:54,345|(314); Empfangszeit: 16.06 09:55:54,363|; Durchlesezeit: 16.06 09:56:38,110|
+5-c1@lab33.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 315te_Nachricht. Sendezeit: 16.06 09:55:54,385|(315); Empfangszeit: 16.06 09:55:54,520|; Durchlesezeit: 16.06 09:56:38,221|
+3-c4@lab32.cpt.haw-hamburg.de-<0.50.0>-C-KLC: 316te_Nachricht. Sendezeit: 16.06 09:55:53,810|(316); Empfangszeit: 16.06 09:55:53,884|; Durchlesezeit: 16.06 09:56:38,310|
+2-c4@lab32.cpt.haw-hamburg.de-<0.49.0>-C-KLC: 317te_Nachricht. Sendezeit: 16.06 09:55:53,810|(317); Empfangszeit: 16.06 09:55:53,881|; Durchlesezeit: 16.06 09:56:38,342|
+0-c4@lab32.cpt.haw-hamburg.de-<0.47.0>-C-KLC: 318te_Nachricht. Sendezeit: 16.06 09:55:53,820|(318); Empfangszeit: 16.06 09:55:53,976|; Durchlesezeit: 16.06 09:56:38,387|
+6-c4@lab32.cpt.haw-hamburg.de-<0.53.0>-C-KLC: 319te_Nachricht. Sendezeit: 16.06 09:55:53,839|(319); Empfangszeit: 16.06 09:55:53,978|; Durchlesezeit: 16.06 09:56:38,504|
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 320te_Nachricht. Sendezeit: 16.06 09:55:53,890|(320); Empfangszeit: 16.06 09:55:53,981|; Durchlesezeit: 16.06 09:56:38,595|
+7-c4@lab32.cpt.haw-hamburg.de-<0.54.0>-C-KLC: 321te_Nachricht. Sendezeit: 16.06 09:55:53,970|(321); Empfangszeit: 16.06 09:55:53,074|; Durchlesezeit: 16.06 09:56:38,670|
+1-c4@lab32.cpt.haw-hamburg.de-<0.48.0>-C-KLC: 322te_Nachricht. Sendezeit: 16.06 09:55:53,020|(322); Empfangszeit: 16.06 09:55:53,160|; Durchlesezeit: 16.06 09:56:38,764|
+5-c4@lab32.cpt.haw-hamburg.de-<0.52.0>-C-KLC: 323te_Nachricht. Sendezeit: 16.06 09:55:53,211|(323); Empfangszeit: 16.06 09:55:53,285|; Durchlesezeit: 16.06 09:56:38,873|
+4-c4@lab32.cpt.haw-hamburg.de-<0.51.0>-C-KLC: 324te_Nachricht. Sendezeit: 16.06 09:55:53,210|(324); Empfangszeit: 16.06 09:55:53,282|; Durchlesezeit: 16.06 09:56:38,917|
+..getmessages..Done...
+1209te_Nachricht um 16.06 09:56:38,104| vergessen zu senden ******
+Neues Sendeintervall: 6 Sekunden (4).
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1155te_Nachricht. Sendezeit: 16.06 09:56:41,210| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1212te_Nachricht. Sendezeit: 16.06 09:56:44,131| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1228te_Nachricht. Sendezeit: 16.06 09:56:47,260| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1248te_Nachricht. Sendezeit: 16.06 09:56:50,210| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1291te_Nachricht. Sendezeit: 16.06 09:56:53,330| gesendet
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1329te_Nachricht. Sendezeit: 16.06 09:56:56,290| gesendet
+8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1345te_Nachricht. Sendezeit: 16.06 09:56:59,410| gesendet
+Downtime: 16.06 09:56:59,410| vom Client 8-c4@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC
+8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC: 1365te_Nachricht. Sendezeit: 16.06 09:57:02,373| gesendet
+Downtime: 16.06 09:57:02,373| vom Client 8-c3@lab32.cpt.haw-hamburg.de-<0.55.0>-C-KLC

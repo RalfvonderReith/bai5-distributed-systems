@@ -1,0 +1,119 @@
+2-client@KI-VS-<0.51.0>-KLC Start: 25.02 10:00:15,762|.
+2-client@KI-VS-<0.51.0>-KLC: 3te_Nachricht. C Out: 25.02 10:00:18,772| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 8te_Nachricht. C Out: 25.02 10:00:21,782| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 11te_Nachricht. C Out: 25.02 10:00:24,794| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 18te_Nachricht. C Out: 25.02 10:00:27,820| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 25te_Nachricht. C Out: 25.02 10:00:30,831| gesendet
+28te_Nachricht um 25.02 10:00:30,847| vergessen zu senden ******
+0-client@KI-VS-<0.49.0>-KLC: 1te_Nachricht. C Out: 25.02 10:00:18,772| ; C In: 25.02 10:00:30,862|
+1-client@KI-VS-<0.50.0>-KLC: 2te_Nachricht. C Out: 25.02 10:00:18,772| ; C In: 25.02 10:00:30,878|
+2-client@KI-VS-<0.51.0>-KLC: 3te_Nachricht. C Out: 25.02 10:00:18,772|*******; C In: 25.02 10:00:30,894|
+3-client@KI-VS-<0.52.0>-KLC: 4te_Nachricht. C Out: 25.02 10:00:18,772| ; C In: 25.02 10:00:30,909|
+4-client@KI-VS-<0.53.0>-KLC: 5te_Nachricht. C Out: 25.02 10:00:18,772| ; C In: 25.02 10:00:30,925|
+4-client@KI-VS-<0.53.0>-KLC: 6te_Nachricht. C Out: 25.02 10:00:21,783| ; C In: 25.02 10:00:30,940|
+3-client@KI-VS-<0.52.0>-KLC: 7te_Nachricht. C Out: 25.02 10:00:21,783| ; C In: 25.02 10:00:30,956|
+2-client@KI-VS-<0.51.0>-KLC: 8te_Nachricht. C Out: 25.02 10:00:21,782|*******; C In: 25.02 10:00:30,972|
+1-client@KI-VS-<0.50.0>-KLC: 9te_Nachricht. C Out: 25.02 10:00:21,799| ; C In: 25.02 10:00:30,987|
+0-client@KI-VS-<0.49.0>-KLC: 10te_Nachricht. C Out: 25.02 10:00:21,798| ; C In: 25.02 10:00:31,003|
+2-client@KI-VS-<0.51.0>-KLC: 11te_Nachricht. C Out: 25.02 10:00:24,794|*******; C In: 25.02 10:00:31,018|
+3-client@KI-VS-<0.52.0>-KLC: 12te_Nachricht. C Out: 25.02 10:00:24,794| ; C In: 25.02 10:00:31,034|
+4-client@KI-VS-<0.53.0>-KLC: 13te_Nachricht. C Out: 25.02 10:00:24,794| ; C In: 25.02 10:00:31,050|
+0-client@KI-VS-<0.49.0>-KLC: 14te_Nachricht. C Out: 25.02 10:00:24,810| ; C In: 25.02 10:00:31,064|
+1-client@KI-VS-<0.50.0>-KLC: 15te_Nachricht. C Out: 25.02 10:00:24,810| ; C In: 25.02 10:00:31,065|
+4-client@KI-VS-<0.53.0>-KLC: 16te_Nachricht. C Out: 25.02 10:00:27,805| ; C In: 25.02 10:00:31,096|
+3-client@KI-VS-<0.52.0>-KLC: 17te_Nachricht. C Out: 25.02 10:00:27,805| ; C In: 25.02 10:00:31,112|
+2-client@KI-VS-<0.51.0>-KLC: 18te_Nachricht. C Out: 25.02 10:00:27,820|*******; C In: 25.02 10:00:31,112|
+1-client@KI-VS-<0.50.0>-KLC: 19te_Nachricht. C Out: 25.02 10:00:27,820| ; C In: 25.02 10:00:31,128|
+0-client@KI-VS-<0.49.0>-KLC: 20te_Nachricht. C Out: 25.02 10:00:27,819| ; C In: 25.02 10:00:31,143|
+3-client@KI-VS-<0.52.0>-KLC: 21te_Nachricht. C Out: 25.02 10:00:30,816| ; C In: 25.02 10:00:31,143|
+4-client@KI-VS-<0.53.0>-KLC: 22te_Nachricht. C Out: 25.02 10:00:30,815| ; C In: 25.02 10:00:31,159|
+0-client@KI-VS-<0.49.0>-KLC: 23te_Nachricht. C Out: 25.02 10:00:30,831| ; C In: 25.02 10:00:31,173|
+1-client@KI-VS-<0.50.0>-KLC: 24te_Nachricht. C Out: 25.02 10:00:30,831| ; C In: 25.02 10:00:31,174|
+..getmessages..Done...
+33te_Nachricht um 25.02 10:00:31,190| vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden (3).
+2-client@KI-VS-<0.51.0>-KLC: 38te_Nachricht. C Out: 25.02 10:00:33,202| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 41te_Nachricht. C Out: 25.02 10:00:35,215| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 47te_Nachricht. C Out: 25.02 10:00:37,227| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 51te_Nachricht. C Out: 25.02 10:00:39,240| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 57te_Nachricht. C Out: 25.02 10:00:41,252| gesendet
+61te_Nachricht um 25.02 10:00:41,252| vergessen zu senden ******
+0-client@KI-VS-<0.49.0>-KLC: 1te_Nachricht. C Out: 25.02 10:00:18,772| ; C In: 25.02 10:00:41,252|
+1-client@KI-VS-<0.50.0>-KLC: 2te_Nachricht. C Out: 25.02 10:00:18,772| ; C In: 25.02 10:00:41,268|
+2-client@KI-VS-<0.51.0>-KLC: 3te_Nachricht. C Out: 25.02 10:00:18,772|*******; C In: 25.02 10:00:41,283|
+3-client@KI-VS-<0.52.0>-KLC: 4te_Nachricht. C Out: 25.02 10:00:18,772| ; C In: 25.02 10:00:41,299|
+4-client@KI-VS-<0.53.0>-KLC: 5te_Nachricht. C Out: 25.02 10:00:18,772| ; C In: 25.02 10:00:41,330|
+4-client@KI-VS-<0.53.0>-KLC: 6te_Nachricht. C Out: 25.02 10:00:21,783| ; C In: 25.02 10:00:41,346|
+3-client@KI-VS-<0.52.0>-KLC: 7te_Nachricht. C Out: 25.02 10:00:21,783| ; C In: 25.02 10:00:41,361|
+2-client@KI-VS-<0.51.0>-KLC: 8te_Nachricht. C Out: 25.02 10:00:21,782|*******; C In: 25.02 10:00:41,377|
+1-client@KI-VS-<0.50.0>-KLC: 9te_Nachricht. C Out: 25.02 10:00:21,799| ; C In: 25.02 10:00:41,393|
+0-client@KI-VS-<0.49.0>-KLC: 10te_Nachricht. C Out: 25.02 10:00:21,798| ; C In: 25.02 10:00:41,407|
+2-client@KI-VS-<0.51.0>-KLC: 11te_Nachricht. C Out: 25.02 10:00:24,794|*******; C In: 25.02 10:00:41,423|
+3-client@KI-VS-<0.52.0>-KLC: 12te_Nachricht. C Out: 25.02 10:00:24,794| ; C In: 25.02 10:00:41,424|
+4-client@KI-VS-<0.53.0>-KLC: 13te_Nachricht. C Out: 25.02 10:00:24,794| ; C In: 25.02 10:00:41,439|
+0-client@KI-VS-<0.49.0>-KLC: 14te_Nachricht. C Out: 25.02 10:00:24,810| ; C In: 25.02 10:00:41,455|
+1-client@KI-VS-<0.50.0>-KLC: 15te_Nachricht. C Out: 25.02 10:00:24,810| ; C In: 25.02 10:00:41,471|
+4-client@KI-VS-<0.53.0>-KLC: 16te_Nachricht. C Out: 25.02 10:00:27,805| ; C In: 25.02 10:00:41,502|
+3-client@KI-VS-<0.52.0>-KLC: 17te_Nachricht. C Out: 25.02 10:00:27,805| ; C In: 25.02 10:00:41,502|
+2-client@KI-VS-<0.51.0>-KLC: 18te_Nachricht. C Out: 25.02 10:00:27,820|*******; C In: 25.02 10:00:41,517|
+1-client@KI-VS-<0.50.0>-KLC: 19te_Nachricht. C Out: 25.02 10:00:27,820| ; C In: 25.02 10:00:41,533|
+0-client@KI-VS-<0.49.0>-KLC: 20te_Nachricht. C Out: 25.02 10:00:27,819| ; C In: 25.02 10:00:41,533|
+3-client@KI-VS-<0.52.0>-KLC: 21te_Nachricht. C Out: 25.02 10:00:30,816| ; C In: 25.02 10:00:41,549|
+4-client@KI-VS-<0.53.0>-KLC: 22te_Nachricht. C Out: 25.02 10:00:30,815| ; C In: 25.02 10:00:41,564|
+0-client@KI-VS-<0.49.0>-KLC: 23te_Nachricht. C Out: 25.02 10:00:30,831| ; C In: 25.02 10:00:41,564|
+1-client@KI-VS-<0.50.0>-KLC: 24te_Nachricht. C Out: 25.02 10:00:30,831| ; C In: 25.02 10:00:41,580|
+..getmessages..Done...
+Neues Sendeintervall: 3 Sekunden (2).
+66te_Nachricht um 25.02 10:00:41,595| vergessen zu senden ******
+2-client@KI-VS-<0.51.0>-KLC: 68te_Nachricht. C Out: 25.02 10:00:44,622| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 80te_Nachricht. C Out: 25.02 10:00:47,648| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 84te_Nachricht. C Out: 25.02 10:00:50,659| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 90te_Nachricht. C Out: 25.02 10:00:53,669| gesendet
+2-client@KI-VS-<0.51.0>-KLC: 93te_Nachricht. C Out: 25.02 10:00:56,681| gesendet
+100te_Nachricht um 25.02 10:00:56,696| vergessen zu senden ******
+0-client@KI-VS-<0.49.0>-KLC: 10te_Nachricht. C Out: 25.02 10:00:21,798| ; C In: 25.02 10:00:56,712|
+2-client@KI-VS-<0.51.0>-KLC: 11te_Nachricht. C Out: 25.02 10:00:24,794|*******; C In: 25.02 10:00:56,727|
+3-client@KI-VS-<0.52.0>-KLC: 12te_Nachricht. C Out: 25.02 10:00:24,794| ; C In: 25.02 10:00:56,727|
+4-client@KI-VS-<0.53.0>-KLC: 13te_Nachricht. C Out: 25.02 10:00:24,794| ; C In: 25.02 10:00:56,743|
+0-client@KI-VS-<0.49.0>-KLC: 14te_Nachricht. C Out: 25.02 10:00:24,810| ; C In: 25.02 10:00:56,743|
+1-client@KI-VS-<0.50.0>-KLC: 15te_Nachricht. C Out: 25.02 10:00:24,810| ; C In: 25.02 10:00:56,759|
+4-client@KI-VS-<0.53.0>-KLC: 16te_Nachricht. C Out: 25.02 10:00:27,805| ; C In: 25.02 10:00:56,774|
+3-client@KI-VS-<0.52.0>-KLC: 17te_Nachricht. C Out: 25.02 10:00:27,805| ; C In: 25.02 10:00:56,774|
+2-client@KI-VS-<0.51.0>-KLC: 18te_Nachricht. C Out: 25.02 10:00:27,820|*******; C In: 25.02 10:00:56,790|
+1-client@KI-VS-<0.50.0>-KLC: 19te_Nachricht. C Out: 25.02 10:00:27,820| ; C In: 25.02 10:00:56,805|
+0-client@KI-VS-<0.49.0>-KLC: 20te_Nachricht. C Out: 25.02 10:00:27,819| ; C In: 25.02 10:00:56,805|
+3-client@KI-VS-<0.52.0>-KLC: 21te_Nachricht. C Out: 25.02 10:00:30,816| ; C In: 25.02 10:00:56,821|
+4-client@KI-VS-<0.53.0>-KLC: 22te_Nachricht. C Out: 25.02 10:00:30,815| ; C In: 25.02 10:00:56,837|
+0-client@KI-VS-<0.49.0>-KLC: 23te_Nachricht. C Out: 25.02 10:00:30,831| ; C In: 25.02 10:00:56,837|
+1-client@KI-VS-<0.50.0>-KLC: 24te_Nachricht. C Out: 25.02 10:00:30,831| ; C In: 25.02 10:00:56,852|
+2-client@KI-VS-<0.51.0>-KLC: 25te_Nachricht. C Out: 25.02 10:00:30,831|*******; C In: 25.02 10:00:56,868|
+***Fehlernachricht fuer Nachrichten 26 bis 35 um 25.02 10:00:39,718|. ; C In: 25.02 10:00:56,868|
+4-client@KI-VS-<0.53.0>-KLC: 36te_Nachricht. C Out: 25.02 10:00:33,202| ; C In: 25.02 10:00:56,883|
+3-client@KI-VS-<0.52.0>-KLC: 37te_Nachricht. C Out: 25.02 10:00:33,202| ; C In: 25.02 10:00:56,899|
+2-client@KI-VS-<0.51.0>-KLC: 38te_Nachricht. C Out: 25.02 10:00:33,202|*******; C In: 25.02 10:00:56,899|
+1-client@KI-VS-<0.50.0>-KLC: 39te_Nachricht. C Out: 25.02 10:00:33,218| ; C In: 25.02 10:00:56,915|
+0-client@KI-VS-<0.49.0>-KLC: 40te_Nachricht. C Out: 25.02 10:00:33,218| ; C In: 25.02 10:00:56,930|
+2-client@KI-VS-<0.51.0>-KLC: 41te_Nachricht. C Out: 25.02 10:00:35,215|*******; C In: 25.02 10:00:56,930|
+3-client@KI-VS-<0.52.0>-KLC: 42te_Nachricht. C Out: 25.02 10:00:35,215| ; C In: 25.02 10:00:56,946|
+4-client@KI-VS-<0.53.0>-KLC: 43te_Nachricht. C Out: 25.02 10:00:35,231| ; C In: 25.02 10:00:56,960|
+0-client@KI-VS-<0.49.0>-KLC: 44te_Nachricht. C Out: 25.02 10:00:35,231| ; C In: 25.02 10:00:56,961|
+1-client@KI-VS-<0.50.0>-KLC: 45te_Nachricht. C Out: 25.02 10:00:35,246| ; C In: 25.02 10:00:56,977|
+3-client@KI-VS-<0.52.0>-KLC: 46te_Nachricht. C Out: 25.02 10:00:37,227| ; C In: 25.02 10:00:56,977|
+2-client@KI-VS-<0.51.0>-KLC: 47te_Nachricht. C Out: 25.02 10:00:37,227|*******; C In: 25.02 10:00:56,993|
+0-client@KI-VS-<0.49.0>-KLC: 48te_Nachricht. C Out: 25.02 10:00:37,243| ; C In: 25.02 10:00:57,008|
+4-client@KI-VS-<0.53.0>-KLC: 49te_Nachricht. C Out: 25.02 10:00:37,242| ; C In: 25.02 10:00:57,008|
+1-client@KI-VS-<0.50.0>-KLC: 50te_Nachricht. C Out: 25.02 10:00:37,258| ; C In: 25.02 10:00:57,024|
+2-client@KI-VS-<0.51.0>-KLC: 51te_Nachricht. C Out: 25.02 10:00:39,240|*******; C In: 25.02 10:00:57,039|
+3-client@KI-VS-<0.52.0>-KLC: 52te_Nachricht. C Out: 25.02 10:00:39,240| ; C In: 25.02 10:00:57,039|
+4-client@KI-VS-<0.53.0>-KLC: 53te_Nachricht. C Out: 25.02 10:00:39,255| ; C In: 25.02 10:00:57,055|
+0-client@KI-VS-<0.49.0>-KLC: 54te_Nachricht. C Out: 25.02 10:00:39,254| ; C In: 25.02 10:00:57,055|
+1-client@KI-VS-<0.50.0>-KLC: 55te_Nachricht. C Out: 25.02 10:00:39,270| ; C In: 25.02 10:00:57,071|
+3-client@KI-VS-<0.52.0>-KLC: 56te_Nachricht. C Out: 25.02 10:00:41,252| ; C In: 25.02 10:00:57,086|
+2-client@KI-VS-<0.51.0>-KLC: 57te_Nachricht. C Out: 25.02 10:00:41,252|*******; C In: 25.02 10:00:57,086|
+0-client@KI-VS-<0.49.0>-KLC: 58te_Nachricht. C Out: 25.02 10:00:41,268| ; C In: 25.02 10:00:57,102|
+4-client@KI-VS-<0.53.0>-KLC: 59te_Nachricht. C Out: 25.02 10:00:41,268| ; C In: 25.02 10:00:57,102|
+..getmessages..Done...
+Neues Sendeintervall: 4 Sekunden (3).
+107te_Nachricht um 25.02 10:00:57,117| vergessen zu senden ******
+2-client@KI-VS-<0.51.0>-KLC: 110te_Nachricht. C Out: 25.02 10:01:01,127| gesendet
+Downtime: 25.02 10:01:01,127| vom Client 2-client@KI-VS-<0.51.0>-KLC

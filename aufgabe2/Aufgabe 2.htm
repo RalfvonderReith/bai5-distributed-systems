@@ -1,0 +1,508 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html style="direction: ltr;" lang="de-de"><head>
+
+ 
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+ 
+  
+  <meta name="GENERATOR" content="Mozilla/4.78 [en] (Win98; U) [Netscape]">
+
+ 
+  
+  <meta name="Author" content="Christoph Klauck">
+
+  
+  <title>Aufgabe 2</title></head>
+<body style="background-color: rgb(255, 255, 255); direction: ltr;">
+
+<h2>Aufgabe
+2</h2><span style="font-family: Helvetica,Arial,sans-serif;">
+
+
+In dieser Aufgabe ist ein einfacher </span><b style="font-family: Helvetica,Arial,sans-serif;">verteilter Algorithmus</b><span style="font-family: Helvetica,Arial,sans-serif;">
+und </span><b style="font-family: Helvetica,Arial,sans-serif;">dessen Verwaltung/Koordination</b><span style="font-family: Helvetica,Arial,sans-serif;">
+zu
+implementieren. Jeder&nbsp;Arbeitsprozess (ggT-Prozess)
+durchläuft
+den
+gleichen
+Algorithmus! Mit diesem Algorithmus kann man z.B. mit 42 ggT-Prozessen
+den ggT von 42 Zahlen&nbsp;nebenläufig
+bestimmen. Es sei aber darauf hingewiesen, dass es in dieser
+Aufgabe&nbsp;nicht darum geht, besonders effizient den ggT von vielen
+Zahlen zu berechnen!
+</span><br style="font-family: Helvetica,Arial,sans-serif;"><br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-family: Helvetica,Arial,sans-serif;">Lesen
+Sie sich die Aufgabenstellung sorgfältig durch, damit nicht auf Grund
+einer Nachlässigkeit die erfolgreiche Bearbeitung gefährdet
+ist!</span><br><h2>Aufgabenstellung</h2><span style="font-family: Helvetica,Arial,sans-serif;">
+
+
+Das System für den verteilten Algorithmus ist so ausgelegt,
+dass
+es für eine längere Betriebszeit gestartet wird und dann&nbsp;</span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">mehrere&nbsp;ggT-Berechnungen</span><span style="font-family: Helvetica,Arial,sans-serif;"> hintereinander durchführen kann!&nbsp;Für die Implementierung
+werden im Wesentlichen drei Module benötigt:</span><br style="font-family: Helvetica,Arial,sans-serif;">
+
+
+<ol style="font-family: Helvetica,Arial,sans-serif;">
+
+ <li>Der <span style="font-weight: bold; color: rgb(255, 0, 0);">Koordinator</span><span style="font-weight: bold; color: rgb(255, 0, 0);"></span>,
+der den verteilten Algorithmus verwaltet. Dazu gehören
+das&nbsp;hochfahren des Systems, den Start einer ggT-Berechnung und
+das&nbsp;herunterfahren des Systems. Der
+Koordinator verfügt über eine GUI (Textausgabe reicht aus), in der der
+Ablauf des Algorithmus&nbsp;beobachtet werden kann. </li>
+
+ <li>Den <span style="font-weight: bold; color: rgb(255, 0, 0);">Starter</span><span style="font-weight: bold; color: rgb(255, 0, 0);"></span>,
+der im Wesentlichen das Starten von Prozessen auf für den
+Koordinator entfernten Rechnern ermöglicht.</li>
+
+ <li>Der
+    <span style="font-weight: bold; color: rgb(255, 0, 0);">ggT-Prozess</span><span style="font-weight: bold; color: rgb(255, 0, 0);"></span>,
+der die eigentliche Arbeit leistet, also die verteilte Berechnung des ggT.</li>
+
+
+</ol><span style="font-family: Helvetica,Arial,sans-serif;">Alle Module
+erstellen ausführliche und eindeutig ihnen zugeordnete Logdateien. Zur
+Kommunikation wird das Message-Passing von Erlang/OTP verwendet, d.h.
+die Kommunikation ist asynchron.</span><br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-family: Helvetica,Arial,sans-serif;">&nbsp;</span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;"><br>Der Algorithmus</span><span style="font-family: Helvetica,Arial,sans-serif;">: Der Algorithmus basiert auf dem </span><span style="font-style: italic; font-weight: bold; color: rgb(0, 153, 0); font-family: Helvetica,Arial,sans-serif;">Satz von Euklid</span><span style="font-family: Helvetica,Arial,sans-serif;">:
+Der grösste gemeinsame Teiler (ggT) zweier
+positiver ganzer Zahlen x, y (mit x&gt;=y&gt;0) ist gleich dem ggT von
+y
+und dem Rest, der bei ganzzahliger Division von x durch y entsteht.
+Eine nähere Erklärung dazu erfolgt in der Vorlesung. Der verteilter
+Algorithmus lautet:
+</span><ul style="font-family: Helvetica,Arial,sans-serif;"><li>Jeder Prozeß Pi hat seine eigene Variable Mi,
+in der die von ihm zu verwaltende Zahl steht. Alle Prozesse sind in einem Ring
+angeordnet.</li><li>Der ggT aller am Anfang bestehender Mi wird wie folgt berechnet:</li></ul><div style="margin-left: 80px; font-family: Helvetica,Arial,sans-serif;">
+&nbsp; {Eine Nachricht &lt;y&gt; ist
+eingetroffen}<br>
+&nbsp; if y &lt; Mi <br>
+&nbsp;&nbsp;&nbsp; then Mi := mod(Mi-1,y)+1;<br>
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+send #Mi to all neighbours;<br>
+&nbsp; fi
+<br></div>
+
+
+<span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;"><br>Initialisierungsphase</span><span style="font-family: Helvetica,Arial,sans-serif;">:
+Nachdem der Namensdienst und der Koordinator gestartet wurden, werden
+die Starter gestartet und erfragen beim Koordinator die
+steuernden Werte für die
+ggT-Prozesse (getsteeringval). Diese werden gemäß den Vorgaben des
+Koordinators
+gestartet. Die ggT-Prozesse
+registrieren sich lokal bei der Erlang-Node und </span><span style="font-family: Helvetica,Arial,sans-serif;">beim
+Namensdienst&nbsp;(rebind) und sie </span><span style="font-family: Helvetica,Arial,sans-serif;">melden sich beim Koordinator an (hello). Der Koordinator baut einen (zufällig
+gemischten) Ring auf
+und informiert die ggT-Prozesse über ihre (linken und rechten) Nachbarn
+(setneighbors). Das System
+ist
+nun bereit, ggT-Aufgaben für soviele Zahlen zu lösen, wie es
+ggT-Prozesse gibt.</span><br style="font-family: Helvetica,Arial,sans-serif;">
+
+
+<br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">Arbeitsphase</span><span style="font-family: Helvetica,Arial,sans-serif;">:
+Für eine ggT-Berechnung wird das System initialisiert: Der Koordinator informiert die ggT-Prozesse
+über
+ihre Werte #Mi (setpm).
+Er
+wählt&nbsp;per Zufall 20% aller ggT-Prozesse (mindestens jedoch zwei)
+aus, die mit der Berechnung
+beginnen sollen. Verändert sich bei einem ggT-Prozess auf Grund der
+Berechnung sein Wert #Mi, so informiert er den Koordinator
+darüber&nbsp;(briefmi) und seine linken und rechten Nachbarn (sendy).
+Stellt ein
+ggT-Prozess die Terminierung der aktuellen Berechnung fest, so meldet
+er dem Koordinator das
+Endergebnis der
+Berechnung (briefterm). Das System steht für weitere ggT-Berechnungen zur
+Verfügung. </span><br style="font-family: Helvetica,Arial,sans-serif;">
+
+
+<br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-family: Helvetica,Arial,sans-serif;">
+
+Erhält während einer Berechnung ein ggT-Prozess ** Sekunden lang keine
+Zahl&nbsp;y (sendy oder setpm),
+startet er
+eine </span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">Terminierungsabstimmung</span><span style="font-family: Helvetica,Arial,sans-serif;">: Dazu befragt er per Multicast über den Namensdienst alle anderen ggT-Prozesse (multicast). Erhält er eine bestimmte Anzah</span><span style="font-family: Helvetica,Arial,sans-serif;"> (Quote)</span><span style="font-family: Helvetica,Arial,sans-serif;">l an Zustimmungen (voteYes), ist die Abstimmung positiv verlaufen. .</span><br style="font-family: Helvetica,Arial,sans-serif;"><br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">Beendigungsphase</span><span style="font-family: Helvetica,Arial,sans-serif;">:
+Der Starter wird in der Initialisierungsphase nach dem Start aller ggT-Prozesse beendet.
+Die ggT-Prozesse werden vom Koordinator über die Beendigung
+des
+Systems informiert (kill). Stellt ein ggT-Prozess fest, dass er sich beenden
+soll (nur durch explizites&nbsp;kill-Kommando!), hat er dies unverzüglich zu tun, unabhängig von
+seinem
+aktuellen Zustand. Die einzige dann noch zulässige (und zwingend durchzuführende) Aktion ist,
+sich beim Namensdienst abzumelden (unbind). Hat der
+Koordinator alle&nbsp; ggT-Prozesse über die Beendigung informiert, meldet er sich beim Namensdienst ab und beendet sich.</span><br>
+
+
+<h3>Funktionalität </h3>
+
+
+<h4>Koordinator</h4>
+
+
+<ul>
+
+ 
+</ul>
+
+<ol><li style="font-family: Helvetica,Arial,sans-serif;">Die
+benötigten steuernden Werte sind aus der Datei koordinator.cfg
+auszulesen und umfassen: die Erlang-Node (nameservicenode) und den
+Namen (nameservicename) des Namensdienstes, die Anzahl
+der von einem Starter zu startenden ggT-Prozesse (ggtprozessnummer),
+die&nbsp;Verzögerungszeit
+der ggT-Prozesse als simulierter Arbeitsaufwand für die Berechnung
+(arbeitszeit) sowie die Terminierungszeit ** (termzeit), nach der ein
+ggT-Prozess eine
+Terminierungsabstimmung durchführt. Ebenso enthalten ist der Name des
+Koordinators (koordinatorname), inwieweit der Koordinator bei
+Terminierungsmeldungen korrigierend eingreifen soll (korrigieren) und
+die für die Abstimmung benötigte Quote (quote) als prozentualer Wert. &nbsp;Der Koordinator
+registriert sich <span style="font-family: Helvetica,Arial,sans-serif;">lokal bei der Erlang-Node.</span></li>
+
+  <li style="font-family: Helvetica,Arial,sans-serif;">Nach dem Start des Koordinators können sich
+Starter
+und/oder ggT-Prozesse bei ihm melden.</li>
+
+  <li style="font-family: Helvetica,Arial,sans-serif;">Ist der
+Koordinator im <span style="font-weight: bold;">Zustand
+"initial"</span>,
+gibt er den Startern auf Anfrage die benötigten Informationen
+über Anzahl der zu startenden ggT-Prozesse,
+deren&nbsp;Verzögerungszeit, deren **-Terminierungszeit und die
+Abstimmungsquote als konkrete Anzahl. Die Abstimmungsquote berechnet
+sich aus der zum
+Zeitpunkt der Abfrage bekannten Anzahl an erwarteten ggT-Prozessen und
+dem in der koordinator.cfg vorgegebenem prozentualem Wert.
+&nbsp;</li><li style="font-family: Helvetica,Arial,sans-serif;">Wird
+manuell der
+Koordinator in den Zustand "bereit" versetzt (step), gibt er
+keinem Starter mehr Auskunft und registriert keine ggT-Prozesse mehr.
+Er baut nun den Ring auf, indem er per Zufall die&nbsp;ggT-Prozesse in einem Ring anordnet. Erst danach geht er in den Zustand
+"bereit".&nbsp;</li>
+
+  <li style="font-family: Helvetica,Arial,sans-serif;">Ist der Koordinator im <span style="font-weight: bold;">Zustand "bereit"</span>
+wird per manuellem Befehl (calc) eine
+ggT-Berechnung gestartet. Der Koordinator informiert dann alle
+ggT-Prozesse über deren
+jeweilige Startwerte #Mi und startet die Berechnung. Für
+die&nbsp;Startwerte #Mi verwendet er die
+Funktion&nbsp;werkzeug:bestimme_mis/2 zusammen mit dem gewünschten
+ggT&nbsp;(dieser dient zur
+Kontrolle der Berechnung!).&nbsp;</li>
+
+  <li style="font-family: Helvetica,Arial,sans-serif;">Er
+wählt dann per Zufall 20% aller ggT-Prozesse aus, denen er zum Start
+der Berechnung eine Zahl per&nbsp;sendy sendet, die sich analog zu Punkt 5. berechnet.</li><li style="font-family: Helvetica,Arial,sans-serif;">Der
+Koordinator wird von den ggT-Prozessen über deren Terminierung
+informiert. Sollte die dort gesendete Zahl größer als die bisher
+bekannte kleinste Zahl sein, notiert der Koordinator diese Fehlmeldung
+in seiner log. Ist ein spezielles Flag gesetzt, sendet er dem ggT-Prozess&nbsp;diese kleinste Zahl per sendy.&nbsp;</li>
+
+  <li style="font-family: Helvetica,Arial,sans-serif;">Per manueller Eingabe (kill)
+kann der Koordinator in den Zustand "beenden" versetzt werden.</li>
+
+  <li style="font-family: Helvetica,Arial,sans-serif;">Ist der Koordinator
+im <span style="font-weight: bold;">Zustand "beenden"</span>
+informiert er die ggT-Prozesse über die Beendigung (kill).</li><li><b style="font-family: Helvetica,Arial,sans-serif;">Der Koordinator
+ist in Erlang/OTP</b><span style="font-family: Helvetica,Arial,sans-serif;">
+zu
+implementieren und muss auf jedem Rechner im Labor startbar sein! Ein
+ausführliches log, das &nbsp;die Kommunikation mit den anderen
+Einheiten detailliert darstellt, ist zu erstellen.</span><span style="font-weight: bold;"></span> </li>
+
+</ol>
+
+<ul>
+
+ 
+</ul>
+
+
+<h4>Starter</h4>
+
+
+<ol style="font-family: Helvetica,Arial,sans-serif;" start="11">
+
+  <li>Der
+Starter (mit eindeutiger Nummer) erfragt beim Koordinator die
+steuernden Werte (getsteeringval) asynchron und erwartet einen
+entsprechenden Rückruf (steeringval).</li><li>Der Starter liest aus der Datei ggt.cfg
+die weiteren Werte aus: die Erlang-Node des Namensdienstes, der Name
+des Koordinators, die Nummer der Praktikumsgruppe und die Nummer des
+Teams.</li>
+
+  <li>Der
+Starter startet die ggT-Prozesse mit den zugehörigen
+Werten: der Verzögerungszeit, die Terminierungszeit, der Startnummer
+dieses
+Prozesses (also der wievielte gestartete ggT-Prozess er ist), seine
+eindeutige Starternummer, die Praktikumsgruppennummer, die Teamnummer
+sowie die benötigten Kontaktdaten für den Namensdienst und den
+Koordinator und die Abstimmungsquote als konkrete Anzahl.&nbsp;</li>
+
+  <li>Beim
+starten des Starters wird ihm seine Starternummer mitgegeben.</li><li><b>Der Starter ist in Erlang/OTP</b> zu
+implementieren und muss auf jedem Rechner im Labor startbar sein!&nbsp;</li>
+
+</ol>
+
+<ul>
+
+
+</ul>
+
+<h4>ggT-Prozess</h4>
+
+
+<ol style="font-family: Helvetica,Arial,sans-serif;" start="16">
+
+  <li>Ein ggT-Prozess hat den Namen&nbsp;?????, wobei&nbsp;????? eine
+Zahl ist, die sich wie folgt zusammensetzt: <br>
+
+
+&nbsp;
+&nbsp;&lt;PraktikumsgruppenID&gt;&lt;TeamID&gt;&lt;Nummer
+des ggT-Prozess&gt;&lt;Nummer des Starters&gt;,
+    <br>
+
+also z.B. ist in der Praktikumsgruppe 4 von dem Team 03 ein zweiter ggT-Prozess von ihrem ersten Starter
+gestartet worden, so
+erhält dieser ggT-Prozess den Namen 4321.<span style="font-weight: bold;"> </span>In
+der&nbsp;Kommunikation mit externen Prozessen wird&nbsp;dieser Name als
+atom verwendet, wenn er nicht als Absender dient (From)!&nbsp;</li><li>Der
+ggT-Prozess meldet sich beim Koordinator mit seinem Namen an (hello)
+und beim Namensdienst (rebind). Er registriert sich ebenfalls lokal auf
+der Erlang-Node mit seinem Namen (register).&nbsp;Der ggT-Prozess
+erwartet dann
+vom Koordinator die Informationen über seine Nachbarn (setneighbors).</li>
+
+  <li>Vor
+einer ggT-Berechnung erwartet der ggT-Prozess vom Koordinator seine
+Zahl Mi (setpm). Der ggT-Prozess kann zu jeder Zeit zu einer neuen
+Berechnung aufgefordert werden!</li>
+
+  
+
+  <li>Der ggT-Prozess reagiert auf die jeweiligen Nachrichten. Wenn
+er z.B. eine Zahl erhält (sendy) führt er den ggT-Algorithmus
+aus. Ändert sich seine Zahl
+dadurch (also hat er echt etwas berechnet),
+informiert er zusätzlich den Koordinator darüber,
+indem er
+diesem seinen
+Namen, seine neue Zahl und die aktuelle Systemzeit
+überträgt (briefmi). Ändert
+sich seine Zahl dadurch nicht, macht der ggT-Prozess gar nichts und erwartet die nächste Nachricht.</li>
+
+  <li>Für eine
+ggT-Berechnung braucht er jedoch eine gewisse Zeit (die
+Verzögerungszeit), die ihm vom Starter bei der Initialisierung
+mitgegeben wurde. Dies simuliert eine größere, Zeit
+intensivere Aufgabe. Der ggT-Prozess soll in dieser Zeit einfach
+nichts tun (timer:sleep).</li>
+
+  <li>Der
+ggT-Prozess beobachtet die Zeit seit dem letzten Empfang einer
+Zahl (sendy oder setpm). Hat diese ** Sekunden überschritten
+(Terminierungszeit), startet er eine
+Terminierungsanfrage (multicast,vote). Es wird&nbsp;von ihm zu einer Zeit nur genau eine
+Terminierungsanfrage
+gestartet. Eine weitere kann frühstens dann gestartet werden, wenn
+zwischenzeitlich eine Zahl (sendy, setpm) an ihn gesendet wurde!&nbsp;</li>
+
+  <li>Ist
+die Terminierungsanfrage erfolgreich durchgeführt (voteYes ist bzgl. der
+Quote oft genug eingegangen), sendet er
+dem
+Koordinator eine
+Mitteilung über die Terminierung der aktuellen Berechnung, die
+seinen
+Namen, den errechneten ggT (sein aktuelles Mi) und seine aktuelle
+Systemzeit beinhaltet.
+Zudem zählt er seine erfolgreich gemeldeten Terminierungsmeldungen und
+notiert dies in seinem log. Wenn ein ggT-Prozess eine Anfrage
+nach der Terminierung (vote) erhält: ist seit dem letzten Empfang einer
+Zahl mehr als **/2 (** halbe) Sekunden vergangen,
+dann antwortet er dem Initiator mit voteYes
+(explizites Zustimmen). Sonst ignoriert er die Nachricht (implizites
+ablehnen).&nbsp;</li><li>Der <b>ggT-Prozess
+ist in Erlang/OTP</b>
+zu implementieren und muss auf jedem Rechner im Labor startbar sein!</li>
+
+</ol>
+
+
+<h4>GUI</h4>
+
+
+<ol style="font-family: Helvetica,Arial,sans-serif;" start="24">
+
+  <li><b>Koordinator</b>-GUI:</li>
+
+  
+  <ol style="list-style-type: lower-alpha;"><li>Eine einfache Textausgabe reicht, ansonsten wird empfohlen, die GUI in Java zu implementieren.</li><li>Alle
+ausgegebenen Informationen werden in der Datei Koordinator@Rechner.log mit
+protokolliert (<a href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/aufg2/Koordinator@Brummpa.log">Beispiel</a>).</li><li>Die Ausgabe soll im Wesentlichen Ihnen helfen, den Berechnungsverlauf nachzuvollziehen!</li>
+
+  
+  </ol>
+
+  <li><b>Starter</b>-GUI:</li><ol style="list-style-type: lower-alpha;"><li>Eine einfache Textausgabe reicht, ansonsten wird empfohlen, die GUI in Java zu implementieren.</li><li>Alle
+ausgegebenen Informationen werden in der Datei&nbsp;ggtSTARTER_NR@Rechner.log mit
+protokolliert (<a href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/aufg2/ggtSTARTER_5@KI-VS.log">Beispiel</a>).</li><li>Die Ausgabe soll im Wesentlichen Ihnen helfen, den Startverlauf nachzuvollziehen!</li></ol><li><b>ggT-Prozess</b>-GUI:</li><ol style="list-style-type: lower-alpha;"><li>Eine einfache Textausgabe reicht, ansonsten wird empfohlen, die GUI in Java zu implementieren.</li><li>Alle
+ausgegebenen Informationen werden in der Datei&nbsp;GGTP_Name@Rechner.log mit
+protokolliert (<a href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/aufg2/GGTP_48896@KI-VS.log">Beispiel</a>).</li><li>Die Ausgabe soll im Wesentlichen Ihnen helfen, den&nbsp;Berechnungsverlauf nachzuvollziehen!</li></ol>
+
+</ol>
+
+<ul>
+
+
+</ul>
+
+<h3>Hinweise</h3>
+
+<ol start="33">
+
+  </ol><ul><li><span style="font-weight: bold;"></span><span style="font-family: Helvetica,Arial,sans-serif;">Die
+Vorgaben sind so konzipiert, dass bestimmte, lehrreiche Effekte während
+einer Berechnung entstehen können. Bevor Sie hier versuchen, diese
+"Fehler" zu vermeiden, fragen Sie bitte kurz nach, ob es sich um einen
+"Fehler" handelt. Sie würden sonst gegen die Vorgabe implementieren!</span></li><li style="font-family: Helvetica,Arial,sans-serif;">Das System ist möglichst informativ zu gestalten, damit Sie diese lehrreichen Effekte auch entdecken können.</li><li style="font-family: Helvetica,Arial,sans-serif;">Die
+Schnittstelle zwischen dem Starter und den ggT-Prozessen ist nicht
+vorgegeben. Hier arbeiten nur Ihre eigenen Programme zusammen!</li><li style="font-family: Helvetica,Arial,sans-serif;">Da eine gemeinsame Vorführung durchgeführt wird, sind die Vorgaben genau einzuhalten!</li><li style="font-family: Helvetica,Arial,sans-serif;">Veränderungen am Kernalgorithmus (Berechnung des ggT) sind nicht zulässig!</li><li style="font-family: Helvetica,Arial,sans-serif;">Hier ein Beispiel für eine <a href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/aufg2/koordinator.cfg">koordinator.cfg</a> und eine <a href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/aufg2/ggt.cfg">ggt.cfg</a>.</li><li style="font-family: Helvetica,Arial,sans-serif;">Die Datei <a href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/aufg2/werkzeug.erl">werkzeug.erl</a> aus Aufgabe 1 kann hier auch nützlich sein.</li></ul><ol start="33">
+
+</ol>
+
+<h3>Schnittstellen<br>
+
+
+</h3><span style="font-family: Helvetica,Arial,sans-serif;">Bei allen
+Schnittstellen sind bei synchroner Kommunikation die
+Antwortnachrichten bei dem Auftraggeber nicht aufgeführt, so sind z.B.
+die Antwortnachrichten des Namensdienstes nur beim Namensdienst
+aufgeführt! &nbsp;From soll eine direkt zum senden verwendbare&nbsp;</span><span style="font-family: Helvetica,Arial,sans-serif;">Prozess-ID</span><span style="font-family: Helvetica,Arial,sans-serif;">
+sein (self()).</span><br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-family: Helvetica,Arial,sans-serif;"><br>Für den vorgegebenen </span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">Namensdienst</span><span style="font-family: Helvetica,Arial,sans-serif;"> (</span><a style="font-family: Helvetica,Arial,sans-serif;" href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/aufg2/nameservice.beam">nameservice.beam</a><span style="font-family: Helvetica,Arial,sans-serif;">) nameservice:</span><br style="font-family: Helvetica,Arial,sans-serif;"><ul style="font-family: Helvetica,Arial,sans-serif;"><li>Nachdem ein ping auf den Knoten des Namensdienstes gemacht wurde (net_adm:ping(NameserviceNode)), erhält man die Adresse durch:<br>Nameservice
+= global:whereis_name(nameservice). Beachten Sie bitte: <span style="font-weight: bold;">dieses ping ist
+unbedingt auszuführen</span>, obwohl in lokalen Netzen Erlang dies implizit
+durchführt.</li><li>Binden eines Dienstes (einmaliges binden):<br>register(meindienst,<span style="font-family: Helvetica,Arial,sans-serif;">From</span>),<br>Nameservice&nbsp;! {<span style="font-family: Helvetica,Arial,sans-serif;">From</span>,{bind,meindienst,node()}},<br>receive ok -&gt; io:format("..bind.done.\n");<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;in_use -&gt; io:format("..schon gebunden.\n")<br>end,&nbsp;</li><li>Rebinden eines Dienstes (erstmaliges oder wiederholtes binden):<br>register(meindienst,<span style="font-family: Helvetica,Arial,sans-serif;">From</span>),<br>Nameservice&nbsp;! {<span style="font-family: Helvetica,Arial,sans-serif;">From</span>,{rebind,meindienst,node()}},<br>receive ok -&gt; io:format("..rebind.done.\n")<br>end,</li><li>Lookup für einen Dienst:<br>Nameservice&nbsp;! {<span style="font-family: Helvetica,Arial,sans-serif;">From</span>,{lookup,meindienst}},<br>receive <br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;not_found -&gt; io:format("..meindienst..not_found.\n"); <br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {pin,{Name,Node}} -&gt; io:format("...ok: {~p,~p}.\n",[Name,Node])<br>end,</li><li>Unbind eines Dienstes:<br>Nameservice ! {<span style="font-family: Helvetica,Arial,sans-serif;">From</span>,{unbind,meindienst}},<br>receive <br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ok -&gt; io:format("..unbind..done.\n")<br>end,<br>unregister(meindienst),</li><li>Multicast an alle registrierten Einheiten:<br>Nameservice ! {From,{multicast,vote,meinname}},<br>receive <br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {From,{vote,meinname}} -&gt;...From ! {voteYes,Clientname}...,<br>end</li><li>Reset des Namensdienst:<br>Nameservice ! {From,reset},<br>receive <br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; ok -&gt; do_something_else,<br>end</li></ul><span style="font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;">Für den von Ihnen zu implementierenden&nbsp;</span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">Koordinator Prozess</span><span style="font-family: Helvetica,Arial,sans-serif;">:</span><br style="font-family: Helvetica,Arial,sans-serif;"><ul style="font-family: Helvetica,Arial,sans-serif;"><li>{<span style="font-family: Helvetica,Arial,sans-serif;">From</span>:,getsteeringval} Die Anfrage nach den steuernden Werten durch den Starter Prozess (From ist seine PID).</li><li>{hello,Clientname}:
+Ein ggT-Prozess meldet sich beim Koordinator mit Namen
+Clientname&nbsp;an (Name ist der lokal registrierte Name, keine PID!).</li><li>{briefmi,{Clientname,CMi,CZeit}}:
+Ein ggT-Prozess mit Namen Clientname (keine PID!) informiert über sein neues Mi
+CMi&nbsp;um CZeit&nbsp;Uhr (CZeit wird mittels <font face="Helvetica, Arial, sans-serif">werkzeug:timeMilliSecond()</font> erstellt).&nbsp;</li><li>{From,briefterm,{Clientname,CMi,CZeit}}:
+Ein ggT-Prozess&nbsp;mit Namen Clientname (keine PID!) und Absender From (ist PID) informiert über
+über die Terminierung der Berechnung mit Ergebnis CMi&nbsp;um
+CZeit&nbsp;Uhr.</li><li>reset: Der Koordinator&nbsp;sendet allen
+ggT-Prozessen das kill-Kommando und bringt sich selbst in den initialen
+Zustand, indem sich Starter wieder melden können.</li><li>step: Der Koordinator beendet die Initialphase und bildet den Ring. Er wartet nun auf den Start einer ggT-Berechnung.</li><li>prompt: Der Koordinator erfragt bei allen ggT-Prozessen per tellmi deren aktuelles Mi ab und zeigt dies im log an.</li><li>nudge: Der Koordinator erfragt bei allen ggT-Prozessen per&nbsp;pingGGT deren Lebenszustand ab und zeigt dies im log an.</li><li>toggle: Der Koordinator verändert den Flag zur Korrektur bei falschen Terminierungsmeldungen.</li><li>{calc,WggT}:&nbsp;Der Koordinator startet eine neue ggT-Berechnung mit Wunsch-ggT WggT.</li><li>kill: Der Koordinator wird beendet und sendet allen ggT-Prozessen das kill-Kommando.</li></ul>
+
+<span style="font-family: Helvetica,Arial,sans-serif;">Für den von Ihnen zu implementierenden </span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">Starter Prozess</span><span style="font-family: Helvetica,Arial,sans-serif;">:</span><br style="font-family: Helvetica,Arial,sans-serif;"><ul style="font-family: Helvetica,Arial,sans-serif;"><li>{steeringval,ArbeitsZeit,TermZeit,Quota,GGTProzessnummer}:
+die steuernden Werte für die ggT-Prozesse werden im Starter Prozess
+gesetzt; Arbeitszeit ist die simulierte Verzögerungszeit zur Berechnung
+in Sekunden, TermZeit ist die Wartezeit in Sekunden, bis eine Wahl für
+eine Terminierung initiiert wird, Quota ist die konkrete Anzahl an
+benotwendigten Zustimmungen zu einer Terminierungsabstimmung
+und&nbsp;GGTProzessnummer ist die
+Anzahl der zu startenden ggT-Prozesse.</li></ul><span style="font-family: Helvetica,Arial,sans-serif;">Für den von Ihnen zu implementierenden </span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">ggT-Prozess</span><span style="font-family: Helvetica,Arial,sans-serif;">:</span><br style="font-family: Helvetica,Arial,sans-serif;"><ul style="font-family: Helvetica,Arial,sans-serif;"><li>{setneighbors,LeftN,RightN}:
+die (lokal auf deren Node registrieten und im
+Namensdienst&nbsp;registrierten) Namen (keine PID!) des linken und rechten Nachbarn
+werden gesetzt.</li><li>{setpm,MiNeu}: die von diesem Prozess zu berabeitenden Zahl für eine neue Berechnung wird gesetzt.</li><li>{sendy,Y}: der rekursive Aufruf der ggT Berechnung.</li><li>{From,{vote,Initiator}}:
+Wahlnachricht für die Terminierung der aktuellen Berechnung;
+Initiator&nbsp;ist der Initiator dieser Wahl (Name des ggT-Prozesses,
+keine PID!) und From (ist PID) ist sein Absender.</li><li>{voteYes,Name}: erhaltenes Abstimmungsergebnis, wobei Name der Name des Absenders ist (keine PID!).</li><li>{From,tellmi}:
+Sendet das aktuelle Mi an From (ist PID): From ! {mi,Mi}. Wird vom Koordinator
+z.B. genutzt, um bei einem Berechnungsstillstand die Mi-Situation im
+Ring anzuzeigen.</li><li>{From,pingGGT}: Sendet ein pongGGT an From (ist PID):
+From ! {pongGGT,GGTname}. Wird vom Koordinator z.B. genutzt, um auf
+manuelle Anforderung hin die Lebendigkeit des Rings zu prüfen.</li><li>kill: der ggT-Prozess wird beendet.</li></ul>
+
+
+
+<h3>Tipp</h3><span style="font-family: Helvetica,Arial,sans-serif;">Damit Sie
+die Betreuung z.B. zur Klärung von Fragen
+nutzen
+können und damit Sie die Befragung am Anfang des Praktikums
+erfolgreich absolvieren können, ist die Aufgabe gut
+vorzubereiten! (Siehe hierzu die PVL-Bedingung). In der Datei </span><a style="font-family: Helvetica,Arial,sans-serif;" href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/aufg2/werkzeug.erl">werkzeug.erl</a><span style="font-family: Helvetica,Arial,sans-serif;"> gibt es
+für den Zeitstempel und loggen nützliche Funktionen sowie eine
+Implementierung einer sortierten Liste (SL). Bei der Befragung haben
+die </span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">beiden
+Partner in einem Team</span><span style="font-family: Helvetica,Arial,sans-serif;"> jeweils
+alle Fragen zu beantworten, d.h. beide sind jeweils für den gesamten
+Code verantwortlich!<br></span><br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-family: Helvetica,Arial,sans-serif;">Halten Sie das System einfach und strukturiert! Wenn die Kernfunktionalität
+erstellt wurde, kann das System immer noch beliebig
+erweitert/verbessert werden.&nbsp;</span><br style="font-family: Helvetica,Arial,sans-serif;">
+
+
+<br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-family: Helvetica,Arial,sans-serif;">Das
+Praktikum wird auch von Kollegen </span><a style="font-family: Helvetica,Arial,sans-serif;" href="http://users.informatik.haw-hamburg.de/%7Eschulz/">Hartmut
+Schulz</a><span style="font-family: Helvetica,Arial,sans-serif;"> mit betreut, der auf seinen WWW-Seiten ggf. </span><a style="font-family: Helvetica,Arial,sans-serif;" href="http://users.informatik.haw-hamburg.de/%7Eschulz/vsp.html">weitere
+Informationen</a><span style="font-family: Helvetica,Arial,sans-serif;"> zu den Aufgaben hat! 
+</span><h2>Abnahme<br>
+
+
+</h2><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">Bis Freitag Abend 20:00 Uhr</span><span style="font-family: Helvetica,Arial,sans-serif;"> vor Ihrem
+Praktikumstermin ist ein erster&nbsp;</span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;"><a href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/Entwurf.pdf">Entwurf</a>
+&nbsp;</span><span style="font-family: Helvetica,Arial,sans-serif;">für die Aufgabe
+</span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">als
+*.pdf</span><span style="font-family: Helvetica,Arial,sans-serif;"> Dokument (</span><a style="font-family: Helvetica,Arial,sans-serif;" href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/PFormal.zip">Dokumentationskopf</a><span style="font-family: Helvetica,Arial,sans-serif;"> nicht
+vergessen!) uns per E-Mail über </span><span style="font-weight: bold; color: rgb(255, 0, 0); font-family: Helvetica,Arial,sans-serif;">den
+Verteiler</span><span style="font-family: Helvetica,Arial,sans-serif;">
+<a href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/abgabe_aivsp.html">E-Mailabgabe</a>
+zuzusenden. Geben Sie bitte <span style="font-weight: bold;">auch
+Ihren Teampartner/-in </span>im cc an<span style="font-weight: bold;"></span>. Die Abgabe gilt sonst nicht als angenommen.
+</span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"><br><br></span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"><span style="font-weight: bold;">Am Tag vor dem Praktikumstermin</span> bis&nbsp;</span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">20:00 Uhr</span><span style="font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"> : bitte finaler Stand (als *.zip) zusenden</span><span style="font-family: Helvetica,Arial,sans-serif;">, der in der Vorführung am Anfang des Praktikums eingesetzt wird</span><span style="font-family: Helvetica,Arial,sans-serif;"> und alle Vorgaben erfüllen muss</span><span style="font-family: Helvetica,Arial,sans-serif;">.</span><span style="font-family: Helvetica,Arial,sans-serif;"><br><br></span><span style="font-family: Helvetica,Arial,sans-serif;">Am Tag des
+Praktikums findet eine Besprechung mit Teams statt. </span><span style="font-family: Helvetica,Arial,sans-serif;">Die </span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">Besprechung
+muss erfolgreich absolviert werden</span><span style="font-family: Helvetica,Arial,sans-serif;">, um weiter
+am Praktikum teilnehmen zu können. Ist die&nbsp;</span><span style="font-family: Helvetica,Arial,sans-serif;">Besprechung</span><span style="font-family: Helvetica,Arial,sans-serif;"> nicht
+erfolgreich, gilt die Aufgabe als nicht erfolgreich bearbeitet. Als
+erfolgreich wird die&nbsp;</span><span style="font-family: Helvetica,Arial,sans-serif;">Besprechung</span><span style="font-family: Helvetica,Arial,sans-serif;"> bewertet, wenn Ihre
+Kenntnisse eine erfolgreiche weitere Teilnahme an dem Praktikumstermin in
+Aussicht stellen und ggf. die Programmieraufgabe korrekt gelöst wurde. Bei der&nbsp;</span><span style="font-family: Helvetica,Arial,sans-serif;">Besprechung</span><span style="font-family: Helvetica,Arial,sans-serif;"> handelt es sich nicht um die Abnahme.</span><span style="font-family: Helvetica,Arial,sans-serif;"></span><br style="font-family: Helvetica,Arial,sans-serif;"><br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-family: Helvetica,Arial,sans-serif;">Zum konkreten Zeitplan im Praktikum: Im Zeitraum </span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">12:35 - 13:05
+</span><span style="font-family: Helvetica,Arial,sans-serif;">finden
+Vorführungen
+statt, d.h. sie demonstrieren ihren lauffähigen Code z.B. mittels Tests. Danach </span><span style="font-family: Helvetica,Arial,sans-serif;">finden die Besprechungen statt.&nbsp;</span><span style="font-family: Helvetica,Arial,sans-serif;">Im Zeitraum ab </span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">13:15 - 15:40
+</span><span style="font-family: Helvetica,Arial,sans-serif;">(siehe Tabelle der Prüfungstermine) </span><span style="font-family: Helvetica,Arial,sans-serif;">finden die Referate statt.<br></span><span style="font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"></span><br style="font-family: Helvetica,Arial,sans-serif;">
+<span style="font-weight: bold; color: rgb(255, 0, 0); font-family: Helvetica,Arial,sans-serif;">Abgabe</span><span style="font-family: Helvetica,Arial,sans-serif;">:&nbsp;</span><span style="font-family: Helvetica,Arial,sans-serif;">Unmittelbar
+am Ende des Praktikums</span><span style="font-family: Helvetica,Arial,sans-serif;"> </span><span style="font-family: Helvetica,Arial,sans-serif;">ist von
+<span style="font-weight: bold;">allen Teams</span> für die </span><span style="font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"></span><font style="font-family: Helvetica,Arial,sans-serif;" color="#ff0000"><b>Abgabe</b></font><font face="Arial">&nbsp;der erstellte und</font><span style="font-family: Helvetica,Arial,sans-serif;"> gut dokumentierte Code</span><span style="font-family: Arial;"> </span><span style="font-family: Helvetica,Arial,sans-serif;">abzugeben</span><span style="font-family: Helvetica,Arial,sans-serif;">. Zu dem Code gehören
+die Sourcedateien, die *.log Dateien, die während der
+Vorführung erzeugt wurden, und eine </span><a style="font-family: Helvetica,Arial,sans-serif;" href="http://users.informatik.haw-hamburg.de/%7Eklauck/VerteilteSysteme/aufg1/Readme.txt">Readme.txt</a><span style="font-family: Helvetica,Arial,sans-serif;">
+Datei, in der ausführlich beschrieben wird, wie das System zu starten
+ist! Bitte beachten Sie: es muss klar sein,
+welche *.log Dateien zu welcher Vorführung bzw. zu welchem Test
+gehören! Zudem sind für die einzelnen Vorführungen einzelne Ordner zu
+erstellen. Des weiteren ist der</span><span style="font-family: Helvetica,Arial,sans-serif;"> aktuelle Dokumentationskopf abzugeben. <span style="font-weight: bold;">In den
+Sourcedateien ist auf den Entwurf zu verweisen</span>, um die Umsetzung der
+Vorgaben zu dokumentieren. Alle Dateien
+sind als <span style="font-weight: bold;">ein *.zip Ordner</span> (mit cc an den/die Teampratner_in) per E-Mail an den genannten Verteiler
+abzugeben. </span><span style="font-family: Helvetica,Arial,sans-serif;">Die Abgabe gehört zu den
+PVL-Bedingungen und ist einzuhalten, terminlich wie auch inhaltlich!</span><span style="font-family: Helvetica,Arial,sans-serif;"></span><br style="font-family: Helvetica,Arial,sans-serif;">
+<br style="font-family: Helvetica,Arial,sans-serif;"><span style="font-family: Helvetica,Arial,sans-serif;">Wird eine
+Aufgabe nicht erfolgreich bearbeitet gilt&nbsp;die </span><b style="font-family: Helvetica,Arial,sans-serif;">PVL</b><span style="font-family: Helvetica,Arial,sans-serif;">
+als </span><b style="font-family: Helvetica,Arial,sans-serif;">nicht
+bestanden</b><span style="font-family: Helvetica,Arial,sans-serif;">.
+Damit eine Aufgabe als erfolgreich gewertet wird, müssen der Entwurf,
+die Besprechung, die Vorführung sowie die Abgabe als erfolgreich gewertet
+werden.&nbsp;</span><span style="font-family: Helvetica,Arial,sans-serif;">Ob die Abgabe erfolgreich abgenommen ist, wird Ihnen per E-Mail mitgeteilt.</span><span style="font-family: Helvetica,Arial,sans-serif;"> </span><span style="font-weight: bold; font-family: Helvetica,Arial,sans-serif;">Alle
+gesetzten Termine sind einzuhalten</span><span style="font-family: Helvetica,Arial,sans-serif;">.</span><span style="font-family: Helvetica,Arial,sans-serif;"></span><span style="font-family: Helvetica,Arial,sans-serif;"></span><br>
+
+<br>
+
+<br>
+
+<br>
+
+<!-- BEGINN GOWEB WEBCOUNTER -->
+<center><a href="http://www.webcounter.goweb.de/"><img src="Aufgabe%202-Dateien/12337.GIF" alt="gratis Counter by GOWEB" style="display: none !important;" hidden="" vspace="0" border="0"></a><br>
+
+<a href="http://www.webcounter.goweb.de/"><font size="-2" color="#4c4c4c">Gratis Counter by GOWEB</font></a>
+</center>
+
+<!-- ENDE GOWEB WEBCOUNTER -->
+</body></html>

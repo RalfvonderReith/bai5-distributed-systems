@@ -1,0 +1,123 @@
+2-pclient@KI-VS-<0.1950.0>-KLC Start: 29.04 08:57:06,190|.
+2-pclient@KI-VS-<0.1950.0>-KLC: 1te_Nachricht. C Out: 29.04 08:57:09,201| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 18te_Nachricht. C Out: 29.04 08:57:12,227| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 25te_Nachricht. C Out: 29.04 08:57:15,254| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 35te_Nachricht. C Out: 29.04 08:57:18,265| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 42te_Nachricht. C Out: 29.04 08:57:21,291| gesendet
+70te_Nachricht um 29.04 08:57:21,322| vergessen zu senden ******
+77te_Nachricht um 29.04 08:57:21,338| vergessen zu senden ******
+82te_Nachricht um 29.04 08:57:21,369| vergessen zu senden ******
+86te_Nachricht um 29.04 08:57:21,400| vergessen zu senden ******
+90te_Nachricht um 29.04 08:57:21,416| vergessen zu senden ******
+0-pclient@KI-VS-<0.1948.0>-KLC: 4te_Nachricht. C Out: 29.04 08:57:09,201| HBQ In: 29.04 08:57:09,205|  DLQ Out: 29.04 08:57:21,467|  ; C In: 29.04 08:57:21,463| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+7-pclient@KI-VS-<0.1955.0>-KLC: 5te_Nachricht. C Out: 29.04 08:57:09,201| HBQ In: 29.04 08:57:09,205|  DLQ Out: 29.04 08:57:21,498|  ; C In: 29.04 08:57:21,494| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+1-pclient@KI-VS-<0.1949.0>-KLC: 6te_Nachricht. C Out: 29.04 08:57:09,201| HBQ In: 29.04 08:57:09,205|  DLQ Out: 29.04 08:57:21,529|  ; C In: 29.04 08:57:21,525| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+3-pclient@KI-VS-<0.1951.0>-KLC: 7te_Nachricht. C Out: 29.04 08:57:09,201| HBQ In: 29.04 08:57:09,205|  DLQ Out: 29.04 08:57:21,560|  ; C In: 29.04 08:57:21,556| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039970|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 8te_Nachricht. C Out: 29.04 08:57:09,201| HBQ In: 29.04 08:57:09,205|  DLQ Out: 29.04 08:57:21,591|  ; C In: 29.04 08:57:21,587| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039970|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 9te_Nachricht. C Out: 29.04 08:57:09,201| HBQ In: 29.04 08:57:09,205|  DLQ Out: 29.04 08:57:21,637|  ; C In: 29.04 08:57:21,634| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+1-pclient@KI-VS-<0.1949.0>-KLC: 10te_Nachricht. C Out: 29.04 08:57:12,212| HBQ In: 29.04 08:57:12,231|  DLQ Out: 29.04 08:57:21,669|  ; C In: 29.04 08:57:21,665| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+3-pclient@KI-VS-<0.1951.0>-KLC: 11te_Nachricht. C Out: 29.04 08:57:12,212| HBQ In: 29.04 08:57:12,231|  DLQ Out: 29.04 08:57:21,701|  ; C In: 29.04 08:57:21,697| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+0-pclient@KI-VS-<0.1948.0>-KLC: 12te_Nachricht. C Out: 29.04 08:57:12,212| HBQ In: 29.04 08:57:12,216|  DLQ Out: 29.04 08:57:21,732|  ; C In: 29.04 08:57:21,728| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039970|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 13te_Nachricht. C Out: 29.04 08:57:12,212| HBQ In: 29.04 08:57:12,216|  DLQ Out: 29.04 08:57:21,778|  ; C In: 29.04 08:57:21,775| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+7-pclient@KI-VS-<0.1955.0>-KLC: 14te_Nachricht. C Out: 29.04 08:57:12,212| HBQ In: 29.04 08:57:12,216|  DLQ Out: 29.04 08:57:21,810|  ; C In: 29.04 08:57:21,806| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+8-pclient@KI-VS-<0.1956.0>-KLC: 15te_Nachricht. C Out: 29.04 08:57:12,212| HBQ In: 29.04 08:57:12,216|  DLQ Out: 29.04 08:57:21,841|  ; C In: 29.04 08:57:21,837| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 16te_Nachricht. C Out: 29.04 08:57:12,227| HBQ In: 29.04 08:57:12,247|  DLQ Out: 29.04 08:57:21,887|  ; C In: 29.04 08:57:21,884| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+6-pclient@KI-VS-<0.1954.0>-KLC: 17te_Nachricht. C Out: 29.04 08:57:12,227| HBQ In: 29.04 08:57:12,247|  DLQ Out: 29.04 08:57:21,919|  ; C In: 29.04 08:57:21,915| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+2-pclient@KI-VS-<0.1950.0>-KLC: 18te_Nachricht. C Out: 29.04 08:57:12,227| HBQ In: 29.04 08:57:12,246|  DLQ Out: 29.04 08:57:21,950| *******; C In: 29.04 08:57:21,946| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+8-pclient@KI-VS-<0.1956.0>-KLC: 19te_Nachricht. C Out: 29.04 08:57:15,223| HBQ In: 29.04 08:57:15,227|  DLQ Out: 29.04 08:57:21,996|  ; C In: 29.04 08:57:22,993| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+7-pclient@KI-VS-<0.1955.0>-KLC: 20te_Nachricht. C Out: 29.04 08:57:15,223| HBQ In: 29.04 08:57:15,227|  DLQ Out: 29.04 08:57:22,028|  ; C In: 29.04 08:57:22,024| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039960|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 21te_Nachricht. C Out: 29.04 08:57:15,238| HBQ In: 29.04 08:57:15,242|  DLQ Out: 29.04 08:57:22,075|  ; C In: 29.04 08:57:22,071| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+0-pclient@KI-VS-<0.1948.0>-KLC: 22te_Nachricht. C Out: 29.04 08:57:15,238| HBQ In: 29.04 08:57:15,242|  DLQ Out: 29.04 08:57:22,106|  ; C In: 29.04 08:57:22,102| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039970|< 
+1-pclient@KI-VS-<0.1949.0>-KLC: 23te_Nachricht. C Out: 29.04 08:57:15,238| HBQ In: 29.04 08:57:15,242|  DLQ Out: 29.04 08:57:22,137|  ; C In: 29.04 08:57:22,133| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039940|< 
+3-pclient@KI-VS-<0.1951.0>-KLC: 24te_Nachricht. C Out: 29.04 08:57:15,254| HBQ In: 29.04 08:57:15,258|  DLQ Out: 29.04 08:57:22,153|  ; C In: 29.04 08:57:22,149| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+2-pclient@KI-VS-<0.1950.0>-KLC: 25te_Nachricht. C Out: 29.04 08:57:15,254| HBQ In: 29.04 08:57:15,258|  DLQ Out: 29.04 08:57:22,200| *******; C In: 29.04 08:57:22,196| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+6-pclient@KI-VS-<0.1954.0>-KLC: 26te_Nachricht. C Out: 29.04 08:57:15,254| HBQ In: 29.04 08:57:15,258|  DLQ Out: 29.04 08:57:22,231|  ; C In: 29.04 08:57:22,227| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039960|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 27te_Nachricht. C Out: 29.04 08:57:15,254| HBQ In: 29.04 08:57:15,258|  DLQ Out: 29.04 08:57:22,278|  ; C In: 29.04 08:57:22,274| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+7-pclient@KI-VS-<0.1955.0>-KLC: 28te_Nachricht. C Out: 29.04 08:57:18,233| HBQ In: 29.04 08:57:18,237|  DLQ Out: 29.04 08:57:22,308|  ; C In: 29.04 08:57:22,305| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+8-pclient@KI-VS-<0.1956.0>-KLC: 29te_Nachricht. C Out: 29.04 08:57:18,233| HBQ In: 29.04 08:57:18,237|  DLQ Out: 29.04 08:57:22,340|  ; C In: 29.04 08:57:22,336| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+1-pclient@KI-VS-<0.1949.0>-KLC: 30te_Nachricht. C Out: 29.04 08:57:18,249| HBQ In: 29.04 08:57:18,253|  DLQ Out: 29.04 08:57:22,371|  ; C In: 29.04 08:57:22,367| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+0-pclient@KI-VS-<0.1948.0>-KLC: 31te_Nachricht. C Out: 29.04 08:57:18,249| HBQ In: 29.04 08:57:18,253|  DLQ Out: 29.04 08:57:22,403|  ; C In: 29.04 08:57:22,399| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 32te_Nachricht. C Out: 29.04 08:57:18,265| HBQ In: 29.04 08:57:18,284|  DLQ Out: 29.04 08:57:22,434|  ; C In: 29.04 08:57:22,430| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 33te_Nachricht. C Out: 29.04 08:57:18,265| HBQ In: 29.04 08:57:18,284|  DLQ Out: 29.04 08:57:22,465|  ; C In: 29.04 08:57:22,461| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+6-pclient@KI-VS-<0.1954.0>-KLC: 34te_Nachricht. C Out: 29.04 08:57:18,265| HBQ In: 29.04 08:57:18,284|  DLQ Out: 29.04 08:57:22,496|  ; C In: 29.04 08:57:22,492| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+2-pclient@KI-VS-<0.1950.0>-KLC: 35te_Nachricht. C Out: 29.04 08:57:18,265| HBQ In: 29.04 08:57:18,269|  DLQ Out: 29.04 08:57:22,527| *******; C In: 29.04 08:57:22,523| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+3-pclient@KI-VS-<0.1951.0>-KLC: 36te_Nachricht. C Out: 29.04 08:57:18,265| HBQ In: 29.04 08:57:18,269|  DLQ Out: 29.04 08:57:22,559|  ; C In: 29.04 08:57:22,555| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+8-pclient@KI-VS-<0.1956.0>-KLC: 37te_Nachricht. C Out: 29.04 08:57:21,244| HBQ In: 29.04 08:57:21,248|  DLQ Out: 29.04 08:57:22,590|  ; C In: 29.04 08:57:22,586| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039970|< 
+7-pclient@KI-VS-<0.1955.0>-KLC: 38te_Nachricht. C Out: 29.04 08:57:21,244| HBQ In: 29.04 08:57:21,248|  DLQ Out: 29.04 08:57:22,621|  ; C In: 29.04 08:57:22,617| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039970|< 
+0-pclient@KI-VS-<0.1948.0>-KLC: 39te_Nachricht. C Out: 29.04 08:57:21,260| HBQ In: 29.04 08:57:21,264|  DLQ Out: 29.04 08:57:22,652|  ; C In: 29.04 08:57:22,648| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039960|< 
+1-pclient@KI-VS-<0.1949.0>-KLC: 40te_Nachricht. C Out: 29.04 08:57:21,260| HBQ In: 29.04 08:57:21,264|  DLQ Out: 29.04 08:57:22,698|  ; C In: 29.04 08:57:22,695| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+3-pclient@KI-VS-<0.1951.0>-KLC: 41te_Nachricht. C Out: 29.04 08:57:21,274| HBQ In: 29.04 08:57:21,278|  DLQ Out: 29.04 08:57:22,730|  ; C In: 29.04 08:57:22,726| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+2-pclient@KI-VS-<0.1950.0>-KLC: 42te_Nachricht. C Out: 29.04 08:57:21,291| HBQ In: 29.04 08:57:21,326|  DLQ Out: 29.04 08:57:22,746| *******; C In: 29.04 08:57:22,757|
+6-pclient@KI-VS-<0.1954.0>-KLC: 43te_Nachricht. C Out: 29.04 08:57:21,291| HBQ In: 29.04 08:57:21,311|  DLQ Out: 29.04 08:57:22,777|  ; C In: 29.04 08:57:22,773| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 44te_Nachricht. C Out: 29.04 08:57:21,291| HBQ In: 29.04 08:57:21,311|  DLQ Out: 29.04 08:57:22,793|  ; C In: 29.04 08:57:22,789| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 45te_Nachricht. C Out: 29.04 08:57:21,290| HBQ In: 29.04 08:57:21,310|  DLQ Out: 29.04 08:57:22,823|  ; C In: 29.04 08:57:22,820| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< ..getmessages..Done...
+115te_Nachricht um 29.04 08:57:22,820| vergessen zu senden ******
+124te_Nachricht um 29.04 08:57:22,820| vergessen zu senden ******
+131te_Nachricht um 29.04 08:57:22,820| vergessen zu senden ******
+136te_Nachricht um 29.04 08:57:22,820| vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden (3).
+140te_Nachricht um 29.04 08:57:22,820| vergessen zu senden ******
+2-pclient@KI-VS-<0.1950.0>-KLC: 144te_Nachricht. C Out: 29.04 08:57:24,831| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 145te_Nachricht. C Out: 29.04 08:57:26,845| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 162te_Nachricht. C Out: 29.04 08:57:28,887| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 171te_Nachricht. C Out: 29.04 08:57:30,901| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 180te_Nachricht. C Out: 29.04 08:57:32,913| gesendet
+213te_Nachricht um 29.04 08:57:32,960| vergessen zu senden ******
+216te_Nachricht um 29.04 08:57:32,960| vergessen zu senden ******
+219te_Nachricht um 29.04 08:57:32,975| vergessen zu senden ******
+222te_Nachricht um 29.04 08:57:32,975| vergessen zu senden ******
+225te_Nachricht um 29.04 08:57:32,991| vergessen zu senden ******
+3-pclient@KI-VS-<0.1951.0>-KLC: 132te_Nachricht. C Out: 29.04 08:57:24,832| HBQ In: 29.04 08:57:24,836|  DLQ Out: 29.04 08:57:33,010|  ; C In: 29.04 08:57:33,007| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0040000|< 
+***Fehlernachricht fuer Nachrichten 133 bis 140 um 29.04 08:57:30,873|. DLQ Out: 29.04 08:57:33,011| *******; C In: 29.04 08:57:33,007| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039910|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 141te_Nachricht. C Out: 29.04 08:57:24,832| HBQ In: 29.04 08:57:24,836|  DLQ Out: 29.04 08:57:33,011|  ; C In: 29.04 08:57:33,007| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039819|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 142te_Nachricht. C Out: 29.04 08:57:24,832| HBQ In: 29.04 08:57:24,836|  DLQ Out: 29.04 08:57:33,026|  ; C In: 29.04 08:57:33,022| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039940|< 
+6-pclient@KI-VS-<0.1954.0>-KLC: 143te_Nachricht. C Out: 29.04 08:57:24,832| HBQ In: 29.04 08:57:24,836|  DLQ Out: 29.04 08:57:33,026|  ; C In: 29.04 08:57:33,022| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039849|< 
+2-pclient@KI-VS-<0.1950.0>-KLC: 144te_Nachricht. C Out: 29.04 08:57:24,831| HBQ In: 29.04 08:57:24,835|  DLQ Out: 29.04 08:57:33,042| *******; C In: 29.04 08:57:33,038| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039970|< 
+2-pclient@KI-VS-<0.1950.0>-KLC: 145te_Nachricht. C Out: 29.04 08:57:26,845| HBQ In: 29.04 08:57:26,849|  DLQ Out: 29.04 08:57:33,042| *******; C In: 29.04 08:57:33,038| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039880|< 
+0-pclient@KI-VS-<0.1948.0>-KLC: 146te_Nachricht. C Out: 29.04 08:57:26,845| HBQ In: 29.04 08:57:26,849|  DLQ Out: 29.04 08:57:33,057|  ; C In: 29.04 08:57:33,053| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+1-pclient@KI-VS-<0.1949.0>-KLC: 147te_Nachricht. C Out: 29.04 08:57:26,845| HBQ In: 29.04 08:57:26,849|  DLQ Out: 29.04 08:57:33,057|  ; C In: 29.04 08:57:33,053| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039899|< 
+7-pclient@KI-VS-<0.1955.0>-KLC: 148te_Nachricht. C Out: 29.04 08:57:26,845| HBQ In: 29.04 08:57:26,849|  DLQ Out: 29.04 08:57:33,057|  ; C In: 29.04 08:57:33,053| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039810|< 
+8-pclient@KI-VS-<0.1956.0>-KLC: 149te_Nachricht. C Out: 29.04 08:57:26,845| HBQ In: 29.04 08:57:26,849|  DLQ Out: 29.04 08:57:33,073|  ; C In: 29.04 08:57:33,069| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039920|< 
+6-pclient@KI-VS-<0.1954.0>-KLC: 150te_Nachricht. C Out: 29.04 08:57:26,845| HBQ In: 29.04 08:57:26,849|  DLQ Out: 29.04 08:57:33,073|  ; C In: 29.04 08:57:33,069| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039830|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 151te_Nachricht. C Out: 29.04 08:57:26,845| HBQ In: 29.04 08:57:26,849|  DLQ Out: 29.04 08:57:33,089|  ; C In: 29.04 08:57:33,085| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039940|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 152te_Nachricht. C Out: 29.04 08:57:26,845| HBQ In: 29.04 08:57:26,849|  DLQ Out: 29.04 08:57:33,089|  ; C In: 29.04 08:57:33,085| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039849|< 
+3-pclient@KI-VS-<0.1951.0>-KLC: 153te_Nachricht. C Out: 29.04 08:57:26,845| HBQ In: 29.04 08:57:26,849|  DLQ Out: 29.04 08:57:33,104|  ; C In: 29.04 08:57:33,100| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039950|< 
+3-pclient@KI-VS-<0.1951.0>-KLC: 154te_Nachricht. C Out: 29.04 08:57:28,857| HBQ In: 29.04 08:57:28,861|  DLQ Out: 29.04 08:57:33,104|  ; C In: 29.04 08:57:33,100| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039860|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 155te_Nachricht. C Out: 29.04 08:57:28,857| HBQ In: 29.04 08:57:28,861|  DLQ Out: 29.04 08:57:33,120|  ; C In: 29.04 08:57:33,116| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039970|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 156te_Nachricht. C Out: 29.04 08:57:28,857| HBQ In: 29.04 08:57:28,861|  DLQ Out: 29.04 08:57:33,120|  ; C In: 29.04 08:57:33,116| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039880|< 
+6-pclient@KI-VS-<0.1954.0>-KLC: 157te_Nachricht. C Out: 29.04 08:57:28,857| HBQ In: 29.04 08:57:28,861|  DLQ Out: 29.04 08:57:33,120|  ; C In: 29.04 08:57:33,116| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039790|< 
+8-pclient@KI-VS-<0.1956.0>-KLC: 158te_Nachricht. C Out: 29.04 08:57:28,857| HBQ In: 29.04 08:57:28,861|  DLQ Out: 29.04 08:57:33,135|  ; C In: 29.04 08:57:33,131| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039920|< 
+7-pclient@KI-VS-<0.1955.0>-KLC: 159te_Nachricht. C Out: 29.04 08:57:28,857| HBQ In: 29.04 08:57:28,861|  DLQ Out: 29.04 08:57:33,135|  ; C In: 29.04 08:57:33,131| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039830|< 
+1-pclient@KI-VS-<0.1949.0>-KLC: 160te_Nachricht. C Out: 29.04 08:57:28,857| HBQ In: 29.04 08:57:28,861|  DLQ Out: 29.04 08:57:33,151|  ; C In: 29.04 08:57:33,147| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039950|< 
+0-pclient@KI-VS-<0.1948.0>-KLC: 161te_Nachricht. C Out: 29.04 08:57:28,857| HBQ In: 29.04 08:57:28,861|  DLQ Out: 29.04 08:57:33,151|  ; C In: 29.04 08:57:33,147| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039860|< 
+2-pclient@KI-VS-<0.1950.0>-KLC: 162te_Nachricht. C Out: 29.04 08:57:28,887| HBQ In: 29.04 08:57:28,891|  DLQ Out: 29.04 08:57:33,167| *******; C In: 29.04 08:57:33,163| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039990|< 
+0-pclient@KI-VS-<0.1948.0>-KLC: 163te_Nachricht. C Out: 29.04 08:57:30,869| HBQ In: 29.04 08:57:30,873|  DLQ Out: 29.04 08:57:33,167|  ; C In: 29.04 08:57:33,163| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039899|< 
+1-pclient@KI-VS-<0.1949.0>-KLC: 164te_Nachricht. C Out: 29.04 08:57:30,869| HBQ In: 29.04 08:57:30,873|  DLQ Out: 29.04 08:57:33,167|  ; C In: 29.04 08:57:33,163| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039810|< 
+7-pclient@KI-VS-<0.1955.0>-KLC: 165te_Nachricht. C Out: 29.04 08:57:30,869| HBQ In: 29.04 08:57:30,873|  DLQ Out: 29.04 08:57:33,182|  ; C In: 29.04 08:57:33,178| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039950|< 
+8-pclient@KI-VS-<0.1956.0>-KLC: 166te_Nachricht. C Out: 29.04 08:57:30,869| HBQ In: 29.04 08:57:30,873|  DLQ Out: 29.04 08:57:33,182|  ; C In: 29.04 08:57:33,178| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039860|< 
+6-pclient@KI-VS-<0.1954.0>-KLC: 167te_Nachricht. C Out: 29.04 08:57:30,869| HBQ In: 29.04 08:57:30,873|  DLQ Out: 29.04 08:57:33,198|  ; C In: 29.04 08:57:33,194| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 168te_Nachricht. C Out: 29.04 08:57:30,869| HBQ In: 29.04 08:57:30,873|  DLQ Out: 29.04 08:57:33,198|  ; C In: 29.04 08:57:33,194| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039890|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 169te_Nachricht. C Out: 29.04 08:57:30,869| HBQ In: 29.04 08:57:30,873|  DLQ Out: 29.04 08:57:33,198|  ; C In: 29.04 08:57:33,194| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039800|< 
+3-pclient@KI-VS-<0.1951.0>-KLC: 170te_Nachricht. C Out: 29.04 08:57:30,869| HBQ In: 29.04 08:57:30,873|  DLQ Out: 29.04 08:57:33,213|  ; C In: 29.04 08:57:33,209| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039940|< 
+2-pclient@KI-VS-<0.1950.0>-KLC: 171te_Nachricht. C Out: 29.04 08:57:30,901| HBQ In: 29.04 08:57:30,905|  DLQ Out: 29.04 08:57:33,213| *******; C In: 29.04 08:57:33,209| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039849|< 
+6-pclient@KI-VS-<0.1954.0>-KLC: 172te_Nachricht. C Out: 29.04 08:57:32,882| HBQ In: 29.04 08:57:32,886|  DLQ Out: 29.04 08:57:33,229|  ; C In: 29.04 08:57:33,225| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039979|< 
+3-pclient@KI-VS-<0.1951.0>-KLC: 173te_Nachricht. C Out: 29.04 08:57:32,882| HBQ In: 29.04 08:57:32,886|  DLQ Out: 29.04 08:57:33,229|  ; C In: 29.04 08:57:33,225| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039890|< 
+4-pclient@KI-VS-<0.1952.0>-KLC: 174te_Nachricht. C Out: 29.04 08:57:32,882| HBQ In: 29.04 08:57:32,886|  DLQ Out: 29.04 08:57:33,229|  ; C In: 29.04 08:57:33,225| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039800|< 
+5-pclient@KI-VS-<0.1953.0>-KLC: 175te_Nachricht. C Out: 29.04 08:57:32,882| HBQ In: 29.04 08:57:32,886|  DLQ Out: 29.04 08:57:33,245|  ; C In: 29.04 08:57:33,241| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039929|< 
+8-pclient@KI-VS-<0.1956.0>-KLC: 176te_Nachricht. C Out: 29.04 08:57:32,882| HBQ In: 29.04 08:57:32,886|  DLQ Out: 29.04 08:57:33,245|  ; C In: 29.04 08:57:33,241| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039840|< 
+7-pclient@KI-VS-<0.1955.0>-KLC: 177te_Nachricht. C Out: 29.04 08:57:32,882| HBQ In: 29.04 08:57:32,886|  DLQ Out: 29.04 08:57:33,245|  ; C In: 29.04 08:57:33,241| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039750|< 
+1-pclient@KI-VS-<0.1949.0>-KLC: 178te_Nachricht. C Out: 29.04 08:57:32,897| HBQ In: 29.04 08:57:32,917|  DLQ Out: 29.04 08:57:33,260|  ; C In: 29.04 08:57:33,256| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039929|< 
+0-pclient@KI-VS-<0.1948.0>-KLC: 179te_Nachricht. C Out: 29.04 08:57:32,897| HBQ In: 29.04 08:57:32,917|  DLQ Out: 29.04 08:57:33,260|  ; C In: 29.04 08:57:33,256| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039840|< 
+2-pclient@KI-VS-<0.1950.0>-KLC: 180te_Nachricht. C Out: 29.04 08:57:32,913| HBQ In: 29.04 08:57:32,917|  DLQ Out: 29.04 08:57:33,260| *******; C In: 29.04 08:57:33,256| >**Nachricht aus der Zukunft fuer Client:00.00 00:00:00,0039750|< ..getmessages..Done...
+257te_Nachricht um 29.04 08:57:33,256| vergessen zu senden ******
+266te_Nachricht um 29.04 08:57:33,256| vergessen zu senden ******
+270te_Nachricht um 29.04 08:57:33,256| vergessen zu senden ******
+273te_Nachricht um 29.04 08:57:33,256| vergessen zu senden ******
+Neues Sendeintervall: 3 Sekunden (2).
+276te_Nachricht um 29.04 08:57:33,256| vergessen zu senden ******
+2-pclient@KI-VS-<0.1950.0>-KLC: 279te_Nachricht. C Out: 29.04 08:57:36,266| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 280te_Nachricht. C Out: 29.04 08:57:39,278| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 289te_Nachricht. C Out: 29.04 08:57:42,289| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 299te_Nachricht. C Out: 29.04 08:57:45,300| gesendet
+2-pclient@KI-VS-<0.1950.0>-KLC: 307te_Nachricht. C Out: 29.04 08:57:48,310| gesendet
+Downtime: 29.04 08:57:48,310| vom Client 2-pclient@KI-VS-<0.1950.0>-KLC
