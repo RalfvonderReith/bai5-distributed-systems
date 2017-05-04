@@ -1,0 +1,90 @@
+0-client@ProfDrKlauck-<0.68.0>-C-KLC Startzeit: 18.05 21:34:11,850| mit PID <0.68.0>
+0-client@ProfDrKlauck-<0.45.0>-C-KLC Startzeit: 18.05 21:37:35,470| mit PID <0.45.0>
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 1te_Nachricht. Sendezeit: 18.05 21:37:38,740| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 3te_Nachricht. Sendezeit: 18.05 21:37:41,850| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 6te_Nachricht. Sendezeit: 18.05 21:37:44,950| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 8te_Nachricht. Sendezeit: 18.05 21:37:47,060| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 9te_Nachricht. Sendezeit: 18.05 21:37:50,170| gesendet
+11te_Nachricht um 18.05 21:37:50,170| vergessen zu senden ******
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 1te_Nachricht. Sendezeit: 18.05 21:37:38,740|(1); Empfangszeit: 18.05 21:37:36,180|; Durchlesezeit: 18.05 21:37:50,170|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 2te_Nachricht. Sendezeit: 18.05 21:37:38,740|(2); Empfangszeit: 18.05 21:37:36,180|; Durchlesezeit: 18.05 21:37:50,170|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 3te_Nachricht. Sendezeit: 18.05 21:37:41,850|(3); Empfangszeit: 18.05 21:37:39,340|; Durchlesezeit: 18.05 21:37:50,170|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 4te_Nachricht. Sendezeit: 18.05 21:37:41,850|(4); Empfangszeit: 18.05 21:37:39,340|; Durchlesezeit: 18.05 21:37:50,330|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 5te_Nachricht. Sendezeit: 18.05 21:37:44,950|(5); Empfangszeit: 18.05 21:37:42,340|; Durchlesezeit: 18.05 21:37:50,330|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 6te_Nachricht. Sendezeit: 18.05 21:37:44,950|(6); Empfangszeit: 18.05 21:37:42,340|; Durchlesezeit: 18.05 21:37:50,330|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 7te_Nachricht. Sendezeit: 18.05 21:37:47,060|(7); Empfangszeit: 18.05 21:37:45,500|; Durchlesezeit: 18.05 21:37:50,330|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 8te_Nachricht. Sendezeit: 18.05 21:37:47,060|(8); Empfangszeit: 18.05 21:37:45,500|; Durchlesezeit: 18.05 21:37:50,330|
+...Done...
+13te_Nachricht um 18.05 21:37:50,480| vergessen zu senden ******
+Neues Sendeintervall: 1 Sekunden
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 15te_Nachricht. Sendezeit: 18.05 21:37:51,090| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 18te_Nachricht. Sendezeit: 18.05 21:37:52,230| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 19te_Nachricht. Sendezeit: 18.05 21:37:53,370| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 22te_Nachricht. Sendezeit: 18.05 21:37:54,510| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 23te_Nachricht. Sendezeit: 18.05 21:37:55,649| gesendet
+25te_Nachricht um 18.05 21:37:55,650| vergessen zu senden ******
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 6te_Nachricht. Sendezeit: 18.05 21:37:44,950|(6); Empfangszeit: 18.05 21:37:42,340|; Durchlesezeit: 18.05 21:37:55,650|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 7te_Nachricht. Sendezeit: 18.05 21:37:47,060|(7); Empfangszeit: 18.05 21:37:45,500|; Durchlesezeit: 18.05 21:37:55,650|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 8te_Nachricht. Sendezeit: 18.05 21:37:47,060|(8); Empfangszeit: 18.05 21:37:45,500|; Durchlesezeit: 18.05 21:37:55,650|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 9te_Nachricht. Sendezeit: 18.05 21:37:50,170|(9); Empfangszeit: 18.05 21:37:48,650|; Durchlesezeit: 18.05 21:37:55,650|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 10te_Nachricht. Sendezeit: 18.05 21:37:50,169|(10); Empfangszeit: 18.05 21:37:48,650|; Durchlesezeit: 18.05 21:37:55,650|
+***Fehlernachricht fuer Nachrichtennummer 11 um 18.05 21:37:51,101|.; Durchlesezeit: 18.05 21:37:55,650|
+***Fehlernachricht fuer Nachrichtennummer 12 um 18.05 21:37:51,101|.; Durchlesezeit: 18.05 21:37:55,650|
+***Fehlernachricht fuer Nachrichtennummer 13 um 18.05 21:37:51,101|.; Durchlesezeit: 18.05 21:37:55,650|
+***Fehlernachricht fuer Nachrichtennummer 14 um 18.05 21:37:51,100|.; Durchlesezeit: 18.05 21:37:55,810|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 15te_Nachricht. Sendezeit: 18.05 21:37:51,090|(15); Empfangszeit: 18.05 21:37:49,590|; Durchlesezeit: 18.05 21:37:55,810|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 16te_Nachricht. Sendezeit: 18.05 21:37:51,090|(16); Empfangszeit: 18.05 21:37:49,590|; Durchlesezeit: 18.05 21:37:55,810|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 17te_Nachricht. Sendezeit: 18.05 21:37:52,230|(17); Empfangszeit: 18.05 21:37:50,750|; Durchlesezeit: 18.05 21:37:55,810|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 18te_Nachricht. Sendezeit: 18.05 21:37:52,230|(18); Empfangszeit: 18.05 21:37:50,750|; Durchlesezeit: 18.05 21:37:55,810|
+...Done...
+Neues Sendeintervall: 2 Sekunden
+27te_Nachricht um 18.05 21:37:55,960| vergessen zu senden ******
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 28te_Nachricht. Sendezeit: 18.05 21:37:57,089| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 31te_Nachricht. Sendezeit: 18.05 21:37:59,210| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 33te_Nachricht. Sendezeit: 18.05 21:38:01,340| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 35te_Nachricht. Sendezeit: 18.05 21:38:03,460| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 37te_Nachricht. Sendezeit: 18.05 21:38:05,580| gesendet
+39te_Nachricht um 18.05 21:38:05,580| vergessen zu senden ******
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 24te_Nachricht. Sendezeit: 18.05 21:37:55,809|(24); Empfangszeit: 18.05 21:37:53,220|; Durchlesezeit: 18.05 21:38:05,580|
+***Fehlernachricht fuer Nachrichtennummer 25 um 18.05 21:37:56,700|.; Durchlesezeit: 18.05 21:38:05,580|
+***Fehlernachricht fuer Nachrichtennummer 26 um 18.05 21:37:56,700|.; Durchlesezeit: 18.05 21:38:05,580|
+***Fehlernachricht fuer Nachrichtennummer 27 um 18.05 21:37:56,700|.; Durchlesezeit: 18.05 21:38:05,580|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 28te_Nachricht. Sendezeit: 18.05 21:37:57,089|(28); Empfangszeit: 18.05 21:37:55,530|; Durchlesezeit: 18.05 21:38:05,580|
+***Fehlernachricht fuer Nachrichtennummer 29 um 18.05 21:38:01,700|.; Durchlesezeit: 18.05 21:38:05,580|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 30te_Nachricht. Sendezeit: 18.05 21:37:57,240|(30); Empfangszeit: 18.05 21:37:55,680|; Durchlesezeit: 18.05 21:38:05,580|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 31te_Nachricht. Sendezeit: 18.05 21:37:59,210|(31); Empfangszeit: 18.05 21:37:57,680|; Durchlesezeit: 18.05 21:38:05,580|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 32te_Nachricht. Sendezeit: 18.05 21:37:59,370|(32); Empfangszeit: 18.05 21:37:57,840|; Durchlesezeit: 18.05 21:38:05,740|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 33te_Nachricht. Sendezeit: 18.05 21:38:01,340|(33); Empfangszeit: 18.05 21:37:59,840|; Durchlesezeit: 18.05 21:38:05,740|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 34te_Nachricht. Sendezeit: 18.05 21:38:01,490|(34); Empfangszeit: 18.05 21:38:00,999|; Durchlesezeit: 18.05 21:38:05,740|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 35te_Nachricht. Sendezeit: 18.05 21:38:03,460|(35); Empfangszeit: 18.05 21:38:01,840|; Durchlesezeit: 18.05 21:38:05,740|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 36te_Nachricht. Sendezeit: 18.05 21:38:03,620|(36); Empfangszeit: 18.05 21:38:02,999|; Durchlesezeit: 18.05 21:38:05,740|
+...Done...
+Neues Sendeintervall: 3 Sekunden
+41te_Nachricht um 18.05 21:38:05,900| vergessen zu senden ******
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 42te_Nachricht. Sendezeit: 18.05 21:38:08,999| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 45te_Nachricht. Sendezeit: 18.05 21:38:11,109| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 47te_Nachricht. Sendezeit: 18.05 21:38:14,219| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 49te_Nachricht. Sendezeit: 18.05 21:38:17,329| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 51te_Nachricht. Sendezeit: 18.05 21:38:20,439| gesendet
+53te_Nachricht um 18.05 21:38:20,440| vergessen zu senden ******
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 36te_Nachricht. Sendezeit: 18.05 21:38:03,620|(36); Empfangszeit: 18.05 21:38:02,999|; Durchlesezeit: 18.05 21:38:20,440|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 37te_Nachricht. Sendezeit: 18.05 21:38:05,580|(37); Empfangszeit: 18.05 21:38:04,999|; Durchlesezeit: 18.05 21:38:20,440|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 38te_Nachricht. Sendezeit: 18.05 21:38:05,740|(38); Empfangszeit: 18.05 21:38:04,506|; Durchlesezeit: 18.05 21:38:20,440|
+***Fehlernachricht fuer Nachrichtennummer 39 um 18.05 21:38:11,200|.; Durchlesezeit: 18.05 21:38:20,440|
+***Fehlernachricht fuer Nachrichtennummer 40 um 18.05 21:38:11,200|.; Durchlesezeit: 18.05 21:38:20,440|
+***Fehlernachricht fuer Nachrichtennummer 41 um 18.05 21:38:11,200|.; Durchlesezeit: 18.05 21:38:20,440|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 42te_Nachricht. Sendezeit: 18.05 21:38:08,999|(42); Empfangszeit: 18.05 21:38:07,700|; Durchlesezeit: 18.05 21:38:20,440|
+***Fehlernachricht fuer Nachrichtennummer 43 um 18.05 21:38:16,200|.; Durchlesezeit: 18.05 21:38:20,440|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 44te_Nachricht. Sendezeit: 18.05 21:38:08,159|(44); Empfangszeit: 18.05 21:38:07,200|; Durchlesezeit: 18.05 21:38:20,590|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 45te_Nachricht. Sendezeit: 18.05 21:38:11,109|(45); Empfangszeit: 18.05 21:38:10,200|; Durchlesezeit: 18.05 21:38:20,590|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 46te_Nachricht. Sendezeit: 18.05 21:38:11,269|(46); Empfangszeit: 18.05 21:38:10,800|; Durchlesezeit: 18.05 21:38:20,590|
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 47te_Nachricht. Sendezeit: 18.05 21:38:14,219|(47); Empfangszeit: 18.05 21:38:13,200|; Durchlesezeit: 18.05 21:38:20,590|
+1-client@ProfDrKlauck-<0.46.0>-C-KLC: 48te_Nachricht. Sendezeit: 18.05 21:38:14,379|(48); Empfangszeit: 18.05 21:38:13,800|; Durchlesezeit: 18.05 21:38:20,590|
+...Done...
+Neues Sendeintervall: 4 Sekunden
+55te_Nachricht um 18.05 21:38:20,750| vergessen zu senden ******
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 56te_Nachricht. Sendezeit: 18.05 21:38:24,840| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 59te_Nachricht. Sendezeit: 18.05 21:38:28,930| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 61te_Nachricht. Sendezeit: 18.05 21:38:32,030| gesendet
+0-client@ProfDrKlauck-<0.45.0>-C-KLC: 63te_Nachricht. Sendezeit: 18.05 21:38:36,120| gesendet
+Downtime: 18.05 21:38:36,120| vom Client 0-client@ProfDrKlauck-<0.45.0>-C-KLC

@@ -39,7 +39,7 @@ push2DLQ([NNr, Msg, TSclientout, TShbqin], DLQ, LogFile) ->
 				io:format("dlq: push message into DLQ"),
 				%prepend message and add in-timestamp
 				MSGListWithNewMessage = lists:concat([[Message],MSGList]),
-				werkzeug:logging(LogFile, lists:concat(["DLQ: Nachricht ",integer_to_list(NNr)," in DLQ eingefügt.\r\n"])),
+				werkzeug:logging(LogFile, lists:concat(["DLQ: Nachricht ",integer_to_list(NNr)," in DLQ eingefuegt.\r\n"])),
 				%check for length, if list is too long: droplast(List)
 				{Size, checkLength(Size, MSGListWithNewMessage)}.
 

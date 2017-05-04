@@ -1,0 +1,274 @@
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: Start: 12.04 13:31:41,033|.
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 612te_Nachricht. C Out: 12.04 13:31:41,033|(612) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 686te_Nachricht. C Out: 12.04 13:31:44,035|(686) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 787te_Nachricht. C Out: 12.04 13:31:47,037|(787) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 1075te_Nachricht. C Out: 12.04 13:31:50,040|(1075) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 1176te_Nachricht. C Out: 12.04 13:31:53,042|(1176) gesendet
+1230te_Nachricht um 12.04 13:31:56,044|- vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden
+Fehlernachricht fuer Nachrichtennummern 1157 bis 1166 ; C In: 12.04 13:31:58,045|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9109.0>-C-3-06:1167te Nachricht.C Out:12.04 13:31:55,890| 12.04 13:31:55,890| ; C In: 12.04 13:31:58,047|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9123.0>-C-3-06:1168te Nachricht.C Out:12.04 13:31:54,891| 12.04 13:31:54,891| ; C In: 12.04 13:31:58,049|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9117.0>-C-3-06:1169te Nachricht.C Out:12.04 13:31:54,891| 12.04 13:31:54,892| ; C In: 12.04 13:31:58,050|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9115.0>-C-3-06:1170te Nachricht.C Out:12.04 13:31:55,892| 12.04 13:31:55,892| ; C In: 12.04 13:31:58,054|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9106.0>-C-3-06:1171te Nachricht.C Out:12.04 13:31:55,892| 12.04 13:31:55,893| ; C In: 12.04 13:31:58,059|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9126.0>-C-3-06:1172te Nachricht.C Out:12.04 13:31:54,892| 12.04 13:31:54,893| ; C In: 12.04 13:31:58,063|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9128.0>-C-3-06:1173te Nachricht.C Out:12.04 13:31:54,892| 12.04 13:31:54,893| ; C In: 12.04 13:31:58,067|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.22050.0>-C-1-5: 1174te_Nachricht. C Out: 12.04 13:31:53,041|(1174) 12.04 13:31:56,042| ; C In: 12.04 13:31:58,072|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.22046.0>-C-1-5: 1175te_Nachricht. C Out: 12.04 13:31:53,042|(1175) 12.04 13:31:56,043| ; C In: 12.04 13:31:58,076|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 1176te_Nachricht. C Out: 12.04 13:31:53,042|(1176) 12.04 13:31:56,043| ; C In: 12.04 13:31:58,081|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.22058.0>-C-1-5: 1177te_Nachricht. C Out: 12.04 13:31:53,042|(1177) 12.04 13:31:56,044| ; C In: 12.04 13:31:58,085|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.22061.0>-C-1-5: 1178te_Nachricht. C Out: 12.04 13:31:53,043|(1178) 12.04 13:31:56,044| ; C In: 12.04 13:31:58,089|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.22063.0>-C-1-5: 1179te_Nachricht. C Out: 12.04 13:31:53,043|(1179) 12.04 13:31:56,045| ; C In: 12.04 13:31:58,093|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.22048.0>-C-1-5: 1180te_Nachricht. C Out: 12.04 13:31:53,043|(1180) 12.04 13:31:56,045| ; C In: 12.04 13:31:58,097|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.22051.0>-C-1-5: 1181te_Nachricht. C Out: 12.04 13:31:53,044|(1181) 12.04 13:31:56,046| ; C In: 12.04 13:31:58,101|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.22064.0>-C-1-5: 1182te_Nachricht. C Out: 12.04 13:31:53,044|(1182) 12.04 13:31:56,046| ; C In: 12.04 13:31:58,105|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.22053.0>-C-1-5: 1183te_Nachricht. C Out: 12.04 13:31:53,045|(1183) 12.04 13:31:56,047| ; C In: 12.04 13:31:58,110|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.22055.0>-C-1-5: 1184te_Nachricht. C Out: 12.04 13:31:53,046|(1184) 12.04 13:31:56,047| ; C In: 12.04 13:31:58,120|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.22052.0>-C-1-5: 1185te_Nachricht. C Out: 12.04 13:31:53,046|(1185) 12.04 13:31:56,048| ; C In: 12.04 13:31:58,123|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.22054.0>-C-1-5: 1186te_Nachricht. C Out: 12.04 13:31:53,046|(1186) 12.04 13:31:56,048| ; C In: 12.04 13:31:58,127|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.22057.0>-C-1-5: 1187te_Nachricht. C Out: 12.04 13:31:53,046|(1187) 12.04 13:31:56,048| ; C In: 12.04 13:31:58,131|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.22056.0>-C-1-5: 1188te_Nachricht. C Out: 12.04 13:31:53,047|(1188) 12.04 13:31:56,049| ; C In: 12.04 13:31:58,135|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.22059.0>-C-1-5: 1189te_Nachricht. C Out: 12.04 13:31:53,047|(1189) 12.04 13:31:56,049| ; C In: 12.04 13:31:58,139|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.22060.0>-C-1-5: 1190te_Nachricht. C Out: 12.04 13:31:53,048|(1190) 12.04 13:31:56,050| ; C In: 12.04 13:31:58,142|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.22065.0>-C-1-5: 1191te_Nachricht. C Out: 12.04 13:31:53,048|(1191) 12.04 13:31:56,050| ; C In: 12.04 13:31:58,146|
+15-clientserver@lab22.cpt.haw-hamburg.de<0.22062.0>-C-1-5: 1192te_Nachricht. C Out: 12.04 13:31:53,048|(1192) 12.04 13:31:56,050| ; C In: 12.04 13:31:58,150|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.22066.0>-C-1-5: 1193te_Nachricht. C Out: 12.04 13:31:53,048|(1193) 12.04 13:31:56,051| ; C In: 12.04 13:31:58,153|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.384.0>-C-3-06:1194te Nachricht.C Out:12.04 13:31:56,730| 12.04 13:31:56,731| ; C In: 12.04 13:31:58,157|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.379.0>-C-3-06:1195te Nachricht.C Out:12.04 13:31:56,732| 12.04 13:31:56,733| ; C In: 12.04 13:31:58,161|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.370.0>-C-3-06:1196te Nachricht.C Out:12.04 13:31:56,732| 12.04 13:31:56,733| ; C In: 12.04 13:31:58,165|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.395.0>-C-3-06:1197te Nachricht.C Out:12.04 13:31:56,733| 12.04 13:31:56,734| ; C In: 12.04 13:31:58,169|
+5-profB@lab31.cpt.haw-hamburg.de-<0.13167.0>-KLC: 1198te_Nachricht. C Out: 12.04 13:31:57,814| 12.04 13:31:57,815| ; C In: 12.04 13:31:58,173|
+0-profB@lab31.cpt.haw-hamburg.de-<0.13162.0>-KLC: 1199te_Nachricht. C Out: 12.04 13:31:57,814| 12.04 13:31:57,816| ; C In: 12.04 13:31:58,176|
+7-profB@lab31.cpt.haw-hamburg.de-<0.13169.0>-KLC: 1200te_Nachricht. C Out: 12.04 13:31:57,815| 12.04 13:31:57,816| ; C In: 12.04 13:31:58,180|
+4-profB@lab31.cpt.haw-hamburg.de-<0.13166.0>-KLC: 1201te_Nachricht. C Out: 12.04 13:31:57,815| 12.04 13:31:57,817| ; C In: 12.04 13:31:58,184|
+9-profB@lab31.cpt.haw-hamburg.de-<0.13171.0>-KLC: 1202te_Nachricht. C Out: 12.04 13:31:57,816| 12.04 13:31:57,817| ; C In: 12.04 13:31:58,188|
+1-profB@lab31.cpt.haw-hamburg.de-<0.13163.0>-KLC: 1203te_Nachricht. C Out: 12.04 13:31:57,816| 12.04 13:31:57,818| ; C In: 12.04 13:31:58,191|
+2-profB@lab31.cpt.haw-hamburg.de-<0.13164.0>-KLC: 1204te_Nachricht. C Out: 12.04 13:31:57,817| 12.04 13:31:57,818| ; C In: 12.04 13:31:58,196|
+3-profB@lab31.cpt.haw-hamburg.de-<0.13165.0>-KLC: 1205te_Nachricht. C Out: 12.04 13:31:57,817| 12.04 13:31:57,819| ; C In: 12.04 13:31:58,200|
+6-profB@lab31.cpt.haw-hamburg.de-<0.13168.0>-KLC: 1206te_Nachricht. C Out: 12.04 13:31:57,818| 12.04 13:31:57,819| ; C In: 12.04 13:31:58,203|
+8-profB@lab31.cpt.haw-hamburg.de-<0.13170.0>-KLC: 1207te_Nachricht. C Out: 12.04 13:31:57,818| 12.04 13:31:57,820| ; C In: 12.04 13:31:58,207|
+..getmessages..Done...
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 1334te_Nachricht. C Out: 12.04 13:31:58,210|(1334) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 1391te_Nachricht. C Out: 12.04 13:32:00,211|(1391) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 1476te_Nachricht. C Out: 12.04 13:32:02,213|(1476) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 1640te_Nachricht. C Out: 12.04 13:32:04,216|(1640) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 1804te_Nachricht. C Out: 12.04 13:32:06,224|(1804) gesendet
+1865te_Nachricht um 12.04 13:32:08,227|- vergessen zu senden ******
+Neues Sendeintervall: 3 Sekunden
+17-clientserver@lab22.cpt.haw-hamburg.de<0.22064.0>-C-1-5: 1775te_Nachricht. C Out: 12.04 13:32:05,146|(1775) 12.04 13:32:09,647| ; C In: 12.04 13:32:11,229|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.22055.0>-C-1-5: 1776te_Nachricht. C Out: 12.04 13:32:05,146|(1776) 12.04 13:32:09,647| ; C In: 12.04 13:32:11,231|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.22053.0>-C-1-5: 1777te_Nachricht. C Out: 12.04 13:32:05,147|(1777) 12.04 13:32:09,648| ; C In: 12.04 13:32:11,232|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.22056.0>-C-1-5: 1778te_Nachricht. C Out: 12.04 13:32:05,147|(1778) 12.04 13:32:09,649| ; C In: 12.04 13:32:11,234|
+Fehlernachricht fuer Nachrichtennummern 1779 bis 1779 ; C In: 12.04 13:32:11,235|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.384.0>-C-3-06:1780te Nachricht.C Out:12.04 13:32:09,751| 12.04 13:32:09,752| ; C In: 12.04 13:32:11,237|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9128.0>-C-3-06:1781te Nachricht.C Out:12.04 13:32:08,946| 12.04 13:32:08,946| ; C In: 12.04 13:32:11,238|
+Fehlernachricht fuer Nachrichtennummern 1782 bis 1837 ; C In: 12.04 13:32:11,240|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.387.0>-C-3-06:1838te Nachricht.C Out:12.04 13:32:08,777| 12.04 13:32:08,778| ; C In: 12.04 13:32:11,242|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.376.0>-C-3-06:1839te Nachricht.C Out:12.04 13:32:08,778| 12.04 13:32:08,779| ; C In: 12.04 13:32:11,244|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.373.0>-C-3-06:1840te Nachricht.C Out:12.04 13:32:08,778| 12.04 13:32:08,779| ; C In: 12.04 13:32:11,246|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.395.0>-C-3-06:1841te Nachricht.C Out:12.04 13:32:09,800| 12.04 13:32:09,801| ; C In: 12.04 13:32:11,248|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.379.0>-C-3-06:1842te Nachricht.C Out:12.04 13:32:08,801| 12.04 13:32:08,802| ; C In: 12.04 13:32:11,250|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.370.0>-C-3-06:1843te Nachricht.C Out:12.04 13:32:08,802| 12.04 13:32:08,803| ; C In: 12.04 13:32:11,251|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9123.0>-C-3-06:1844te Nachricht.C Out:12.04 13:32:08,945| 12.04 13:32:08,945| ; C In: 12.04 13:32:11,253|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9117.0>-C-3-06:1845te Nachricht.C Out:12.04 13:32:08,947| 12.04 13:32:08,947| ; C In: 12.04 13:32:11,255|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9126.0>-C-3-06:1846te Nachricht.C Out:12.04 13:32:08,947| 12.04 13:32:08,947| ; C In: 12.04 13:32:11,257|
+Fehlernachricht fuer Nachrichtennummern 1847 bis 1849 ; C In: 12.04 13:32:11,259|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9109.0>-C-3-06:1850te Nachricht.C Out:12.04 13:32:09,929| 12.04 13:32:09,929| ; C In: 12.04 13:32:11,261|
+Fehlernachricht fuer Nachrichtennummern 1851 bis 1851 ; C In: 12.04 13:32:11,263|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9106.0>-C-3-06:1852te Nachricht.C Out:12.04 13:32:09,930| 12.04 13:32:09,930| ; C In: 12.04 13:32:11,264|
+Fehlernachricht fuer Nachrichtennummern 1853 bis 1875 ; C In: 12.04 13:32:11,266|
+lab29-1-1: message_number_1876. Sent time: 12.04 13:32:08,450| 12.04 13:32:10,452| ; C In: 12.04 13:32:11,268|
+lab29-1-1: message_number_1877. Sent time: 12.04 13:32:08,451| 12.04 13:32:10,452| ; C In: 12.04 13:32:11,270|
+lab29-1-1: message_number_1878. Sent time: 12.04 13:32:08,451| 12.04 13:32:10,453| ; C In: 12.04 13:32:11,272|
+lab29-1-1: message_number_1879. Sent time: 12.04 13:32:08,452| 12.04 13:32:10,453| ; C In: 12.04 13:32:11,274|
+lab29-1-1: message_number_1880. Sent time: 12.04 13:32:08,452| 12.04 13:32:10,454| ; C In: 12.04 13:32:11,276|
+lab29-1-1: message_number_1881. Sent time: 12.04 13:32:08,452| 12.04 13:32:10,454| ; C In: 12.04 13:32:11,277|
+lab29-1-1: message_number_1882. Sent time: 12.04 13:32:08,453| 12.04 13:32:10,454| ; C In: 12.04 13:32:11,279|
+lab29-1-1: message_number_1883. Sent time: 12.04 13:32:08,453| 12.04 13:32:10,455| ; C In: 12.04 13:32:11,281|
+lab29-1-1: message_number_1884. Sent time: 12.04 13:32:08,453| 12.04 13:32:10,455| ; C In: 12.04 13:32:11,283|
+lab29-1-1: message_number_1885. Sent time: 12.04 13:32:08,454| 12.04 13:32:10,456| ; C In: 12.04 13:32:11,285|
+lab29-1-1: message_number_1886. Sent time: 12.04 13:32:08,454| 12.04 13:32:10,455| ; C In: 12.04 13:32:11,287|
+lab29-1-1: message_number_1887. Sent time: 12.04 13:32:08,454| 12.04 13:32:10,457| ; C In: 12.04 13:32:11,288|
+lab29-1-1: message_number_1888. Sent time: 12.04 13:32:08,455| 12.04 13:32:10,456| ; C In: 12.04 13:32:11,291|
+lab29-1-1: message_number_1889. Sent time: 12.04 13:32:08,456| 12.04 13:32:10,457| ; C In: 12.04 13:32:11,292|
+lab29-1-1: message_number_1890. Sent time: 12.04 13:32:08,455| 12.04 13:32:10,457| ; C In: 12.04 13:32:11,294|
+lab29-1-1: message_number_1891. Sent time: 12.04 13:32:08,456| 12.04 13:32:10,458| ; C In: 12.04 13:32:11,296|
+lab29-1-1: message_number_1892. Sent time: 12.04 13:32:08,456| 12.04 13:32:10,458| ; C In: 12.04 13:32:11,298|
+lab29-1-1: message_number_1893. Sent time: 12.04 13:32:08,456| 12.04 13:32:10,458| ; C In: 12.04 13:32:11,300|
+lab29-1-1: message_number_1894. Sent time: 12.04 13:32:08,457| 12.04 13:32:10,459| ; C In: 12.04 13:32:11,302|
+lab29-1-1: message_number_1895. Sent time: 12.04 13:32:08,457| 12.04 13:32:10,459| ; C In: 12.04 13:32:11,304|
+..getmessages..Done...
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 1970te_Nachricht. C Out: 12.04 13:32:11,305|(1970) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 2058te_Nachricht. C Out: 12.04 13:32:14,307|(2058) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 2172te_Nachricht. C Out: 12.04 13:32:17,309|(2172) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 2251te_Nachricht. C Out: 12.04 13:32:20,311|(2251) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 2343te_Nachricht. C Out: 12.04 13:32:23,312|(2343) gesendet
+2625te_Nachricht um 12.04 13:32:26,313|- vergessen zu senden ******
+Neues Sendeintervall: 4 Sekunden
+16-clientserver@lab22.cpt.haw-hamburg.de<0.22063.0>-C-1-5: 2606te_Nachricht. C Out: 12.04 13:32:25,444|(2606) 12.04 13:32:27,695| ; C In: 12.04 13:32:30,815|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.22053.0>-C-1-5: 2607te_Nachricht. C Out: 12.04 13:32:25,445|(2607) 12.04 13:32:27,695| ; C In: 12.04 13:32:30,816|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.22056.0>-C-1-5: 2608te_Nachricht. C Out: 12.04 13:32:25,445|(2608) 12.04 13:32:27,697| ; C In: 12.04 13:32:30,817|
+Fehlernachricht fuer Nachrichtennummern 2464 bis 2616 ; C In: 12.04 13:32:30,818|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.379.0>-C-3-06:2617te Nachricht.C Out:12.04 13:32:27,835| 12.04 13:32:27,836| ; C In: 12.04 13:32:30,820|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.395.0>-C-3-06:2618te Nachricht.C Out:12.04 13:32:28,846| 12.04 13:32:28,847| ; C In: 12.04 13:32:30,821|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9109.0>-C-3-06:2619te Nachricht.C Out:12.04 13:32:27,976| 12.04 13:32:27,976| ; C In: 12.04 13:32:30,823|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9106.0>-C-3-06:2620te Nachricht.C Out:12.04 13:32:27,977| 12.04 13:32:27,977| ; C In: 12.04 13:32:30,824|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9128.0>-C-3-06:2621te Nachricht.C Out:12.04 13:32:29,978| 12.04 13:32:29,978| ; C In: 12.04 13:32:30,825|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.22057.0>-C-1-5: 2622te_Nachricht. C Out: 12.04 13:32:26,309|(2622) 12.04 13:32:29,310| ; C In: 12.04 13:32:30,826|
+No new messages ; C In: 12.04 13:32:30,827|
+..getmessages..Done...
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 2756te_Nachricht. C Out: 12.04 13:32:30,828|(2756) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 2853te_Nachricht. C Out: 12.04 13:32:35,329|(2853) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 2952te_Nachricht. C Out: 12.04 13:32:39,830|(2952) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 3054te_Nachricht. C Out: 12.04 13:32:44,331|(3054) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 3178te_Nachricht. C Out: 12.04 13:32:48,832|(3178) gesendet
+3320te_Nachricht um 12.04 13:32:53,333|- vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden
+Fehlernachricht fuer Nachrichtennummern 3257 bis 3164 ; C In: 12.04 13:32:55,585|
+3-profA@lab31.cpt.haw-hamburg.de-<0.11489.0>-KLC: 3165te_Nachricht. C Out: 12.04 13:32:54,637| 12.04 13:32:54,637| ; C In: 12.04 13:32:55,585|
+5-profA@lab31.cpt.haw-hamburg.de-<0.11491.0>-KLC: 3166te_Nachricht. C Out: 12.04 13:32:54,637| 12.04 13:32:54,638| ; C In: 12.04 13:32:55,586|
+8-profA@lab31.cpt.haw-hamburg.de-<0.11494.0>-KLC: 3167te_Nachricht. C Out: 12.04 13:32:54,637| 12.04 13:32:54,638| ; C In: 12.04 13:32:55,586|
+1-profA@lab31.cpt.haw-hamburg.de-<0.11487.0>-KLC: 3168te_Nachricht. C Out: 12.04 13:32:54,637| 12.04 13:32:54,639| ; C In: 12.04 13:32:55,586|
+0-profA@lab31.cpt.haw-hamburg.de-<0.11486.0>-KLC: 3169te_Nachricht. C Out: 12.04 13:32:54,638| 12.04 13:32:54,639| ; C In: 12.04 13:32:55,587|
+7-profA@lab31.cpt.haw-hamburg.de-<0.11493.0>-KLC: 3170te_Nachricht. C Out: 12.04 13:32:54,639| 12.04 13:32:54,640| ; C In: 12.04 13:32:55,587|
+6-profA@lab31.cpt.haw-hamburg.de-<0.11492.0>-KLC: 3171te_Nachricht. C Out: 12.04 13:32:54,639| 12.04 13:32:54,641| ; C In: 12.04 13:32:55,588|
+4-profA@lab31.cpt.haw-hamburg.de-<0.11490.0>-KLC: 3172te_Nachricht. C Out: 12.04 13:32:54,639| 12.04 13:32:54,641| ; C In: 12.04 13:32:55,588|
+9-profA@lab31.cpt.haw-hamburg.de-<0.11495.0>-KLC: 3173te_Nachricht. C Out: 12.04 13:32:54,640| 12.04 13:32:54,642| ; C In: 12.04 13:32:55,589|
+2-profA@lab31.cpt.haw-hamburg.de-<0.11488.0>-KLC: 3174te_Nachricht. C Out: 12.04 13:32:54,640| 12.04 13:32:54,642| ; C In: 12.04 13:32:55,589|
+Fehlernachricht fuer Nachrichtennummern 3175 bis 3257 ; C In: 12.04 13:32:55,590|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.379.0>-C-3-06:3258te Nachricht.C Out:12.04 13:32:53,890| 12.04 13:32:53,891| ; C In: 12.04 13:32:55,591|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.370.0>-C-3-06:3259te Nachricht.C Out:12.04 13:32:53,891| 12.04 13:32:53,892| ; C In: 12.04 13:32:55,591|
+Fehlernachricht fuer Nachrichtennummern 3260 bis 3261 ; C In: 12.04 13:32:55,591|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.22054.0>-C-1-5: 3262te_Nachricht. C Out: 12.04 13:32:52,381|(3262) 12.04 13:32:54,382| ; C In: 12.04 13:32:55,592|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.22066.0>-C-1-5: 3263te_Nachricht. C Out: 12.04 13:32:52,390|(3263) 12.04 13:32:54,391| ; C In: 12.04 13:32:55,592|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.22060.0>-C-1-5: 3264te_Nachricht. C Out: 12.04 13:32:52,411|(3264) 12.04 13:32:54,412| ; C In: 12.04 13:32:55,593|
+[lab28|0304]: 3265te Nachricht. C Out: 12.04 13:32:55,439| 12.04 13:32:55,444| ; C In: 12.04 13:32:55,593|
+[lab28|0304]: 3266te Nachricht. C Out: 12.04 13:32:55,439| 12.04 13:32:55,444| ; C In: 12.04 13:32:55,594|
+[lab28|0304]: 3267te Nachricht. C Out: 12.04 13:32:55,439| 12.04 13:32:55,444| ; C In: 12.04 13:32:55,594|
+[lab28|0304]: 3268te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,445| ; C In: 12.04 13:32:55,595|
+[lab28|0304]: 3269te Nachricht. C Out: 12.04 13:32:55,439| 12.04 13:32:55,445| ; C In: 12.04 13:32:55,595|
+[lab28|0304]: 3270te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,445| ; C In: 12.04 13:32:55,596|
+[lab28|0304]: 3271te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,446| ; C In: 12.04 13:32:55,596|
+[lab28|0304]: 3272te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,446| ; C In: 12.04 13:32:55,597|
+[lab28|0304]: 3273te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,446| ; C In: 12.04 13:32:55,597|
+[lab28|0304]: 3274te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,447| ; C In: 12.04 13:32:55,598|
+[lab28|0304]: 3275te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,447| ; C In: 12.04 13:32:55,598|
+[lab28|0304]: 3276te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,448| ; C In: 12.04 13:32:55,599|
+[lab28|0304]: 3277te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,448| ; C In: 12.04 13:32:55,599|
+[lab28|0304]: 3278te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,448| ; C In: 12.04 13:32:55,600|
+[lab28|0304]: 3279te Nachricht. C Out: 12.04 13:32:55,440| 12.04 13:32:55,447| ; C In: 12.04 13:32:55,600|
+[lab28|0304]: 3280te Nachricht. C Out: 12.04 13:32:55,441| 12.04 13:32:55,449| ; C In: 12.04 13:32:55,601|
+[lab28|0304]: 3281te Nachricht. C Out: 12.04 13:32:55,441| 12.04 13:32:55,449| ; C In: 12.04 13:32:55,601|
+[lab28|0304]: 3282te Nachricht. C Out: 12.04 13:32:55,441| 12.04 13:32:55,450| ; C In: 12.04 13:32:55,602|
+[lab28|0304]: 3283te Nachricht. C Out: 12.04 13:32:55,441| 12.04 13:32:55,450| ; C In: 12.04 13:32:55,602|
+[lab28|0304]: 3284te Nachricht. C Out: 12.04 13:32:55,441| 12.04 13:32:55,450| ; C In: 12.04 13:32:55,603|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.22056.0>-C-1-5: 3285te_Nachricht. C Out: 12.04 13:32:52,754|(3285) 12.04 13:32:54,755| ; C In: 12.04 13:32:55,604|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.387.0>-C-3-06:3286te Nachricht.C Out:12.04 13:32:54,850| 12.04 13:32:54,851| ; C In: 12.04 13:32:55,604|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.373.0>-C-3-06:3287te Nachricht.C Out:12.04 13:32:54,851| 12.04 13:32:54,851| ; C In: 12.04 13:32:55,605|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.395.0>-C-3-06:3288te Nachricht.C Out:12.04 13:32:54,904| 12.04 13:32:54,905| ; C In: 12.04 13:32:55,605|
+..getmessages..Done...
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 3604te_Nachricht. C Out: 12.04 13:32:55,606|(3604) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 3697te_Nachricht. C Out: 12.04 13:32:57,857|(3697) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 3777te_Nachricht. C Out: 12.04 13:33:00,108|(3777) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 3859te_Nachricht. C Out: 12.04 13:33:02,359|(3859) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 3953te_Nachricht. C Out: 12.04 13:33:04,611|(3953) gesendet
+4017te_Nachricht um 12.04 13:33:06,864|- vergessen zu senden ******
+Neues Sendeintervall: 3 Sekunden
+5-profB@lab31.cpt.haw-hamburg.de-<0.13167.0>-KLC: 3994te_Nachricht. C Out: 12.04 13:33:09,093| 12.04 13:33:09,094| ; C In: 12.04 13:33:10,241|
+2-profB@lab31.cpt.haw-hamburg.de-<0.13164.0>-KLC: 3995te_Nachricht. C Out: 12.04 13:33:09,093| 12.04 13:33:09,094| ; C In: 12.04 13:33:10,241|
+0-profB@lab31.cpt.haw-hamburg.de-<0.13162.0>-KLC: 3996te_Nachricht. C Out: 12.04 13:33:09,093| 12.04 13:33:09,094| ; C In: 12.04 13:33:10,242|
+9-profB@lab31.cpt.haw-hamburg.de-<0.13171.0>-KLC: 3997te_Nachricht. C Out: 12.04 13:33:09,093| 12.04 13:33:09,095| ; C In: 12.04 13:33:10,243|
+6-profB@lab31.cpt.haw-hamburg.de-<0.13168.0>-KLC: 3998te_Nachricht. C Out: 12.04 13:33:09,094| 12.04 13:33:09,095| ; C In: 12.04 13:33:10,243|
+4-profB@lab31.cpt.haw-hamburg.de-<0.13166.0>-KLC: 3999te_Nachricht. C Out: 12.04 13:33:09,094| 12.04 13:33:09,095| ; C In: 12.04 13:33:10,244|
+1-profB@lab31.cpt.haw-hamburg.de-<0.13163.0>-KLC: 4000te_Nachricht. C Out: 12.04 13:33:09,095| 12.04 13:33:09,096| ; C In: 12.04 13:33:10,244|
+3-profB@lab31.cpt.haw-hamburg.de-<0.13165.0>-KLC: 4001te_Nachricht. C Out: 12.04 13:33:09,095| 12.04 13:33:09,096| ; C In: 12.04 13:33:10,245|
+8-profB@lab31.cpt.haw-hamburg.de-<0.13170.0>-KLC: 4002te_Nachricht. C Out: 12.04 13:33:09,095| 12.04 13:33:09,096| ; C In: 12.04 13:33:10,245|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.22051.0>-C-1-5: 4003te_Nachricht. C Out: 12.04 13:33:06,394|(4003) 12.04 13:33:08,395| ; C In: 12.04 13:33:10,246|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.22054.0>-C-1-5: 4004te_Nachricht. C Out: 12.04 13:33:06,407|(4004) 12.04 13:33:08,409| ; C In: 12.04 13:33:10,247|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.22066.0>-C-1-5: 4005te_Nachricht. C Out: 12.04 13:33:06,411|(4005) 12.04 13:33:08,412| ; C In: 12.04 13:33:10,247|
+Fehlernachricht fuer Nachrichtennummern 4006 bis 4022 ; C In: 12.04 13:33:10,248|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.373.0>-C-3-06:4023te Nachricht.C Out:12.04 13:33:08,891| 12.04 13:33:08,892| ; C In: 12.04 13:33:10,248|
+Fehlernachricht fuer Nachrichtennummern 4024 bis 4025 ; C In: 12.04 13:33:10,249|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.22061.0>-C-1-5: 4026te_Nachricht. C Out: 12.04 13:33:07,054|(4026) 12.04 13:33:09,056| ; C In: 12.04 13:33:10,250|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.22063.0>-C-1-5: 4027te_Nachricht. C Out: 12.04 13:33:07,055|(4027) 12.04 13:33:09,056| ; C In: 12.04 13:33:10,250|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.22053.0>-C-1-5: 4028te_Nachricht. C Out: 12.04 13:33:07,056|(4028) 12.04 13:33:09,056| ; C In: 12.04 13:33:10,251|
+Fehlernachricht fuer Nachrichtennummern 4029 bis 4030 ; C In: 12.04 13:33:10,251|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9123.0>-C-3-06:4031te Nachricht.C Out:12.04 13:33:09,107| 12.04 13:33:09,110| ; C In: 12.04 13:33:10,252|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9109.0>-C-3-06:4032te Nachricht.C Out:12.04 13:33:09,117| 12.04 13:33:09,120| ; C In: 12.04 13:33:10,252|
+Fehlernachricht fuer Nachrichtennummern 4033 bis 4072 ; C In: 12.04 13:33:10,253|
+lab29-1-1: message_number_4073. Sent time: 12.04 13:33:07,647| 12.04 13:33:09,648| ; C In: 12.04 13:33:10,253|
+lab29-1-1: message_number_4074. Sent time: 12.04 13:33:07,647| 12.04 13:33:09,649| ; C In: 12.04 13:33:10,254|
+lab29-1-1: message_number_4075. Sent time: 12.04 13:33:07,648| 12.04 13:33:09,649| ; C In: 12.04 13:33:10,254|
+lab29-1-1: message_number_4076. Sent time: 12.04 13:33:07,648| 12.04 13:33:09,649| ; C In: 12.04 13:33:10,255|
+lab29-1-1: message_number_4077. Sent time: 12.04 13:33:07,648| 12.04 13:33:09,650| ; C In: 12.04 13:33:10,256|
+lab29-1-1: message_number_4078. Sent time: 12.04 13:33:07,649| 12.04 13:33:09,650| ; C In: 12.04 13:33:10,256|
+lab29-1-1: message_number_4079. Sent time: 12.04 13:33:07,649| 12.04 13:33:09,651| ; C In: 12.04 13:33:10,257|
+lab29-1-1: message_number_4080. Sent time: 12.04 13:33:07,649| 12.04 13:33:09,652| ; C In: 12.04 13:33:10,257|
+lab29-1-1: message_number_4081. Sent time: 12.04 13:33:07,649| 12.04 13:33:09,651| ; C In: 12.04 13:33:10,258|
+lab29-1-1: message_number_4082. Sent time: 12.04 13:33:07,650| 12.04 13:33:09,652| ; C In: 12.04 13:33:10,258|
+lab29-1-1: message_number_4083. Sent time: 12.04 13:33:07,650| 12.04 13:33:09,651| ; C In: 12.04 13:33:10,259|
+lab29-1-1: message_number_4084. Sent time: 12.04 13:33:07,650| 12.04 13:33:09,652| ; C In: 12.04 13:33:10,259|
+lab29-1-1: message_number_4085. Sent time: 12.04 13:33:07,650| 12.04 13:33:09,652| ; C In: 12.04 13:33:10,260|
+lab29-1-1: message_number_4086. Sent time: 12.04 13:33:07,651| 12.04 13:33:09,653| ; C In: 12.04 13:33:10,260|
+lab29-1-1: message_number_4087. Sent time: 12.04 13:33:07,651| 12.04 13:33:09,653| ; C In: 12.04 13:33:10,260|
+lab29-1-1: message_number_4088. Sent time: 12.04 13:33:07,651| 12.04 13:33:09,653| ; C In: 12.04 13:33:10,261|
+lab29-1-1: message_number_4089. Sent time: 12.04 13:33:07,651| 12.04 13:33:09,654| ; C In: 12.04 13:33:10,261|
+lab29-1-1: message_number_4090. Sent time: 12.04 13:33:07,651| 12.04 13:33:09,654| ; C In: 12.04 13:33:10,262|
+lab29-1-1: message_number_4091. Sent time: 12.04 13:33:07,652| 12.04 13:33:09,654| ; C In: 12.04 13:33:10,262|
+lab29-1-1: message_number_4092. Sent time: 12.04 13:33:07,652| 12.04 13:33:09,655| ; C In: 12.04 13:33:10,263|
+..getmessages..Done...
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 4393te_Nachricht. C Out: 12.04 13:33:10,263|(4393) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 4497te_Nachricht. C Out: 12.04 13:33:13,639|(4497) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 4621te_Nachricht. C Out: 12.04 13:33:17,015|(4621) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 4757te_Nachricht. C Out: 12.04 13:33:20,391|(4757) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 4875te_Nachricht. C Out: 12.04 13:33:23,767|(4875) gesendet
+4966te_Nachricht um 12.04 13:33:27,144|- vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden
+Fehlernachricht fuer Nachrichtennummern 4857 bis 4859 ; C In: 12.04 13:33:29,145|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.379.0>-C-3-06:4860te Nachricht.C Out:12.04 13:33:24,958| 12.04 13:33:24,959| ; C In: 12.04 13:33:29,145|
+Fehlernachricht fuer Nachrichtennummern 4757 bis 4863 ; C In: 12.04 13:33:29,146|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9103.0>-C-3-06:4864te Nachricht.C Out:12.04 13:33:25,004| 12.04 13:33:25,004| ; C In: 12.04 13:33:29,146|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9112.0>-C-3-06:4865te Nachricht.C Out:12.04 13:33:25,005| 12.04 13:33:25,005| ; C In: 12.04 13:33:29,147|
+Fehlernachricht fuer Nachrichtennummern 4866 bis 4867 ; C In: 12.04 13:33:29,147|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9109.0>-C-3-06:4868te Nachricht.C Out:12.04 13:33:26,158| 12.04 13:33:26,158| ; C In: 12.04 13:33:29,147|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.22054.0>-C-1-5: 4869te_Nachricht. C Out: 12.04 13:33:23,427|(4869) 12.04 13:33:26,428| ; C In: 12.04 13:33:29,148|
+[lab28|0304]: 4870te Nachricht. C Out: 12.04 13:33:27,660| 12.04 13:33:27,661| ; C In: 12.04 13:33:29,148|
+[lab28|0304]: 4871te Nachricht. C Out: 12.04 13:33:27,660| 12.04 13:33:27,662| ; C In: 12.04 13:33:29,149|
+[lab28|0304]: 4872te Nachricht. C Out: 12.04 13:33:27,662| 12.04 13:33:27,663| ; C In: 12.04 13:33:29,149|
+[lab28|0304]: 4873te Nachricht. C Out: 12.04 13:33:27,662| 12.04 13:33:27,664| ; C In: 12.04 13:33:29,149|
+[lab28|0304]: 4874te Nachricht. C Out: 12.04 13:33:27,663| 12.04 13:33:27,665| ; C In: 12.04 13:33:29,150|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 4875te_Nachricht. C Out: 12.04 13:33:23,767|(4875) 12.04 13:33:27,144| ; C In: 12.04 13:33:29,150|
+Fehlernachricht fuer Nachrichtennummern 4876 bis 4876 ; C In: 12.04 13:33:29,151|
+[lab28|0304]: 4877te Nachricht. C Out: 12.04 13:33:26,947| 12.04 13:33:26,948| ; C In: 12.04 13:33:29,151|
+[lab28|0304]: 4878te Nachricht. C Out: 12.04 13:33:26,948| 12.04 13:33:26,949| ; C In: 12.04 13:33:29,151|
+[lab28|0304]: 4879te Nachricht. C Out: 12.04 13:33:26,949| 12.04 13:33:26,950| ; C In: 12.04 13:33:29,152|
+[lab28|0304]: 4880te Nachricht. C Out: 12.04 13:33:25,949| 12.04 13:33:25,950| ; C In: 12.04 13:33:29,152|
+[lab28|0304]: 4881te Nachricht. C Out: 12.04 13:33:25,950| 12.04 13:33:25,951| ; C In: 12.04 13:33:29,153|
+[lab28|0304]: 4882te Nachricht. C Out: 12.04 13:33:25,951| 12.04 13:33:25,952| ; C In: 12.04 13:33:29,153|
+[lab28|0304]: 4883te Nachricht. C Out: 12.04 13:33:25,951| 12.04 13:33:25,953| ; C In: 12.04 13:33:29,153|
+[lab28|0304]: 4884te Nachricht. C Out: 12.04 13:33:25,951| 12.04 13:33:25,953| ; C In: 12.04 13:33:29,154|
+Fehlernachricht fuer Nachrichtennummern 4885 bis 4889 ; C In: 12.04 13:33:29,154|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.22063.0>-C-1-5: 4890te_Nachricht. C Out: 12.04 13:33:24,088|(4890) 12.04 13:33:27,089| ; C In: 12.04 13:33:29,155|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.22053.0>-C-1-5: 4891te_Nachricht. C Out: 12.04 13:33:24,089|(4891) 12.04 13:33:27,090| ; C In: 12.04 13:33:29,155|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.22061.0>-C-1-5: 4892te_Nachricht. C Out: 12.04 13:33:24,093|(4892) 12.04 13:33:27,094| ; C In: 12.04 13:33:29,155|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.9117.0>-C-3-06:4893te Nachricht.C Out:12.04 13:33:26,099| 12.04 13:33:26,099| ; C In: 12.04 13:33:29,156|
+Fehlernachricht fuer Nachrichtennummern 4894 bis 4894 ; C In: 12.04 13:33:29,156|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.22052.0>-C-1-5: 4895te_Nachricht. C Out: 12.04 13:33:24,187|(4895) 12.04 13:33:26,438| ; C In: 12.04 13:33:29,157|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.22059.0>-C-1-5: 4896te_Nachricht. C Out: 12.04 13:33:24,191|(4896) 12.04 13:33:26,442| ; C In: 12.04 13:33:29,157|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.22051.0>-C-1-5: 4897te_Nachricht. C Out: 12.04 13:33:24,439|(4897) 12.04 13:33:26,440| ; C In: 12.04 13:33:29,157|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.22066.0>-C-1-5: 4898te_Nachricht. C Out: 12.04 13:33:24,457|(4898) 12.04 13:33:26,458| ; C In: 12.04 13:33:29,158|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.22060.0>-C-1-5: 4899te_Nachricht. C Out: 12.04 13:33:24,462|(4899) 12.04 13:33:26,463| ; C In: 12.04 13:33:29,158|
+[lab28|0304]: 4900te Nachricht. C Out: 12.04 13:33:26,745| 12.04 13:33:26,746| ; C In: 12.04 13:33:29,159|
+[lab28|0304]: 4901te Nachricht. C Out: 12.04 13:33:26,745| 12.04 13:33:26,747| ; C In: 12.04 13:33:29,159|
+[lab28|0304]: 4902te Nachricht. C Out: 12.04 13:33:26,745| 12.04 13:33:26,747| ; C In: 12.04 13:33:29,160|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.22056.0>-C-1-5: 4903te_Nachricht. C Out: 12.04 13:33:24,811|(4903) 12.04 13:33:26,812| ; C In: 12.04 13:33:29,160|
+..getmessages..Done...
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 5001te_Nachricht. C Out: 12.04 13:33:29,160|(5001) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 5029te_Nachricht. C Out: 12.04 13:33:31,161|(5029) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 5059te_Nachricht. C Out: 12.04 13:33:33,163|(5059) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 5087te_Nachricht. C Out: 12.04 13:33:35,164|(5087) gesendet
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: 5115te_Nachricht. C Out: 12.04 13:33:37,167|(5115) gesendet
+5144te_Nachricht um 12.04 13:33:39,168|- vergessen zu senden ******
+Neues Sendeintervall: 2 Sekunden
+1-clientserver@lab22.cpt.haw-hamburg.de<0.22047.0>-C-1-5: Lebenszeit um. Wird beendet.

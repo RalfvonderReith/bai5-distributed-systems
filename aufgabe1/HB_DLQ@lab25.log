@@ -1,0 +1,85 @@
+HBQ: initialisiert 12.04 13:43:59,346|.
+DLQ: DLQ initialisiert
+HBQ: closing HBQ and DLQ
+HBQ: initialisiert 12.04 13:45:46,761|.
+DLQ: DLQ initialisiert
+HBQ: closing HBQ and DLQ
+HBQ: initialisiert 12.04 13:47:12,159|.
+DLQ: DLQ initialisiert
+HBQ: initialisiert 12.04 13:48:20,823|.
+DLQ: DLQ initialisiert
+HBQ: Nachricht 3 in HBQ eingefuegt
+HBQ: Nachricht 1 in HBQ eingefuegt
+DLQ: Nachricht 1 in DLQ eingefuegt.
+HBQ: Nachricht 2 in HBQ eingefuegt
+DLQ: Nachricht 2 in DLQ eingefuegt.
+DLQ: Nachricht 3 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 13:49:47,333|.
+DLQ: Nachricht 1 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 3 an Client<7482.40.0> ausgeliefert.
+HBQ: closing HBQ and DLQ
+HBQ: initialisiert 12.04 13:52:39,361|.
+DLQ: DLQ initialisiert
+HBQ: Nachricht 1 in HBQ eingefuegt
+DLQ: Nachricht 1 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 13:53:24,814|.
+HBQ: Nachricht 2 in HBQ eingefuegt
+DLQ: Nachricht 2 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 13:53:27,902|.
+DLQ: Nachricht 1 an Client<10351.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<10351.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<10351.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<10351.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<10351.40.0> ausgeliefert.
+HBQ: closing HBQ and DLQ
+HBQ: initialisiert 12.04 14:05:52,703|.
+DLQ: DLQ initialisiert
+HBQ: Nachricht 1 in HBQ eingefuegt
+DLQ: Nachricht 1 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 14:06:08,098|.
+HBQ: Nachricht 2 in HBQ eingefuegt
+DLQ: Nachricht 2 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 14:06:10,146|.
+DLQ: Nachricht 1 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<7482.40.0> ausgeliefert.
+HBQ: closing HBQ and DLQ
+HBQ: initialisiert 12.04 14:18:46,417|.
+DLQ: DLQ initialisiert
+HBQ: Nachricht 1 in HBQ eingefuegt
+DLQ: Nachricht 1 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 14:19:17,959|.
+HBQ: Nachricht 2 in HBQ eingefuegt
+DLQ: Nachricht 2 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 14:19:19,456|.
+DLQ: Nachricht 1 an Client<10351.40.0> ausgeliefert.
+HBQ: initialisiert 12.04 14:19:59,248|.
+DLQ: DLQ initialisiert
+HBQ: Nachricht 1 in HBQ eingefuegt
+DLQ: Nachricht 1 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 14:21:25,807|.
+HBQ: Nachricht 2 in HBQ eingefuegt
+DLQ: Nachricht 2 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 14:21:30,536|.
+DLQ: Nachricht 1 an Client<10350.40.0> ausgeliefert.
+HBQ: Nachricht 1 in HBQ eingefuegt
+HBQ: HBQ ist leer 12.04 14:23:39,785|.
+HBQ: Nachricht 2 in HBQ eingefuegt
+HBQ: HBQ ist leer 12.04 14:23:41,184|.
+DLQ: Nachricht 1 an Client<10350.40.0> ausgeliefert.
+DLQ: Nachricht 2 an Client<10350.40.0> ausgeliefert.
+HBQ: Nachricht 3 in HBQ eingefuegt
+DLQ: Nachricht 3 in DLQ eingefuegt.
+HBQ: HBQ ist leer 12.04 14:23:56,297|.
+DLQ: Nachricht 3 an Client<10350.40.0> ausgeliefert.
+DLQ: Nachricht 3 an Client<10350.40.0> ausgeliefert.

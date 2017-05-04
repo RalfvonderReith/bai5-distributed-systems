@@ -1,0 +1,636 @@
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: Start: 12.04 12:53:31,887|.
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 156te_Nachricht. C Out: 12.04 12:53:31,888|(156) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 236te_Nachricht. C Out: 12.04 12:53:34,889|(236) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 316te_Nachricht. C Out: 12.04 12:53:37,890|(316) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 406te_Nachricht. C Out: 12.04 12:53:40,891|(406) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 507te_Nachricht. C Out: 12.04 12:53:43,940|(507) gesendet
+662te_Nachricht um 12.04 12:53:46,978|- vergessen zu senden ******
+Neues Sendeintervall: 4 Sekunden
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 275te_Nachricht. C Out: 12.04 12:53:39,436||hbqin:12.04 12:53:39,467||dlqin:12.04 12:53:39,474| ; C In: 12.04 12:53:51,494|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 276te_Nachricht. C Out: 12.04 12:53:39,437||hbqin:12.04 12:53:39,476||dlqin:12.04 12:53:39,476| ; C In: 12.04 12:53:51,513|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 277te_Nachricht. C Out: 12.04 12:53:39,437||hbqin:12.04 12:53:39,479||dlqin:12.04 12:53:39,479| ; C In: 12.04 12:53:51,532|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 278te_Nachricht. C Out: 12.04 12:53:39,437||hbqin:12.04 12:53:39,482||dlqin:12.04 12:53:39,482| ; C In: 12.04 12:53:51,550|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 279te_Nachricht. C Out: 12.04 12:53:39,437||hbqin:12.04 12:53:39,485||dlqin:12.04 12:53:39,485| ; C In: 12.04 12:53:51,568|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 280te_Nachricht. C Out: 12.04 12:53:39,438||hbqin:12.04 12:53:39,487||dlqin:12.04 12:53:39,488| ; C In: 12.04 12:53:51,584|
+[lab28|0304]: 281te Nachricht. C Out: 12.04 12:53:40,271||hbqin:12.04 12:53:40,277||dlqin:12.04 12:53:40,277| ; C In: 12.04 12:53:51,601|
+[lab28|0304]: 282te Nachricht. C Out: 12.04 12:53:40,271||hbqin:12.04 12:53:40,288||dlqin:12.04 12:53:40,288| ; C In: 12.04 12:53:51,615|
+[lab28|0304]: 283te Nachricht. C Out: 12.04 12:53:40,271||hbqin:12.04 12:53:40,281||dlqin:12.04 12:53:40,288| ; C In: 12.04 12:53:51,637|
+[lab28|0304]: 284te Nachricht. C Out: 12.04 12:53:40,271||hbqin:12.04 12:53:40,284||dlqin:12.04 12:53:40,288| ; C In: 12.04 12:53:51,671|
+[lab28|0304]: 285te Nachricht. C Out: 12.04 12:53:40,272||hbqin:12.04 12:53:40,295||dlqin:12.04 12:53:40,295| ; C In: 12.04 12:53:51,698|
+[lab28|0304]: 286te Nachricht. C Out: 12.04 12:53:40,272||hbqin:12.04 12:53:40,292||dlqin:12.04 12:53:40,296| ; C In: 12.04 12:53:51,712|
+[lab28|0304]: 287te Nachricht. C Out: 12.04 12:53:40,273||hbqin:12.04 12:53:40,299||dlqin:12.04 12:53:40,299| ; C In: 12.04 12:53:51,726|
+[lab28|0304]: 288te Nachricht. C Out: 12.04 12:53:40,273||hbqin:12.04 12:53:40,302||dlqin:12.04 12:53:40,302| ; C In: 12.04 12:53:51,740|
+[lab28|0304]: 289te Nachricht. C Out: 12.04 12:53:40,274||hbqin:12.04 12:53:40,305||dlqin:12.04 12:53:40,305| ; C In: 12.04 12:53:51,754|
+[lab28|0304]: 290te Nachricht. C Out: 12.04 12:53:40,274||hbqin:12.04 12:53:40,307||dlqin:12.04 12:53:40,308| ; C In: 12.04 12:53:51,769|
+[lab28|0304]: 291te Nachricht. C Out: 12.04 12:53:40,274||hbqin:12.04 12:53:40,313||dlqin:12.04 12:53:40,313| ; C In: 12.04 12:53:51,783|
+[lab28|0304]: 292te Nachricht. C Out: 12.04 12:53:40,274||hbqin:12.04 12:53:40,310||dlqin:12.04 12:53:40,313| ; C In: 12.04 12:53:51,797|
+[lab28|0304]: 293te Nachricht. C Out: 12.04 12:53:40,275||hbqin:12.04 12:53:40,317||dlqin:12.04 12:53:40,317| ; C In: 12.04 12:53:51,811|
+[lab28|0304]: 294te Nachricht. C Out: 12.04 12:53:40,275||hbqin:12.04 12:53:40,320||dlqin:12.04 12:53:40,320| ; C In: 12.04 12:53:51,826|
+[lab28|0304]: 295te Nachricht. C Out: 12.04 12:53:40,275||hbqin:12.04 12:53:40,323||dlqin:12.04 12:53:40,323| ; C In: 12.04 12:53:51,840|
+[lab28|0304]: 296te Nachricht. C Out: 12.04 12:53:40,276||hbqin:12.04 12:53:40,326||dlqin:12.04 12:53:40,326| ; C In: 12.04 12:53:51,855|
+[lab28|0304]: 297te Nachricht. C Out: 12.04 12:53:40,276||hbqin:12.04 12:53:40,329||dlqin:12.04 12:53:40,329| ; C In: 12.04 12:53:51,869|
+[lab28|0304]: 298te Nachricht. C Out: 12.04 12:53:40,276||hbqin:12.04 12:53:40,332||dlqin:12.04 12:53:40,332| ; C In: 12.04 12:53:51,884|
+[lab28|0304]: 299te Nachricht. C Out: 12.04 12:53:40,277||hbqin:12.04 12:53:40,335||dlqin:12.04 12:53:40,335| ; C In: 12.04 12:53:51,898|
+[lab28|0304]: 300te Nachricht. C Out: 12.04 12:53:40,277||hbqin:12.04 12:53:40,339||dlqin:12.04 12:53:40,339| ; C In: 12.04 12:53:51,913|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 301te_Nachricht. C Out: 12.04 12:53:37,879|(301)|hbqin:12.04 12:53:40,880||dlqin:12.04 12:53:40,880| ; C In: 12.04 12:53:51,927|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 302te_Nachricht. C Out: 12.04 12:53:37,880|(302)|hbqin:12.04 12:53:40,883||dlqin:12.04 12:53:40,883| ; C In: 12.04 12:53:51,941|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 303te_Nachricht. C Out: 12.04 12:53:37,881|(303)|hbqin:12.04 12:53:40,886||dlqin:12.04 12:53:40,886| ; C In: 12.04 12:53:51,956|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.290.0>-C-1-5: 304te_Nachricht. C Out: 12.04 12:53:37,881|(304)|hbqin:12.04 12:53:40,890||dlqin:12.04 12:53:40,890| ; C In: 12.04 12:53:51,970|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.291.0>-C-1-5: 305te_Nachricht. C Out: 12.04 12:53:37,882|(305)|hbqin:12.04 12:53:40,893||dlqin:12.04 12:53:40,893| ; C In: 12.04 12:53:51,984|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.292.0>-C-1-5: 306te_Nachricht. C Out: 12.04 12:53:37,883|(306)|hbqin:12.04 12:53:40,896||dlqin:12.04 12:53:40,896| ; C In: 12.04 12:53:51,999|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.293.0>-C-1-5: 307te_Nachricht. C Out: 12.04 12:53:37,884|(307)|hbqin:12.04 12:53:40,903||dlqin:12.04 12:53:40,903| ; C In: 12.04 12:53:52,013|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.294.0>-C-1-5: 308te_Nachricht. C Out: 12.04 12:53:37,884|(308)|hbqin:12.04 12:53:40,899||dlqin:12.04 12:53:40,903| ; C In: 12.04 12:53:52,027|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.295.0>-C-1-5: 309te_Nachricht. C Out: 12.04 12:53:37,885|(309)|hbqin:12.04 12:53:40,906||dlqin:12.04 12:53:40,906| ; C In: 12.04 12:53:52,041|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 310te_Nachricht. C Out: 12.04 12:53:37,886|(310)|hbqin:12.04 12:53:40,909||dlqin:12.04 12:53:40,909| ; C In: 12.04 12:53:52,055|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.297.0>-C-1-5: 311te_Nachricht. C Out: 12.04 12:53:37,887|(311)|hbqin:12.04 12:53:40,912||dlqin:12.04 12:53:40,912| ; C In: 12.04 12:53:52,070|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 312te_Nachricht. C Out: 12.04 12:53:37,887|(312)|hbqin:12.04 12:53:40,918||dlqin:12.04 12:53:40,918| ; C In: 12.04 12:53:52,085|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 313te_Nachricht. C Out: 12.04 12:53:37,888|(313)|hbqin:12.04 12:53:40,915||dlqin:12.04 12:53:40,918| ; C In: 12.04 12:53:52,100|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.300.0>-C-1-5: 314te_Nachricht. C Out: 12.04 12:53:37,888|(314)|hbqin:12.04 12:53:40,921||dlqin:12.04 12:53:40,921| ; C In: 12.04 12:53:52,114|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.301.0>-C-1-5: 315te_Nachricht. C Out: 12.04 12:53:37,889|(315)|hbqin:12.04 12:53:40,924||dlqin:12.04 12:53:40,924| ; C In: 12.04 12:53:52,129|
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 316te_Nachricht. C Out: 12.04 12:53:37,890|(316)|hbqin:12.04 12:53:40,927||dlqin:12.04 12:53:40,927| ; C In: 12.04 12:53:52,144|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 317te_Nachricht. C Out: 12.04 12:53:37,891|(317)|hbqin:12.04 12:53:40,930||dlqin:12.04 12:53:40,930| ; C In: 12.04 12:53:52,159|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.304.0>-C-1-5: 318te_Nachricht. C Out: 12.04 12:53:37,892|(318)|hbqin:12.04 12:53:40,932||dlqin:12.04 12:53:40,933| ; C In: 12.04 12:53:52,174|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 319te_Nachricht. C Out: 12.04 12:53:37,892|(319)|hbqin:12.04 12:53:40,935||dlqin:12.04 12:53:40,935| ; C In: 12.04 12:53:52,188|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.306.0>-C-1-5: 320te_Nachricht. C Out: 12.04 12:53:37,893|(320)|hbqin:12.04 12:53:40,938||dlqin:12.04 12:53:40,938| ; C In: 12.04 12:53:52,203|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.213.0>-C-3-06:321te Nachricht.C Out:12.04 12:53:41,394||hbqin:12.04 12:53:41,395||dlqin:12.04 12:53:41,395| ; C In: 12.04 12:53:52,219|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:322te Nachricht.C Out:12.04 12:53:41,395||hbqin:12.04 12:53:41,398||dlqin:12.04 12:53:41,398| ; C In: 12.04 12:53:52,234|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.219.0>-C-3-06:323te Nachricht.C Out:12.04 12:53:41,395||hbqin:12.04 12:53:41,401||dlqin:12.04 12:53:41,401| ; C In: 12.04 12:53:52,253|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:324te Nachricht.C Out:12.04 12:53:41,397||hbqin:12.04 12:53:41,407||dlqin:12.04 12:53:41,407| ; C In: 12.04 12:53:52,272|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.225.0>-C-3-06:325te Nachricht.C Out:12.04 12:53:41,398||hbqin:12.04 12:53:41,410||dlqin:12.04 12:53:41,410| ; C In: 12.04 12:53:52,291|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:326te Nachricht.C Out:12.04 12:53:41,399||hbqin:12.04 12:53:41,414||dlqin:12.04 12:53:41,414| ; C In: 12.04 12:53:52,306|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.231.0>-C-3-06:327te Nachricht.C Out:12.04 12:53:41,399||hbqin:12.04 12:53:41,417||dlqin:12.04 12:53:41,417| ; C In: 12.04 12:53:52,321|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:328te Nachricht.C Out:12.04 12:53:41,402||hbqin:12.04 12:53:41,420||dlqin:12.04 12:53:41,420| ; C In: 12.04 12:53:52,358|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:329te Nachricht.C Out:12.04 12:53:41,403||hbqin:12.04 12:53:41,423||dlqin:12.04 12:53:41,423| ; C In: 12.04 12:53:52,375|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:330te Nachricht.C Out:12.04 12:53:41,403||hbqin:12.04 12:53:41,425||dlqin:12.04 12:53:41,425| ; C In: 12.04 12:53:52,390|
+1-profA@lab31.cpt.haw-hamburg.de-<0.195.0>-KLC: 331te_Nachricht. C Out: 12.04 12:53:42,137||hbqin:12.04 12:53:42,145||dlqin:12.04 12:53:42,145| ; C In: 12.04 12:53:52,405|
+0-profA@lab31.cpt.haw-hamburg.de-<0.194.0>-KLC: 332te_Nachricht. C Out: 12.04 12:53:42,137||hbqin:12.04 12:53:42,153||dlqin:12.04 12:53:42,153| ; C In: 12.04 12:53:52,419|
+2-profA@lab31.cpt.haw-hamburg.de-<0.196.0>-KLC: 333te_Nachricht. C Out: 12.04 12:53:42,137||hbqin:12.04 12:53:42,149||dlqin:12.04 12:53:42,153| ; C In: 12.04 12:53:52,434|
+3-profA@lab31.cpt.haw-hamburg.de-<0.197.0>-KLC: 334te_Nachricht. C Out: 12.04 12:53:42,138||hbqin:12.04 12:53:42,156||dlqin:12.04 12:53:42,156| ; C In: 12.04 12:53:52,449|
+4-profA@lab31.cpt.haw-hamburg.de-<0.198.0>-KLC: 335te_Nachricht. C Out: 12.04 12:53:42,138||hbqin:12.04 12:53:42,160||dlqin:12.04 12:53:42,160| ; C In: 12.04 12:53:52,463|
+5-profA@lab31.cpt.haw-hamburg.de-<0.199.0>-KLC: 336te_Nachricht. C Out: 12.04 12:53:42,139||hbqin:12.04 12:53:42,163||dlqin:12.04 12:53:42,163| ; C In: 12.04 12:53:52,479|
+6-profA@lab31.cpt.haw-hamburg.de-<0.200.0>-KLC: 337te_Nachricht. C Out: 12.04 12:53:42,139||hbqin:12.04 12:53:42,166||dlqin:12.04 12:53:42,166| ; C In: 12.04 12:53:52,495|
+8-profA@lab31.cpt.haw-hamburg.de-<0.202.0>-KLC: 338te_Nachricht. C Out: 12.04 12:53:42,139||hbqin:12.04 12:53:42,170||dlqin:12.04 12:53:42,170| ; C In: 12.04 12:53:52,510|
+9-profA@lab31.cpt.haw-hamburg.de-<0.203.0>-KLC: 339te_Nachricht. C Out: 12.04 12:53:42,139||hbqin:12.04 12:53:42,173||dlqin:12.04 12:53:42,173| ; C In: 12.04 12:53:52,525|
+7-profA@lab31.cpt.haw-hamburg.de-<0.201.0>-KLC: 340te_Nachricht. C Out: 12.04 12:53:42,139||hbqin:12.04 12:53:42,176||dlqin:12.04 12:53:42,176| ; C In: 12.04 12:53:52,583|
+HBQ: message 341 to 350 replaced
+|dlqin:12.04 12:53:48,533| ; C In: 12.04 12:53:52,599|
+8-profB@lab31.cpt.haw-hamburg.de-<0.290.0>-KLC: 351te_Nachricht. C Out: 12.04 12:53:42,455||hbqin:12.04 12:53:42,478||dlqin:12.04 12:53:48,533| ; C In: 12.04 12:53:52,613|
+5-profB@lab31.cpt.haw-hamburg.de-<0.287.0>-KLC: 352te_Nachricht. C Out: 12.04 12:53:42,455||hbqin:12.04 12:53:42,481||dlqin:12.04 12:53:48,533| ; C In: 12.04 12:53:52,628|
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 353te_Nachricht. C Out: 12.04 12:53:42,456||hbqin:12.04 12:53:42,485||dlqin:12.04 12:53:48,534| ; C In: 12.04 12:53:52,643|
+1-profB@lab31.cpt.haw-hamburg.de-<0.283.0>-KLC: 354te_Nachricht. C Out: 12.04 12:53:42,456||hbqin:12.04 12:53:42,489||dlqin:12.04 12:53:48,534| ; C In: 12.04 12:53:52,658|
+0-profB@lab31.cpt.haw-hamburg.de-<0.282.0>-KLC: 355te_Nachricht. C Out: 12.04 12:53:42,456||hbqin:12.04 12:53:42,492||dlqin:12.04 12:53:48,534| ; C In: 12.04 12:53:52,673|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 356te_Nachricht. C Out: 12.04 12:53:42,457||hbqin:12.04 12:53:42,496||dlqin:12.04 12:53:48,534| ; C In: 12.04 12:53:52,688|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 357te_Nachricht. C Out: 12.04 12:53:42,457||hbqin:12.04 12:53:42,503||dlqin:12.04 12:53:48,534| ; C In: 12.04 12:53:52,743|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 358te_Nachricht. C Out: 12.04 12:53:42,457||hbqin:12.04 12:53:42,506||dlqin:12.04 12:53:48,534| ; C In: 12.04 12:53:52,759|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 359te_Nachricht. C Out: 12.04 12:53:42,457||hbqin:12.04 12:53:42,499||dlqin:12.04 12:53:48,534| ; C In: 12.04 12:53:52,774|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 360te_Nachricht. C Out: 12.04 12:53:42,458||hbqin:12.04 12:53:42,509||dlqin:12.04 12:53:48,534| ; C In: 12.04 12:53:52,790|
+HBQ: message 361 to 380 replaced
+|dlqin:12.04 12:53:48,698| ; C In: 12.04 12:53:52,804|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.176.0>-C-3-06:381te Nachricht.C Out:12.04 12:53:44,670||hbqin:12.04 12:53:44,670||dlqin:12.04 12:53:48,698| ; C In: 12.04 12:53:52,820|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.181.0>-C-3-06:382te Nachricht.C Out:12.04 12:53:44,670||hbqin:12.04 12:53:44,673||dlqin:12.04 12:53:48,698| ; C In: 12.04 12:53:52,836|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:383te Nachricht.C Out:12.04 12:53:44,670||hbqin:12.04 12:53:44,676||dlqin:12.04 12:53:48,698| ; C In: 12.04 12:53:52,851|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.188.0>-C-3-06:384te Nachricht.C Out:12.04 12:53:44,670||hbqin:12.04 12:53:44,679||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:52,867|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.190.0>-C-3-06:385te Nachricht.C Out:12.04 12:53:44,670||hbqin:12.04 12:53:44,683||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:52,882|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.193.0>-C-3-06:386te Nachricht.C Out:12.04 12:53:44,671||hbqin:12.04 12:53:44,686||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:52,898|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:387te Nachricht.C Out:12.04 12:53:42,670||hbqin:12.04 12:53:42,690||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:52,916|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:388te Nachricht.C Out:12.04 12:53:44,671||hbqin:12.04 12:53:44,689||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:52,932|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.201.0>-C-3-06:389te Nachricht.C Out:12.04 12:53:44,671||hbqin:12.04 12:53:44,693||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:52,947|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.204.0>-C-3-06:390te Nachricht.C Out:12.04 12:53:44,671||hbqin:12.04 12:53:44,696||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:52,963|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 391te_Nachricht. C Out: 12.04 12:53:40,880|(391)|hbqin:12.04 12:53:43,891||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:52,978|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 392te_Nachricht. C Out: 12.04 12:53:40,881|(392)|hbqin:12.04 12:53:43,894||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:52,999|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 393te_Nachricht. C Out: 12.04 12:53:40,882|(393)|hbqin:12.04 12:53:43,898||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:53,014|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.290.0>-C-1-5: 394te_Nachricht. C Out: 12.04 12:53:40,883|(394)|hbqin:12.04 12:53:43,902||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:53,029|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.291.0>-C-1-5: 395te_Nachricht. C Out: 12.04 12:53:40,883|(395)|hbqin:12.04 12:53:43,905||dlqin:12.04 12:53:48,699| ; C In: 12.04 12:53:53,044|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.292.0>-C-1-5: 396te_Nachricht. C Out: 12.04 12:53:40,884|(396)|hbqin:12.04 12:53:43,908||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,059|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.294.0>-C-1-5: 397te_Nachricht. C Out: 12.04 12:53:40,885|(397)|hbqin:12.04 12:53:43,912||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,074|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.293.0>-C-1-5: 398te_Nachricht. C Out: 12.04 12:53:40,885|(398)|hbqin:12.04 12:53:43,917||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,089|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.295.0>-C-1-5: 399te_Nachricht. C Out: 12.04 12:53:40,886|(399)|hbqin:12.04 12:53:43,920||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,105|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 400te_Nachricht. C Out: 12.04 12:53:40,887|(400)|hbqin:12.04 12:53:43,924||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,121|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.297.0>-C-1-5: 401te_Nachricht. C Out: 12.04 12:53:40,888|(401)|hbqin:12.04 12:53:43,927||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,136|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 402te_Nachricht. C Out: 12.04 12:53:40,889|(402)|hbqin:12.04 12:53:43,931||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,151|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 403te_Nachricht. C Out: 12.04 12:53:40,889|(403)|hbqin:12.04 12:53:43,936||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,167|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.300.0>-C-1-5: 404te_Nachricht. C Out: 12.04 12:53:40,889|(404)|hbqin:12.04 12:53:43,939||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,182|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.301.0>-C-1-5: 405te_Nachricht. C Out: 12.04 12:53:40,890|(405)|hbqin:12.04 12:53:43,943||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,202|
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 406te_Nachricht. C Out: 12.04 12:53:40,891|(406)|hbqin:12.04 12:53:43,946||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,237|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 407te_Nachricht. C Out: 12.04 12:53:40,892|(407)|hbqin:12.04 12:53:43,949||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,276|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.304.0>-C-1-5: 408te_Nachricht. C Out: 12.04 12:53:40,893|(408)|hbqin:12.04 12:53:43,952||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,292|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 409te_Nachricht. C Out: 12.04 12:53:40,893|(409)|hbqin:12.04 12:53:43,955||dlqin:12.04 12:53:48,700| ; C In: 12.04 12:53:53,308|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.306.0>-C-1-5: 410te_Nachricht. C Out: 12.04 12:53:40,894|(410)|hbqin:12.04 12:53:43,959||dlqin:12.04 12:53:48,701| ; C In: 12.04 12:53:53,322|
+HBQ: message 411 to 470 replaced
+|dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,337|
+8-profB@lab31.cpt.haw-hamburg.de-<0.290.0>-KLC: 471te_Nachricht. C Out: 12.04 12:53:45,479||hbqin:12.04 12:53:45,479||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,354|
+5-profB@lab31.cpt.haw-hamburg.de-<0.287.0>-KLC: 472te_Nachricht. C Out: 12.04 12:53:45,479||hbqin:12.04 12:53:45,483||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,370|
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 473te_Nachricht. C Out: 12.04 12:53:45,486||hbqin:12.04 12:53:45,488||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,385|
+0-profB@lab31.cpt.haw-hamburg.de-<0.282.0>-KLC: 474te_Nachricht. C Out: 12.04 12:53:45,487||hbqin:12.04 12:53:45,492||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,401|
+1-profB@lab31.cpt.haw-hamburg.de-<0.283.0>-KLC: 475te_Nachricht. C Out: 12.04 12:53:45,487||hbqin:12.04 12:53:45,496||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,416|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 476te_Nachricht. C Out: 12.04 12:53:45,497||hbqin:12.04 12:53:45,502||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,432|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 477te_Nachricht. C Out: 12.04 12:53:45,497||hbqin:12.04 12:53:45,505||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,448|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 478te_Nachricht. C Out: 12.04 12:53:45,498||hbqin:12.04 12:53:45,508||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,463|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 479te_Nachricht. C Out: 12.04 12:53:45,498||hbqin:12.04 12:53:45,512||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,479|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 480te_Nachricht. C Out: 12.04 12:53:45,510||hbqin:12.04 12:53:45,518||dlqin:12.04 12:53:50,707| ; C In: 12.04 12:53:53,495|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:481te Nachricht.C Out:12.04 12:53:44,691||hbqin:12.04 12:53:44,699||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,513|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.219.0>-C-3-06:482te Nachricht.C Out:12.04 12:53:47,610||hbqin:12.04 12:53:47,610||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,529|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.213.0>-C-3-06:483te Nachricht.C Out:12.04 12:53:47,610||hbqin:12.04 12:53:47,614||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,544|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:484te Nachricht.C Out:12.04 12:53:45,614||hbqin:12.04 12:53:45,623||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,559|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:485te Nachricht.C Out:12.04 12:53:45,615||hbqin:12.04 12:53:45,628||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,575|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.225.0>-C-3-06:486te Nachricht.C Out:12.04 12:53:47,619||hbqin:12.04 12:53:47,620||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,591|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:487te Nachricht.C Out:12.04 12:53:45,619||hbqin:12.04 12:53:45,635||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,607|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.231.0>-C-3-06:488te Nachricht.C Out:12.04 12:53:47,619||hbqin:12.04 12:53:47,624||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,622|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:489te Nachricht.C Out:12.04 12:53:45,620||hbqin:12.04 12:53:45,639||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,637|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:490te Nachricht.C Out:12.04 12:53:47,619||hbqin:12.04 12:53:47,628||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,653|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:491te Nachricht.C Out:12.04 12:53:47,620||hbqin:12.04 12:53:47,633||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,668|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 492te_Nachricht. C Out: 12.04 12:53:43,891|(492)|hbqin:12.04 12:53:46,902||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,684|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 493te_Nachricht. C Out: 12.04 12:53:43,894|(493)|hbqin:12.04 12:53:46,910||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,720|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 494te_Nachricht. C Out: 12.04 12:53:43,898|(494)|hbqin:12.04 12:53:46,916||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,741|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.290.0>-C-1-5: 495te_Nachricht. C Out: 12.04 12:53:43,902|(495)|hbqin:12.04 12:53:46,923||dlqin:12.04 12:53:50,708| ; C In: 12.04 12:53:53,761|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.291.0>-C-1-5: 496te_Nachricht. C Out: 12.04 12:53:43,902|(496)|hbqin:12.04 12:53:46,927||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,781|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.292.0>-C-1-5: 497te_Nachricht. C Out: 12.04 12:53:43,908|(497)|hbqin:12.04 12:53:46,935||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,801|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.294.0>-C-1-5: 498te_Nachricht. C Out: 12.04 12:53:43,912|(498)|hbqin:12.04 12:53:46,939||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,820|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.293.0>-C-1-5: 499te_Nachricht. C Out: 12.04 12:53:43,917|(499)|hbqin:12.04 12:53:46,946||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,841|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.295.0>-C-1-5: 500te_Nachricht. C Out: 12.04 12:53:43,917|(500)|hbqin:12.04 12:53:46,950||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,862|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 501te_Nachricht. C Out: 12.04 12:53:43,924|(501)|hbqin:12.04 12:53:46,957||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,882|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.297.0>-C-1-5: 502te_Nachricht. C Out: 12.04 12:53:43,927|(502)|hbqin:12.04 12:53:46,961||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,903|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 503te_Nachricht. C Out: 12.04 12:53:43,931|(503)|hbqin:12.04 12:53:46,966||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,923|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 504te_Nachricht. C Out: 12.04 12:53:43,931|(504)|hbqin:12.04 12:53:46,971||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,944|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.300.0>-C-1-5: 505te_Nachricht. C Out: 12.04 12:53:43,940|(505)|hbqin:12.04 12:53:46,978||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,965|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.301.0>-C-1-5: 506te_Nachricht. C Out: 12.04 12:53:43,940|(506)|hbqin:12.04 12:53:46,982||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:53,986|
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 507te_Nachricht. C Out: 12.04 12:53:43,940|(507)|hbqin:12.04 12:53:46,986||dlqin:12.04 12:53:50,709| ; C In: 12.04 12:53:54,007|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 508te_Nachricht. C Out: 12.04 12:53:43,940|(508)|hbqin:12.04 12:53:46,991||dlqin:12.04 12:53:50,710| ; C In: 12.04 12:53:54,028|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.304.0>-C-1-5: 509te_Nachricht. C Out: 12.04 12:53:43,940|(509)|hbqin:12.04 12:53:46,995||dlqin:12.04 12:53:50,710| ; C In: 12.04 12:53:54,049|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 510te_Nachricht. C Out: 12.04 12:53:43,940|(510)|hbqin:12.04 12:53:46,000||dlqin:12.04 12:53:50,710| ; C In: 12.04 12:53:54,070|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.306.0>-C-1-5: 511te_Nachricht. C Out: 12.04 12:53:43,959|(511)|hbqin:12.04 12:53:47,011||dlqin:12.04 12:53:50,710| ; C In: 12.04 12:53:54,090|
+HBQ: message 512 to 561 replaced
+|dlqin:12.04 12:53:52,697| ; C In: 12.04 12:53:54,111|
+1-profA@lab31.cpt.haw-hamburg.de-<0.195.0>-KLC: 562te_Nachricht. C Out: 12.04 12:53:46,503||hbqin:12.04 12:53:46,528||dlqin:12.04 12:53:52,697| ; C In: 12.04 12:53:54,132|
+2-profA@lab31.cpt.haw-hamburg.de-<0.196.0>-KLC: 563te_Nachricht. C Out: 12.04 12:53:46,502||hbqin:12.04 12:53:46,513||dlqin:12.04 12:53:52,697| ; C In: 12.04 12:53:54,152|
+0-profA@lab31.cpt.haw-hamburg.de-<0.194.0>-KLC: 564te_Nachricht. C Out: 12.04 12:53:46,503||hbqin:12.04 12:53:46,517||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,173|
+3-profA@lab31.cpt.haw-hamburg.de-<0.197.0>-KLC: 565te_Nachricht. C Out: 12.04 12:53:46,503||hbqin:12.04 12:53:46,520||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,193|
+4-profA@lab31.cpt.haw-hamburg.de-<0.198.0>-KLC: 566te_Nachricht. C Out: 12.04 12:53:46,503||hbqin:12.04 12:53:46,534||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,213|
+5-profA@lab31.cpt.haw-hamburg.de-<0.199.0>-KLC: 567te_Nachricht. C Out: 12.04 12:53:46,503||hbqin:12.04 12:53:46,524||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,233|
+6-profA@lab31.cpt.haw-hamburg.de-<0.200.0>-KLC: 568te_Nachricht. C Out: 12.04 12:53:46,503||hbqin:12.04 12:53:46,531||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,253|
+8-profA@lab31.cpt.haw-hamburg.de-<0.202.0>-KLC: 569te_Nachricht. C Out: 12.04 12:53:46,503||hbqin:12.04 12:53:46,538||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,280|
+7-profA@lab31.cpt.haw-hamburg.de-<0.201.0>-KLC: 570te_Nachricht. C Out: 12.04 12:53:46,503||hbqin:12.04 12:53:46,541||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,305|
+9-profA@lab31.cpt.haw-hamburg.de-<0.203.0>-KLC: 571te_Nachricht. C Out: 12.04 12:53:46,503||hbqin:12.04 12:53:46,545||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,330|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.176.0>-C-3-06:572te Nachricht.C Out:12.04 12:53:48,672||hbqin:12.04 12:53:48,672||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,355|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.181.0>-C-3-06:573te Nachricht.C Out:12.04 12:53:48,672||hbqin:12.04 12:53:48,686||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,396|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:574te Nachricht.C Out:12.04 12:53:48,672||hbqin:12.04 12:53:48,677||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,417|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.188.0>-C-3-06:575te Nachricht.C Out:12.04 12:53:48,672||hbqin:12.04 12:53:48,698||dlqin:12.04 12:53:52,698| ; C In: 12.04 12:53:54,437|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.190.0>-C-3-06:576te Nachricht.C Out:12.04 12:53:48,672||hbqin:12.04 12:53:48,681||dlqin:12.04 12:53:52,699| ; C In: 12.04 12:53:54,458|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.193.0>-C-3-06:577te Nachricht.C Out:12.04 12:53:48,672||hbqin:12.04 12:53:48,704||dlqin:12.04 12:53:52,699| ; C In: 12.04 12:53:54,483|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:578te Nachricht.C Out:12.04 12:53:48,672||hbqin:12.04 12:53:48,709||dlqin:12.04 12:53:52,699| ; C In: 12.04 12:53:54,506|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.201.0>-C-3-06:579te Nachricht.C Out:12.04 12:53:48,673||hbqin:12.04 12:53:48,713||dlqin:12.04 12:53:52,699| ; C In: 12.04 12:53:54,527|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.204.0>-C-3-06:580te Nachricht.C Out:12.04 12:53:48,673||hbqin:12.04 12:53:48,717||dlqin:12.04 12:53:52,699| ; C In: 12.04 12:53:54,548|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:581te Nachricht.C Out:12.04 12:53:46,693||hbqin:12.04 12:53:46,703||dlqin:12.04 12:53:52,699| ; C In: 12.04 12:53:54,597|
+HBQ: message 582 to 631 replaced
+|dlqin:12.04 12:53:53,708| ; C In: 12.04 12:53:54,643|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:632te Nachricht.C Out:12.04 12:53:47,624||hbqin:12.04 12:53:47,637||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,664|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:633te Nachricht.C Out:12.04 12:53:47,628||hbqin:12.04 12:53:47,641||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,686|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:634te Nachricht.C Out:12.04 12:53:47,636||hbqin:12.04 12:53:47,646||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,707|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:635te Nachricht.C Out:12.04 12:53:47,636||hbqin:12.04 12:53:47,650||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,734|
+2-profA@lab31.cpt.haw-hamburg.de-<0.196.0>-KLC: 636te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,515||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,767|
+0-profA@lab31.cpt.haw-hamburg.de-<0.194.0>-KLC: 637te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,524||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,800|
+3-profA@lab31.cpt.haw-hamburg.de-<0.197.0>-KLC: 638te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,520||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,832|
+5-profA@lab31.cpt.haw-hamburg.de-<0.199.0>-KLC: 639te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,533||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,866|
+1-profA@lab31.cpt.haw-hamburg.de-<0.195.0>-KLC: 640te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,529||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,901|
+6-profA@lab31.cpt.haw-hamburg.de-<0.200.0>-KLC: 641te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,538||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,934|
+4-profA@lab31.cpt.haw-hamburg.de-<0.198.0>-KLC: 642te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,543||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:54,973|
+8-profA@lab31.cpt.haw-hamburg.de-<0.202.0>-KLC: 643te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,547||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:55,005|
+7-profA@lab31.cpt.haw-hamburg.de-<0.201.0>-KLC: 644te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,551||dlqin:12.04 12:53:53,709| ; C In: 12.04 12:53:55,038|
+9-profA@lab31.cpt.haw-hamburg.de-<0.203.0>-KLC: 645te_Nachricht. C Out: 12.04 12:53:48,515||hbqin:12.04 12:53:48,556||dlqin:12.04 12:53:53,710| ; C In: 12.04 12:53:55,070|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:646te Nachricht.C Out:12.04 12:53:48,704||hbqin:12.04 12:53:48,721||dlqin:12.04 12:53:53,710| ; C In: 12.04 12:53:55,102|
+HBQ: message 647 to 676 replaced
+|dlqin:12.04 12:53:54,605| ; C In: 12.04 12:53:55,135|
+8-profB@lab31.cpt.haw-hamburg.de-<0.290.0>-KLC: 677te_Nachricht. C Out: 12.04 12:53:49,162||hbqin:12.04 12:53:49,171||dlqin:12.04 12:53:54,605| ; C In: 12.04 12:53:55,169|
+5-profB@lab31.cpt.haw-hamburg.de-<0.287.0>-KLC: 678te_Nachricht. C Out: 12.04 12:53:49,168||hbqin:12.04 12:53:49,180||dlqin:12.04 12:53:54,605| ; C In: 12.04 12:53:55,202|
+HBQ: message 679 to 712 replaced
+|dlqin:12.04 12:53:54,614| ; C In: 12.04 12:53:55,241|
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 713te_Nachricht. C Out: 12.04 12:53:49,177||hbqin:12.04 12:53:49,190||dlqin:12.04 12:53:54,614| ; C In: 12.04 12:53:55,317|
+0-profB@lab31.cpt.haw-hamburg.de-<0.282.0>-KLC: 714te_Nachricht. C Out: 12.04 12:53:49,177||hbqin:12.04 12:53:49,194||dlqin:12.04 12:53:54,614| ; C In: 12.04 12:53:55,348|
+1-profB@lab31.cpt.haw-hamburg.de-<0.283.0>-KLC: 715te_Nachricht. C Out: 12.04 12:53:49,177||hbqin:12.04 12:53:49,198||dlqin:12.04 12:53:54,614| ; C In: 12.04 12:53:55,379|
+HBQ: message 716 to 720 replaced
+|dlqin:12.04 12:53:54,943| ; C In: 12.04 12:53:55,410|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 721te_Nachricht. C Out: 12.04 12:53:49,178||hbqin:12.04 12:53:49,203||dlqin:12.04 12:53:54,944| ; C In: 12.04 12:53:55,441|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 722te_Nachricht. C Out: 12.04 12:53:49,178||hbqin:12.04 12:53:49,208||dlqin:12.04 12:53:54,944| ; C In: 12.04 12:53:55,472|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 723te_Nachricht. C Out: 12.04 12:53:49,178||hbqin:12.04 12:53:49,212||dlqin:12.04 12:53:54,944| ; C In: 12.04 12:53:55,502|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 724te_Nachricht. C Out: 12.04 12:53:49,178||hbqin:12.04 12:53:49,216||dlqin:12.04 12:53:54,944| ; C In: 12.04 12:53:55,532|
+HBQ: message 725 to 725 replaced
+|dlqin:12.04 12:53:55,266| ; C In: 12.04 12:53:55,563|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 726te_Nachricht. C Out: 12.04 12:53:49,178||hbqin:12.04 12:53:49,221||dlqin:12.04 12:53:55,266| ; C In: 12.04 12:53:55,594|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.219.0>-C-3-06:727te Nachricht.C Out:12.04 12:53:51,611||hbqin:12.04 12:53:51,626||dlqin:12.04 12:53:55,267| ; C In: 12.04 12:53:55,625|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.213.0>-C-3-06:728te Nachricht.C Out:12.04 12:53:51,611||hbqin:12.04 12:53:51,630||dlqin:12.04 12:53:55,267| ; C In: 12.04 12:53:55,656|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.225.0>-C-3-06:729te Nachricht.C Out:12.04 12:53:51,620||hbqin:12.04 12:53:51,642||dlqin:12.04 12:53:55,267| ; C In: 12.04 12:53:55,707|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.231.0>-C-3-06:730te Nachricht.C Out:12.04 12:53:51,620||hbqin:12.04 12:53:51,646||dlqin:12.04 12:53:55,267| ; C In: 12.04 12:53:55,739|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:731te Nachricht.C Out:12.04 12:53:51,620||hbqin:12.04 12:53:51,650||dlqin:12.04 12:53:55,267| ; C In: 12.04 12:53:55,769|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:732te Nachricht.C Out:12.04 12:53:51,621||hbqin:12.04 12:53:51,655||dlqin:12.04 12:53:55,267| ; C In: 12.04 12:53:55,800|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:733te Nachricht.C Out:12.04 12:53:49,627||hbqin:12.04 12:53:49,636||dlqin:12.04 12:53:55,267| ; C In: 12.04 12:53:55,831|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:734te Nachricht.C Out:12.04 12:53:49,629||hbqin:12.04 12:53:49,643||dlqin:12.04 12:53:55,267| ; C In: 12.04 12:53:55,861|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:735te Nachricht.C Out:12.04 12:53:49,637||hbqin:12.04 12:53:49,654||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:55,891|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:736te Nachricht.C Out:12.04 12:53:49,638||hbqin:12.04 12:53:49,659||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:55,922|
+2-profA@lab31.cpt.haw-hamburg.de-<0.196.0>-KLC: 737te_Nachricht. C Out: 12.04 12:53:50,517||hbqin:12.04 12:53:50,522||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:55,954|
+3-profA@lab31.cpt.haw-hamburg.de-<0.197.0>-KLC: 738te_Nachricht. C Out: 12.04 12:53:50,517||hbqin:12.04 12:53:50,527||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:55,984|
+0-profA@lab31.cpt.haw-hamburg.de-<0.194.0>-KLC: 739te_Nachricht. C Out: 12.04 12:53:50,517||hbqin:12.04 12:53:50,517||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:56,015|
+1-profA@lab31.cpt.haw-hamburg.de-<0.195.0>-KLC: 740te_Nachricht. C Out: 12.04 12:53:50,517||hbqin:12.04 12:53:50,536||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:56,046|
+6-profA@lab31.cpt.haw-hamburg.de-<0.200.0>-KLC: 741te_Nachricht. C Out: 12.04 12:53:50,517||hbqin:12.04 12:53:50,532||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:56,076|
+5-profA@lab31.cpt.haw-hamburg.de-<0.199.0>-KLC: 742te_Nachricht. C Out: 12.04 12:53:50,518||hbqin:12.04 12:53:50,541||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:56,108|
+4-profA@lab31.cpt.haw-hamburg.de-<0.198.0>-KLC: 743te_Nachricht. C Out: 12.04 12:53:50,519||hbqin:12.04 12:53:50,545||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:56,140|
+8-profA@lab31.cpt.haw-hamburg.de-<0.202.0>-KLC: 744te_Nachricht. C Out: 12.04 12:53:50,519||hbqin:12.04 12:53:50,549||dlqin:12.04 12:53:55,268| ; C In: 12.04 12:53:56,172|
+7-profA@lab31.cpt.haw-hamburg.de-<0.201.0>-KLC: 745te_Nachricht. C Out: 12.04 12:53:50,519||hbqin:12.04 12:53:50,554||dlqin:12.04 12:53:55,269| ; C In: 12.04 12:53:56,205|
+9-profA@lab31.cpt.haw-hamburg.de-<0.203.0>-KLC: 746te_Nachricht. C Out: 12.04 12:53:50,520||hbqin:12.04 12:53:50,558||dlqin:12.04 12:53:55,269| ; C In: 12.04 12:53:56,237|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.176.0>-C-3-06:747te Nachricht.C Out:12.04 12:53:52,674||hbqin:12.04 12:53:52,693||dlqin:12.04 12:53:55,269| ; C In: 12.04 12:53:56,268|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:748te Nachricht.C Out:12.04 12:53:52,674||hbqin:12.04 12:53:52,689||dlqin:12.04 12:53:55,269| ; C In: 12.04 12:53:56,303|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.190.0>-C-3-06:749te Nachricht.C Out:12.04 12:53:52,675||hbqin:12.04 12:53:52,703||dlqin:12.04 12:53:55,269| ; C In: 12.04 12:53:56,340|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.181.0>-C-3-06:750te Nachricht.C Out:12.04 12:53:52,675||hbqin:12.04 12:53:52,697||dlqin:12.04 12:53:55,269| ; C In: 12.04 12:53:56,374|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.193.0>-C-3-06:751te Nachricht.C Out:12.04 12:53:52,675||hbqin:12.04 12:53:52,708||dlqin:12.04 12:53:55,269| ; C In: 12.04 12:53:56,419|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.188.0>-C-3-06:752te Nachricht.C Out:12.04 12:53:52,676||hbqin:12.04 12:53:52,713||dlqin:12.04 12:53:55,269| ; C In: 12.04 12:53:56,458|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:753te Nachricht.C Out:12.04 12:53:52,676||hbqin:12.04 12:53:52,717||dlqin:12.04 12:53:55,269| ; C In: 12.04 12:53:56,491|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.201.0>-C-3-06:754te Nachricht.C Out:12.04 12:53:52,676||hbqin:12.04 12:53:52,721||dlqin:12.04 12:53:55,270| ; C In: 12.04 12:53:56,524|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.204.0>-C-3-06:755te Nachricht.C Out:12.04 12:53:52,677||hbqin:12.04 12:53:52,727||dlqin:12.04 12:53:55,270| ; C In: 12.04 12:53:56,556|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:756te Nachricht.C Out:12.04 12:53:50,706||hbqin:12.04 12:53:50,706||dlqin:12.04 12:53:55,270| ; C In: 12.04 12:53:56,587|
+8-profB@lab31.cpt.haw-hamburg.de-<0.290.0>-KLC: 757te_Nachricht. C Out: 12.04 12:53:51,172||hbqin:12.04 12:53:51,173||dlqin:12.04 12:53:55,270| ; C In: 12.04 12:53:56,619|
+5-profB@lab31.cpt.haw-hamburg.de-<0.287.0>-KLC: 758te_Nachricht. C Out: 12.04 12:53:51,181||hbqin:12.04 12:53:51,181||dlqin:12.04 12:53:55,270| ; C In: 12.04 12:53:56,650|
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 759te_Nachricht. C Out: 12.04 12:53:51,191||hbqin:12.04 12:53:51,191||dlqin:12.04 12:53:55,270| ; C In: 12.04 12:53:56,681|
+0-profB@lab31.cpt.haw-hamburg.de-<0.282.0>-KLC: 760te_Nachricht. C Out: 12.04 12:53:51,191||hbqin:12.04 12:53:51,195||dlqin:12.04 12:53:55,270| ; C In: 12.04 12:53:56,712|
+1-profB@lab31.cpt.haw-hamburg.de-<0.283.0>-KLC: 761te_Nachricht. C Out: 12.04 12:53:51,191||hbqin:12.04 12:53:51,199||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:56,763|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 762te_Nachricht. C Out: 12.04 12:53:51,204||hbqin:12.04 12:53:51,204||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:56,812|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 763te_Nachricht. C Out: 12.04 12:53:51,205||hbqin:12.04 12:53:51,208||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:56,844|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 764te_Nachricht. C Out: 12.04 12:53:51,205||hbqin:12.04 12:53:51,212||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:56,876|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 765te_Nachricht. C Out: 12.04 12:53:51,205||hbqin:12.04 12:53:51,215||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:56,908|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 766te_Nachricht. C Out: 12.04 12:53:51,205||hbqin:12.04 12:53:51,219||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:56,938|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:767te Nachricht.C Out:12.04 12:53:51,637||hbqin:12.04 12:53:51,667||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:56,970|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:768te Nachricht.C Out:12.04 12:53:51,644||hbqin:12.04 12:53:51,676||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:57,006|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:769te Nachricht.C Out:12.04 12:53:51,655||hbqin:12.04 12:53:51,681||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:57,038|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:770te Nachricht.C Out:12.04 12:53:51,655||hbqin:12.04 12:53:51,685||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:57,070|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 771te_Nachricht. C Out: 12.04 12:53:50,226|(771)|hbqin:12.04 12:53:52,242||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:57,101|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 772te_Nachricht. C Out: 12.04 12:53:50,253|(772)|hbqin:12.04 12:53:52,268||dlqin:12.04 12:53:55,271| ; C In: 12.04 12:53:57,133|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 773te_Nachricht. C Out: 12.04 12:53:50,268|(773)|hbqin:12.04 12:53:52,287||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,165|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 774te_Nachricht. C Out: 12.04 12:53:50,307|(774)|hbqin:12.04 12:53:52,322||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,198|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 775te_Nachricht. C Out: 12.04 12:53:50,314|(775)|hbqin:12.04 12:53:52,334||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,230|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 776te_Nachricht. C Out: 12.04 12:53:50,314|(776)|hbqin:12.04 12:53:52,338||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,266|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 777te_Nachricht. C Out: 12.04 12:53:50,316|(777)|hbqin:12.04 12:53:52,345||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,319|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.304.0>-C-1-5: 778te_Nachricht. C Out: 12.04 12:53:50,316|(778)|hbqin:12.04 12:53:52,349||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,373|
+0-profA@lab31.cpt.haw-hamburg.de-<0.194.0>-KLC: 779te_Nachricht. C Out: 12.04 12:53:52,518||hbqin:12.04 12:53:52,534||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,407|
+2-profA@lab31.cpt.haw-hamburg.de-<0.196.0>-KLC: 780te_Nachricht. C Out: 12.04 12:53:52,519||hbqin:12.04 12:53:52,538||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,441|
+3-profA@lab31.cpt.haw-hamburg.de-<0.197.0>-KLC: 781te_Nachricht. C Out: 12.04 12:53:52,519||hbqin:12.04 12:53:52,542||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,474|
+6-profA@lab31.cpt.haw-hamburg.de-<0.200.0>-KLC: 782te_Nachricht. C Out: 12.04 12:53:52,519||hbqin:12.04 12:53:52,547||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,516|
+1-profA@lab31.cpt.haw-hamburg.de-<0.195.0>-KLC: 783te_Nachricht. C Out: 12.04 12:53:52,519||hbqin:12.04 12:53:52,551||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,563|
+5-profA@lab31.cpt.haw-hamburg.de-<0.199.0>-KLC: 784te_Nachricht. C Out: 12.04 12:53:52,519||hbqin:12.04 12:53:52,556||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,607|
+4-profA@lab31.cpt.haw-hamburg.de-<0.198.0>-KLC: 785te_Nachricht. C Out: 12.04 12:53:52,519||hbqin:12.04 12:53:52,561||dlqin:12.04 12:53:55,272| ; C In: 12.04 12:53:57,647|
+8-profA@lab31.cpt.haw-hamburg.de-<0.202.0>-KLC: 786te_Nachricht. C Out: 12.04 12:53:52,520||hbqin:12.04 12:53:52,565||dlqin:12.04 12:53:55,273| ; C In: 12.04 12:53:57,686|
+7-profA@lab31.cpt.haw-hamburg.de-<0.201.0>-KLC: 787te_Nachricht. C Out: 12.04 12:53:52,521||hbqin:12.04 12:53:52,570||dlqin:12.04 12:53:55,273| ; C In: 12.04 12:53:57,723|
+9-profA@lab31.cpt.haw-hamburg.de-<0.203.0>-KLC: 788te_Nachricht. C Out: 12.04 12:53:52,521||hbqin:12.04 12:53:52,575||dlqin:12.04 12:53:55,273| ; C In: 12.04 12:53:57,759|
+..getmessages..Done...
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 1005te_Nachricht. C Out: 12.04 12:53:57,792|(1005) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 1116te_Nachricht. C Out: 12.04 12:54:02,321|(1116) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 1248te_Nachricht. C Out: 12.04 12:54:06,844|(1248) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 1327te_Nachricht. C Out: 12.04 12:54:11,345|(1327) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 1450te_Nachricht. C Out: 12.04 12:54:15,866|(1450) gesendet
+1614te_Nachricht um 12.04 12:54:20,388|- vergessen zu senden ******
+Neues Sendeintervall: 6 Sekunden
+19-clientserver@lab22.cpt.haw-hamburg.de<0.306.0>-C-1-5: 1250te_Nachricht. C Out: 12.04 12:54:06,878|(1250)|hbqin:12.04 12:54:11,380||dlqin:12.04 12:54:13,189| ; C In: 12.04 12:54:27,146|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 1251te_Nachricht. C Out: 12.04 12:54:07,165|(1251)|hbqin:12.04 12:54:10,168||dlqin:12.04 12:54:13,189| ; C In: 12.04 12:54:27,155|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 1252te_Nachricht. C Out: 12.04 12:54:07,180|(1252)|hbqin:12.04 12:54:10,183||dlqin:12.04 12:54:13,189| ; C In: 12.04 12:54:27,163|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 1253te_Nachricht. C Out: 12.04 12:54:07,207|(1253)|hbqin:12.04 12:54:10,210||dlqin:12.04 12:54:13,189| ; C In: 12.04 12:54:27,171|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.304.0>-C-1-5: 1254te_Nachricht. C Out: 12.04 12:54:07,207|(1254)|hbqin:12.04 12:54:10,214||dlqin:12.04 12:54:13,189| ; C In: 12.04 12:54:27,181|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.219.0>-C-3-06:1255te Nachricht.C Out:12.04 12:54:13,285||hbqin:12.04 12:54:13,286||dlqin:12.04 12:54:13,286| ; C In: 12.04 12:54:27,191|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.213.0>-C-3-06:1256te Nachricht.C Out:12.04 12:54:13,290||hbqin:12.04 12:54:13,291||dlqin:12.04 12:54:13,291| ; C In: 12.04 12:54:27,201|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.225.0>-C-3-06:1257te Nachricht.C Out:12.04 12:54:13,292||hbqin:12.04 12:54:13,295||dlqin:12.04 12:54:13,295| ; C In: 12.04 12:54:27,211|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.231.0>-C-3-06:1258te Nachricht.C Out:12.04 12:54:13,292||hbqin:12.04 12:54:13,298||dlqin:12.04 12:54:13,298| ; C In: 12.04 12:54:27,221|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:1259te Nachricht.C Out:12.04 12:54:09,292||hbqin:12.04 12:54:09,296||dlqin:12.04 12:54:13,298| ; C In: 12.04 12:54:27,231|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:1260te Nachricht.C Out:12.04 12:54:09,292||hbqin:12.04 12:54:09,300||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,241|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 1261te_Nachricht. C Out: 12.04 12:54:07,871|(1261)|hbqin:12.04 12:54:09,873||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,251|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 1262te_Nachricht. C Out: 12.04 12:54:07,888|(1262)|hbqin:12.04 12:54:09,889||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,261|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 1263te_Nachricht. C Out: 12.04 12:54:07,938|(1263)|hbqin:12.04 12:54:09,939||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,271|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 1264te_Nachricht. C Out: 12.04 12:54:07,938|(1264)|hbqin:12.04 12:54:09,944||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,282|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:1265te Nachricht.C Out:12.04 12:54:09,941||hbqin:12.04 12:54:09,951||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,292|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:1266te Nachricht.C Out:12.04 12:54:09,961||hbqin:12.04 12:54:09,964||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,302|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:1267te Nachricht.C Out:12.04 12:54:10,979||hbqin:12.04 12:54:10,979||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,311|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:1268te Nachricht.C Out:12.04 12:54:10,754||hbqin:12.04 12:54:10,755||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,321|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.176.0>-C-3-06:1269te Nachricht.C Out:12.04 12:54:10,758||hbqin:12.04 12:54:10,760||dlqin:12.04 12:54:13,299| ; C In: 12.04 12:54:27,331|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.290.0>-C-1-5: 1270te_Nachricht. C Out: 12.04 12:54:08,882|(1270)|hbqin:12.04 12:54:13,383||dlqin:12.04 12:54:13,383| ; C In: 12.04 12:54:27,341|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:1271te Nachricht.C Out:12.04 12:54:11,897||hbqin:12.04 12:54:11,897||dlqin:12.04 12:54:13,383| ; C In: 12.04 12:54:27,351|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:1272te Nachricht.C Out:12.04 12:54:11,921||hbqin:12.04 12:54:11,922||dlqin:12.04 12:54:13,383| ; C In: 12.04 12:54:27,362|
+8-profB@lab31.cpt.haw-hamburg.de-<0.290.0>-KLC: 1273te_Nachricht. C Out: 12.04 12:54:12,154||hbqin:12.04 12:54:12,154||dlqin:12.04 12:54:13,383| ; C In: 12.04 12:54:27,371|
+5-profB@lab31.cpt.haw-hamburg.de-<0.287.0>-KLC: 1274te_Nachricht. C Out: 12.04 12:54:12,155||hbqin:12.04 12:54:12,159||dlqin:12.04 12:54:13,383| ; C In: 12.04 12:54:27,380|
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 1275te_Nachricht. C Out: 12.04 12:54:12,181||hbqin:12.04 12:54:12,181||dlqin:12.04 12:54:13,383| ; C In: 12.04 12:54:27,389|
+0-profB@lab31.cpt.haw-hamburg.de-<0.282.0>-KLC: 1276te_Nachricht. C Out: 12.04 12:54:12,182||hbqin:12.04 12:54:12,186||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,397|
+1-profB@lab31.cpt.haw-hamburg.de-<0.283.0>-KLC: 1277te_Nachricht. C Out: 12.04 12:54:12,182||hbqin:12.04 12:54:12,191||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,410|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 1278te_Nachricht. C Out: 12.04 12:54:12,183||hbqin:12.04 12:54:12,196||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,419|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 1279te_Nachricht. C Out: 12.04 12:54:12,183||hbqin:12.04 12:54:12,201||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,428|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 1280te_Nachricht. C Out: 12.04 12:54:12,184||hbqin:12.04 12:54:12,205||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,437|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 1281te_Nachricht. C Out: 12.04 12:54:12,224||hbqin:12.04 12:54:12,224||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,446|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 1282te_Nachricht. C Out: 12.04 12:54:12,225||hbqin:12.04 12:54:12,232||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,455|
+6-profA@lab31.cpt.haw-hamburg.de-<0.200.0>-KLC: 1283te_Nachricht. C Out: 12.04 12:54:12,285||hbqin:12.04 12:54:12,285||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,463|
+7-profA@lab31.cpt.haw-hamburg.de-<0.201.0>-KLC: 1284te_Nachricht. C Out: 12.04 12:54:12,285||hbqin:12.04 12:54:12,290||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,472|
+9-profA@lab31.cpt.haw-hamburg.de-<0.203.0>-KLC: 1285te_Nachricht. C Out: 12.04 12:54:12,285||hbqin:12.04 12:54:12,294||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,481|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:1286te Nachricht.C Out:12.04 12:54:11,293||hbqin:12.04 12:54:11,294||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,490|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:1287te Nachricht.C Out:12.04 12:54:11,294||hbqin:12.04 12:54:11,298||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,499|
+1-profA@lab31.cpt.haw-hamburg.de-<0.195.0>-KLC: 1288te_Nachricht. C Out: 12.04 12:54:12,298||hbqin:12.04 12:54:12,299||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,507|
+5-profA@lab31.cpt.haw-hamburg.de-<0.199.0>-KLC: 1289te_Nachricht. C Out: 12.04 12:54:12,317||hbqin:12.04 12:54:12,317||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,516|
+4-profA@lab31.cpt.haw-hamburg.de-<0.198.0>-KLC: 1290te_Nachricht. C Out: 12.04 12:54:12,317||hbqin:12.04 12:54:12,321||dlqin:12.04 12:54:13,384| ; C In: 12.04 12:54:27,525|
+8-profA@lab31.cpt.haw-hamburg.de-<0.202.0>-KLC: 1291te_Nachricht. C Out: 12.04 12:54:12,317||hbqin:12.04 12:54:12,326||dlqin:12.04 12:54:13,385| ; C In: 12.04 12:54:27,534|
+2-profA@lab31.cpt.haw-hamburg.de-<0.196.0>-KLC: 1292te_Nachricht. C Out: 12.04 12:54:12,342||hbqin:12.04 12:54:12,342||dlqin:12.04 12:54:13,385| ; C In: 12.04 12:54:27,543|
+0-profA@lab31.cpt.haw-hamburg.de-<0.194.0>-KLC: 1293te_Nachricht. C Out: 12.04 12:54:12,342||hbqin:12.04 12:54:12,346||dlqin:12.04 12:54:13,385| ; C In: 12.04 12:54:27,552|
+3-profA@lab31.cpt.haw-hamburg.de-<0.197.0>-KLC: 1294te_Nachricht. C Out: 12.04 12:54:12,342||hbqin:12.04 12:54:12,351||dlqin:12.04 12:54:13,385| ; C In: 12.04 12:54:27,561|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 1295te_Nachricht. C Out: 12.04 12:54:09,873|(1295)|hbqin:12.04 12:54:11,875||dlqin:12.04 12:54:13,385| ; C In: 12.04 12:54:27,570|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 1296te_Nachricht. C Out: 12.04 12:54:09,889|(1296)|hbqin:12.04 12:54:11,890||dlqin:12.04 12:54:13,385| ; C In: 12.04 12:54:27,578|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 1297te_Nachricht. C Out: 12.04 12:54:09,939|(1297)|hbqin:12.04 12:54:11,940||dlqin:12.04 12:54:13,385| ; C In: 12.04 12:54:27,587|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 1298te_Nachricht. C Out: 12.04 12:54:09,940|(1298)|hbqin:12.04 12:54:11,945||dlqin:12.04 12:54:13,385| ; C In: 12.04 12:54:27,596|
+HBQ: message 1299 to 1300 replaced
+|dlqin:12.04 12:54:20,225| ; C In: 12.04 12:54:27,605|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 1301te_Nachricht. C Out: 12.04 12:54:10,168|(1301)|hbqin:12.04 12:54:13,169||dlqin:12.04 12:54:20,225| ; C In: 12.04 12:54:27,614|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 1302te_Nachricht. C Out: 12.04 12:54:10,183|(1302)|hbqin:12.04 12:54:13,185||dlqin:12.04 12:54:20,225| ; C In: 12.04 12:54:27,622|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 1303te_Nachricht. C Out: 12.04 12:54:10,210|(1303)|hbqin:12.04 12:54:13,211||dlqin:12.04 12:54:20,225| ; C In: 12.04 12:54:27,631|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.304.0>-C-1-5: 1304te_Nachricht. C Out: 12.04 12:54:10,210|(1304)|hbqin:12.04 12:54:13,217||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,640|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:1305te Nachricht.C Out:12.04 12:54:13,372||hbqin:12.04 12:54:13,372||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,649|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:1306te Nachricht.C Out:12.04 12:54:13,375||hbqin:12.04 12:54:13,376||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,658|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.181.0>-C-3-06:1307te Nachricht.C Out:12.04 12:54:16,738||hbqin:12.04 12:54:16,752||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,667|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.190.0>-C-3-06:1308te Nachricht.C Out:12.04 12:54:16,752||hbqin:12.04 12:54:16,769||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,676|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:1309te Nachricht.C Out:12.04 12:54:12,755||hbqin:12.04 12:54:12,755||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,685|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.176.0>-C-3-06:1310te Nachricht.C Out:12.04 12:54:12,759||hbqin:12.04 12:54:12,760||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,695|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.193.0>-C-3-06:1311te Nachricht.C Out:12.04 12:54:16,777||hbqin:12.04 12:54:16,789||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,704|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.188.0>-C-3-06:1312te Nachricht.C Out:12.04 12:54:16,802||hbqin:12.04 12:54:16,814||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,713|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.201.0>-C-3-06:1313te Nachricht.C Out:12.04 12:54:16,803||hbqin:12.04 12:54:16,819||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,722|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:1314te Nachricht.C Out:12.04 12:54:16,803||hbqin:12.04 12:54:16,823||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,732|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.204.0>-C-3-06:1315te Nachricht.C Out:12.04 12:54:16,815||hbqin:12.04 12:54:16,838||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,741|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:1316te Nachricht.C Out:12.04 12:54:13,980||hbqin:12.04 12:54:13,980||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,750|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.291.0>-C-1-5: 1317te_Nachricht. C Out: 12.04 12:54:11,043|(1317)|hbqin:12.04 12:54:15,561||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,759|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.292.0>-C-1-5: 1318te_Nachricht. C Out: 12.04 12:54:11,167|(1318)|hbqin:12.04 12:54:15,685||dlqin:12.04 12:54:20,226| ; C In: 12.04 12:54:27,768|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.294.0>-C-1-5: 1319te_Nachricht. C Out: 12.04 12:54:11,181|(1319)|hbqin:12.04 12:54:15,702||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,778|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.293.0>-C-1-5: 1320te_Nachricht. C Out: 12.04 12:54:11,229|(1320)|hbqin:12.04 12:54:15,746||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,788|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.295.0>-C-1-5: 1321te_Nachricht. C Out: 12.04 12:54:11,237|(1321)|hbqin:12.04 12:54:15,759||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,797|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.297.0>-C-1-5: 1322te_Nachricht. C Out: 12.04 12:54:11,281|(1322)|hbqin:12.04 12:54:15,798||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,806|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:1323te Nachricht.C Out:12.04 12:54:13,294||hbqin:12.04 12:54:13,303||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,815|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:1324te Nachricht.C Out:12.04 12:54:13,295||hbqin:12.04 12:54:13,306||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,824|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.300.0>-C-1-5: 1325te_Nachricht. C Out: 12.04 12:54:11,319|(1325)|hbqin:12.04 12:54:15,837||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,834|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.301.0>-C-1-5: 1326te_Nachricht. C Out: 12.04 12:54:11,336|(1326)|hbqin:12.04 12:54:15,856||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,843|
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 1327te_Nachricht. C Out: 12.04 12:54:11,345|(1327)|hbqin:12.04 12:54:15,866||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,852|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 1328te_Nachricht. C Out: 12.04 12:54:11,346|(1328)|hbqin:12.04 12:54:15,870||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,860|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.306.0>-C-1-5: 1329te_Nachricht. C Out: 12.04 12:54:11,380|(1329)|hbqin:12.04 12:54:15,901||dlqin:12.04 12:54:20,227| ; C In: 12.04 12:54:27,868|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 1330te_Nachricht. C Out: 12.04 12:54:11,875|(1330)|hbqin:12.04 12:54:13,876||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,876|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 1331te_Nachricht. C Out: 12.04 12:54:11,890|(1331)|hbqin:12.04 12:54:13,891||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,883|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:1332te Nachricht.C Out:12.04 12:54:14,898||hbqin:12.04 12:54:14,902||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,891|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:1333te Nachricht.C Out:12.04 12:54:14,922||hbqin:12.04 12:54:14,927||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,899|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 1334te_Nachricht. C Out: 12.04 12:54:11,940|(1334)|hbqin:12.04 12:54:13,941||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,908|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 1335te_Nachricht. C Out: 12.04 12:54:11,941|(1335)|hbqin:12.04 12:54:13,944||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,916|
+8-profB@lab31.cpt.haw-hamburg.de-<0.290.0>-KLC: 1336te_Nachricht. C Out: 12.04 12:54:15,155||hbqin:12.04 12:54:15,160||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,924|
+5-profB@lab31.cpt.haw-hamburg.de-<0.287.0>-KLC: 1337te_Nachricht. C Out: 12.04 12:54:15,156||hbqin:12.04 12:54:15,164||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,942|
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 1338te_Nachricht. C Out: 12.04 12:54:15,182||hbqin:12.04 12:54:15,187||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,951|
+0-profB@lab31.cpt.haw-hamburg.de-<0.282.0>-KLC: 1339te_Nachricht. C Out: 12.04 12:54:15,183||hbqin:12.04 12:54:15,191||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,959|
+1-profB@lab31.cpt.haw-hamburg.de-<0.283.0>-KLC: 1340te_Nachricht. C Out: 12.04 12:54:15,184||hbqin:12.04 12:54:15,195||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,968|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 1341te_Nachricht. C Out: 12.04 12:54:15,184||hbqin:12.04 12:54:15,198||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,974|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 1342te_Nachricht. C Out: 12.04 12:54:15,185||hbqin:12.04 12:54:15,202||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,981|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 1343te_Nachricht. C Out: 12.04 12:54:15,185||hbqin:12.04 12:54:15,205||dlqin:12.04 12:54:20,228| ; C In: 12.04 12:54:27,987|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 1344te_Nachricht. C Out: 12.04 12:54:15,225||hbqin:12.04 12:54:15,230||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:27,994|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 1345te_Nachricht. C Out: 12.04 12:54:15,226||hbqin:12.04 12:54:15,233||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,001|
+6-profA@lab31.cpt.haw-hamburg.de-<0.200.0>-KLC: 1346te_Nachricht. C Out: 12.04 12:54:15,287||hbqin:12.04 12:54:15,292||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,007|
+7-profA@lab31.cpt.haw-hamburg.de-<0.201.0>-KLC: 1347te_Nachricht. C Out: 12.04 12:54:15,287||hbqin:12.04 12:54:15,295||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,014|
+9-profA@lab31.cpt.haw-hamburg.de-<0.203.0>-KLC: 1348te_Nachricht. C Out: 12.04 12:54:15,287||hbqin:12.04 12:54:15,300||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,020|
+1-profA@lab31.cpt.haw-hamburg.de-<0.195.0>-KLC: 1349te_Nachricht. C Out: 12.04 12:54:15,299||hbqin:12.04 12:54:15,314||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,027|
+5-profA@lab31.cpt.haw-hamburg.de-<0.199.0>-KLC: 1350te_Nachricht. C Out: 12.04 12:54:15,317||hbqin:12.04 12:54:15,324||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,033|
+4-profA@lab31.cpt.haw-hamburg.de-<0.198.0>-KLC: 1351te_Nachricht. C Out: 12.04 12:54:15,318||hbqin:12.04 12:54:15,327||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,039|
+8-profA@lab31.cpt.haw-hamburg.de-<0.202.0>-KLC: 1352te_Nachricht. C Out: 12.04 12:54:15,319||hbqin:12.04 12:54:15,332||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,046|
+2-profA@lab31.cpt.haw-hamburg.de-<0.196.0>-KLC: 1353te_Nachricht. C Out: 12.04 12:54:15,342||hbqin:12.04 12:54:15,347||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,051|
+0-profA@lab31.cpt.haw-hamburg.de-<0.194.0>-KLC: 1354te_Nachricht. C Out: 12.04 12:54:15,343||hbqin:12.04 12:54:15,354||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,056|
+3-profA@lab31.cpt.haw-hamburg.de-<0.197.0>-KLC: 1355te_Nachricht. C Out: 12.04 12:54:15,344||hbqin:12.04 12:54:15,358||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,067|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:1356te Nachricht.C Out:12.04 12:54:14,758||hbqin:12.04 12:54:14,758||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,072|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.176.0>-C-3-06:1357te Nachricht.C Out:12.04 12:54:14,761||hbqin:12.04 12:54:14,764||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,077|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 1358te_Nachricht. C Out: 12.04 12:54:13,169|(1358)|hbqin:12.04 12:54:16,186||dlqin:12.04 12:54:20,229| ; C In: 12.04 12:54:28,083|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 1359te_Nachricht. C Out: 12.04 12:54:13,185|(1359)|hbqin:12.04 12:54:16,205||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,088|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 1360te_Nachricht. C Out: 12.04 12:54:13,211|(1360)|hbqin:12.04 12:54:16,226||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,093|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.304.0>-C-1-5: 1361te_Nachricht. C Out: 12.04 12:54:13,211|(1361)|hbqin:12.04 12:54:16,231||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,098|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.219.0>-C-3-06:1362te Nachricht.C Out:12.04 12:54:19,287||hbqin:12.04 12:54:19,304||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,104|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.213.0>-C-3-06:1363te Nachricht.C Out:12.04 12:54:19,291||hbqin:12.04 12:54:19,314||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,109|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.225.0>-C-3-06:1364te Nachricht.C Out:12.04 12:54:19,293||hbqin:12.04 12:54:19,319||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,115|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.231.0>-C-3-06:1365te Nachricht.C Out:12.04 12:54:19,294||hbqin:12.04 12:54:19,324||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,120|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:1366te Nachricht.C Out:12.04 12:54:15,295||hbqin:12.04 12:54:15,307||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,125|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:1367te Nachricht.C Out:12.04 12:54:15,296||hbqin:12.04 12:54:15,310||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,130|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:1368te Nachricht.C Out:12.04 12:54:16,373||hbqin:12.04 12:54:16,388||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,136|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:1369te Nachricht.C Out:12.04 12:54:16,377||hbqin:12.04 12:54:16,395||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,141|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.290.0>-C-1-5: 1370te_Nachricht. C Out: 12.04 12:54:13,383|(1370)|hbqin:12.04 12:54:17,886||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,146|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 1371te_Nachricht. C Out: 12.04 12:54:13,876|(1371)|hbqin:12.04 12:54:15,895||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,152|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 1372te_Nachricht. C Out: 12.04 12:54:13,891|(1372)|hbqin:12.04 12:54:15,917||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,162|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 1373te_Nachricht. C Out: 12.04 12:54:13,941|(1373)|hbqin:12.04 12:54:15,958||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,168|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 1374te_Nachricht. C Out: 12.04 12:54:13,942|(1374)|hbqin:12.04 12:54:15,964||dlqin:12.04 12:54:20,230| ; C In: 12.04 12:54:28,173|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:1375te Nachricht.C Out:12.04 12:54:16,982||hbqin:12.04 12:54:16,995||dlqin:12.04 12:54:20,231| ; C In: 12.04 12:54:28,177|
+HBQ: message 1376 to 1379 replaced
+|dlqin:12.04 12:54:26,110| ; C In: 12.04 12:54:28,182|
+8-profB@lab31.cpt.haw-hamburg.de-<0.290.0>-KLC: 1380te_Nachricht. C Out: 12.04 12:54:18,162||hbqin:12.04 12:54:18,163||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,191|
+5-profB@lab31.cpt.haw-hamburg.de-<0.287.0>-KLC: 1381te_Nachricht. C Out: 12.04 12:54:18,165||hbqin:12.04 12:54:18,168||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,209|
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 1382te_Nachricht. C Out: 12.04 12:54:18,188||hbqin:12.04 12:54:18,192||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,218|
+0-profB@lab31.cpt.haw-hamburg.de-<0.282.0>-KLC: 1383te_Nachricht. C Out: 12.04 12:54:18,192||hbqin:12.04 12:54:18,200||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,222|
+1-profB@lab31.cpt.haw-hamburg.de-<0.283.0>-KLC: 1384te_Nachricht. C Out: 12.04 12:54:18,196||hbqin:12.04 12:54:18,205||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,226|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 1385te_Nachricht. C Out: 12.04 12:54:18,196||hbqin:12.04 12:54:18,209||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,234|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 1386te_Nachricht. C Out: 12.04 12:54:18,203||hbqin:12.04 12:54:18,218||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,243|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 1387te_Nachricht. C Out: 12.04 12:54:18,203||hbqin:12.04 12:54:18,222||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,247|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 1388te_Nachricht. C Out: 12.04 12:54:18,231||hbqin:12.04 12:54:18,235||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,251|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 1389te_Nachricht. C Out: 12.04 12:54:18,231||hbqin:12.04 12:54:18,239||dlqin:12.04 12:54:26,111| ; C In: 12.04 12:54:28,254|
+HBQ: message 1390 to 1394 replaced
+|dlqin:12.04 12:54:26,539| ; C In: 12.04 12:54:28,258|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:1395te Nachricht.C Out:12.04 12:54:17,309||hbqin:12.04 12:54:17,322||dlqin:12.04 12:54:26,539| ; C In: 12.04 12:54:28,262|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:1396te Nachricht.C Out:12.04 12:54:17,309||hbqin:12.04 12:54:17,326||dlqin:12.04 12:54:26,539| ; C In: 12.04 12:54:28,266|
+HBQ: message 1397 to 1441 replaced
+|dlqin:12.04 12:54:26,597| ; C In: 12.04 12:54:28,270|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.291.0>-C-1-5: 1442te_Nachricht. C Out: 12.04 12:54:15,561|(1442)|hbqin:12.04 12:54:20,081||dlqin:12.04 12:54:26,597| ; C In: 12.04 12:54:28,274|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.292.0>-C-1-5: 1443te_Nachricht. C Out: 12.04 12:54:15,685|(1443)|hbqin:12.04 12:54:20,204||dlqin:12.04 12:54:26,597| ; C In: 12.04 12:54:28,278|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.294.0>-C-1-5: 1444te_Nachricht. C Out: 12.04 12:54:15,702|(1444)|hbqin:12.04 12:54:20,225||dlqin:12.04 12:54:26,597| ; C In: 12.04 12:54:28,282|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.293.0>-C-1-5: 1445te_Nachricht. C Out: 12.04 12:54:15,746|(1445)|hbqin:12.04 12:54:20,264||dlqin:12.04 12:54:26,597| ; C In: 12.04 12:54:28,285|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.295.0>-C-1-5: 1446te_Nachricht. C Out: 12.04 12:54:15,759|(1446)|hbqin:12.04 12:54:20,285||dlqin:12.04 12:54:26,597| ; C In: 12.04 12:54:28,289|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.297.0>-C-1-5: 1447te_Nachricht. C Out: 12.04 12:54:15,798|(1447)|hbqin:12.04 12:54:20,317||dlqin:12.04 12:54:26,598| ; C In: 12.04 12:54:28,293|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.300.0>-C-1-5: 1448te_Nachricht. C Out: 12.04 12:54:15,837|(1448)|hbqin:12.04 12:54:20,356||dlqin:12.04 12:54:26,598| ; C In: 12.04 12:54:28,297|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.301.0>-C-1-5: 1449te_Nachricht. C Out: 12.04 12:54:15,861|(1449)|hbqin:12.04 12:54:20,380||dlqin:12.04 12:54:26,598| ; C In: 12.04 12:54:28,301|
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 1450te_Nachricht. C Out: 12.04 12:54:15,866|(1450)|hbqin:12.04 12:54:20,388||dlqin:12.04 12:54:26,598| ; C In: 12.04 12:54:28,305|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 1451te_Nachricht. C Out: 12.04 12:54:15,870|(1451)|hbqin:12.04 12:54:20,396||dlqin:12.04 12:54:26,598| ; C In: 12.04 12:54:28,309|
+HBQ: message 1452 to 1452 replaced
+|dlqin:12.04 12:54:28,185| ; C In: 12.04 12:54:28,312|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.306.0>-C-1-5: 1453te_Nachricht. C Out: 12.04 12:54:15,901|(1453)|hbqin:12.04 12:54:20,420||dlqin:12.04 12:54:28,185| ; C In: 12.04 12:54:28,316|
+HBQ: message 1454 to 1456 replaced
+|dlqin:12.04 12:54:28,194| ; C In: 12.04 12:54:28,320|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:1457te Nachricht.C Out:12.04 12:54:17,988||hbqin:12.04 12:54:17,991||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,324|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.176.0>-C-3-06:1458te Nachricht.C Out:12.04 12:54:19,011||hbqin:12.04 12:54:19,030||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,328|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 1459te_Nachricht. C Out: 12.04 12:54:16,186|(1459)|hbqin:12.04 12:54:19,202||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,332|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 1460te_Nachricht. C Out: 12.04 12:54:16,205|(1460)|hbqin:12.04 12:54:19,224||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,336|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 1461te_Nachricht. C Out: 12.04 12:54:16,226|(1461)|hbqin:12.04 12:54:19,246||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,340|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.304.0>-C-1-5: 1462te_Nachricht. C Out: 12.04 12:54:16,231|(1462)|hbqin:12.04 12:54:19,253||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,344|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:1463te Nachricht.C Out:12.04 12:54:19,388||hbqin:12.04 12:54:19,406||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,348|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:1464te Nachricht.C Out:12.04 12:54:19,395||hbqin:12.04 12:54:19,417||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,352|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:1465te Nachricht.C Out:12.04 12:54:20,583||hbqin:12.04 12:54:20,603||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,356|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:1466te Nachricht.C Out:12.04 12:54:18,654||hbqin:12.04 12:54:18,666||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,360|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.181.0>-C-3-06:1467te Nachricht.C Out:12.04 12:54:22,753||hbqin:12.04 12:54:22,760||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,364|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.190.0>-C-3-06:1468te Nachricht.C Out:12.04 12:54:22,770||hbqin:12.04 12:54:22,777||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,369|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.193.0>-C-3-06:1469te Nachricht.C Out:12.04 12:54:22,790||hbqin:12.04 12:54:22,797||dlqin:12.04 12:54:28,195| ; C In: 12.04 12:54:28,372|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.188.0>-C-3-06:1470te Nachricht.C Out:12.04 12:54:22,816||hbqin:12.04 12:54:22,823||dlqin:12.04 12:54:28,196| ; C In: 12.04 12:54:28,377|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.201.0>-C-3-06:1471te Nachricht.C Out:12.04 12:54:22,821||hbqin:12.04 12:54:22,832||dlqin:12.04 12:54:28,196| ; C In: 12.04 12:54:28,380|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:1472te Nachricht.C Out:12.04 12:54:22,821||hbqin:12.04 12:54:22,838||dlqin:12.04 12:54:28,196| ; C In: 12.04 12:54:28,384|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.204.0>-C-3-06:1473te Nachricht.C Out:12.04 12:54:22,840||hbqin:12.04 12:54:22,850||dlqin:12.04 12:54:28,196| ; C In: 12.04 12:54:28,388|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:1474te Nachricht.C Out:12.04 12:54:19,996||hbqin:12.04 12:54:20,018||dlqin:12.04 12:54:28,196| ; C In: 12.04 12:54:28,392|
+..getmessages..Done...
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 1793te_Nachricht. C Out: 12.04 12:54:28,394|(1793) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 1924te_Nachricht. C Out: 12.04 12:54:35,159|(1924) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 2032te_Nachricht. C Out: 12.04 12:54:41,946|(2032) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 2269te_Nachricht. C Out: 12.04 12:54:48,697|(2269) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 2358te_Nachricht. C Out: 12.04 12:54:55,448|(2358) gesendet
+2455te_Nachricht um 12.04 12:55:02,200|- vergessen zu senden ******
+Neues Sendeintervall: 10 Sekunden
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:2253te Nachricht.C Out:12.04 12:54:52,775||hbqin:12.04 12:54:52,779||dlqin:12.04 12:54:57,873| ; C In: 12.04 12:55:12,328|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:2254te Nachricht.C Out:12.04 12:54:49,778||hbqin:12.04 12:54:49,779||dlqin:12.04 12:54:57,874| ; C In: 12.04 12:55:12,331|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.295.0>-C-1-5: 2255te_Nachricht. C Out: 12.04 12:54:46,784|(2255)|hbqin:12.04 12:54:50,160||dlqin:12.04 12:54:57,874| ; C In: 12.04 12:55:12,333|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.297.0>-C-1-5: 2256te_Nachricht. C Out: 12.04 12:54:46,797|(2256)|hbqin:12.04 12:54:50,177||dlqin:12.04 12:54:57,874| ; C In: 12.04 12:55:12,336|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.300.0>-C-1-5: 2257te_Nachricht. C Out: 12.04 12:54:46,804|(2257)|hbqin:12.04 12:54:50,188||dlqin:12.04 12:54:57,874| ; C In: 12.04 12:55:12,341|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 2258te_Nachricht. C Out: 12.04 12:54:46,843|(2258)|hbqin:12.04 12:54:48,844||dlqin:12.04 12:54:57,874| ; C In: 12.04 12:55:12,344|
+HBQ: message 2259 to 2259 replaced
+|dlqin:12.04 12:55:01,308| ; C In: 12.04 12:55:12,346|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 2260te_Nachricht. C Out: 12.04 12:54:48,233|(2260)|hbqin:12.04 12:54:50,235||dlqin:12.04 12:55:01,308| ; C In: 12.04 12:55:12,348|
+HBQ: message 2261 to 2261 replaced
+|dlqin:12.04 12:55:01,329| ; C In: 12.04 12:55:12,350|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.291.0>-C-1-5: 2262te_Nachricht. C Out: 12.04 12:54:48,337|(2262)|hbqin:12.04 12:54:55,089||dlqin:12.04 12:55:01,329| ; C In: 12.04 12:55:12,353|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:2263te Nachricht.C Out:12.04 12:54:50,444||hbqin:12.04 12:54:50,446||dlqin:12.04 12:55:01,329| ; C In: 12.04 12:55:12,355|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.292.0>-C-1-5: 2264te_Nachricht. C Out: 12.04 12:54:48,471|(2264)|hbqin:12.04 12:54:55,222||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,358|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.293.0>-C-1-5: 2265te_Nachricht. C Out: 12.04 12:54:48,555|(2265)|hbqin:12.04 12:54:50,557||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,360|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:2266te Nachricht.C Out:12.04 12:54:53,596||hbqin:12.04 12:54:53,596||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,363|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:2267te Nachricht.C Out:12.04 12:54:53,607||hbqin:12.04 12:54:53,608||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,365|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.301.0>-C-1-5: 2268te_Nachricht. C Out: 12.04 12:54:48,685|(2268)|hbqin:12.04 12:54:55,436||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,368|
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 2269te_Nachricht. C Out: 12.04 12:54:48,697|(2269)|hbqin:12.04 12:54:55,448||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,369|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:2270te Nachricht.C Out:12.04 12:54:51,702||hbqin:12.04 12:54:51,703||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,371|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.306.0>-C-1-5: 2271te_Nachricht. C Out: 12.04 12:54:48,710|(2271)|hbqin:12.04 12:54:55,461||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,373|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 2272te_Nachricht. C Out: 12.04 12:54:48,844|(2272)|hbqin:12.04 12:54:50,846||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,375|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 2273te_Nachricht. C Out: 12.04 12:54:48,889|(2273)|hbqin:12.04 12:54:51,892||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,377|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.225.0>-C-3-06:2274te Nachricht.C Out:12.04 12:54:52,358||hbqin:12.04 12:54:52,359||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,379|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 2275te_Nachricht. C Out: 12.04 12:54:49,359|(2275)|hbqin:12.04 12:54:52,363||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,381|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 2276te_Nachricht. C Out: 12.04 12:54:49,360|(2276)|hbqin:12.04 12:54:52,368||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,383|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:2277te Nachricht.C Out:12.04 12:54:52,368||hbqin:12.04 12:54:52,372||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,385|
+2-profA@lab31.cpt.haw-hamburg.de-<0.196.0>-KLC: 2278te_Nachricht. C Out: 12.04 12:54:55,472||hbqin:12.04 12:54:55,472||dlqin:12.04 12:55:01,330| ; C In: 12.04 12:55:12,386|
+6-profA@lab31.cpt.haw-hamburg.de-<0.200.0>-KLC: 2279te_Nachricht. C Out: 12.04 12:54:55,472||hbqin:12.04 12:54:55,478||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,388|
+1-profA@lab31.cpt.haw-hamburg.de-<0.195.0>-KLC: 2280te_Nachricht. C Out: 12.04 12:54:55,472||hbqin:12.04 12:54:55,483||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,390|
+0-profA@lab31.cpt.haw-hamburg.de-<0.194.0>-KLC: 2281te_Nachricht. C Out: 12.04 12:54:55,472||hbqin:12.04 12:54:55,488||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,392|
+3-profA@lab31.cpt.haw-hamburg.de-<0.197.0>-KLC: 2282te_Nachricht. C Out: 12.04 12:54:55,472||hbqin:12.04 12:54:55,492||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,394|
+7-profA@lab31.cpt.haw-hamburg.de-<0.201.0>-KLC: 2283te_Nachricht. C Out: 12.04 12:54:55,472||hbqin:12.04 12:54:55,497||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,396|
+9-profA@lab31.cpt.haw-hamburg.de-<0.203.0>-KLC: 2284te_Nachricht. C Out: 12.04 12:54:55,472||hbqin:12.04 12:54:55,502||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,397|
+5-profA@lab31.cpt.haw-hamburg.de-<0.199.0>-KLC: 2285te_Nachricht. C Out: 12.04 12:54:55,473||hbqin:12.04 12:54:55,508||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,400|
+4-profA@lab31.cpt.haw-hamburg.de-<0.198.0>-KLC: 2286te_Nachricht. C Out: 12.04 12:54:55,473||hbqin:12.04 12:54:55,513||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,402|
+8-profA@lab31.cpt.haw-hamburg.de-<0.202.0>-KLC: 2287te_Nachricht. C Out: 12.04 12:54:55,474||hbqin:12.04 12:54:55,520||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,403|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:2288te Nachricht.C Out:12.04 12:54:52,756||hbqin:12.04 12:54:52,758||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,406|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:2289te Nachricht.C Out:12.04 12:54:52,779||hbqin:12.04 12:54:52,786||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,408|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.294.0>-C-1-5: 2290te_Nachricht. C Out: 12.04 12:54:50,133|(2290)|hbqin:12.04 12:54:53,510||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,409|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.295.0>-C-1-5: 2291te_Nachricht. C Out: 12.04 12:54:50,160|(2291)|hbqin:12.04 12:54:53,536||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,411|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 2292te_Nachricht. C Out: 12.04 12:54:50,172|(2292)|hbqin:12.04 12:54:54,673||dlqin:12.04 12:55:01,331| ; C In: 12.04 12:55:12,413|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.297.0>-C-1-5: 2293te_Nachricht. C Out: 12.04 12:54:50,173|(2293)|hbqin:12.04 12:54:53,549||dlqin:12.04 12:55:01,332| ; C In: 12.04 12:55:12,415|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 2294te_Nachricht. C Out: 12.04 12:54:50,176|(2294)|hbqin:12.04 12:54:54,678||dlqin:12.04 12:55:01,332| ; C In: 12.04 12:55:12,416|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.300.0>-C-1-5: 2295te_Nachricht. C Out: 12.04 12:54:50,180|(2295)|hbqin:12.04 12:54:53,556||dlqin:12.04 12:55:01,332| ; C In: 12.04 12:55:12,418|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 2296te_Nachricht. C Out: 12.04 12:54:50,235|(2296)|hbqin:12.04 12:54:52,236||dlqin:12.04 12:55:01,332| ; C In: 12.04 12:55:12,420|
+HBQ: message 2297 to 2297 replaced
+|dlqin:12.04 12:55:03,840| ; C In: 12.04 12:55:12,422|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:2298te Nachricht.C Out:12.04 12:54:52,447||hbqin:12.04 12:54:52,447||dlqin:12.04 12:55:03,841| ; C In: 12.04 12:55:12,423|
+HBQ: message 2299 to 2299 replaced
+|dlqin:12.04 12:55:03,846| ; C In: 12.04 12:55:12,425|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.293.0>-C-1-5: 2300te_Nachricht. C Out: 12.04 12:54:50,557|(2300)|hbqin:12.04 12:54:52,558||dlqin:12.04 12:55:03,846| ; C In: 12.04 12:55:12,427|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.290.0>-C-1-5: 2301te_Nachricht. C Out: 12.04 12:54:50,639|(2301)|hbqin:12.04 12:54:53,640||dlqin:12.04 12:55:03,846| ; C In: 12.04 12:55:12,428|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 2302te_Nachricht. C Out: 12.04 12:54:50,846|(2302)|hbqin:12.04 12:54:52,850||dlqin:12.04 12:55:03,846| ; C In: 12.04 12:55:12,430|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.176.0>-C-3-06:2303te Nachricht.C Out:12.04 12:54:56,350||hbqin:12.04 12:54:56,350||dlqin:12.04 12:55:03,846| ; C In: 12.04 12:55:12,432|
+HBQ: message 2304 to 2304 replaced
+|dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,433|
+8-profB@lab31.cpt.haw-hamburg.de-<0.290.0>-KLC: 2305te_Nachricht. C Out: 12.04 12:54:57,829||hbqin:12.04 12:54:57,829||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,435|
+5-profB@lab31.cpt.haw-hamburg.de-<0.287.0>-KLC: 2306te_Nachricht. C Out: 12.04 12:54:57,829||hbqin:12.04 12:54:57,835||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,436|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:2307te Nachricht.C Out:12.04 12:54:57,839||hbqin:12.04 12:54:57,841||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,438|
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 2308te_Nachricht. C Out: 12.04 12:54:57,839||hbqin:12.04 12:54:57,848||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,440|
+0-profB@lab31.cpt.haw-hamburg.de-<0.282.0>-KLC: 2309te_Nachricht. C Out: 12.04 12:54:57,839||hbqin:12.04 12:54:57,854||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,441|
+1-profB@lab31.cpt.haw-hamburg.de-<0.283.0>-KLC: 2310te_Nachricht. C Out: 12.04 12:54:57,840||hbqin:12.04 12:54:57,860||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,443|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 2311te_Nachricht. C Out: 12.04 12:54:57,840||hbqin:12.04 12:54:57,866||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,444|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 2312te_Nachricht. C Out: 12.04 12:54:57,840||hbqin:12.04 12:54:57,871||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,446|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 2313te_Nachricht. C Out: 12.04 12:54:57,840||hbqin:12.04 12:54:57,879||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,447|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 2314te_Nachricht. C Out: 12.04 12:54:57,841||hbqin:12.04 12:54:57,883||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,449|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 2315te_Nachricht. C Out: 12.04 12:54:57,841||hbqin:12.04 12:54:57,888||dlqin:12.04 12:55:03,865| ; C In: 12.04 12:55:12,450|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 2316te_Nachricht. C Out: 12.04 12:54:51,892|(2316)|hbqin:12.04 12:54:54,895||dlqin:12.04 12:55:03,866| ; C In: 12.04 12:55:12,452|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:2317te Nachricht.C Out:12.04 12:54:54,018||hbqin:12.04 12:54:54,019||dlqin:12.04 12:55:03,866| ; C In: 12.04 12:55:12,453|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 2318te_Nachricht. C Out: 12.04 12:54:52,236|(2318)|hbqin:12.04 12:54:54,238||dlqin:12.04 12:55:03,866| ; C In: 12.04 12:55:12,455|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.225.0>-C-3-06:2319te Nachricht.C Out:12.04 12:54:55,360||hbqin:12.04 12:54:55,360||dlqin:12.04 12:55:03,866| ; C In: 12.04 12:55:12,457|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 2320te_Nachricht. C Out: 12.04 12:54:52,361|(2320)|hbqin:12.04 12:54:55,365||dlqin:12.04 12:55:03,866| ; C In: 12.04 12:55:12,458|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 2321te_Nachricht. C Out: 12.04 12:54:52,361|(2321)|hbqin:12.04 12:54:55,370||dlqin:12.04 12:55:03,866| ; C In: 12.04 12:55:12,460|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:2322te Nachricht.C Out:12.04 12:54:55,369||hbqin:12.04 12:54:55,375||dlqin:12.04 12:55:03,866| ; C In: 12.04 12:55:12,461|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:2323te Nachricht.C Out:12.04 12:54:54,449||hbqin:12.04 12:54:54,449||dlqin:12.04 12:55:03,866| ; C In: 12.04 12:55:12,463|
+HBQ: message 2324 to 2325 replaced
+|dlqin:12.04 12:55:05,656| ; C In: 12.04 12:55:12,464|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.216.0>-C-3-06:2326te Nachricht.C Out:12.04 12:54:58,779||hbqin:12.04 12:54:58,785||dlqin:12.04 12:55:05,656| ; C In: 12.04 12:55:12,466|
+HBQ: message 2327 to 2328 replaced
+|dlqin:12.04 12:55:06,426| ; C In: 12.04 12:55:12,467|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 2329te_Nachricht. C Out: 12.04 12:54:53,153|(2329)|hbqin:12.04 12:54:55,404||dlqin:12.04 12:55:06,426| ; C In: 12.04 12:55:12,469|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:2330te Nachricht.C Out:12.04 12:54:57,286||hbqin:12.04 12:54:57,289||dlqin:12.04 12:55:06,426| ; C In: 12.04 12:55:12,470|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:2331te Nachricht.C Out:12.04 12:54:55,296||hbqin:12.04 12:54:55,296||dlqin:12.04 12:55:06,426| ; C In: 12.04 12:55:12,472|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.219.0>-C-3-06:2332te Nachricht.C Out:12.04 12:55:03,352||hbqin:12.04 12:55:03,354||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,474|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.231.0>-C-3-06:2333te Nachricht.C Out:12.04 12:55:03,358||hbqin:12.04 12:55:03,360||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,475|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.213.0>-C-3-06:2334te Nachricht.C Out:12.04 12:55:03,375||hbqin:12.04 12:55:03,378||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,477|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.294.0>-C-1-5: 2335te_Nachricht. C Out: 12.04 12:54:53,510|(2335)|hbqin:12.04 12:54:56,887||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,478|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.295.0>-C-1-5: 2336te_Nachricht. C Out: 12.04 12:54:53,536|(2336)|hbqin:12.04 12:54:56,912||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,480|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.297.0>-C-1-5: 2337te_Nachricht. C Out: 12.04 12:54:53,549|(2337)|hbqin:12.04 12:54:56,925||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,481|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.300.0>-C-1-5: 2338te_Nachricht. C Out: 12.04 12:54:53,556|(2338)|hbqin:12.04 12:54:56,932||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,483|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.237.0>-C-3-06:2339te Nachricht.C Out:12.04 12:54:58,597||hbqin:12.04 12:54:58,601||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,484|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.240.0>-C-3-06:2340te Nachricht.C Out:12.04 12:54:58,608||hbqin:12.04 12:54:58,613||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,486|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.290.0>-C-1-5: 2341te_Nachricht. C Out: 12.04 12:54:53,640|(2341)|hbqin:12.04 12:54:56,642||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,487|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:2342te Nachricht.C Out:12.04 12:54:56,020||hbqin:12.04 12:54:56,020||dlqin:12.04 12:55:06,427| ; C In: 12.04 12:55:12,489|
+HBQ: message 2343 to 2343 replaced
+|dlqin:12.04 12:55:07,426| ; C In: 12.04 12:55:12,490|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:2344te Nachricht.C Out:12.04 12:54:56,451||hbqin:12.04 12:54:56,452||dlqin:12.04 12:55:07,426| ; C In: 12.04 12:55:12,492|
+12-clientserver@lab22.cpt.haw-hamburg.de<0.299.0>-C-1-5: 2345te_Nachricht. C Out: 12.04 12:54:54,673|(2345)|hbqin:12.04 12:54:59,180||dlqin:12.04 12:55:07,426| ; C In: 12.04 12:55:12,493|
+0-clientserver@lab22.cpt.haw-hamburg.de<0.287.0>-C-1-5: 2346te_Nachricht. C Out: 12.04 12:54:54,677|(2346)|hbqin:12.04 12:54:59,189||dlqin:12.04 12:55:07,426| ; C In: 12.04 12:55:12,495|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 2347te_Nachricht. C Out: 12.04 12:54:54,895|(2347)|hbqin:12.04 12:54:57,896||dlqin:12.04 12:55:07,426| ; C In: 12.04 12:55:12,496|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 2348te_Nachricht. C Out: 12.04 12:54:55,070|(2348)|hbqin:12.04 12:54:57,071||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,498|
+4-clientserver@lab22.cpt.haw-hamburg.de<0.291.0>-C-1-5: 2349te_Nachricht. C Out: 12.04 12:54:55,089|(2349)|hbqin:12.04 12:55:01,840||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,499|
+5-clientserver@lab22.cpt.haw-hamburg.de<0.292.0>-C-1-5: 2350te_Nachricht. C Out: 12.04 12:54:55,222|(2350)|hbqin:12.04 12:55:01,973||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,500|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:2351te Nachricht.C Out:12.04 12:54:57,297||hbqin:12.04 12:54:57,301||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,502|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.225.0>-C-3-06:2352te Nachricht.C Out:12.04 12:54:58,361||hbqin:12.04 12:54:58,362||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,503|
+9-clientserver@lab22.cpt.haw-hamburg.de<0.296.0>-C-1-5: 2353te_Nachricht. C Out: 12.04 12:54:55,362|(2353)|hbqin:12.04 12:54:58,369||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,505|
+16-clientserver@lab22.cpt.haw-hamburg.de<0.303.0>-C-1-5: 2354te_Nachricht. C Out: 12.04 12:54:55,363|(2354)|hbqin:12.04 12:54:58,375||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,506|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.228.0>-C-3-06:2355te Nachricht.C Out:12.04 12:54:58,371||hbqin:12.04 12:54:58,382||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,508|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 2356te_Nachricht. C Out: 12.04 12:54:55,404|(2356)|hbqin:12.04 12:54:57,657||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,509|
+14-clientserver@lab22.cpt.haw-hamburg.de<0.301.0>-C-1-5: 2357te_Nachricht. C Out: 12.04 12:54:55,436|(2357)|hbqin:12.04 12:55:02,188||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,510|
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 2358te_Nachricht. C Out: 12.04 12:54:55,448|(2358)|hbqin:12.04 12:55:02,200||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,512|
+19-clientserver@lab22.cpt.haw-hamburg.de<0.306.0>-C-1-5: 2359te_Nachricht. C Out: 12.04 12:54:55,461|(2359)|hbqin:12.04 12:55:02,213||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,513|
+2-profA@lab31.cpt.haw-hamburg.de-<0.196.0>-KLC: 2360te_Nachricht. C Out: 12.04 12:55:01,476||hbqin:12.04 12:55:01,476||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,514|
+6-profA@lab31.cpt.haw-hamburg.de-<0.200.0>-KLC: 2361te_Nachricht. C Out: 12.04 12:55:01,476||hbqin:12.04 12:55:01,481||dlqin:12.04 12:55:07,427| ; C In: 12.04 12:55:12,516|
+1-profA@lab31.cpt.haw-hamburg.de-<0.195.0>-KLC: 2362te_Nachricht. C Out: 12.04 12:55:01,476||hbqin:12.04 12:55:01,485||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,517|
+0-profA@lab31.cpt.haw-hamburg.de-<0.194.0>-KLC: 2363te_Nachricht. C Out: 12.04 12:55:01,476||hbqin:12.04 12:55:01,490||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,519|
+3-profA@lab31.cpt.haw-hamburg.de-<0.197.0>-KLC: 2364te_Nachricht. C Out: 12.04 12:55:01,476||hbqin:12.04 12:55:01,494||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,520|
+7-profA@lab31.cpt.haw-hamburg.de-<0.201.0>-KLC: 2365te_Nachricht. C Out: 12.04 12:55:01,476||hbqin:12.04 12:55:01,499||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,521|
+9-profA@lab31.cpt.haw-hamburg.de-<0.203.0>-KLC: 2366te_Nachricht. C Out: 12.04 12:55:01,476||hbqin:12.04 12:55:01,503||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,523|
+5-profA@lab31.cpt.haw-hamburg.de-<0.199.0>-KLC: 2367te_Nachricht. C Out: 12.04 12:55:01,476||hbqin:12.04 12:55:01,507||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,524|
+4-profA@lab31.cpt.haw-hamburg.de-<0.198.0>-KLC: 2368te_Nachricht. C Out: 12.04 12:55:01,476||hbqin:12.04 12:55:01,512||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,526|
+8-profA@lab31.cpt.haw-hamburg.de-<0.202.0>-KLC: 2369te_Nachricht. C Out: 12.04 12:55:01,477||hbqin:12.04 12:55:01,516||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,527|
+6-clientserver@lab22.cpt.haw-hamburg.de<0.293.0>-C-1-5: 2370te_Nachricht. C Out: 12.04 12:54:55,791|(2370)|hbqin:12.04 12:54:58,798||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,529|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:2371te Nachricht.C Out:12.04 12:54:58,022||hbqin:12.04 12:54:58,022||dlqin:12.04 12:55:07,428| ; C In: 12.04 12:55:12,530|
+HBQ: message 2372 to 2372 replaced
+|dlqin:12.04 12:55:09,695| ; C In: 12.04 12:55:12,531|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.181.0>-C-3-06:2373te Nachricht.C Out:12.04 12:55:06,441||hbqin:12.04 12:55:06,450||dlqin:12.04 12:55:09,695| ; C In: 12.04 12:55:12,533|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.185.0>-C-3-06:2374te Nachricht.C Out:12.04 12:54:58,453||hbqin:12.04 12:54:58,455||dlqin:12.04 12:55:09,695| ; C In: 12.04 12:55:12,534|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.190.0>-C-3-06:2375te Nachricht.C Out:12.04 12:55:06,523||hbqin:12.04 12:55:06,532||dlqin:12.04 12:55:09,695| ; C In: 12.04 12:55:12,535|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.193.0>-C-3-06:2376te Nachricht.C Out:12.04 12:55:06,561||hbqin:12.04 12:55:06,574||dlqin:12.04 12:55:09,695| ; C In: 12.04 12:55:12,537|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.188.0>-C-3-06:2377te Nachricht.C Out:12.04 12:55:06,595||hbqin:12.04 12:55:06,604||dlqin:12.04 12:55:09,695| ; C In: 12.04 12:55:12,538|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.201.0>-C-3-06:2378te Nachricht.C Out:12.04 12:55:06,603||hbqin:12.04 12:55:06,616||dlqin:12.04 12:55:09,695| ; C In: 12.04 12:55:12,540|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.204.0>-C-3-06:2379te Nachricht.C Out:12.04 12:55:06,612||hbqin:12.04 12:55:06,629||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,541|
+3-clientserver@lab22.cpt.haw-hamburg.de<0.290.0>-C-1-5: 2380te_Nachricht. C Out: 12.04 12:54:56,642|(2380)|hbqin:12.04 12:54:59,644||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,542|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.176.0>-C-3-06:2381te Nachricht.C Out:12.04 12:55:03,654||hbqin:12.04 12:55:03,655||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,544|
+7-clientserver@lab22.cpt.haw-hamburg.de<0.294.0>-C-1-5: 2382te_Nachricht. C Out: 12.04 12:54:56,887|(2382)|hbqin:12.04 12:55:00,264||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,545|
+8-clientserver@lab22.cpt.haw-hamburg.de<0.295.0>-C-1-5: 2383te_Nachricht. C Out: 12.04 12:54:56,912|(2383)|hbqin:12.04 12:55:00,288||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,547|
+10-clientserver@lab22.cpt.haw-hamburg.de<0.297.0>-C-1-5: 2384te_Nachricht. C Out: 12.04 12:54:56,925|(2384)|hbqin:12.04 12:55:00,301||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,548|
+13-clientserver@lab22.cpt.haw-hamburg.de<0.300.0>-C-1-5: 2385te_Nachricht. C Out: 12.04 12:54:56,932|(2385)|hbqin:12.04 12:55:00,308||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,549|
+18-clientserver@lab22.cpt.haw-hamburg.de<0.305.0>-C-1-5: 2386te_Nachricht. C Out: 12.04 12:54:57,071|(2386)|hbqin:12.04 12:54:59,078||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,551|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.222.0>-C-3-06:2387te Nachricht.C Out:12.04 12:55:01,290||hbqin:12.04 12:55:01,291||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,552|
+'clientNode2@lab26.cpt.haw-hamburg.de'-<0.234.0>-C-3-06:2388te Nachricht.C Out:12.04 12:54:59,302||hbqin:12.04 12:54:59,306||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,553|
+2-clientserver@lab22.cpt.haw-hamburg.de<0.289.0>-C-1-5: 2389te_Nachricht. C Out: 12.04 12:54:57,657|(2389)|hbqin:12.04 12:54:59,908||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,555|
+11-clientserver@lab22.cpt.haw-hamburg.de<0.298.0>-C-1-5: 2390te_Nachricht. C Out: 12.04 12:54:57,680|(2390)|hbqin:12.04 12:55:00,681||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,556|
+17-clientserver@lab22.cpt.haw-hamburg.de<0.304.0>-C-1-5: 2391te_Nachricht. C Out: 12.04 12:54:57,694|(2391)|hbqin:12.04 12:55:04,445||dlqin:12.04 12:55:09,696| ; C In: 12.04 12:55:12,558|
+8-profB@lab31.cpt.haw-hamburg.de-<0.290.0>-KLC: 2392te_Nachricht. C Out: 12.04 12:55:03,835||hbqin:12.04 12:55:03,836||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,559|
+5-profB@lab31.cpt.haw-hamburg.de-<0.287.0>-KLC: 2393te_Nachricht. C Out: 12.04 12:55:03,835||hbqin:12.04 12:55:03,840||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,561|
+4-profB@lab31.cpt.haw-hamburg.de-<0.286.0>-KLC: 2394te_Nachricht. C Out: 12.04 12:55:03,840||hbqin:12.04 12:55:03,845||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,562|
+0-profB@lab31.cpt.haw-hamburg.de-<0.282.0>-KLC: 2395te_Nachricht. C Out: 12.04 12:55:03,841||hbqin:12.04 12:55:03,851||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,563|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.196.0>-C-3-06:2396te Nachricht.C Out:12.04 12:55:03,841||hbqin:12.04 12:55:03,855||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,565|
+1-profB@lab31.cpt.haw-hamburg.de-<0.283.0>-KLC: 2397te_Nachricht. C Out: 12.04 12:55:03,841||hbqin:12.04 12:55:03,860||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,566|
+2-profB@lab31.cpt.haw-hamburg.de-<0.284.0>-KLC: 2398te_Nachricht. C Out: 12.04 12:55:03,841||hbqin:12.04 12:55:03,865||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,567|
+9-profB@lab31.cpt.haw-hamburg.de-<0.291.0>-KLC: 2399te_Nachricht. C Out: 12.04 12:55:03,842||hbqin:12.04 12:55:03,870||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,569|
+3-profB@lab31.cpt.haw-hamburg.de-<0.285.0>-KLC: 2400te_Nachricht. C Out: 12.04 12:55:03,842||hbqin:12.04 12:55:03,874||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,570|
+6-profB@lab31.cpt.haw-hamburg.de-<0.288.0>-KLC: 2401te_Nachricht. C Out: 12.04 12:55:03,842||hbqin:12.04 12:55:03,879||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,571|
+7-profB@lab31.cpt.haw-hamburg.de-<0.289.0>-KLC: 2402te_Nachricht. C Out: 12.04 12:55:03,843||hbqin:12.04 12:55:03,884||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,573|
+1-clientserver@lab22.cpt.haw-hamburg.de<0.288.0>-C-1-5: 2403te_Nachricht. C Out: 12.04 12:54:57,896|(2403)|hbqin:12.04 12:55:00,897||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,574|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.198.0>-C-3-06:2404te Nachricht.C Out:12.04 12:55:00,024||hbqin:12.04 12:55:00,025||dlqin:12.04 12:55:09,697| ; C In: 12.04 12:55:12,581|
+..getmessages..Done...
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 2591te_Nachricht. C Out: 12.04 12:55:12,581|(2591) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: 2920te_Nachricht. C Out: 12.04 12:55:22,709|(2920) gesendet
+15-clientserver@lab22.cpt.haw-hamburg.de<0.302.0>-C-1-5: Lebenszeit um. Wird beendet.

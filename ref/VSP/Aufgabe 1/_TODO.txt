@@ -1,0 +1,94 @@
+DONE	/* Initialisieren der HBQ */
+01	HBQ ! {self(), {request,initHBQ}}
+03	receive {reply,ok}
+
+DONE	/* Initialisieren der DLQ */
+02	initDLQ(Size,Datei): Integer X Atom ? DQueue
+
+DONE	/* Initialisieren des CMEM */
+04	initCMEM(RemTime,Datei): Integer X Atom ? CMem
+
+DONE	/* Abfragen der eindeutigen Nachrichtennummer */
+05	Server ! {self(),getmsgid}
+06	receive {nid,Number}
+
+DONE	/* Senden einer Nachricht */
+07	Server ! {dropmessage,[INNr,Msg,TSclientout]},
+
+DONE	/* Speichern einer Nachricht in der HBQ */
+08	HBQ ! {self(), {request,pushHBQ,[NNr,Msg,TSclientout]}}
+09	receive {reply,ok}
+
+TODO	/* Abfragen einer Nachricht */
+10	Server ! {self(), getmessages},
+16	receive {reply,[NNr,Msg,TSclientout,TShbqin,TSdlqin,TSdlqout],Terminated}
+
+TODO	/* Abfrage welche Nachrichtennummer der Client als nächstes erhalten darf */
+11	getClientNNr(CMEM,ClientID) : Cmem X PID ? Integer
+
+TODO	/* Abfrage einer Nachricht */
+12	HBQ ! {self(), {request,deliverMSG,NNr,ToClient}}
+17	receive {reply,SendNNr}
+
+TODO	/* Abfrage welche Nachrichtennummer in der DLQ gespeichert werden kann */
+13	expectedNr(Queue) : DQueue ? Integer
+
+TODO	/* Speichern einer Nachricht in der DLQ */
+14	push2DLQ([NNr,Msg,TSclientout,TShbqin],Queue,Datei) :
+	MSG_list X DQueue X Atom ? DQueue
+
+TODO	/* Ausliefern einer Nachricht an einen Leser-Client */
+15	deliverMSG(MSGNr,ClientPID,Queue,Datei):
+	Integer X PID X DQueue X Atom ? Integer
+	/* Nachrichtenformat */
+	/* minimal 3 Elemente, pro Station kommt eins hinzu; maximal 6 Elemente */
+	MSG_List := [NNr,Msg,TSclientout,TShbqin,TSdlqin,TSdlqout]:
+	[Integer X String X 3-Tupel X 3-Tupel X 3-Tupel X 3-Tupel]
+
+TODO	/* Speichern/Aktualisieren eines Clients in dem CMEM */
+18	updateClient(CMEM,ClientID,NNr,Datei): Cmem X PID X Integer X Atom ? CMem
+
+TODO	/* Terminierung der HBQ */
+19 	HBQ ! {self(), {request,dellHBQ}} receive {reply, ok}
+
+
+
+
+
+TODO:   Tests + Comments for all functions
+
+
+
+
+
+
+
+Server
+
+    Die Textzeilen werden vom Server durchnummeriert (beginnend bei 1) und stellen eine eindeutige ID für jede Textzeile dar. Ein Redakteur-Client hat sich beim Server vor dem Versenden einer Textzeile diese Nummer zu besorgen und in der Zustellung seiner Nachricht an den Server diese Nummer der Textzeile voranzustellen. 
+    Da die dem Server zugestellten Textzeilen bzgl. der Nummerierung in zusammenhängender Reihenfolge erscheinen sollen und Nachrichten mit Textzeilen verloren gehen können bzw. in nicht sortierter Reihenfolge eintreffen können, arbeitet der Server intern mit einer Deliveryqueue (DLQ) und einer Holdbackqueue (HBQ).
+    In der Deliveryqueue stehen die Nachrichten, die an Clients ausgeliefert werden können, maximal *** viele Textzeilen. Dies wird durch die Größe der Deliveryqueue vorgegeben.
+    In der Holdbackqueue stehen alle Textzeilen, die nicht ausgeliefert werden dürfen.
+    Der Server fügt einer empfangenen Nachricht der Zeichenkette jeweils die Empfangszeit beim Eintrag in die Holdbackqueue und die Übertragungszeit beim Eintrag in die Deliveryqueue hinten/rechts mittels werkzeug:timeMilliSecond() an. Zudem fügt er dieser Nachrichten-Liste diese Zeitstempel mittels erlang:now()  am Ende hinzu.
+    Ein Leser-Client bekommt auf Anfrage gemäß Nachrichtennummerierung eine noch nicht an ihn ausgelieferte und beim Server bekannte Textzeile geliefert. In einem Flag wird ihm mitgeteilt, ob es noch weitere, für ihn unbekante Nachrichten gibt. Zudem wird ihm explizit die Nummer dieser Nachricht übermittelt. Wenn der Leser-Client nach neuen Nachrichten beim Server anfragt, dort jedoch keine neuen bzw. überhaupt noch keine Nachrichten vorhanden sind, sendet der Server eine nicht leere dummy-Nachricht.
+    Ein Leser-Client, der seit ** Sekunden keine Abfrage mehr gemacht hat, wird beim Server vergessen. Bei einer erneuten Abfrage (nach dem Vergessen) wird er wie ein unbekannter Leser-Client behandelt.
+    Wenn in der Holdbackqueue von der Anzahl her mehr als 2/3-tel an echten Nachrichten enthalten sind, als durch die vorgegebene maximale Anzahl an Nachrichten in der Deliveryqueue stehen können, dann wird, sofern eine Lücke besteht, diese Lücke zwischen Deliveryqueue und Holdbackqueue mit genau einer Fehlernachricht geschlossen, etwa: ***Fehlernachricht fuer Nachrichtennummern 11 bis 17 um 16.05 18:01:30,580|. Es werden keine weiteren Lücken innerhalb der Holdbackqueue behandelt! In dem Sinne wird die Holdbackqueue in diesem Fall nicht zwingend geleert. Die Fehlernachrciht ist nur durch eine entsprechende Zeichenkette in der Nachricht zu erkennen. Ansonsten hat sie das Format einer ganz normalen Nachricht, d.h. das System kann eine Fehlernachricht nach Speicherung in der DLQ nicht mehr als solche erkennen!
+    Der Server terminiert sich, wenn die Differenz von aktueller Systemzeit und Zeit der letzten Abfrage eines Clients länger als seine Wartezeit beträgt, d.h. seine Wartezeit wird durch Abfragen der Clients erneut gestartet bzw. bestimmt die maximale Zeit, die der Server ungenutzt läuft.
+    Der Server verwendet drei ADTs: HBQ (Datei hbq.erl), DLQ (Datei dlq.erl) und CMEM (Datei cmem.erl) als Gedächtnis für die Leser-Clients. Diese dürfen hauptsächlich nur als Erlang-Liste ([ ]) realisiert werden! Als Hilfsstrukturen dürfen Tupel eingesetzt werden. Dazu sind die weiter unten aufgeführten Vorgaben zu beachten!
+    Die HBQ ist als entfernte ADT zu implementieren. Ihre Schnittstelle ist daher durch Nachrichtenformate beschrieben. Die DLQ oder das CMEM sind als RPC zu implementieren. Intern wird die DLQ bzw. das CMEM als externer Prozess realisiert. Daher sind deren Schnittstellen durch Funktionen beschrieben.
+    Der Server ist in Erlang/OTP zu implementieren und muss auf jedem Rechner im Labor startbar sein! Bei der Verwendung von Eclipse kann das problematisch sein. Die steuernden Werte sind in einer Datei server.cfg anzugeben. Der Server ist unter einem Namen <name> im lokalen Namensdienst von Erlang zu registrieren (register(<name>,ServerPid)). 
+
+Client
+
+    Ein Redakteur-Client sendet in bestimmten Abständen, d.h. alle **** Sekunden, eine Textzeile an den Server, die seinen Namen (sein Rechnernamen (zB lab18), die Praktikumsgruppe (zB 1) und die Teamnummer (zB 03), also "lab18103" beinhalten) und seine aktuelle Systemzeit (die der Sendezeit enstprechen soll) beinhaltet und ggf. anderen Text, zum Beispiel 0-client@lab18-<0.1313.0>-C-1-03: 22te_Nachricht. Sendezeit: 16.05 18:01:30,769|(22);.Diese **** Sekunden Wartezeit sind zwischen der Anforderung einer eindeutigen Nachrichtennummer beim Server und vor dem senden der Nachricht an den Server vorzunehmen.
+    Der Abstand von **** Sekunden wird nach dem Senden von 5 Textzeilen jeweils um ca. 50% per Zufall vergrößert oder verkleinert. Die Zeit **** darf nicht unter 2 Sekunde rutschen. 
+    Der Redakteur-Client fragt nach dem Senden von 5 Textzeilen eine eindeutige Nachrichtennummer beim Server ab, ohne ihm eine zugehörige Nachricht zu übermitteln. In seinem log ist dies zu vermerken, etwa: 121te_Nachricht um 16.06 09:55:43,525| vergessen zu senden ******
+    Der Leser-Client fragt nach der Rolle als Redakteur-Client solange aktuelle Textzeilen beim Server ab, bis er alle erhalten hat und stellt sie in seiner GUI dar. Alle unbekannten Textzeilen werden ihm also einzeln übermittelt bzw. pro Anfrage erhält er nur genau eine unbekannte Textzeile. (Leser-Client und Redakteur-Client kennen sich eigentlich nicht, werden jedoch sequentiell ausgeführt!). Der Leser-Client merkt sich die vom Server erhaltenen Nachrichtennummern und fügt einer als Leser-Client erhaltenen Nachricht, die durch sein Redakteur-Client erstellt wurde, die Zeichenfolge ******* an, etwa 6te_Nachricht. C Out: 11.11 21:12:58,720|(6); HBQ In: 11.11 21:12:58,720| DLQ In:11.11 21:13:01,880|.*******; C In: 11.11 21:13:07,190|
+    Der Lese-Client wertet die mitgelieferten Zeitstempel mittels der in dem Modul werhzeug.erl vorgegebenen Funktionen (validTS/1, lessTS/2, diffTS/2, now2stringD/1,) aus. Sollte eine Nachricht aus der Zukunft kommen (beim Server von einem Redakteur-Client (TSclientout,TShbqin), beim Lese-Client vom Server (TSdlqin,TSdlqout)) ist dies mit der entsprechenden Zeitdifferenz (diffTS/2, now2stringD/1,) der Zeichenkette mit anzufügen.
+    Bei der Initialisierung des Clients (z.B. beim Aufruf) wird seine Lebenszeit gesetzt. Ist diese Zeit erreicht, terminiert sich der Client. 
+    Der Client ist in Erlang/OTP zu implementieren und muss auf jedem Rechner im Labor startbar sein! Bei der Verwendung von Eclipse kann das problematisch sein. Die steuernden Werte sind in einer Datei client.cfg anzugeben. Lediglich die aktuelle node des Servers kann als Parameter übergeben werden, d.h. beim Starten des Clients ist maximal ein Parameter erlaubt! Der Client darf (neben dem Prozess zum loggen) maximal aus einem Prozess bestehen.
+
+GUI
+
+    Server-GUI: Die Ausgaben sind alle in eine Datei Server@<Node>.log und HB-DLQ@<Node>.log zu schreiben: hier ein Beispiel für den Server und hier ein Beispiel für die HBQ-DLQ.
+    Client-GUI: Alle Ausgaben sind in eine Datei client_<Nummer><Node>.log , z.B. Client_2client@KI-VS.log, zu schreiben: hier ein Beispiel.  

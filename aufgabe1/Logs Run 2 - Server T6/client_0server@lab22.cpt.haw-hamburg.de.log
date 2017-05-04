@@ -1,0 +1,97 @@
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: Start: 12.04 13:06:35,158|.
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 41te_Nachricht. C Out: 12.04 13:06:35,159|(41) gesendet
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 151te_Nachricht. C Out: 12.04 13:06:38,160|(151) gesendet
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 251te_Nachricht. C Out: 12.04 13:06:41,161|(251) gesendet
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 371te_Nachricht. C Out: 12.04 13:06:44,163|(371) gesendet
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 491te_Nachricht. C Out: 12.04 13:06:47,165|(491) gesendet
+631te_Nachricht um 12.04 13:06:50,166|- vergessen zu senden ******
+Neues Sendeintervall: 4 Sekunden
+lab29-1-1: message_number_581. Sent time: 12.04 13:06:49,581| HBQ In: 12.04 13:06:53,582| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,667| ; C In: 12.04 13:06:54,667|
+lab29-1-1: message_number_582. Sent time: 12.04 13:06:49,581| HBQ In: 12.04 13:06:53,583| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,668| ; C In: 12.04 13:06:54,668|
+lab29-1-1: message_number_583. Sent time: 12.04 13:06:49,583| HBQ In: 12.04 13:06:53,584| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,670| ; C In: 12.04 13:06:54,670|
+lab29-1-1: message_number_584. Sent time: 12.04 13:06:49,585| HBQ In: 12.04 13:06:53,585| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,672| ; C In: 12.04 13:06:54,671|
+lab29-1-1: message_number_585. Sent time: 12.04 13:06:49,587| HBQ In: 12.04 13:06:53,587| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,674| ; C In: 12.04 13:06:54,674|
+lab29-1-1: message_number_586. Sent time: 12.04 13:06:49,587| HBQ In: 12.04 13:06:53,588| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,677| ; C In: 12.04 13:06:54,677|
+lab29-1-1: message_number_587. Sent time: 12.04 13:06:49,588| HBQ In: 12.04 13:06:53,590| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,680| ; C In: 12.04 13:06:54,680|
+lab29-1-1: message_number_588. Sent time: 12.04 13:06:49,589| HBQ In: 12.04 13:06:53,589| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,683| ; C In: 12.04 13:06:54,683|
+lab29-1-1: message_number_589. Sent time: 12.04 13:06:49,589| HBQ In: 12.04 13:06:53,590| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,686| ; C In: 12.04 13:06:54,686|
+[lab28|0304]: 590te Nachricht. C Out: 12.04 13:06:51,587| HBQ In: 12.04 13:06:51,588| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,689| ; C In: 12.04 13:06:54,689|
+[lab28|0304]: 591te Nachricht. C Out: 12.04 13:06:52,587| HBQ In: 12.04 13:06:52,588| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,692| ; C In: 12.04 13:06:54,692|
+[lab28|0304]: 592te Nachricht. C Out: 12.04 13:06:52,588| HBQ In: 12.04 13:06:52,589| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,694| ; C In: 12.04 13:06:54,694|
+[lab28|0304]: 593te Nachricht. C Out: 12.04 13:06:52,588| HBQ In: 12.04 13:06:52,589| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,697| ; C In: 12.04 13:06:54,697|
+[lab28|0304]: 594te Nachricht. C Out: 12.04 13:06:52,588| HBQ In: 12.04 13:06:52,589| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,700| ; C In: 12.04 13:06:54,700|
+[lab28|0304]: 595te Nachricht. C Out: 12.04 13:06:53,589| HBQ In: 12.04 13:06:53,590| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,703| ; C In: 12.04 13:06:54,703|
+[lab28|0304]: 596te Nachricht. C Out: 12.04 13:06:52,589| HBQ In: 12.04 13:06:52,590| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,706| ; C In: 12.04 13:06:54,706|
+[lab28|0304]: 597te Nachricht. C Out: 12.04 13:06:52,589| HBQ In: 12.04 13:06:52,590| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,709| ; C In: 12.04 13:06:54,708|
+[lab28|0304]: 598te Nachricht. C Out: 12.04 13:06:53,589| HBQ In: 12.04 13:06:53,590| DLQ In: 12.04 13:06:53,590|DLQ Out: 12.04 13:06:54,711| ; C In: 12.04 13:06:54,711|
+[lab28|0304]: 599te Nachricht. C Out: 12.04 13:06:53,590| HBQ In: 12.04 13:06:53,591| DLQ In: 12.04 13:06:53,591|DLQ Out: 12.04 13:06:54,714| ; C In: 12.04 13:06:54,714|
+[lab28|0304]: 600te Nachricht. C Out: 12.04 13:06:51,590| HBQ In: 12.04 13:06:51,591| DLQ In: 12.04 13:06:53,591|DLQ Out: 12.04 13:06:54,717| ; C In: 12.04 13:06:54,716|
+lab29-1-1: message_number_601. Sent time: 12.04 13:06:49,594| HBQ In: 12.04 13:06:53,595| DLQ In: 12.04 13:06:53,595|DLQ Out: 12.04 13:06:54,719| ; C In: 12.04 13:06:54,719|
+[lab28|0304]: 602te Nachricht. C Out: 12.04 13:06:52,591| HBQ In: 12.04 13:06:52,592| DLQ In: 12.04 13:06:53,595|DLQ Out: 12.04 13:06:54,722| ; C In: 12.04 13:06:54,722|
+lab29-1-1: message_number_603. Sent time: 12.04 13:06:49,594| HBQ In: 12.04 13:06:53,595| DLQ In: 12.04 13:06:53,595|DLQ Out: 12.04 13:06:54,725| ; C In: 12.04 13:06:54,725|
+lab29-1-1: message_number_604. Sent time: 12.04 13:06:49,594| HBQ In: 12.04 13:06:53,596| DLQ In: 12.04 13:06:53,596|DLQ Out: 12.04 13:06:54,728| ; C In: 12.04 13:06:54,728|
+lab29-1-1: message_number_605. Sent time: 12.04 13:06:49,594| HBQ In: 12.04 13:06:53,596| DLQ In: 12.04 13:06:53,596|DLQ Out: 12.04 13:06:54,731| ; C In: 12.04 13:06:54,731|
+lab29-1-1: message_number_606. Sent time: 12.04 13:06:49,595| HBQ In: 12.04 13:06:53,596| DLQ In: 12.04 13:06:53,596|DLQ Out: 12.04 13:06:54,733| ; C In: 12.04 13:06:54,733|
+lab29-1-1: message_number_607. Sent time: 12.04 13:06:49,595| HBQ In: 12.04 13:06:53,596| DLQ In: 12.04 13:06:53,596|DLQ Out: 12.04 13:06:54,736| ; C In: 12.04 13:06:54,736|
+lab29-1-1: message_number_608. Sent time: 12.04 13:06:49,595| HBQ In: 12.04 13:06:53,596| DLQ In: 12.04 13:06:53,596|DLQ Out: 12.04 13:06:54,739| ; C In: 12.04 13:06:54,738|
+lab29-1-1: message_number_609. Sent time: 12.04 13:06:49,596| HBQ In: 12.04 13:06:53,596| DLQ In: 12.04 13:06:53,596|DLQ Out: 12.04 13:06:54,741| ; C In: 12.04 13:06:54,741|
+lab29-1-1: message_number_610. Sent time: 12.04 13:06:49,596| HBQ In: 12.04 13:06:53,597| DLQ In: 12.04 13:06:53,597|DLQ Out: 12.04 13:06:54,744| ; C In: 12.04 13:06:54,744|
+lab29-1-1: message_number_611. Sent time: 12.04 13:06:49,596| HBQ In: 12.04 13:06:53,598| DLQ In: 12.04 13:06:53,598|DLQ Out: 12.04 13:06:54,747| ; C In: 12.04 13:06:54,747|
+lab29-1-1: message_number_612. Sent time: 12.04 13:06:49,596| HBQ In: 12.04 13:06:53,597| DLQ In: 12.04 13:06:53,598|DLQ Out: 12.04 13:06:54,749| ; C In: 12.04 13:06:54,749|
+[lab28|0304]: 613te Nachricht. C Out: 12.04 13:06:53,826| HBQ In: 12.04 13:06:53,826| DLQ In: 12.04 13:06:53,826|DLQ Out: 12.04 13:06:54,752| ; C In: 12.04 13:06:54,752|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7472.0>-C-3-06:614te Nachricht.C Out:12.04 13:06:51,826| HBQ In: 12.04 13:06:51,826| DLQ In: 12.04 13:06:53,826|DLQ Out: 12.04 13:06:54,755| ; C In: 12.04 13:06:54,755|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7477.0>-C-3-06:615te Nachricht.C Out:12.04 13:06:53,826| HBQ In: 12.04 13:06:53,826| DLQ In: 12.04 13:06:53,826|DLQ Out: 12.04 13:06:54,758| ; C In: 12.04 13:06:54,758|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7479.0>-C-3-06:616te Nachricht.C Out:12.04 13:06:53,826| HBQ In: 12.04 13:06:53,826| DLQ In: 12.04 13:06:53,826|DLQ Out: 12.04 13:06:54,761| ; C In: 12.04 13:06:54,760|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7495.0>-C-3-06:617te Nachricht.C Out:12.04 13:06:51,826| HBQ In: 12.04 13:06:51,827| DLQ In: 12.04 13:06:53,826|DLQ Out: 12.04 13:06:54,763| ; C In: 12.04 13:06:54,763|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7481.0>-C-3-06:618te Nachricht.C Out:12.04 13:06:53,827| HBQ In: 12.04 13:06:53,827| DLQ In: 12.04 13:06:53,827|DLQ Out: 12.04 13:06:54,766| ; C In: 12.04 13:06:54,766|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7490.0>-C-3-06:619te Nachricht.C Out:12.04 13:06:53,827| HBQ In: 12.04 13:06:53,827| DLQ In: 12.04 13:06:53,827|DLQ Out: 12.04 13:06:54,768| ; C In: 12.04 13:06:54,768|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7485.0>-C-3-06:620te Nachricht.C Out:12.04 13:06:51,827| HBQ In: 12.04 13:06:51,827| DLQ In: 12.04 13:06:53,827|DLQ Out: 12.04 13:06:54,771| ; C In: 12.04 13:06:54,771|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7492.0>-C-3-06:621te Nachricht.C Out:12.04 13:06:51,827| HBQ In: 12.04 13:06:51,827| DLQ In: 12.04 13:06:53,827|DLQ Out: 12.04 13:06:54,774| ; C In: 12.04 13:06:54,774|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7487.0>-C-3-06:622te Nachricht.C Out:12.04 13:06:53,828| HBQ In: 12.04 13:06:53,828| DLQ In: 12.04 13:06:53,828|DLQ Out: 12.04 13:06:54,776| ; C In: 12.04 13:06:54,776|
+[lab28|0304]: 623te Nachricht. C Out: 12.04 13:06:52,828| HBQ In: 12.04 13:06:52,828| DLQ In: 12.04 13:06:53,828|DLQ Out: 12.04 13:06:54,779| ; C In: 12.04 13:06:54,779|
+[lab28|0304]: 624te Nachricht. C Out: 12.04 13:06:51,828| HBQ In: 12.04 13:06:51,828| DLQ In: 12.04 13:06:53,828|DLQ Out: 12.04 13:06:54,782| ; C In: 12.04 13:06:54,781|
+'clientNode@lab26.cpt.haw-hamburg.de'-<0.7497.0>-C-3-06:625te Nachricht.C Out:12.04 13:06:51,828| HBQ In: 12.04 13:06:51,828| DLQ In: 12.04 13:06:53,828|DLQ Out: 12.04 13:06:54,784| ; C In: 12.04 13:06:54,784|
+[lab28|0304]: 626te Nachricht. C Out: 12.04 13:06:53,828| HBQ In: 12.04 13:06:53,829| DLQ In: 12.04 13:06:53,829|DLQ Out: 12.04 13:06:54,787| ; C In: 12.04 13:06:54,786|
+[lab28|0304]: 627te Nachricht. C Out: 12.04 13:06:53,829| HBQ In: 12.04 13:06:53,829| DLQ In: 12.04 13:06:53,829|DLQ Out: 12.04 13:06:54,789| ; C In: 12.04 13:06:54,789|
+[lab28|0304]: 628te Nachricht. C Out: 12.04 13:06:51,828| HBQ In: 12.04 13:06:51,829| DLQ In: 12.04 13:06:53,829|DLQ Out: 12.04 13:06:54,791| ; C In: 12.04 13:06:54,791|
+[lab28|0304]: 629te Nachricht. C Out: 12.04 13:06:53,829| HBQ In: 12.04 13:06:53,830| DLQ In: 12.04 13:06:53,830|DLQ Out: 12.04 13:06:54,794| ; C In: 12.04 13:06:54,794|
+[lab28|0304]: 630te Nachricht. C Out: 12.04 13:06:53,829| HBQ In: 12.04 13:06:53,830| DLQ In: 12.04 13:06:53,830|DLQ Out: 12.04 13:06:54,797| ; C In: 12.04 13:06:54,797|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 631 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,800| ; C In: 12.04 13:06:54,800|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 632 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,802| ; C In: 12.04 13:06:54,802|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 633 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,805| ; C In: 12.04 13:06:54,805|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 634 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,808| ; C In: 12.04 13:06:54,808|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 635 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,810| ; C In: 12.04 13:06:54,810|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 636 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,813| ; C In: 12.04 13:06:54,813|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 637 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,816| ; C In: 12.04 13:06:54,815|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 638 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,818| ; C In: 12.04 13:06:54,818|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 639 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,821| ; C In: 12.04 13:06:54,821|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 640 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,824| ; C In: 12.04 13:06:54,823|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 641 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,826| ; C In: 12.04 13:06:54,826|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 642 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,828| ; C In: 12.04 13:06:54,828|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 643 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,830| ; C In: 12.04 13:06:54,830|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 644 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,833| ; C In: 12.04 13:06:54,833|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 645 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,835| ; C In: 12.04 13:06:54,835|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 646 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,838| ; C In: 12.04 13:06:54,838|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 647 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,840| ; C In: 12.04 13:06:54,840|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 648 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,843| ; C In: 12.04 13:06:54,842|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 649 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,845| ; C In: 12.04 13:06:54,845|
+***Fehlernachricht fuer Nachrichtennummern 651 bis 650 um 12.04 13:06:54,797| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,847| ; C In: 12.04 13:06:54,847|
+6-profB@lab31.cpt.haw-hamburg.de-<0.11062.0>-KLC: 651te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,492| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,850| ; C In: 12.04 13:06:54,850|
+0-profB@lab31.cpt.haw-hamburg.de-<0.11056.0>-KLC: 652te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,493| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,852| ; C In: 12.04 13:06:54,852|
+9-profB@lab31.cpt.haw-hamburg.de-<0.11065.0>-KLC: 653te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,493| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,855| ; C In: 12.04 13:06:54,855|
+2-profB@lab31.cpt.haw-hamburg.de-<0.11058.0>-KLC: 654te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,493| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,857| ; C In: 12.04 13:06:54,857|
+4-profB@lab31.cpt.haw-hamburg.de-<0.11060.0>-KLC: 655te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,493| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,860| ; C In: 12.04 13:06:54,859|
+1-profB@lab31.cpt.haw-hamburg.de-<0.11057.0>-KLC: 656te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,493| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,862| ; C In: 12.04 13:06:54,862|
+3-profB@lab31.cpt.haw-hamburg.de-<0.11059.0>-KLC: 657te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,493| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,865| ; C In: 12.04 13:06:54,865|
+5-profB@lab31.cpt.haw-hamburg.de-<0.11061.0>-KLC: 658te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,492| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,867| ; C In: 12.04 13:06:54,867|
+7-profB@lab31.cpt.haw-hamburg.de-<0.11063.0>-KLC: 659te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,493| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,870| ; C In: 12.04 13:06:54,870|
+8-profB@lab31.cpt.haw-hamburg.de-<0.11064.0>-KLC: 660te_Nachricht. C Out: 12.04 13:06:53,492| HBQ In: 12.04 13:06:53,492| DLQ In: 12.04 13:06:54,797|DLQ Out: 12.04 13:06:54,873| ; C In: 12.04 13:06:54,872|
+..getmessages..Done...
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 992te_Nachricht. C Out: 12.04 13:06:54,873|(992) gesendet
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 1161te_Nachricht. C Out: 12.04 13:06:59,374|(1161) gesendet
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 1392te_Nachricht. C Out: 12.04 13:07:03,875|(1392) gesendet
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 1478te_Nachricht. C Out: 12.04 13:07:08,376|(1478) gesendet
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: 1523te_Nachricht. C Out: 12.04 13:07:12,877|(1523) gesendet
+1541te_Nachricht um 12.04 13:07:17,378|- vergessen zu senden ******
+Neues Sendeintervall: 6 Sekunden
+0-clientserver@lab22.cpt.haw-hamburg.de<0.18412.0>-C-1-5: Lebenszeit um. Wird beendet.

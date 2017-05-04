@@ -59,7 +59,7 @@ communication(CurrentNNr, CMEM, Timer, Latency, LogFile, HBQ) ->
 			NNr = cmem:getClientNNr(CMEM, PID),
 			HBQ ! {self(), {request, deliverMSG, NNr, PID}},
 			receive
-				{reply, SentNNr} ->
+				{reply, SentNNr} when is_integer(SentNNr) ->
 					NEW_CMEM = cmem:updateClient(CMEM, PID, SentNNr, LogFile)
 			end,
 			io:format("NEW CMEM: ~p\r\n",[NEW_CMEM]),
