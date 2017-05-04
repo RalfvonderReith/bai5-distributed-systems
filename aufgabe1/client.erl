@@ -143,8 +143,8 @@ reader(LogFile, ClientNumber, SendingInterval, Server, EditorMessageList) ->
   Server ! {self(), getmessages},
   {_, Node} = Server,
   receive
-    {die} ->
-      shut_down_message(ClientNumber, Node, self());
+    die ->
+      werkzeug:logging(LogFile, shut_down_message(ClientNumber, Node, self()));
     {reply, [MessageNumber, Msg, TSclientout, TShbqin, TSdlqin, TSdlqout], Terminated} ->
       NewEditorMessageList = lists:delete(MessageNumber, EditorMessageList),
       WasMyEditor = (NewEditorMessageList =/= EditorMessageList),
@@ -213,7 +213,7 @@ forgotten_message_format(MessageNumber) ->
 
 %%% reader
 reader_message(true, Msg, TSclientout, TShbqin, TSdlqin, TSdlqout) ->
-  lists:concat([Msg, "*******; C In: ", erlang:now(),
+  lists:concat([Msg, "*******; C In: ", werkzeug:now2string(erlang:now()),
     time_difference_message(TSclientout, TShbqin, TSdlqin, TSdlqout), "\n"]);
 
 reader_message(false, Msg, TSclientout, TShbqin, TSdlqin, TSdlqout) ->
