@@ -46,8 +46,10 @@ dummy_start() ->
   PID2 ! {setneighbors, FIRST, THIRD},
   PID3 ! {setneighbors, FIRST, SECOND}.
 
-% TODO: Kann man wirklich an den Coordinator senden, oder braucht man den NameService dazu?
-start(WorkingTime, TermTime, GgtNumber, StarterNumber, GroupNumber, TeamNumber, Quota, CoordinatorName, NameService) ->
+% {TeamNumber, GroupNumber, NameService, CoordinatorName}
+% {WorkingTime, TermTime, Quota}
+start(GgtNumber, StarterNumber, SteerConfig, GgtConfig) ->
+  {TeamNumber, GroupNumber, NameService, CoordinatorName} = GgtConfig,
   GgtName = ggt_name(GroupNumber, TeamNumber, GgtNumber, StarterNumber), % 16
   io:format("FileName: ~w~n", [GgtName]),
   LogFile = logging_file_name(GgtName),
@@ -58,10 +60,12 @@ start(WorkingTime, TermTime, GgtNumber, StarterNumber, GroupNumber, TeamNumber, 
   register_on_name_service(NameService, GgtName),
   register_log(LogFile),
 
-  Neighbours = register_on_coordinator(CoordinatorName, GgtName, LogFile),
+  Coordinator = lookup(NameService, CoordinatorName),
+  Neighbours = register_on_coordinator(Coordinator, GgtName, LogFile),
+  {_, TermTime, _} = SteerConfig,
   loop(
     LogFile,
-    {WorkingTime, TermTime, Quota, CoordinatorName, NameService},
+    SteerConfig, Coordinator, NameService,
     GgtName, timer:send_after(TermTime, self(), term), werkzeug:getUTC(), ?PRE_MI, Neighbours, 0
   ).
 
@@ -77,8 +81,8 @@ register_on_name_service(NameService, GgtName) ->
   end.
 
 % 17
-register_on_coordinator(CoordinatorName, GgtName, LogFile) ->
-  CoordinatorName ! {hello, GgtName},
+register_on_coordinator(Coordinator, GgtName, LogFile) ->
+  Coordinator ! {hello, GgtName},
   hello_log(LogFile),
   receive
     {setneighbors, LeftN, RightN} ->
@@ -87,64 +91,64 @@ register_on_coordinator(CoordinatorName, GgtName, LogFile) ->
       {LeftN, RightN};
     Any ->
       io:format("Erwarte Nachbaren durch setneighbors, bekam aber: ~w~n", [Any]),
-      register_on_coordinator(CoordinatorName, GgtName, LogFile)
+      register_on_coordinator(Coordinator, GgtName, LogFile)
   end.
 
 % TODO: Reduce Parameters
-loop(LogFile, Config, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota) ->
-  {_, _, Quota, CoordinatorName, NameService} = Config,
+loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota) ->
+  {_, _, Quota} = SteerConfig,
   if ReachedQuota >= Quota ->
     term_log(LogFile, Mi),
-    CoordinatorName ! {self(), briefterm, {GgtName, Mi, erlang:timestamp()}}, % 22
-    loop(LogFile, Config, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
-  true -> ok
+    Coordinator ! {self(), briefterm, {GgtName, Mi, erlang:timestamp()}}, % 22
+    loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
+    true -> ok
   end,
 
   receive
     {setpm, Mi} ->
       pm_log(LogFile, Mi, GgtName),
-      loop(LogFile, Config, GgtName, TermTimer, werkzeug:getUTC(), Mi, Neighbors, 0);
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, werkzeug:getUTC(), Mi, Neighbors, 0);
     {sendy, Y} ->
       timer:cancel(TermTimer),
-      {WorkingTime, TermTime, _, CoordinatorName, _} = Config,
+      {WorkingTime, TermTime, _} = SteerConfig,
 
-      calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, CoordinatorName),
+      calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator),
       NewTermTimer = timer:send_after(TermTime, self(), term),
-      loop(LogFile, Config, GgtName, NewTermTimer, werkzeug:getUTC(), Mi, Neighbors, 0);
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), Mi, Neighbors, 0);
     {From, {vote, Initiator}} -> % TODO: Wozu wird der Initiator benötigt?
       CurrentTime = werkzeug:getUTC(),
-      {_, TermTime, _, _, _} = Config,
+      {_, TermTime, _} = SteerConfig,
       if (CurrentTime - StartTermTime) > (TermTime * ?TERM_VOTE_FACTOR) -> % 22
-        From ! {voteYes, GgtName}
+        From ! {voteYes, GgtName};
+        true -> ok
       end,
-      loop(LogFile, Config, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
     {voteYes, Name} ->
-      {_, _, Quota, CoordinatorName, NameService} = Config,
+      {_, _, Quota} = SteerConfig,
       vote_log(LogFile, GgtName, Name, 2),
-      loop(LogFile, Config, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota + 1);
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota + 1);
     term ->
-      {_, _, _, _, NameService} = Config,
       NameService ! {self(), {multicast, vote, GgtName}},
       term_init_log(LogFile, GgtName, Mi),
-      loop(LogFile, Config, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 1);
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 1);
     kill ->
       kill_log(LogFile, GgtName);
     {From, tellmi} ->
       From ! {mi, Mi},
-      loop(LogFile, Config, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota);
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota);
     {From, pingGGT} ->
       From ! {pongGGT, GgtName},
-      loop(LogFile, Config, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota);
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota);
     Any ->
       io:format("Erwarte initiales Mi, bekam aber: ~w~n", [Any]),
-      loop(LogFile, Config, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota)
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota)
   end.
 
-calcMi(LogFile, WorkTime, Mi, Y, GgtName, Neighbors, CoordinatorName) ->
+calcMi(LogFile, WorkTime, Mi, Y, GgtName, Neighbors, Coordinator) ->
   timer:sleep(WorkTime),
   if Mi > Y ->
     NewMi = ((Mi - 1) rem Y) + 1,
-    CoordinatorName ! {briefmi, {GgtName, NewMi, erlang:timestamp()}},
+    Coordinator ! {briefmi, {GgtName, NewMi, erlang:timestamp()}},
 
     {LeftN, RightN} = Neighbors,
     LeftN ! {sendy, NewMi},
@@ -219,3 +223,10 @@ term_log(LogFile, Mi) -> % TODO: Wie soll das N ermittelt werden?
 % Used as a shortcut to write a message as a string into the file.
 -spec log(string(), list()) -> atom().
 log(LogFile, Message) -> werkzeug:logging(LogFile, [lists:concat(Message), "\n"]).
+
+lookup(Nameservice, Name) ->
+  Nameservice ! {self(), {lookup, Name}},
+  receive
+    {pin, {Name, Node}} -> {Name, Node};
+    not_found -> io:format("Name ~w nicht gefunden.~n", [Name])
+  end.
