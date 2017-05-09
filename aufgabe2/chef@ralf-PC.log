@@ -1,0 +1,140 @@
+Hello: 1509. 09.05 09:31:34,092|
+Hello: 1508. 09.05 09:31:34,123|
+Hello: 1507. 09.05 09:31:34,123|
+Hello: 1506. 09.05 09:31:34,123|
+Hello: 1505. 09.05 09:31:34,123|
+Hello: 1504. 09.05 09:31:34,123|
+Hello: 1503. 09.05 09:31:34,123|
+Hello: 1502. 09.05 09:31:34,123|
+Hello: 1501. 09.05 09:31:34,123|
+Hello: 1509. 09.05 09:36:57,652|
+Hello: 1508. 09.05 09:36:57,652|
+Hello: 1507. 09.05 09:36:57,668|
+Hello: 1506. 09.05 09:36:57,668|
+Hello: 1505. 09.05 09:36:57,684|
+Hello: 1504. 09.05 09:36:57,684|
+Hello: 1503. 09.05 09:36:57,698|
+Hello: 1502. 09.05 09:36:57,698|
+Hello: 1501. 09.05 09:36:57,698|
+Hello: 1509. 09.05 09:47:06,120|
+Hello: 1508. 09.05 09:47:06,120|
+Hello: 1507. 09.05 09:47:06,120|
+Hello: 1506. 09.05 09:47:06,120|
+Hello: 1505. 09.05 09:47:06,120|
+Hello: 1504. 09.05 09:47:06,120|
+Hello: 1503. 09.05 09:47:06,135|
+Hello: 1502. 09.05 09:47:06,135|
+Hello: 1501. 09.05 09:47:06,135|
+Hello: 1509. 09.05 09:51:56,585|
+Hello: 1508. 09.05 09:51:56,585|
+Hello: 1507. 09.05 09:51:56,585|
+Hello: 1506. 09.05 09:51:56,585|
+Hello: 1505. 09.05 09:51:56,585|
+Hello: 1504. 09.05 09:51:56,601|
+Hello: 1503. 09.05 09:51:56,601|
+Hello: 1502. 09.05 09:51:56,601|
+Hello: 1501. 09.05 09:51:56,601|
+Hello: 1509. 09.05 09:52:43,185|
+Hello: 1508. 09.05 09:52:43,201|
+Hello: 1507. 09.05 09:52:43,201|
+Hello: 1506. 09.05 09:52:43,201|
+Hello: 1505. 09.05 09:52:43,201|
+Hello: 1504. 09.05 09:52:43,201|
+Hello: 1503. 09.05 09:52:43,201|
+Hello: 1502. 09.05 09:52:43,217|
+Hello: 1501. 09.05 09:52:43,217|
+Hello: 1509. 09.05 09:55:28,982|
+Hello: 1508. 09.05 09:55:28,982|
+Hello: 1507. 09.05 09:55:28,982|
+Hello: 1506. 09.05 09:55:28,982|
+Hello: 1505. 09.05 09:55:28,982|
+Hello: 1504. 09.05 09:55:28,998|
+Hello: 1503. 09.05 09:55:28,998|
+Hello: 1502. 09.05 09:55:28,998|
+Hello: 1501. 09.05 09:55:28,998|
+Sende Nachbarn an 1503: Links: 1501, Rechts: 1508. 09.05 09:55:35,441|
+Sende Nachbarn an 1508: Links: 1503, Rechts: 1506. 09.05 09:55:35,441|
+Sende Nachbarn an 1506: Links: 1508, Rechts: 1502. 09.05 09:55:35,441|
+Sende Nachbarn an 1502: Links: 1506, Rechts: 1505. 09.05 09:55:35,441|
+Sende Nachbarn an 1505: Links: 1502, Rechts: 1509. 09.05 09:55:35,441|
+Sende Nachbarn an 1509: Links: 1505, Rechts: 1507. 09.05 09:55:35,456|
+Sende Nachbarn an 1507: Links: 1509, Rechts: 1504. 09.05 09:55:35,456|
+Sende Nachbarn an 1504: Links: 1507, Rechts: 1501. 09.05 09:55:35,456|
+Sende Nachbarn an 1501: Links: 1504, Rechts: 1503. 09.05 09:55:35,456|
+Starte Berechnung mit 3. 09.05 09:56:06,734|
+Hello: 1509. 09.05 10:02:29,394|
+Hello: 1508. 09.05 10:02:29,394|
+Hello: 1507. 09.05 10:02:29,394|
+Hello: 1506. 09.05 10:02:29,394|
+Hello: 1505. 09.05 10:02:29,394|
+Hello: 1504. 09.05 10:02:29,409|
+Hello: 1503. 09.05 10:02:29,409|
+Hello: 1502. 09.05 10:02:29,409|
+Hello: 1501. 09.05 10:02:29,409|
+Sende Nachbarn an 1503: Links: 1501, Rechts: 1508. 09.05 10:02:45,946|
+Sende Nachbarn an 1508: Links: 1503, Rechts: 1506. 09.05 10:02:45,946|
+Sende Nachbarn an 1506: Links: 1508, Rechts: 1502. 09.05 10:02:45,962|
+Sende Nachbarn an 1502: Links: 1506, Rechts: 1505. 09.05 10:02:45,962|
+Sende Nachbarn an 1505: Links: 1502, Rechts: 1509. 09.05 10:02:45,962|
+Sende Nachbarn an 1509: Links: 1505, Rechts: 1507. 09.05 10:02:45,976|
+Sende Nachbarn an 1507: Links: 1509, Rechts: 1504. 09.05 10:02:45,976|
+Sende Nachbarn an 1504: Links: 1507, Rechts: 1501. 09.05 10:02:45,976|
+Sende Nachbarn an 1501: Links: 1504, Rechts: 1503. 09.05 10:02:45,976|
+Starte Berechnung mit 3. 09.05 10:03:07,147|
+Hello: 1509. 09.05 10:07:06,881|
+Hello: 1508. 09.05 10:07:06,897|
+Hello: 1507. 09.05 10:07:06,897|
+Hello: 1506. 09.05 10:07:06,897|
+Hello: 1505. 09.05 10:07:06,911|
+Hello: 1504. 09.05 10:07:06,911|
+Hello: 1503. 09.05 10:07:06,911|
+Hello: 1502. 09.05 10:07:06,911|
+Hello: 1501. 09.05 10:07:06,911|
+Sende Nachbarn an 1503: Links: 1501, Rechts: 1508. 09.05 10:07:09,221|
+Sende Nachbarn an 1508: Links: 1503, Rechts: 1506. 09.05 10:07:09,221|
+Sende Nachbarn an 1506: Links: 1508, Rechts: 1502. 09.05 10:07:09,221|
+Sende Nachbarn an 1502: Links: 1506, Rechts: 1505. 09.05 10:07:09,221|
+Sende Nachbarn an 1505: Links: 1502, Rechts: 1509. 09.05 10:07:09,221|
+Sende Nachbarn an 1509: Links: 1505, Rechts: 1507. 09.05 10:07:09,237|
+Sende Nachbarn an 1507: Links: 1509, Rechts: 1504. 09.05 10:07:09,237|
+Sende Nachbarn an 1504: Links: 1507, Rechts: 1501. 09.05 10:07:09,237|
+Sende Nachbarn an 1501: Links: 1504, Rechts: 1503. 09.05 10:07:09,237|
+Starte Berechnung mit 3. 09.05 10:07:15,179|
+Hello: 1509. 09.05 10:10:42,028|
+Hello: 1508. 09.05 10:10:42,042|
+Hello: 1507. 09.05 10:10:42,042|
+Hello: 1506. 09.05 10:10:42,042|
+Hello: 1505. 09.05 10:10:42,042|
+Hello: 1504. 09.05 10:10:42,042|
+Hello: 1503. 09.05 10:10:42,058|
+Hello: 1502. 09.05 10:10:42,058|
+Hello: 1501. 09.05 10:10:42,058|
+Sende Nachbarn an 1503: Links: 1501, Rechts: 1508. 09.05 10:10:45,850|
+Sende Nachbarn an 1508: Links: 1503, Rechts: 1506. 09.05 10:10:45,850|
+Sende Nachbarn an 1506: Links: 1508, Rechts: 1502. 09.05 10:10:45,850|
+Sende Nachbarn an 1502: Links: 1506, Rechts: 1505. 09.05 10:10:45,866|
+Sende Nachbarn an 1505: Links: 1502, Rechts: 1509. 09.05 10:10:45,866|
+Sende Nachbarn an 1509: Links: 1505, Rechts: 1507. 09.05 10:10:45,866|
+Sende Nachbarn an 1507: Links: 1509, Rechts: 1504. 09.05 10:10:45,866|
+Sende Nachbarn an 1504: Links: 1507, Rechts: 1501. 09.05 10:10:45,881|
+Sende Nachbarn an 1501: Links: 1504, Rechts: 1503. 09.05 10:10:45,881|
+Starte Berechnung mit 3. 09.05 10:10:56,474|
+Hello: 1509. 09.05 10:16:35,665|
+Hello: 1508. 09.05 10:16:35,665|
+Hello: 1507. 09.05 10:16:35,665|
+Hello: 1506. 09.05 10:16:35,680|
+Hello: 1505. 09.05 10:16:35,680|
+Hello: 1504. 09.05 10:16:35,680|
+Hello: 1503. 09.05 10:16:35,680|
+Hello: 1502. 09.05 10:16:35,680|
+Hello: 1501. 09.05 10:16:35,696|
+Sende Nachbarn an 1503: Links: 1501, Rechts: 1508. 09.05 10:16:39,439|
+Sende Nachbarn an 1508: Links: 1503, Rechts: 1506. 09.05 10:16:39,439|
+Sende Nachbarn an 1506: Links: 1508, Rechts: 1502. 09.05 10:16:39,439|
+Sende Nachbarn an 1502: Links: 1506, Rechts: 1505. 09.05 10:16:39,439|
+Sende Nachbarn an 1505: Links: 1502, Rechts: 1509. 09.05 10:16:39,439|
+Sende Nachbarn an 1509: Links: 1505, Rechts: 1507. 09.05 10:16:39,455|
+Sende Nachbarn an 1507: Links: 1509, Rechts: 1504. 09.05 10:16:39,455|
+Sende Nachbarn an 1504: Links: 1507, Rechts: 1501. 09.05 10:16:39,455|
+Sende Nachbarn an 1501: Links: 1504, Rechts: 1503. 09.05 10:16:39,471|
+Starte Berechnung mit 3. 09.05 10:16:59,470|

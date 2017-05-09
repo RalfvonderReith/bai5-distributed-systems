@@ -56,7 +56,7 @@ initialisierungsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote
 		reset ->
 			reset(ClientList, LogFile, NameService);
 		toggle ->
-			werkzeug:logging(LogFile, ["Ändere Korrigieren-Flag zu ", not Korrigieren, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"]),
+			werkzeug:logging(LogFile, lists:concat(["Ändere Korrigieren-Flag zu ", not Korrigieren, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"])),
 			initialisierungsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, not Korrigieren, NameService, KoordinatorName);
 		_Any ->
 			io:format("received unexpected message! \r\n", [])
@@ -64,7 +64,10 @@ initialisierungsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote
 
 sendSteeringVal(PID, ClientList, GGTProzessNummer, Arbeitszeit, Termzeit, Quote, LogFile) ->
 	%compute quota
+	io:format("additional GGTs ~p.~n",[GGTProzessNummer]),
 	AbsoluteParticipants = length(ClientList)+GGTProzessNummer,
+	io:format("Abs GGTs ~p.~n",[AbsoluteParticipants]),
+	io:format("Quote: ~p, Abs Quota ~p. ~n", [Quote, getAbsoluteQuota(AbsoluteParticipants, Quote)]),
 	PID ! {steeringval, Arbeitszeit, Termzeit, getAbsoluteQuota(AbsoluteParticipants, Quote), GGTProzessNummer},
 	getGGTs(ClientList, GGTProzessNummer, LogFile).
 		
@@ -97,10 +100,11 @@ createRingH([Middle,Right|Rest], [Left], Arbeitszeit, Termzeit, GGTProzessNummer
 	
 setNeighbors(Left, Middle, Right, LogFile, NameService) ->
 	NameService ! {self(), {lookup, Middle}},
+	io:format("~p~n", [Left]),
 	%io:format("set neighbors of ~p: ~p, ~p.\r\n", [Middle, Left, Right]).
 	receive
 		{pin,GGT} ->
-			werkzeug:logging(LogFile, ["Sende Nachbarn an ", Middle, ": Links: ", Left, ", Rechts: ", Right, ". ",werkzeug:now2string(erlang:timestamp()),"\r\n"]),
+			werkzeug:logging(LogFile, lists:concat(["Sende Nachbarn an ", Middle, ": Links: ", Left, ", Rechts: ", Right, ". ",werkzeug:now2string(erlang:timestamp()),"\r\n"])),
 			GGT ! {setneighbors, Left, Right};
 		not_found ->
 			error("a ggt process is not registered")
@@ -121,26 +125,31 @@ bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, L
 	io:format("test; Clientlist: ~p\r\n",[ClientList]),
 	receive 
 		{calc, WggT} ->
-			werkzeug:logging(LogFile, ["Starte Berechnung mit ", WggT, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"]),
+			werkzeug:logging(LogFile, lists:concat(["Starte Berechnung mit ", WggT, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"])),
 			NumberOfGGTs = length(ClientList),
+			io:format("NumberOfGGTs ~p~n", [NumberOfGGTs]),
 			ListOfPis = werkzeug:bestimme_mis(WggT, NumberOfGGTs*1.2),
+			io:format("ListOfPis ~p~n", [ListOfPis]),
 			MinimumMi = lists:min(ListOfPis),
+			io:format("Minimum Pi ~p~n.", [MinimumMi]),
 			ListOfUnusedPis = sendPis(ClientList, LogFile, NameService, ListOfPis),
+			io:format("List of Unused Pis ~p~n", [ListOfUnusedPis]),
 			sendStartMis(werkzeug:shuffle(ClientList), LogFile, NameService, ListOfUnusedPis),
 			arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName);
 		reset ->
 			reset(ClientList, LogFile, NameService);
 		toggle ->
-			werkzeug:logging(LogFile, ["Ändere Korrigieren-Flag zu ", not Korrigieren, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"]),
+			werkzeug:logging(LogFile, lists:concat(["Ändere Korrigieren-Flag zu ", not Korrigieren, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"])),
 			bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, not Korrigieren, NameService, KoordinatorName)
 	end.
 
 %sets starting Pis and returns a list of not yet used pis
 sendPis([GGTName|RestGGT], LogFile, NameService, [Pi|RestPi]) ->
 	NameService ! {self(), {lookup, GGTName}},
+	io:format("test sendPis~n",[]),
 	receive
 		{pin,GGT} ->
-			werkzeug:logging(LogFile, ["Sende Pi ", Pi, " zu ", GGTName, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"]),
+			werkzeug:logging(LogFile, lists:concat(["Sende Pi ", Pi, " zu ", GGTName, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"])),
 			GGT ! {setPi, Pi};
 		not_found ->
 			error("a ggt process is not registered")
@@ -160,7 +169,7 @@ sendy(GGTName, Mi, NameService, LogFile) ->
 	NameService ! {self(), {lookup, GGTName}},
 	receive
 		{pin,GGT} ->
-			werkzeug:logging(LogFile, ["Sende Mi ", Mi, " zu ", GGTName, ". ",werkzeug:now2string(erlang:timestampe()),"\r\n"]),
+			werkzeug:logging(LogFile, lists:concat(["Sende Mi ", Mi, " zu ", GGTName, ". ",werkzeug:now2string(erlang:timestampe()),"\r\n"])),
 			GGT ! {sendy, Mi};
 		not_found ->
 			error("a ggt process is not registered")
@@ -174,7 +183,7 @@ arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quo
 		kill -> 
 			kill(ClientList, LogFile, NameService, KoordinatorName);
 		{briefmi, {Clientname, CMi, CZeit}} ->
-			Message = ["Neues Mi ", CMi, " von ", Clientname, " erhalten: ", werkzeug:now2string(CZeit), "\r\n"],
+			Message = lists:concat(["Neues Mi ", CMi, " von ", Clientname, " erhalten: ", werkzeug:now2string(CZeit), "\r\n"]),
 			werkzeug:logging(LogFile, Message),
 			if
 				CMi < MinimumMi ->
@@ -183,12 +192,12 @@ arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quo
 					arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName)
 			end;
 		{_PID, briefterm, {Clientname, CMi, CZeit}} ->
-			Message = ["Terminierungsmeldung mit  Mi ", CMi, " von ", Clientname, " erhalten: ", werkzeug:now2string(CZeit), "\r\n"],
+			Message = lists:concat(["Terminierungsmeldung mit  Mi ", CMi, " von ", Clientname, " erhalten: ", werkzeug:now2string(CZeit), "\r\n"]),
 			werkzeug:logging(LogFile, Message),
 			%korrigiere, wenn nötig.
 			if 
 				Korrigieren == true, CMi > MinimumMi ->
-					werkzeug:logging(LogFile, ["Bekanntes Minimum (", MinimumMi, ") ist kleiner als gemeldetes Mi.\r\n"]),
+					werkzeug:logging(LogFile, lists:concat(["Bekanntes Minimum (", MinimumMi, ") ist kleiner als gemeldetes Mi.\r\n"])),
 					sendy(Clientname, MinimumMi, NameService, LogFile);
 				true -> 
 					ok
@@ -216,7 +225,7 @@ tellMi([Client|Rest], LogFile, NameService) ->
 			GGT ! {self(), tellmi},
 			receive
 				{mi,Mi} ->
-					werkzeug:logging(LogFile, ["Aktuelles mi von ", Client, ": ", Mi, ". ",werkzeug:now2string(erlang:timestamp()),"\r\n"])
+					werkzeug:logging(LogFile, lists:concat(["Aktuelles mi von ", Client, ": ", Mi, ". ",werkzeug:now2string(erlang:timestamp()),"\r\n"]))
 			end,
 			tellMi(Rest, LogFile, NameService);
 		not_found ->
@@ -234,7 +243,7 @@ nudge([Client|Rest], LogFile, NameService) ->
 			GGT ! {self(), pingGGT},
 			receive
 				{pongGGT, GGTName} ->
-					werkzeug:logging(LogFile, [GGTName, " ist noch aktiv. ",werkzeug:now2string(erlang:timestamp()),"\r\n"])
+					werkzeug:logging(LogFile, lists:concat([GGTName, " ist noch aktiv. ",werkzeug:now2string(erlang:timestamp()),"\r\n"]))
 			end,
 			nudge(Rest, LogFile, NameService);
 		not_found ->
@@ -265,4 +274,4 @@ reset(ClientList, LogFile, NameService) ->
 	start().
 
 getAbsoluteQuota(Absolute, Percent) ->
-	Absolute / 100 * Percent.
+	erlang:round(Absolute / 100 * Percent).
