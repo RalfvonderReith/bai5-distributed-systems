@@ -26,11 +26,11 @@
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
-start(StarterNumber) ->
+start(StarterNumber) -> % 14
   LogFile = logging_file_name(StarterNumber),
   file:delete(LogFile),
   start_log(LogFile, StarterNumber),
-  GgtConfig = cfg_entries(config_list(LogFile), LogFile),
+  GgtConfig = cfg_entries(config_list(LogFile), LogFile), % 12
 
   {_, _, {NameServiceName, NameServiceNode}, CoordinatorName} = GgtConfig,
   util:serverNodeConnection(NameServiceNode),
@@ -43,11 +43,15 @@ start(StarterNumber) ->
   io:format("post steering"),
   start_ggt(StarterNumber, GgtAmount, {WorkingTime * 1000, TermTime * 1000, Quota}, GgtConfig).
 
+% Starts the ggts
+% 13
 start_ggt(_, 0, _, _) -> ok;
 start_ggt(StarterNumber, GgtNumber, SteerConfig, GgtConfig) ->
   spawn(ggt, start, [StarterNumber, GgtNumber, SteerConfig, GgtConfig]),
   start_ggt(StarterNumber, GgtNumber - 1, SteerConfig, GgtConfig).
 
+% Asks the coordinator for the steering values to create the ggts.
+% 11
 get_steering_val(LogFile, Coordinator) ->
   io:format("setsteeringval presend: ~w~n", [Coordinator]),
   Coordinator ! {self(), getsteeringval},
@@ -112,7 +116,7 @@ steering_val_log(LogFile, WorkingTime, TermTime, Quota, GgtAmount) ->
 -spec log(string(), list()) -> atom().
 log(LogFile, Message) -> werkzeug:logging(LogFile, [lists:concat(Message), "\n"]).
 
-
+% Asks the nameservice for the pid of the given name.
 lookup(Nameservice, Name) ->
   Nameservice ! {self(), {lookup, Name}},
   receive

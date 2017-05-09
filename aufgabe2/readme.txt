@@ -2,12 +2,13 @@
 Compilieren der Dateien:
 --------------------
 Zu dem Paket gehören die Dateien
-ggt.erl; koordinator.erl; starter.erl, nameservice.beam; werkzeug.erl
+ggt.erl; koordinator.erl; starter.erl, nameservice.beam; werkzeug.erl; util.erl
 
 sowie:
 readme.txt; koordinator.cfg; ggt.cfg
 
-(w)erl -(s)name wk -setcookie zummsel
+Zum kompilieren:
+(w)erl -(s)name mk -setcookie zummsel
 1> make:all().
 
 koordinator.cfg
@@ -56,15 +57,14 @@ Der Koordinator kann mit mehreren Befehlen angesprochen werden. Das funktioniert
 Mit den oben genannten config Dateien sehe das so aus:
 1> {chef, 'ns@Brummpa'} ! <Befehl>
 
-% TODO
 Folgende Befehle sind vorgesehen:
-- reset:
-- step:
-- prompt:
-- nudge:
-- toggle:
-- kill:
-- {calc, WggT}:
+- reset: Sendet den GGTs den Kill Befehl und versetzt den Koordinator in den initialen Zustand.
+- step: Versetzt den Koordinator von der Initialphase in die Arbeitsphase, sodass er keine Starter mehr annimmt und den Ring baut.
+- prompt: Fragt die GGTs nach ihren Mis und zeigt diese an.
+- nudge: Fragt die GGTs nach ihrem Lebensstand und zeigt dies an.
+- toggle: Togglet die Flag zur Korrektur bei falschen Terminierungsmeldungen.
+- kill: Der Koordinator wird beendet und sendet allen GGTs den Kill Befehl.
+- {calc, WggT}: Startet eine neue GGT Berechnung mit dem gegebenen Wunsch ggt.
 
 Runterfahren:
 -------------

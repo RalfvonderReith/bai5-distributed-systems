@@ -1,9 +1,6 @@
 -module(koordinator).
 -export([start/0]).
 
-%TODO: toggle einbauen
-
-%TODO: Korrigieren flag durchreichen
 start() ->
   io:format("starte Server... \r\n", []),
 
@@ -37,7 +34,6 @@ start() ->
       error("Fehlgeschlagen!\r\n")
   end.
 
-%TODO: anmelden der starter hier -> alle gemeldeten Starter mitgeben
 initialisierungsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName) ->
   receive
     {PID, getsteeringval} ->
@@ -51,7 +47,6 @@ initialisierungsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote
       kill(ClientList, LogFile, NameService, KoordinatorName);
     step ->
       io:format("received step. \r\n", []),
-      %TODO: hier ein zwischenschritt, in dem erst hier die starter kontaktiert werden und die erwartete Anzahl an GGT-Prozessen eingesammelt wird.
       step(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName);
     reset ->
       reset(ClientList, LogFile, NameService, KoordinatorName);
@@ -230,7 +225,6 @@ arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quo
   end.
 %do arbeitsphasen stuff
 
-%TODO: Log into File
 tellMi([], _LogFile, _NameService) ->
   ok;
 tellMi([Client | Rest], LogFile, NameService) ->
@@ -248,7 +242,6 @@ tellMi([Client | Rest], LogFile, NameService) ->
       error("a ggt process is not registered")
   end.
 
-%TODO: Log into file	
 nudge([], _LogFile, _NameService) ->
   ok;
 nudge([Client | Rest], LogFile, NameService) ->

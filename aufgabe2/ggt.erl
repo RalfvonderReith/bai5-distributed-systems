@@ -22,10 +22,6 @@
 % numbers
 -define(PRE_MI, 0).
 -define(TERM_VOTE_FACTOR, 0.5).
-%"C:\Program Files\erl8.3\bin\erl" -sname ns -setcookie zummsel
-%"C:\Program Files\erl8.3\bin\erl" -sname chef -setcookie zummsel
-%"C:\Program Files\erl8.3\bin\erl" -sname st -setcookie zummsel
-%{chef,'chef@DESKTOP-FMLRDQI'} !
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
@@ -51,6 +47,8 @@ start(GgtNumber, StarterNumber, SteerConfig, GgtConfig) ->
     GgtName, werkzeug:getUTC(), ?PRE_MI, Neighbours
   ).
 
+% Registers on the given nameservice with the given name.
+% 17
 register_on_name_service(NameService, GgtName) ->
   {_, NameServiceNode} = NameService,
   util:serverNodeConnection(NameServiceNode),
@@ -62,6 +60,7 @@ register_on_name_service(NameService, GgtName) ->
       register_on_name_service(NameService, GgtName)
   end.
 
+% Registers on the given coordinator with the given name and asks him for his neighbors.
 % 17
 register_on_coordinator(Coordinator, GgtName, LogFile) ->
   Coordinator ! {hello, GgtName},
@@ -76,19 +75,21 @@ register_on_coordinator(Coordinator, GgtName, LogFile) ->
       register_on_coordinator(Coordinator, GgtName, LogFile)
   end.
 
+% This loop is like [loop], but filters all the vote messages, because otherwise a process would take the votes from
+% the last poll for the next calculation.
 wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors) ->
   receive
-    {setpm, InitMi} ->
+    {setpm, InitMi} -> % 18
       pm_log(LogFile, InitMi, GgtName),
 
       {_, TermTime, _} = SteerConfig,
-      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
+      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term), % 21
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), InitMi, Neighbors, 0);
     {sendy, Y} -> % in case of correction
       {WorkingTime, TermTime, _} = SteerConfig,
 
       NewMi = calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator, NameService),
-      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
+      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term), % 21
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), NewMi, Neighbors, 0);
     {From, {vote, Initiator}} ->
       CurrentTime = werkzeug:getUTC(),
@@ -116,6 +117,7 @@ wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartT
       wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors)
   end.
 
+% The main loop taking all the messages in the working phase.
 loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota) ->
   {_, _, Quota} = SteerConfig,
   if ReachedQuota >= Quota ->
@@ -126,12 +128,12 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
   end,
 
   receive
-    {setpm, InitMi} ->
+    {setpm, InitMi} -> % 18
       {ok, cancel} = timer:cancel(TermTimer),
       pm_log(LogFile, InitMi, GgtName),
 
       {_, TermTime, _} = SteerConfig,
-      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
+      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term), % 21
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), InitMi, Neighbors, 0);
     {sendy, Y} ->
       {ok, cancel} = timer:cancel(TermTimer),
@@ -170,8 +172,10 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota)
   end.
 
+% Calculates the ggt based on the given algorithm. This calculation is meant to take some additional time (WorkTime).
+% After that it will send the result to the neighbors and return it, or ignore it if Y is greater than Mi.
 calcMi(LogFile, WorkTime, Mi, Y, GgtName, Neighbors, Coordinator, NameService) ->
-  timer:sleep(WorkTime),
+  timer:sleep(WorkTime), % 20
   if Mi > Y ->
     NewMi = ((Mi - 1) rem Y) + 1,
     Coordinator ! {briefmi, {GgtName, NewMi, erlang:timestamp()}},
