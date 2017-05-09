@@ -87,7 +87,7 @@ wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartT
     {sendy, Y} -> % in case of correction
       {WorkingTime, TermTime, _} = SteerConfig,
 
-      NewMi = calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator),
+      NewMi = calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator, NameService),
       {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), NewMi, Neighbors, 0);
     {From, {vote, Initiator}} ->
@@ -104,7 +104,7 @@ wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartT
       wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
     kill ->
       kill_log(LogFile, GgtName),
-      NameService ! {self(), unbind, GgtName};
+      NameService ! {self(), {unbind, GgtName}};
     {From, tellmi} ->
       From ! {mi, Mi},
       wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
@@ -137,7 +137,7 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
       {ok, cancel} = timer:cancel(TermTimer),
       {WorkingTime, TermTime, _} = SteerConfig,
 
-      NewMi = calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator),
+      NewMi = calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator, NameService),
       {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), NewMi, Neighbors, 0);
     {From, {vote, Initiator}} ->
@@ -158,7 +158,7 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
     kill ->
       kill_log(LogFile, GgtName),
-      NameService ! {self(), unbind, GgtName};
+      NameService ! {self(), {unbind, GgtName}};
     {From, tellmi} ->
       From ! {mi, Mi},
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota);
@@ -170,15 +170,15 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota)
   end.
 
-calcMi(LogFile, WorkTime, Mi, Y, GgtName, Neighbors, Coordinator) ->
+calcMi(LogFile, WorkTime, Mi, Y, GgtName, Neighbors, Coordinator, NameService) ->
   timer:sleep(WorkTime),
   if Mi > Y ->
     NewMi = ((Mi - 1) rem Y) + 1,
     Coordinator ! {briefmi, {GgtName, NewMi, erlang:timestamp()}},
 
-    {LeftN, RightN} = Neighbors,
-    LeftN ! {sendy, NewMi},
-    RightN ! {sendy, NewMi},
+    {LeftName, RightName} = Neighbors,
+    lookup(NameService, LeftName) ! {sendy, NewMi},
+    lookup(NameService, RightName) ! {sendy, NewMi},
     sendy_log(LogFile, Y, Mi, NewMi),
     NewMi;
     true ->
