@@ -82,7 +82,7 @@ wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartT
       pm_log(LogFile, InitMi, GgtName),
 
       {_, TermTime, _} = SteerConfig,
-      NewTermTimer = timer:send_after(TermTime, self(), term),
+      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), InitMi, Neighbors, 0);
     {From, {vote, Initiator}} ->
       CurrentTime = werkzeug:getUTC(),
@@ -116,22 +116,21 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
       pm_log(LogFile, InitMi, GgtName),
 
       {_, TermTime, _} = SteerConfig,
-      NewTermTimer = timer:send_after(TermTime, self(), term),
+      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), InitMi, Neighbors, 0);
     {sendy, Y} ->
       {ok, cancel} = timer:cancel(TermTimer),
       {WorkingTime, TermTime, _} = SteerConfig,
 
       NewMi = calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator),
-      NewTermTimer = timer:send_after(TermTime, self(), term),
+      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), NewMi, Neighbors, 0);
     {From, {vote, Initiator}} ->
       CurrentTime = werkzeug:getUTC(),
       {_, TermTime, _} = SteerConfig,
       if (CurrentTime - StartTermTime) > (TermTime * ?TERM_VOTE_FACTOR) -> % 22
-        From ! {voteYes, GgtName},
-        io:format("Stimme ja für: ~w~n", [Initiator]);
-        true -> io:format("Stimme nein für ~w~n", [Initiator])
+        From ! {voteYes, GgtName};
+        true -> vote_no_log(LogFile, GgtName, Initiator)
       end,
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
     {voteYes, Name} ->
@@ -141,7 +140,7 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
     term ->
       NameService ! {self(), {multicast, vote, GgtName}},
       term_init_log(LogFile, GgtName, Mi),
-      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 1);
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
     kill ->
       kill_log(LogFile, GgtName);
     {From, tellmi} ->
@@ -226,6 +225,12 @@ vote_log(LogFile, GgtName, VoteGgt) ->
   log(
     LogFile,
     [GgtName, ": stimme ab (", VoteGgt, ") mit >JA< gestimmt. ", werkzeug:timeMilliSecond()]
+  ).
+
+vote_no_log(LogFile, GgtName, VoteGgt) ->
+  log(
+    LogFile,
+    [GgtName, ": stimme ab (", VoteGgt, ") mit >NEIN< gestimmt und ignoriert."]
   ).
 
 term_log(LogFile, Mi) ->
