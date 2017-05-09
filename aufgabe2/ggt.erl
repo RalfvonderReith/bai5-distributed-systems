@@ -103,7 +103,8 @@ wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartT
       io:format("Alten vote abgefangen von: ~w~n", [Name]),
       wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
     kill ->
-      kill_log(LogFile, GgtName);
+      kill_log(LogFile, GgtName),
+      NameService ! {self(), unbind, GgtName};
     {From, tellmi} ->
       From ! {mi, Mi},
       wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
@@ -156,7 +157,8 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
       term_init_log(LogFile, GgtName, Mi),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
     kill ->
-      kill_log(LogFile, GgtName);
+      kill_log(LogFile, GgtName),
+      NameService ! {self(), unbind, GgtName};
     {From, tellmi} ->
       From ! {mi, Mi},
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota);
