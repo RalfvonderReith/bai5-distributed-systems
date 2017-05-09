@@ -84,6 +84,12 @@ wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartT
       {_, TermTime, _} = SteerConfig,
       {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), InitMi, Neighbors, 0);
+    {sendy, Y} -> % in case of correction
+      {WorkingTime, TermTime, _} = SteerConfig,
+
+      NewMi = calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator),
+      {ok, NewTermTimer} = timer:send_after(TermTime, self(), term),
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), NewMi, Neighbors, 0);
     {From, {vote, Initiator}} ->
       CurrentTime = werkzeug:getUTC(),
       {_, TermTime, _} = SteerConfig,
