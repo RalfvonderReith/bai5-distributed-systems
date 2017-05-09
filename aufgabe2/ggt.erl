@@ -116,9 +116,9 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
       timer:cancel(TermTimer),
       {WorkingTime, TermTime, _} = SteerConfig,
 
-      calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator),
+      NewMi = calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator),
       NewTermTimer = timer:send_after(TermTime, self(), term),
-      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), Mi, Neighbors, 0);
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), NewMi, Neighbors, 0);
     {From, {vote, Initiator}} -> % TODO: Wozu wird der Initiator benötigt?
       CurrentTime = werkzeug:getUTC(),
       {_, TermTime, _} = SteerConfig,
@@ -157,9 +157,11 @@ calcMi(LogFile, WorkTime, Mi, Y, GgtName, Neighbors, Coordinator) ->
     {LeftN, RightN} = Neighbors,
     LeftN ! {sendy, NewMi},
     RightN ! {sendy, NewMi},
-    sendy_log(LogFile, Y, Mi, NewMi);
+    sendy_log(LogFile, Y, Mi, NewMi),
+    NewMi;
     true ->
-      sendy_log(LogFile, Y, Mi)
+      sendy_log(LogFile, Y, Mi),
+      Mi
   end.
 
 % Creates the ggt name as an atom.
