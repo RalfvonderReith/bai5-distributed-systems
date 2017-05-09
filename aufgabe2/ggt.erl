@@ -22,7 +22,6 @@
 % numbers
 -define(PRE_MI, 0).
 -define(TERM_VOTE_FACTOR, 0.5).
-% TODO: REMOVE
 %"C:\Program Files\erl8.3\bin\erl" -sname ns -setcookie zummsel
 %"C:\Program Files\erl8.3\bin\erl" -sname chef -setcookie zummsel
 %"C:\Program Files\erl8.3\bin\erl" -sname st -setcookie zummsel
@@ -30,27 +29,6 @@
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
-dummy_start() ->
-  % PID3 | PID1, PID2, PID3 | PID1
-  register(coord, self()),
-  PID1 = spawn(ggt, start, [5, 1, 10, 1, 1, 5, 2, coord, {nameservicename, nameservicenode}]),
-  PID2 = spawn(ggt, start, [5, 1, 20, 2, 1, 5, 2, coord, {nameservicename, nameservicenode}]),
-  PID3 = spawn(ggt, start, [5, 1, 30, 3, 1, 5, 2, coord, {nameservicename, nameservicenode}]),
-
-  timer:sleep(1000),
-  PID1 ! ok,
-  PID2 ! ok,
-  PID3 ! ok,
-  timer:sleep(1000),
-  FIRST = ggt_name(5, 1, 10, 1),
-  SECOND = ggt_name(5, 1, 20, 2),
-  THIRD = ggt_name(5, 1, 30, 3),
-
-  timer:sleep(1000),
-  PID1 ! {setneighbors, THIRD, SECOND},
-  PID2 ! {setneighbors, FIRST, THIRD},
-  PID3 ! {setneighbors, FIRST, SECOND}.
-
 % {TeamNumber, GroupNumber, NameService, CoordinatorName}
 % {WorkingTime, TermTime, Quota}
 start(GgtNumber, StarterNumber, SteerConfig, GgtConfig) ->
@@ -67,11 +45,10 @@ start(GgtNumber, StarterNumber, SteerConfig, GgtConfig) ->
 
   Coordinator = lookup(NameService, CoordinatorName),
   Neighbours = register_on_coordinator(Coordinator, GgtName, LogFile),
-  {_, TermTime, _} = SteerConfig,
-  loop(
+  wait_for_pm_loop(
     LogFile,
     SteerConfig, Coordinator, NameService,
-    GgtName, timer:send_after(TermTime, self(), term), werkzeug:getUTC(), ?PRE_MI, Neighbours, 0
+    GgtName, werkzeug:getUTC(), ?PRE_MI, Neighbours
   ).
 
 register_on_name_service(NameService, GgtName) ->
@@ -99,38 +76,67 @@ register_on_coordinator(Coordinator, GgtName, LogFile) ->
       register_on_coordinator(Coordinator, GgtName, LogFile)
   end.
 
-% TODO: Reduce Parameters
+wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors) ->
+  receive
+    {setpm, InitMi} ->
+      pm_log(LogFile, InitMi, GgtName),
+
+      {_, TermTime, _} = SteerConfig,
+      NewTermTimer = timer:send_after(TermTime, self(), term),
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), InitMi, Neighbors, 0);
+    {From, {vote, Initiator}} ->
+      CurrentTime = werkzeug:getUTC(),
+      {_, TermTime, _} = SteerConfig,
+      if (CurrentTime - StartTermTime) > (TermTime * ?TERM_VOTE_FACTOR) -> % 22
+        From ! {voteYes, GgtName},
+        io:format("Stimme ja für: ~w~n", [Initiator]);
+        true -> io:format("Stimme nein für ~w~n", [Initiator])
+      end,
+      wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
+    {voteYes, Name} ->
+      io:format("Alten vote abgefangen von: ~w~n", [Name]),
+      wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
+    Any ->
+      io:format("Initiales mi erwartet, aber ~w bekommen.~n", [Any]),
+      wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors)
+  end.
+
 loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota) ->
   {_, _, Quota} = SteerConfig,
   if ReachedQuota >= Quota ->
     term_log(LogFile, Mi),
     Coordinator ! {self(), briefterm, {GgtName, Mi, erlang:timestamp()}}, % 22
-    loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
+    wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
     true -> ok
   end,
 
   receive
     {setpm, InitMi} ->
+      {ok, cancel} = timer:cancel(TermTimer),
       pm_log(LogFile, InitMi, GgtName),
-      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, werkzeug:getUTC(), InitMi, Neighbors, 0);
+
+      {_, TermTime, _} = SteerConfig,
+      NewTermTimer = timer:send_after(TermTime, self(), term),
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), InitMi, Neighbors, 0);
     {sendy, Y} ->
-      timer:cancel(TermTimer),
+      {ok, cancel} = timer:cancel(TermTimer),
       {WorkingTime, TermTime, _} = SteerConfig,
 
       NewMi = calcMi(LogFile, WorkingTime, Mi, Y, GgtName, Neighbors, Coordinator),
       NewTermTimer = timer:send_after(TermTime, self(), term),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, NewTermTimer, werkzeug:getUTC(), NewMi, Neighbors, 0);
-    {From, {vote, Initiator}} -> % TODO: Wozu wird der Initiator benötigt?
+    {From, {vote, Initiator}} ->
       CurrentTime = werkzeug:getUTC(),
       {_, TermTime, _} = SteerConfig,
       if (CurrentTime - StartTermTime) > (TermTime * ?TERM_VOTE_FACTOR) -> % 22
-        From ! {voteYes, GgtName};
-        true -> ok
+        From ! {voteYes, GgtName},
+        io:format("Stimme ja für: ~w~n", [Initiator]);
+        true -> io:format("Stimme nein für ~w~n", [Initiator])
       end,
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, 0);
     {voteYes, Name} ->
       {_, _, Quota} = SteerConfig,
-      vote_log(LogFile, GgtName, Name, 2),
+      vote_log(LogFile, GgtName, Name),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota + 1);
     term ->
       NameService ! {self(), {multicast, vote, GgtName}},
@@ -216,14 +222,14 @@ sendy_log(LogFile, Y, Mi) ->
 term_init_log(LogFile, GgtName, Mi) ->
   log(LogFile, [GgtName, ": initiiere eine Terminierungsabstimmung (", Mi, "). ", werkzeug:timeMilliSecond()]).
 
-vote_log(LogFile, GgtName, VoteGgt, Code) ->
+vote_log(LogFile, GgtName, VoteGgt) ->
   log(
     LogFile,
-    [GgtName, ": stimme ab (", VoteGgt, ") mit >JA< gestimmt(Code ", Code, "). ", werkzeug:timeMilliSecond()] % TODO: Was ist Code?
+    [GgtName, ": stimme ab (", VoteGgt, ") mit >JA< gestimmt. ", werkzeug:timeMilliSecond()]
   ).
 
-term_log(LogFile, Mi) -> % TODO: Wie soll das N ermittelt werden?
-  log(LogFile, ["Koordinator ", 1, "te Terminierung gemeldet mit ", Mi, ". ", werkzeug:timeMilliSecond()]).
+term_log(LogFile, Mi) ->
+  log(LogFile, ["Koordinator Terminierung gemeldet mit ", Mi, ". ", werkzeug:timeMilliSecond()]).
 %----------------------------------------------------------------------------------------------------------------------
 % shortcuts
 %----------------------------------------------------------------------------------------------------------------------
