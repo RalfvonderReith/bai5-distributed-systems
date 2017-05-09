@@ -870,3 +870,408 @@ Sende Pi 17136 zu 1504. 09.05 13:32:54,487|
 Sende Pi 381861480 zu 1503. 09.05 13:32:54,502|
 Sende Mi 607506900 zu 1505. 09.05 13:32:54,502|
 kill Kommando erhalten. 
+Hello: 1502. 09.05 16:52:08,999|
+Hello: 1501. 09.05 16:52:08,999|
+Hello: 1512. 09.05 16:52:36,002|
+Hello: 1511. 09.05 16:52:36,002|
+Sende Nachbarn an 1501: Links: 1511, Rechts: 1502. 09.05 16:53:22,866|
+Sende Nachbarn an 1502: Links: 1501, Rechts: 1512. 09.05 16:53:22,866|
+Sende Nachbarn an 1512: Links: 1502, Rechts: 1511. 09.05 16:53:22,881|
+Sende Nachbarn an 1511: Links: 1512, Rechts: 1501. 09.05 16:53:22,897|
+Starte Berechnung mit 19. 09.05 16:53:35,891|
+Sende Pi 3724 zu 1511. 09.05 16:53:35,907|
+Sende Pi 3711916 zu 1501. 09.05 16:53:35,907|
+Sende Pi 33915 zu 1502. 09.05 16:53:35,907|
+Sende Pi 264537 zu 1512. 09.05 16:53:35,923|
+Sende Mi 9984975 zu 1501. 09.05 16:53:35,923|
+Terminierungsmeldung mit  Mi 3724 von 1511 erhalten: 09.05 16:53:41,911|
+Starte Berechnung mit 15. 09.05 16:54:18,792|
+Sende Pi 38785500 zu 1511. 09.05 16:54:18,792|
+Sende Pi 836550 zu 1501. 09.05 16:54:18,792|
+Sende Pi 10256610 zu 1502. 09.05 16:54:18,808|
+Sende Pi 185971500 zu 1512. 09.05 16:54:18,808|
+Sende Mi 520269750 zu 1512. 09.05 16:54:18,823|
+Terminierungsmeldung mit  Mi 38785500 von 1511 erhalten: 09.05 16:54:24,797|
+Bekanntes Minimum (836550) ist kleiner als gemeldetes Mi.
+Sende Mi 836550 zu 1511. 09.05 16:54:24,798|
+Terminierungsmeldung mit  Mi 10256610 von 1502 erhalten: 09.05 16:54:24,814|
+Bekanntes Minimum (836550) ist kleiner als gemeldetes Mi.
+Sende Mi 836550 zu 1502. 09.05 16:54:24,829|
+Terminierungsmeldung mit  Mi 836550 von 1501 erhalten: 09.05 16:54:24,814|
+Hello: 1502. 09.05 17:08:43,597|
+Hello: 1501. 09.05 17:08:43,597|
+Hello: 1512. 09.05 17:08:46,327|
+Hello: 1511. 09.05 17:08:46,327|
+Sende Nachbarn an 1501: Links: 1511, Rechts: 1502. 09.05 17:08:50,601|
+Sende Nachbarn an 1502: Links: 1501, Rechts: 1512. 09.05 17:08:50,601|
+Sende Nachbarn an 1512: Links: 1502, Rechts: 1511. 09.05 17:08:50,601|
+Sende Nachbarn an 1511: Links: 1512, Rechts: 1501. 09.05 17:08:50,617|
+Starte Berechnung mit 19. 09.05 17:08:56,077|
+Sende Pi 3215447235 zu 1511. 09.05 17:08:56,077|
+Sende Pi 3724 zu 1501. 09.05 17:08:56,093|
+Sende Pi 3711916 zu 1502. 09.05 17:08:56,093|
+Sende Pi 33915 zu 1512. 09.05 17:08:56,108|
+Sende Mi 264537 zu 1511. 09.05 17:08:56,108|
+Sende Mi 9984975 zu 1501. 09.05 17:08:56,108|
+Neues Mi 264537 von 1511 erhalten: 09.05 17:08:57,124|
+Terminierungsmeldung mit  Mi 3711916 von 1502 erhalten: 09.05 17:09:02,101|
+Bekanntes Minimum (3724) ist kleiner als gemeldetes Mi.
+Sende Mi 3724 zu 1502. 09.05 17:09:02,099|
+Neues Mi 2812 von 1502 erhalten: 09.05 17:09:03,115|
+Neues Mi 912 von 1501 erhalten: 09.05 17:09:04,129|
+Neues Mi 171 von 1512 erhalten: 09.05 17:09:04,129|
+Neues Mi 57 von 1511 erhalten: 09.05 17:09:05,143|
+Neues Mi 76 von 1502 erhalten: 09.05 17:09:05,143|
+Neues Mi 76 von 1501 erhalten: 09.05 17:09:06,157|
+Neues Mi 57 von 1512 erhalten: 09.05 17:09:06,157|
+Neues Mi 19 von 1502 erhalten: 09.05 17:09:07,171|
+Neues Mi 19 von 1501 erhalten: 09.05 17:09:07,171|
+Neues Mi 19 von 1512 erhalten: 09.05 17:09:08,185|
+Neues Mi 19 von 1511 erhalten: 09.05 17:09:09,199|
+Terminierungsmeldung mit  Mi 19 von 1502 erhalten: 09.05 17:09:16,234|
+Starte Berechnung mit 15. 09.05 17:09:33,314|
+Sende Pi 80587650 zu 1511. 09.05 17:09:33,330|
+Sende Pi 732615 zu 1501. 09.05 17:09:33,330|
+Sende Pi 38785500 zu 1502. 09.05 17:09:33,346|
+Sende Pi 836550 zu 1512. 09.05 17:09:33,346|
+Sende Mi 10256610 zu 1502. 09.05 17:09:33,346|
+Sende Mi 185971500 zu 1511. 09.05 17:09:33,346|
+Neues Mi 8015670 von 1502 erhalten: 09.05 17:09:34,362|
+Terminierungsmeldung mit  Mi 8015670 von 1502 erhalten: 09.05 17:09:40,367|
+Bekanntes Minimum (732615) ist kleiner als gemeldetes Mi.
+Sende Mi 732615 zu 1502. 09.05 17:09:40,366|
+Terminierungsmeldung mit  Mi 80587650 von 1511 erhalten: 09.05 17:09:40,367|
+Bekanntes Minimum (732615) ist kleiner als gemeldetes Mi.
+Sende Mi 732615 zu 1511. 09.05 17:09:40,382|
+Terminierungsmeldung mit  Mi 732615 von 1501 erhalten: 09.05 17:09:41,382|
+Starte Berechnung mit 543. 09.05 17:10:04,062|
+Sende Pi 6353100 zu 1511. 09.05 17:10:04,062|
+Sende Pi 6226038 zu 1501. 09.05 17:10:04,062|
+Sende Pi 149265270 zu 1502. 09.05 17:10:04,078|
+Sende Pi 19902036 zu 1512. 09.05 17:10:04,078|
+Sende Mi 4717230327810 zu 1501. 09.05 17:10:04,094|
+Sende Mi 24166758 zu 1502. 09.05 17:10:04,094|
+Neues Mi 4264722 von 1502 erhalten: 09.05 17:10:05,110|
+Neues Mi 1961316 von 1501 erhalten: 09.05 17:10:06,124|
+Neues Mi 2843148 von 1512 erhalten: 09.05 17:10:06,124|
+Neues Mi 1421574 von 1502 erhalten: 09.05 17:10:07,137|
+Neues Mi 469152 von 1511 erhalten: 09.05 17:10:07,137|
+Neues Mi 539742 von 1501 erhalten: 09.05 17:10:08,151|
+Neues Mi 28236 von 1512 erhalten: 09.05 17:10:08,151|
+Neues Mi 342090 von 1502 erhalten: 09.05 17:10:09,165|
+Neues Mi 70590 von 1501 erhalten: 09.05 17:10:09,165|
+Neues Mi 3258 von 1502 erhalten: 09.05 17:10:10,179|
+Neues Mi 17376 von 1511 erhalten: 09.05 17:10:10,179|
+Neues Mi 10860 von 1512 erhalten: 09.05 17:10:11,194|
+Neues Mi 2172 von 1501 erhalten: 09.05 17:10:11,194|
+Neues Mi 2172 von 1511 erhalten: 09.05 17:10:12,208|
+Neues Mi 1086 von 1512 erhalten: 09.05 17:10:12,208|
+Neues Mi 1086 von 1502 erhalten: 09.05 17:10:13,222|
+Neues Mi 1086 von 1501 erhalten: 09.05 17:10:14,236|
+Neues Mi 1086 von 1511 erhalten: 09.05 17:10:14,236|
+Terminierungsmeldung mit  Mi 1086 von 1502 erhalten: 09.05 17:10:21,256|
+Starte Berechnung mit 13. 09.05 17:10:41,628|
+Sende Pi 1684683 zu 1511. 09.05 17:10:41,643|
+Sende Pi 21315294 zu 1501. 09.05 17:10:41,643|
+Sende Pi 117117 zu 1502. 09.05 17:10:41,643|
+Sende Pi 46410 zu 1512. 09.05 17:10:41,643|
+Sende Mi 186745 zu 1511. 09.05 17:10:41,659|
+Sende Mi 5600109060 zu 1502. 09.05 17:10:41,659|
+Neues Mi 3978 von 1511 erhalten: 09.05 17:10:42,675|
+Neues Mi 1170 von 1501 erhalten: 09.05 17:10:43,689|
+Neues Mi 2652 von 1512 erhalten: 09.05 17:10:43,689|
+Neues Mi 1326 von 1511 erhalten: 09.05 17:10:44,702|
+Neues Mi 429 von 1502 erhalten: 09.05 17:10:44,702|
+Neues Mi 312 von 1501 erhalten: 09.05 17:10:45,717|
+Neues Mi 1326 von 1512 erhalten: 09.05 17:10:45,717|
+Neues Mi 156 von 1511 erhalten: 09.05 17:10:45,717|
+Neues Mi 39 von 1512 erhalten: 09.05 17:10:46,730|
+Neues Mi 117 von 1502 erhalten: 09.05 17:10:47,745|
+Neues Mi 156 von 1501 erhalten: 09.05 17:10:47,745|
+Neues Mi 39 von 1502 erhalten: 09.05 17:10:48,758|
+Neues Mi 39 von 1511 erhalten: 09.05 17:10:48,758|
+Neues Mi 39 von 1501 erhalten: 09.05 17:10:48,758|
+Terminierungsmeldung mit  Mi 39 von 1502 erhalten: 09.05 17:10:56,793|
+Ändere Korrigieren-Flag zu false. 09.05 17:11:06,619|
+Starte Berechnung mit 19. 09.05 17:11:11,861|
+Sende Pi 3282972 zu 1511. 09.05 17:11:11,861|
+Sende Pi 1255254 zu 1501. 09.05 17:11:11,861|
+Sende Pi 105963 zu 1502. 09.05 17:11:11,875|
+Sende Pi 6935278350 zu 1512. 09.05 17:11:11,875|
+Sende Mi 37657620 zu 1511. 09.05 17:11:11,875|
+Sende Mi 9975 zu 1501. 09.05 17:11:11,875|
+Neues Mi 8379 von 1501 erhalten: 09.05 17:11:12,891|
+Neues Mi 5415 von 1502 erhalten: 09.05 17:11:13,906|
+Neues Mi 6783 von 1511 erhalten: 09.05 17:11:13,906|
+Neues Mi 2964 von 1501 erhalten: 09.05 17:11:14,919|
+Neues Mi 6783 von 1512 erhalten: 09.05 17:11:14,919|
+Neues Mi 855 von 1511 erhalten: 09.05 17:11:15,934|
+Neues Mi 1368 von 1512 erhalten: 09.05 17:11:15,934|
+Neues Mi 2451 von 1502 erhalten: 09.05 17:11:16,948|
+Neues Mi 513 von 1512 erhalten: 09.05 17:11:16,948|
+Neues Mi 399 von 1501 erhalten: 09.05 17:11:16,948|
+prompt Kommando erhalten.
+Aktuelles mi von 1511: 342. 09.05 17:11:19,988|
+Aktuelles mi von 1501: 57. 09.05 17:11:21,002|
+Aktuelles mi von 1502: 57. 09.05 17:11:23,030|
+Aktuelles mi von 1512: 57. 09.05 17:11:23,030|
+Neues Mi 1083 von 1502 erhalten: 09.05 17:11:17,962|
+Neues Mi 57 von 1502 erhalten: 09.05 17:11:18,976|
+Neues Mi 342 von 1511 erhalten: 09.05 17:11:18,976|
+Neues Mi 57 von 1501 erhalten: 09.05 17:11:19,990|
+Neues Mi 171 von 1512 erhalten: 09.05 17:11:19,990|
+Neues Mi 171 von 1511 erhalten: 09.05 17:11:21,004|
+Neues Mi 57 von 1512 erhalten: 09.05 17:11:21,004|
+Neues Mi 57 von 1511 erhalten: 09.05 17:11:22,018|
+Terminierungsmeldung mit  Mi 57 von 1502 erhalten: 09.05 17:11:29,038|
+Starte Berechnung mit 19. 09.05 17:11:42,796|
+Sende Pi 960925 zu 1511. 09.05 17:11:42,810|
+Sende Pi 19266 zu 1501. 09.05 17:11:42,810|
+Sende Pi 47159892780 zu 1502. 09.05 17:11:42,810|
+Sende Pi 9699690 zu 1512. 09.05 17:11:42,810|
+Sende Mi 269724 zu 1502. 09.05 17:11:42,810|
+Sende Mi 26905900 zu 1501. 09.05 17:11:42,827|
+Neues Mi 269724 von 1502 erhalten: 09.05 17:11:43,843|
+Neues Mi 259350 von 1512 erhalten: 09.05 17:11:44,857|
+Neues Mi 10374 von 1502 erhalten: 09.05 17:11:45,871|
+Neues Mi 182875 von 1511 erhalten: 09.05 17:11:45,871|
+Neues Mi 76475 von 1512 erhalten: 09.05 17:11:46,885|
+Neues Mi 8892 von 1501 erhalten: 09.05 17:11:46,885|
+nudge Kommando erhalten.
+1511 ist noch aktiv. 09.05 17:11:48,911|
+1501 ist noch aktiv. 09.05 17:11:49,925|
+1502 ist noch aktiv. 09.05 17:11:52,967|
+1512 ist noch aktiv. 09.05 17:11:53,980|
+Neues Mi 5035 von 1511 erhalten: 09.05 17:11:47,899|
+Neues Mi 3857 von 1512 erhalten: 09.05 17:11:47,899|
+Neues Mi 1482 von 1502 erhalten: 09.05 17:11:48,913|
+Neues Mi 3857 von 1501 erhalten: 09.05 17:11:48,913|
+Neues Mi 893 von 1501 erhalten: 09.05 17:11:49,927|
+Neues Mi 1178 von 1511 erhalten: 09.05 17:11:49,927|
+Neues Mi 893 von 1512 erhalten: 09.05 17:11:49,927|
+Neues Mi 589 von 1502 erhalten: 09.05 17:11:51,955|
+Neues Mi 285 von 1511 erhalten: 09.05 17:11:51,955|
+Neues Mi 38 von 1512 erhalten: 09.05 17:11:52,968|
+Neues Mi 304 von 1501 erhalten: 09.05 17:11:52,968|
+Neues Mi 285 von 1502 erhalten: 09.05 17:11:53,983|
+Neues Mi 19 von 1501 erhalten: 09.05 17:11:53,983|
+Neues Mi 19 von 1502 erhalten: 09.05 17:11:54,996|
+Neues Mi 19 von 1511 erhalten: 09.05 17:11:54,996|
+Neues Mi 19 von 1512 erhalten: 09.05 17:11:56,010|
+Terminierungsmeldung mit  Mi 19 von 1501 erhalten: 09.05 17:12:03,030|
+Starte Berechnung mit 19. 09.05 17:12:09,378|
+Sende Pi 870485 zu 1511. 09.05 17:12:09,394|
+Sende Pi 29099070 zu 1501. 09.05 17:12:09,394|
+Sende Pi 55678740 zu 1502. 09.05 17:12:09,394|
+Sende Pi 9216900 zu 1512. 09.05 17:12:09,394|
+Sende Mi 7770620 zu 1512. 09.05 17:12:09,409|
+Sende Mi 73991225 zu 1502. 09.05 17:12:09,409|
+Neues Mi 1446280 von 1512 erhalten: 09.05 17:12:10,425|
+Neues Mi 720100 von 1502 erhalten: 09.05 17:12:11,439|
+Neues Mi 6080 von 1512 erhalten: 09.05 17:12:12,453|
+Neues Mi 295070 von 1501 erhalten: 09.05 17:12:12,453|
+Neues Mi 280345 von 1511 erhalten: 09.05 17:12:13,467|
+Neues Mi 2660 von 1502 erhalten: 09.05 17:12:13,467|
+Neues Mi 2470 von 1501 erhalten: 09.05 17:12:14,480|
+Neues Mi 665 von 1511 erhalten: 09.05 17:12:14,480|
+Neues Mi 190 von 1502 erhalten: 09.05 17:12:15,495|
+Neues Mi 760 von 1512 erhalten: 09.05 17:12:15,495|
+Neues Mi 475 von 1501 erhalten: 09.05 17:12:16,508|
+Neues Mi 95 von 1512 erhalten: 09.05 17:12:16,508|
+Neues Mi 95 von 1502 erhalten: 09.05 17:12:17,523|
+Neues Mi 190 von 1511 erhalten: 09.05 17:12:17,523|
+Neues Mi 95 von 1501 erhalten: 09.05 17:12:17,523|
+Neues Mi 95 von 1511 erhalten: 09.05 17:12:18,536|
+Terminierungsmeldung mit  Mi 95 von 1502 erhalten: 09.05 17:12:25,556|
+Starte Berechnung mit 19. 09.05 17:12:35,492|
+Sende Pi 17765 zu 1511. 09.05 17:12:35,508|
+Sende Pi 17100 zu 1501. 09.05 17:12:35,508|
+Sende Pi 2357994639 zu 1502. 09.05 17:12:35,508|
+Sende Pi 67431 zu 1512. 09.05 17:12:35,508|
+Sende Mi 149492475 zu 1512. 09.05 17:12:35,508|
+Sende Mi 430890075 zu 1501. 09.05 17:12:35,524|
+Terminierungsmeldung mit  Mi 17765 von 1511 erhalten: 09.05 17:12:41,516|
+Starte Berechnung mit 19. 09.05 17:13:00,078|
+Sende Pi 3410322825 zu 1511. 09.05 17:13:00,078|
+Sende Pi 15827 zu 1501. 09.05 17:13:00,094|
+Sende Pi 6759060 zu 1502. 09.05 17:13:00,094|
+Sende Pi 32186 zu 1512. 09.05 17:13:00,094|
+Sende Mi 5471620 zu 1502. 09.05 17:13:00,094|
+Sende Mi 12492025 zu 1512. 09.05 17:13:00,094|
+Neues Mi 1287440 von 1502 erhalten: 09.05 17:13:01,110|
+Terminierungsmeldung mit  Mi 3410322825 von 1511 erhalten: 09.05 17:13:06,086|
+Ändere Korrigieren-Flag zu true. 09.05 17:13:52,417|
+Starte Berechnung mit 19. 09.05 17:14:02,978|
+Sende Pi 1254 zu 1511. 09.05 17:14:02,978|
+Sende Pi 1616615 zu 1501. 09.05 17:14:02,978|
+Sende Pi 49419 zu 1502. 09.05 17:14:02,978|
+Sende Pi 68779620 zu 1512. 09.05 17:14:02,994|
+Sende Mi 158270 zu 1511. 09.05 17:14:02,994|
+Sende Mi 29393 zu 1502. 09.05 17:14:02,994|
+Neues Mi 20026 von 1502 erhalten: 09.05 17:14:04,010|
+Neues Mi 10336 von 1512 erhalten: 09.05 17:14:05,024|
+Neues Mi 14535 von 1501 erhalten: 09.05 17:14:05,024|
+Neues Mi 9690 von 1502 erhalten: 09.05 17:14:06,038|
+Neues Mi 4845 von 1501 erhalten: 09.05 17:14:07,052|
+Neues Mi 646 von 1512 erhalten: 09.05 17:14:07,052|
+Neues Mi 646 von 1502 erhalten: 09.05 17:14:08,066|
+Neues Mi 608 von 1511 erhalten: 09.05 17:14:08,066|
+Neues Mi 323 von 1501 erhalten: 09.05 17:14:09,080|
+Neues Mi 38 von 1512 erhalten: 09.05 17:14:09,080|
+Neues Mi 38 von 1502 erhalten: 09.05 17:14:10,094|
+Neues Mi 285 von 1511 erhalten: 09.05 17:14:10,094|
+Neues Mi 19 von 1511 erhalten: 09.05 17:14:11,108|
+Neues Mi 19 von 1501 erhalten: 09.05 17:14:11,108|
+Neues Mi 19 von 1502 erhalten: 09.05 17:14:12,121|
+Neues Mi 19 von 1512 erhalten: 09.05 17:14:13,136|
+Terminierungsmeldung mit  Mi 19 von 1501 erhalten: 09.05 17:14:20,155|
+Starte Berechnung mit 19. 09.05 17:14:26,597|
+Sende Pi 5073684 zu 1511. 09.05 17:14:26,612|
+Sende Pi 3328325 zu 1501. 09.05 17:14:26,612|
+Sende Pi 7524 zu 1502. 09.05 17:14:26,612|
+Sende Pi 19045341315 zu 1512. 09.05 17:14:26,612|
+Sende Mi 83715786 zu 1502. 09.05 17:14:26,628|
+Sende Mi 1465026255 zu 1511. 09.05 17:14:26,628|
+Terminierungsmeldung mit  Mi 3328325 von 1501 erhalten: 09.05 17:14:32,620|
+Bekanntes Minimum (7524) ist kleiner als gemeldetes Mi.
+Sende Mi 7524 zu 1501. 09.05 17:14:32,617|
+Terminierungsmeldung mit  Mi 19045341315 von 1512 erhalten: 09.05 17:14:32,620|
+Bekanntes Minimum (7524) ist kleiner als gemeldetes Mi.
+Sende Mi 7524 zu 1512. 09.05 17:14:32,633|
+Neues Mi 2717 von 1501 erhalten: 09.05 17:14:33,633|
+Neues Mi 5643 von 1512 erhalten: 09.05 17:14:33,649|
+Neues Mi 1045 von 1511 erhalten: 09.05 17:14:34,648|
+Neues Mi 2090 von 1502 erhalten: 09.05 17:14:34,648|
+Neues Mi 627 von 1501 erhalten: 09.05 17:14:35,661|
+Neues Mi 418 von 1512 erhalten: 09.05 17:14:35,661|
+Neues Mi 418 von 1511 erhalten: 09.05 17:14:36,676|
+Neues Mi 418 von 1502 erhalten: 09.05 17:14:36,676|
+Neues Mi 209 von 1501 erhalten: 09.05 17:14:37,689|
+Neues Mi 209 von 1502 erhalten: 09.05 17:14:38,704|
+Neues Mi 209 von 1511 erhalten: 09.05 17:14:38,704|
+Neues Mi 209 von 1512 erhalten: 09.05 17:14:39,718|
+Terminierungsmeldung mit  Mi 209 von 1501 erhalten: 09.05 17:14:46,738|
+reset Kommando erhalten. 
+Hello: 1502. 09.05 17:18:41,104|
+Hello: 1501. 09.05 17:18:41,104|
+Hello: 1512. 09.05 17:18:43,444|
+Hello: 1511. 09.05 17:18:43,459|
+Sende Nachbarn an 1501: Links: 1511, Rechts: 1502. 09.05 17:31:33,292|
+Sende Nachbarn an 1502: Links: 1501, Rechts: 1512. 09.05 17:31:33,292|
+Sende Nachbarn an 1512: Links: 1502, Rechts: 1511. 09.05 17:31:33,308|
+Sende Nachbarn an 1511: Links: 1512, Rechts: 1501. 09.05 17:31:33,308|
+Starte Berechnung mit 19. 09.05 17:31:36,771|
+Sende Pi 3215447235 zu 1511. 09.05 17:31:36,771|
+Sende Pi 3724 zu 1501. 09.05 17:31:36,771|
+Sende Pi 3711916 zu 1502. 09.05 17:31:36,786|
+Sende Pi 33915 zu 1512. 09.05 17:31:36,786|
+Sende Mi 264537 zu 1511. 09.05 17:31:36,786|
+Sende Mi 9984975 zu 1501. 09.05 17:31:36,786|
+Neues Mi 264537 von 1511 erhalten: 09.05 17:31:37,789|
+Terminierungsmeldung mit  Mi 3711916 von 1502 erhalten: 09.05 17:31:42,810|
+Bekanntes Minimum (3724) ist kleiner als gemeldetes Mi.
+Sende Mi 3724 zu 1502. 09.05 17:31:42,808|
+Terminierungsmeldung mit  Mi 264537 von 1511 erhalten: 09.05 17:31:43,795|
+Bekanntes Minimum (3724) ist kleiner als gemeldetes Mi.
+Sende Mi 3724 zu 1511. 09.05 17:31:43,806|
+Neues Mi 2812 von 1502 erhalten: 09.05 17:31:43,824|
+Neues Mi 133 von 1511 erhalten: 09.05 17:31:44,809|
+Neues Mi 171 von 1512 erhalten: 09.05 17:31:44,825|
+Neues Mi 912 von 1501 erhalten: 09.05 17:31:44,838|
+Neues Mi 76 von 1502 erhalten: 09.05 17:31:45,852|
+Neues Mi 38 von 1512 erhalten: 09.05 17:31:45,839|
+Neues Mi 114 von 1501 erhalten: 09.05 17:31:45,852|
+Neues Mi 38 von 1501 erhalten: 09.05 17:31:46,866|
+Neues Mi 38 von 1502 erhalten: 09.05 17:31:47,880|
+Neues Mi 19 von 1511 erhalten: 09.05 17:31:47,867|
+Neues Mi 19 von 1512 erhalten: 09.05 17:31:48,881|
+Neues Mi 19 von 1501 erhalten: 09.05 17:31:49,909|
+Neues Mi 19 von 1502 erhalten: 09.05 17:31:50,923|
+Terminierungsmeldung mit  Mi 19 von 1511 erhalten: 09.05 17:31:57,946|
+reset Kommando erhalten. 
+Hello: 1502. 09.05 17:33:21,290|
+Hello: 1501. 09.05 17:33:21,290|
+Hello: 1512. 09.05 17:33:23,257|
+Hello: 1511. 09.05 17:33:23,273|
+Sende Nachbarn an 1501: Links: 1511, Rechts: 1502. 09.05 17:33:30,823|
+Sende Nachbarn an 1502: Links: 1501, Rechts: 1512. 09.05 17:33:30,823|
+Sende Nachbarn an 1512: Links: 1502, Rechts: 1511. 09.05 17:33:30,839|
+Sende Nachbarn an 1511: Links: 1512, Rechts: 1501. 09.05 17:33:30,839|
+Starte Berechnung mit 19. 09.05 17:33:34,738|
+Sende Pi 3215447235 zu 1511. 09.05 17:33:34,754|
+Sende Pi 3724 zu 1501. 09.05 17:33:34,754|
+Sende Pi 3711916 zu 1502. 09.05 17:33:34,754|
+Sende Pi 33915 zu 1512. 09.05 17:33:34,754|
+Sende Mi 264537 zu 1511. 09.05 17:33:34,754|
+Sende Mi 9984975 zu 1501. 09.05 17:33:34,754|
+Neues Mi 264537 von 1511 erhalten: 09.05 17:33:35,766|
+Terminierungsmeldung mit  Mi 3711916 von 1502 erhalten: 09.05 17:33:40,753|
+Bekanntes Minimum (3724) ist kleiner als gemeldetes Mi.
+Sende Mi 3724 zu 1502. 09.05 17:33:40,760|
+Neues Mi 2812 von 1502 erhalten: 09.05 17:33:41,782|
+Neues Mi 171 von 1512 erhalten: 09.05 17:33:42,802|
+Neues Mi 912 von 1501 erhalten: 09.05 17:33:42,797|
+Neues Mi 57 von 1511 erhalten: 09.05 17:33:43,816|
+Neues Mi 76 von 1502 erhalten: 09.05 17:33:43,810|
+Neues Mi 76 von 1501 erhalten: 09.05 17:33:44,825|
+Neues Mi 57 von 1512 erhalten: 09.05 17:33:44,831|
+Neues Mi 19 von 1502 erhalten: 09.05 17:33:45,839|
+Neues Mi 19 von 1501 erhalten: 09.05 17:33:45,839|
+Neues Mi 19 von 1512 erhalten: 09.05 17:33:46,859|
+Neues Mi 19 von 1511 erhalten: 09.05 17:33:47,873|
+Terminierungsmeldung mit  Mi 19 von 1502 erhalten: 09.05 17:33:54,887|
+reset Kommando erhalten. 
+Hello: 1502. 09.05 17:35:14,502|
+Hello: 1501. 09.05 17:35:14,502|
+Hello: 1512. 09.05 17:35:16,437|
+Hello: 1511. 09.05 17:35:16,452|
+Sende Nachbarn an 1501: Links: 1511, Rechts: 1502. 09.05 17:35:19,181|
+Sende Nachbarn an 1502: Links: 1501, Rechts: 1512. 09.05 17:35:19,181|
+Sende Nachbarn an 1512: Links: 1502, Rechts: 1511. 09.05 17:35:19,181|
+Sende Nachbarn an 1511: Links: 1512, Rechts: 1501. 09.05 17:35:19,181|
+Starte Berechnung mit 19. 09.05 17:35:21,147|
+Sende Pi 3215447235 zu 1511. 09.05 17:35:21,147|
+Sende Pi 3724 zu 1501. 09.05 17:35:21,147|
+Sende Pi 3711916 zu 1502. 09.05 17:35:21,147|
+Sende Pi 33915 zu 1512. 09.05 17:35:21,163|
+Sende Mi 264537 zu 1511. 09.05 17:35:21,163|
+Sende Mi 9984975 zu 1501. 09.05 17:35:21,163|
+Neues Mi 264537 von 1511 erhalten: 09.05 17:35:22,173|
+reset Kommando erhalten. 
+Hello: 1502. 09.05 17:35:44,516|
+Hello: 1501. 09.05 17:35:44,516|
+Hello: 1512. 09.05 17:35:48,838|
+Hello: 1511. 09.05 17:35:48,838|
+Sende Nachbarn an 1502: Links: 1511, Rechts: 1512. 09.05 17:35:53,222|
+Sende Nachbarn an 1512: Links: 1502, Rechts: 1501. 09.05 17:35:53,222|
+Sende Nachbarn an 1501: Links: 1512, Rechts: 1511. 09.05 17:35:53,237|
+Sende Nachbarn an 1511: Links: 1501, Rechts: 1502. 09.05 17:35:53,237|
+Starte Berechnung mit 19. 09.05 17:35:57,403|
+Sende Pi 17587350 zu 1511. 09.05 17:35:57,403|
+Sende Pi 389025 zu 1502. 09.05 17:35:57,403|
+Sende Pi 855 zu 1512. 09.05 17:35:57,417|
+Sende Pi 342684342 zu 1501. 09.05 17:35:57,417|
+Sende Mi 4279275 zu 1501. 09.05 17:35:57,417|
+Sende Mi 339150 zu 1512. 09.05 17:35:57,417|
+Neues Mi 342342 von 1501 erhalten: 09.05 17:35:58,423|
+Neues Mi 127908 von 1511 erhalten: 09.05 17:35:59,441|
+Neues Mi 86526 von 1501 erhalten: 09.05 17:36:00,452|
+Neues Mi 5301 von 1502 erhalten: 09.05 17:36:00,452|
+Neues Mi 684 von 1511 erhalten: 09.05 17:36:01,468|
+Neues Mi 342 von 1501 erhalten: 09.05 17:36:02,480|
+Neues Mi 513 von 1502 erhalten: 09.05 17:36:02,480|
+Neues Mi 171 von 1512 erhalten: 09.05 17:36:03,496|
+Neues Mi 171 von 1511 erhalten: 09.05 17:36:03,496|
+Neues Mi 171 von 1502 erhalten: 09.05 17:36:04,508|
+Neues Mi 171 von 1501 erhalten: 09.05 17:36:04,508|
+prompt Kommando erhalten.
+Aktuelles mi von 1511: 171. 09.05 17:36:06,544|
+Aktuelles mi von 1502: 171. 09.05 17:36:06,544|
+Aktuelles mi von 1512: 171. 09.05 17:36:06,544|
+Aktuelles mi von 1501: 171. 09.05 17:36:06,544|
+nudge Kommando erhalten.
+1511 ist noch aktiv. 09.05 17:36:07,417|
+1502 ist noch aktiv. 09.05 17:36:07,417|
+1512 ist noch aktiv. 09.05 17:36:07,417|
+1501 ist noch aktiv. 09.05 17:36:07,417|
+Terminierungsmeldung mit  Mi 171 von 1502 erhalten: 09.05 17:36:11,528|

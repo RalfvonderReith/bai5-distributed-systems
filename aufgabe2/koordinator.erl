@@ -54,7 +54,7 @@ initialisierungsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote
       %TODO: hier ein zwischenschritt, in dem erst hier die starter kontaktiert werden und die erwartete Anzahl an GGT-Prozessen eingesammelt wird.
       step(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName);
     reset ->
-      reset(ClientList, LogFile, NameService);
+      reset(ClientList, LogFile, NameService, KoordinatorName);
     toggle ->
       werkzeug:logging(LogFile, lists:concat(["Ändere Korrigieren-Flag zu ", not Korrigieren, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"])),
       initialisierungsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, not Korrigieren, NameService, KoordinatorName);
@@ -129,7 +129,14 @@ bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, L
       werkzeug:logging(LogFile, lists:concat(["Starte Berechnung mit ", WggT, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"])),
       NumberOfGGTs = length(ClientList),
       io:format("NumberOfGGTs ~p~n", [NumberOfGGTs]),
-      ListOfPis = werkzeug:bestimme_mis(WggT, erlang:round(NumberOfGGTs * 1.2)),
+      NumberOfPis = erlang:round(NumberOfGGTs * 1.2),
+      if
+		NumberOfPis < (NumberOfGGTs + 2) ->
+			FinalNumberOfPis = NumberOfGGTs + 2;
+		true -> 
+			FinalNumberOfPis = NumberOfPis
+	  end, 
+      ListOfPis = werkzeug:bestimme_mis(WggT, FinalNumberOfPis),
       io:format("ListOfPis ~p~n", [ListOfPis]),
       MinimumMi = lists:min(ListOfPis),
       io:format("Minimum Pi ~p~n.", [MinimumMi]),
@@ -138,7 +145,7 @@ bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, L
       sendStartMis(werkzeug:shuffle(ClientList), LogFile, NameService, ListOfUnusedPis),
       arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName);
     reset ->
-      reset(ClientList, LogFile, NameService);
+      reset(ClientList, LogFile, NameService, KoordinatorName);
     kill ->
       kill(ClientList, LogFile, NameService, KoordinatorName);
     toggle ->
@@ -185,7 +192,7 @@ arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quo
   io:format("Arbeitsphase...\r\n", []),
   receive
     reset ->
-      reset(ClientList, LogFile, NameService);
+      reset(ClientList, LogFile, NameService, KoordinatorName);
     kill ->
       kill(ClientList, LogFile, NameService, KoordinatorName);
     {briefmi, {Clientname, CMi, CZeit}} ->
@@ -277,9 +284,11 @@ killGGTS([First | Rest], LogFile, NameService) ->
       error("a ggt process is not registered")
   end.
 
-reset(ClientList, LogFile, NameService) ->
+reset(ClientList, LogFile, NameService, KoordinatorName) ->
   werkzeug:logging(LogFile, "reset Kommando erhalten. \r\n"),
   killGGTS(ClientList, LogFile, NameService),
+  NameService ! {self(), {unbind, KoordinatorName}},
+  unregister(KoordinatorName),
   start().
 
 getAbsoluteQuota(Absolute, Percent) ->
