@@ -96,6 +96,14 @@ wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartT
     {voteYes, Name} ->
       io:format("Alten vote abgefangen von: ~w~n", [Name]),
       wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
+    kill ->
+      kill_log(LogFile, GgtName);
+    {From, tellmi} ->
+      From ! {mi, Mi},
+      wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
+    {From, pingGGT} ->
+      From ! {pongGGT, GgtName},
+      wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors);
     Any ->
       io:format("Initiales mi erwartet, aber ~w bekommen.~n", [Any]),
       wait_for_pm_loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, StartTermTime, Mi, Neighbors)
