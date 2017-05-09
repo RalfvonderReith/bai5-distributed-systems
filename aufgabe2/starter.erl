@@ -41,7 +41,7 @@ start(StarterNumber) ->
 
   {WorkingTime, TermTime, Quota, GgtAmount} = get_steering_val(LogFile, Coordinator),
   io:format("post steering"),
-  start_ggt(StarterNumber, GgtAmount, {WorkingTime, TermTime, Quota}, GgtConfig).
+  start_ggt(StarterNumber, GgtAmount, {WorkingTime * 1000, TermTime * 1000, Quota}, GgtConfig).
 
 start_ggt(_, 0, _, _) -> ok;
 start_ggt(StarterNumber, GgtNumber, SteerConfig, GgtConfig) ->

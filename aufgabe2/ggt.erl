@@ -26,6 +26,7 @@
 %"C:\Program Files\erl8.3\bin\erl" -sname ns -setcookie zummsel
 %"C:\Program Files\erl8.3\bin\erl" -sname chef -setcookie zummsel
 %"C:\Program Files\erl8.3\bin\erl" -sname st -setcookie zummsel
+%{chef,'chef@DESKTOP-FMLRDQI'} !
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
@@ -109,9 +110,9 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
   end,
 
   receive
-    {setpm, Mi} ->
-      pm_log(LogFile, Mi, GgtName),
-      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, werkzeug:getUTC(), Mi, Neighbors, 0);
+    {setpm, InitMi} ->
+      pm_log(LogFile, InitMi, GgtName),
+      loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, werkzeug:getUTC(), InitMi, Neighbors, 0);
     {sendy, Y} ->
       timer:cancel(TermTimer),
       {WorkingTime, TermTime, _} = SteerConfig,
@@ -144,7 +145,7 @@ loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTe
       From ! {pongGGT, GgtName},
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota);
     Any ->
-      io:format("Erwarte initiales Mi, bekam aber: ~w~n", [Any]),
+      io:format("Unerwartete Nachricht bekommen (loop): ~w~n", [Any]),
       loop(LogFile, SteerConfig, Coordinator, NameService, GgtName, TermTimer, StartTermTime, Mi, Neighbors, ReachedQuota)
   end.
 
