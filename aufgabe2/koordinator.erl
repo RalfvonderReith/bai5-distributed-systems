@@ -128,7 +128,7 @@ bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, L
 			werkzeug:logging(LogFile, lists:concat(["Starte Berechnung mit ", WggT, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"])),
 			NumberOfGGTs = length(ClientList),
 			io:format("NumberOfGGTs ~p~n", [NumberOfGGTs]),
-			ListOfPis = werkzeug:bestimme_mis(WggT, NumberOfGGTs*1.2),
+			ListOfPis = werkzeug:bestimme_mis(WggT, erlang:round(NumberOfGGTs*1.2)),
 			io:format("ListOfPis ~p~n", [ListOfPis]),
 			MinimumMi = lists:min(ListOfPis),
 			io:format("Minimum Pi ~p~n.", [MinimumMi]),
@@ -150,7 +150,7 @@ sendPis([GGTName|RestGGT], LogFile, NameService, [Pi|RestPi]) ->
 	receive
 		{pin,GGT} ->
 			werkzeug:logging(LogFile, lists:concat(["Sende Pi ", Pi, " zu ", GGTName, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"])),
-			GGT ! {setPi, Pi};
+			GGT ! {setpm, Pi};
 		not_found ->
 			error("a ggt process is not registered")
 	end, 
@@ -169,7 +169,7 @@ sendy(GGTName, Mi, NameService, LogFile) ->
 	NameService ! {self(), {lookup, GGTName}},
 	receive
 		{pin,GGT} ->
-			werkzeug:logging(LogFile, lists:concat(["Sende Mi ", Mi, " zu ", GGTName, ". ",werkzeug:now2string(erlang:timestampe()),"\r\n"])),
+			werkzeug:logging(LogFile, lists:concat(["Sende Mi ", Mi, " zu ", GGTName, ". ",werkzeug:now2string(erlang:timestamp()),"\r\n"])),
 			GGT ! {sendy, Mi};
 		not_found ->
 			error("a ggt process is not registered")

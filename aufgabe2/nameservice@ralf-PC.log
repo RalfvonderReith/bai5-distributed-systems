@@ -399,3 +399,153 @@ multicast Vote 09.05 10:16:39,505| - 09.05 10:16:39,505| von <7439.85.0>:'1509' 
 multicast Vote 09.05 10:16:39,505| - 09.05 10:16:39,505| von <7439.87.0>:'1507' blockierend (ok).
 multicast Vote 09.05 10:16:39,505| - 09.05 10:16:39,505| von <7439.90.0>:'1504' blockierend (ok).
 multicast Vote 09.05 10:16:39,521| - 09.05 10:16:39,521| von <7439.93.0>:'1501' blockierend (ok).
+reset um 09.05 10:20:11,729| von <7449.163.0>.
+rebind um 09.05 10:20:29,357| von <7437.61.0>: {chef,chef@ralf-PC}.
+lookup um 09.05 10:20:34,037| von <7439.61.0>:{chef,chef@ralf-PC}.
+rebind um 09.05 10:20:35,067| von <7439.85.0>: {'1509',start@ralf-PC}.
+rebind um 09.05 10:20:35,067| von <7439.86.0>: {'1508',start@ralf-PC}.
+rebind um 09.05 10:20:35,067| von <7439.87.0>: {'1507',start@ralf-PC}.
+rebind um 09.05 10:20:35,067| von <7439.88.0>: {'1506',start@ralf-PC}.
+rebind um 09.05 10:20:35,067| von <7439.89.0>: {'1505',start@ralf-PC}.
+rebind um 09.05 10:20:35,067| von <7439.90.0>: {'1504',start@ralf-PC}.
+rebind um 09.05 10:20:35,067| von <7439.91.0>: {'1503',start@ralf-PC}.
+rebind um 09.05 10:20:35,067| von <7439.92.0>: {'1502',start@ralf-PC}.
+rebind um 09.05 10:20:35,067| von <7439.93.0>: {'1501',start@ralf-PC}.
+lookup um 09.05 10:20:35,067| von <7439.85.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:20:35,067| von <7439.86.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:20:35,067| von <7439.87.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:20:35,067| von <7439.88.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:20:35,067| von <7439.89.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:20:35,067| von <7439.90.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:20:35,082| von <7439.91.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:20:35,082| von <7439.92.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:20:35,082| von <7439.93.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:20:39,107| von <7437.61.0>:{1503,start@ralf-PC}.
+lookup um 09.05 10:20:39,107| von <7437.61.0>:{1508,start@ralf-PC}.
+lookup um 09.05 10:20:39,107| von <7437.61.0>:{1506,start@ralf-PC}.
+lookup um 09.05 10:20:39,107| von <7437.61.0>:{1502,start@ralf-PC}.
+lookup um 09.05 10:20:39,123| von <7437.61.0>:{1505,start@ralf-PC}.
+lookup um 09.05 10:20:39,123| von <7437.61.0>:{1509,start@ralf-PC}.
+lookup um 09.05 10:20:39,123| von <7437.61.0>:{1507,start@ralf-PC}.
+lookup um 09.05 10:20:39,123| von <7437.61.0>:{1504,start@ralf-PC}.
+lookup um 09.05 10:20:39,123| von <7437.61.0>:{1501,start@ralf-PC}.
+multicast Vote 09.05 10:20:39,154| - 09.05 10:20:39,154| von <7439.91.0>:'1503' blockierend (ok).
+multicast Vote 09.05 10:20:39,154| - 09.05 10:20:39,154| von <7439.86.0>:'1508' blockierend (ok).
+multicast Vote 09.05 10:20:39,154| - 09.05 10:20:39,154| von <7439.88.0>:'1506' blockierend (ok).
+multicast Vote 09.05 10:20:39,170| - 09.05 10:20:39,170| von <7439.92.0>:'1502' blockierend (ok).
+multicast Vote 09.05 10:20:39,170| - 09.05 10:20:39,170| von <7439.89.0>:'1505' blockierend (ok).
+multicast Vote 09.05 10:20:39,170| - 09.05 10:20:39,170| von <7439.85.0>:'1509' blockierend (ok).
+multicast Vote 09.05 10:20:39,170| - 09.05 10:20:39,170| von <7439.87.0>:'1507' blockierend (ok).
+multicast Vote 09.05 10:20:39,170| - 09.05 10:20:39,170| von <7439.90.0>:'1504' blockierend (ok).
+multicast Vote 09.05 10:20:39,170| - 09.05 10:20:39,170| von <7439.93.0>:'1501' blockierend (ok).
+lookup um 09.05 10:20:47,952| von <7437.61.0>:{1501,start@ralf-PC}.
+lookup um 09.05 10:20:47,952| von <7437.61.0>:{1503,start@ralf-PC}.
+lookup um 09.05 10:20:47,952| von <7437.61.0>:{1508,start@ralf-PC}.
+lookup um 09.05 10:20:47,968| von <7437.61.0>:{1506,start@ralf-PC}.
+lookup um 09.05 10:20:47,968| von <7437.61.0>:{1502,start@ralf-PC}.
+lookup um 09.05 10:20:47,968| von <7437.61.0>:{1505,start@ralf-PC}.
+lookup um 09.05 10:20:47,968| von <7437.61.0>:{1509,start@ralf-PC}.
+lookup um 09.05 10:20:47,968| von <7437.61.0>:{1507,start@ralf-PC}.
+lookup um 09.05 10:20:47,968| von <7437.61.0>:{1504,start@ralf-PC}.
+lookup um 09.05 10:20:47,984| von <7437.61.0>:{1506,start@ralf-PC}.
+reset um 09.05 10:24:16,231| von <7449.163.0>.
+rebind um 09.05 10:24:23,470| von <7437.61.0>: {chef,chef@ralf-PC}.
+lookup um 09.05 10:24:28,368| von <7439.61.0>:{chef,chef@ralf-PC}.
+rebind um 09.05 10:24:29,398| von <7439.85.0>: {'1509',start@ralf-PC}.
+rebind um 09.05 10:24:29,398| von <7439.86.0>: {'1508',start@ralf-PC}.
+rebind um 09.05 10:24:29,398| von <7439.87.0>: {'1507',start@ralf-PC}.
+rebind um 09.05 10:24:29,398| von <7439.88.0>: {'1506',start@ralf-PC}.
+rebind um 09.05 10:24:29,398| von <7439.89.0>: {'1505',start@ralf-PC}.
+rebind um 09.05 10:24:29,398| von <7439.90.0>: {'1504',start@ralf-PC}.
+rebind um 09.05 10:24:29,398| von <7439.91.0>: {'1503',start@ralf-PC}.
+rebind um 09.05 10:24:29,398| von <7439.92.0>: {'1502',start@ralf-PC}.
+lookup um 09.05 10:24:29,398| von <7439.85.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:24:29,398| von <7439.86.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:24:29,398| von <7439.87.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:24:29,398| von <7439.88.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:24:29,398| von <7439.89.0>:{chef,chef@ralf-PC}.
+rebind um 09.05 10:24:29,413| von <7439.93.0>: {'1501',start@ralf-PC}.
+lookup um 09.05 10:24:29,413| von <7439.90.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:24:29,413| von <7439.91.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:24:29,413| von <7439.92.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:24:29,413| von <7439.93.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:24:30,693| von <7437.61.0>:{1503,start@ralf-PC}.
+lookup um 09.05 10:24:30,708| von <7437.61.0>:{1508,start@ralf-PC}.
+lookup um 09.05 10:24:30,708| von <7437.61.0>:{1506,start@ralf-PC}.
+lookup um 09.05 10:24:30,708| von <7437.61.0>:{1502,start@ralf-PC}.
+lookup um 09.05 10:24:30,708| von <7437.61.0>:{1505,start@ralf-PC}.
+lookup um 09.05 10:24:30,708| von <7437.61.0>:{1509,start@ralf-PC}.
+lookup um 09.05 10:24:30,724| von <7437.61.0>:{1507,start@ralf-PC}.
+lookup um 09.05 10:24:30,724| von <7437.61.0>:{1504,start@ralf-PC}.
+lookup um 09.05 10:24:30,724| von <7437.61.0>:{1501,start@ralf-PC}.
+multicast Vote 09.05 10:24:30,739| - 09.05 10:24:30,739| von <7439.91.0>:'1503' blockierend (ok).
+multicast Vote 09.05 10:24:30,755| - 09.05 10:24:30,755| von <7439.86.0>:'1508' blockierend (ok).
+multicast Vote 09.05 10:24:30,755| - 09.05 10:24:30,755| von <7439.88.0>:'1506' blockierend (ok).
+multicast Vote 09.05 10:24:30,755| - 09.05 10:24:30,755| von <7439.92.0>:'1502' blockierend (ok).
+multicast Vote 09.05 10:24:30,755| - 09.05 10:24:30,755| von <7439.89.0>:'1505' blockierend (ok).
+multicast Vote 09.05 10:24:30,771| - 09.05 10:24:30,771| von <7439.85.0>:'1509' blockierend (ok).
+multicast Vote 09.05 10:24:30,771| - 09.05 10:24:30,771| von <7439.87.0>:'1507' blockierend (ok).
+multicast Vote 09.05 10:24:30,771| - 09.05 10:24:30,771| von <7439.90.0>:'1504' blockierend (ok).
+multicast Vote 09.05 10:24:30,771| - 09.05 10:24:30,771| von <7439.93.0>:'1501' blockierend (ok).
+lookup um 09.05 10:24:32,487| von <7437.61.0>:{1501,start@ralf-PC}.
+lookup um 09.05 10:24:32,487| von <7437.61.0>:{1503,start@ralf-PC}.
+lookup um 09.05 10:24:32,487| von <7437.61.0>:{1508,start@ralf-PC}.
+lookup um 09.05 10:24:32,487| von <7437.61.0>:{1506,start@ralf-PC}.
+lookup um 09.05 10:24:32,502| von <7437.61.0>:{1502,start@ralf-PC}.
+lookup um 09.05 10:24:32,502| von <7437.61.0>:{1505,start@ralf-PC}.
+lookup um 09.05 10:24:32,502| von <7437.61.0>:{1509,start@ralf-PC}.
+lookup um 09.05 10:24:32,502| von <7437.61.0>:{1507,start@ralf-PC}.
+lookup um 09.05 10:24:32,502| von <7437.61.0>:{1504,start@ralf-PC}.
+lookup um 09.05 10:24:32,518| von <7437.61.0>:{1506,start@ralf-PC}.
+reset um 09.05 10:26:05,416| von <7449.163.0>.
+rebind um 09.05 10:26:11,953| von <7437.61.0>: {chef,chef@ralf-PC}.
+lookup um 09.05 10:26:15,946| von <7439.61.0>:{chef,chef@ralf-PC}.
+rebind um 09.05 10:26:16,976| von <7439.85.0>: {'1509',start@ralf-PC}.
+rebind um 09.05 10:26:16,976| von <7439.86.0>: {'1508',start@ralf-PC}.
+rebind um 09.05 10:26:16,976| von <7439.87.0>: {'1507',start@ralf-PC}.
+rebind um 09.05 10:26:16,976| von <7439.88.0>: {'1506',start@ralf-PC}.
+rebind um 09.05 10:26:16,976| von <7439.89.0>: {'1505',start@ralf-PC}.
+rebind um 09.05 10:26:16,976| von <7439.90.0>: {'1504',start@ralf-PC}.
+rebind um 09.05 10:26:16,976| von <7439.91.0>: {'1503',start@ralf-PC}.
+rebind um 09.05 10:26:16,976| von <7439.92.0>: {'1502',start@ralf-PC}.
+rebind um 09.05 10:26:16,976| von <7439.93.0>: {'1501',start@ralf-PC}.
+lookup um 09.05 10:26:16,976| von <7439.85.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:26:16,976| von <7439.86.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:26:16,976| von <7439.87.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:26:16,976| von <7439.88.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:26:16,976| von <7439.89.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:26:16,976| von <7439.90.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:26:16,992| von <7439.91.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:26:16,992| von <7439.92.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:26:16,992| von <7439.93.0>:{chef,chef@ralf-PC}.
+lookup um 09.05 10:26:18,676| von <7437.61.0>:{1503,start@ralf-PC}.
+lookup um 09.05 10:26:18,676| von <7437.61.0>:{1508,start@ralf-PC}.
+lookup um 09.05 10:26:18,676| von <7437.61.0>:{1506,start@ralf-PC}.
+lookup um 09.05 10:26:18,692| von <7437.61.0>:{1502,start@ralf-PC}.
+lookup um 09.05 10:26:18,692| von <7437.61.0>:{1505,start@ralf-PC}.
+lookup um 09.05 10:26:18,692| von <7437.61.0>:{1509,start@ralf-PC}.
+lookup um 09.05 10:26:18,692| von <7437.61.0>:{1507,start@ralf-PC}.
+lookup um 09.05 10:26:18,692| von <7437.61.0>:{1504,start@ralf-PC}.
+lookup um 09.05 10:26:18,692| von <7437.61.0>:{1501,start@ralf-PC}.
+multicast Vote 09.05 10:26:18,723| - 09.05 10:26:18,723| von <7439.91.0>:'1503' blockierend (ok).
+multicast Vote 09.05 10:26:18,723| - 09.05 10:26:18,723| von <7439.86.0>:'1508' blockierend (ok).
+multicast Vote 09.05 10:26:18,739| - 09.05 10:26:18,739| von <7439.88.0>:'1506' blockierend (ok).
+multicast Vote 09.05 10:26:18,739| - 09.05 10:26:18,739| von <7439.90.0>:'1504' blockierend (ok).
+multicast Vote 09.05 10:26:18,739| - 09.05 10:26:18,739| von <7439.92.0>:'1502' blockierend (ok).
+multicast Vote 09.05 10:26:18,739| - 09.05 10:26:18,739| von <7439.89.0>:'1505' blockierend (ok).
+multicast Vote 09.05 10:26:18,739| - 09.05 10:26:18,739| von <7439.85.0>:'1509' blockierend (ok).
+multicast Vote 09.05 10:26:18,739| - 09.05 10:26:18,739| von <7439.87.0>:'1507' blockierend (ok).
+multicast Vote 09.05 10:26:18,739| - 09.05 10:26:18,739| von <7439.93.0>:'1501' blockierend (ok).
+lookup um 09.05 10:26:20,127| von <7437.61.0>:{1501,start@ralf-PC}.
+lookup um 09.05 10:26:20,127| von <7437.61.0>:{1503,start@ralf-PC}.
+lookup um 09.05 10:26:20,127| von <7437.61.0>:{1508,start@ralf-PC}.
+lookup um 09.05 10:26:20,127| von <7437.61.0>:{1506,start@ralf-PC}.
+lookup um 09.05 10:26:20,143| von <7437.61.0>:{1502,start@ralf-PC}.
+lookup um 09.05 10:26:20,143| von <7437.61.0>:{1505,start@ralf-PC}.
+lookup um 09.05 10:26:20,143| von <7437.61.0>:{1509,start@ralf-PC}.
+lookup um 09.05 10:26:20,143| von <7437.61.0>:{1507,start@ralf-PC}.
+lookup um 09.05 10:26:20,143| von <7437.61.0>:{1504,start@ralf-PC}.
+lookup um 09.05 10:26:20,158| von <7437.61.0>:{1506,start@ralf-PC}.
+lookup um 09.05 10:26:20,158| von <7437.61.0>:{1505,start@ralf-PC}.
+multicast Vote 09.05 10:26:20,221| - 09.05 10:26:20,221| von <7439.88.0>:'1506' blockierend (ok).
+multicast Vote 09.05 10:26:20,221| - 09.05 10:26:20,221| von <7439.89.0>:'1505' blockierend (ok).
