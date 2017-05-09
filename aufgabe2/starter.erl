@@ -40,6 +40,7 @@ start(StarterNumber) ->
   log(LogFile, ["Koordinator ", CoordinatorName, "(", CoordinatorName, ") gebunden."]),
 
   {WorkingTime, TermTime, Quota, GgtAmount} = get_steering_val(LogFile, Coordinator),
+  io:format("post steering"),
   start_ggt(StarterNumber, GgtAmount, {WorkingTime, TermTime, Quota}, GgtConfig).
 
 start_ggt(_, 0, _, _) -> ok;
@@ -48,11 +49,16 @@ start_ggt(StarterNumber, GgtNumber, SteerConfig, GgtConfig) ->
   start_ggt(StarterNumber, GgtNumber - 1, SteerConfig, GgtConfig).
 
 get_steering_val(LogFile, Coordinator) ->
+  io:format("setsteeringval presend: ~w~n", [Coordinator]),
   Coordinator ! {self(), getsteeringval},
+  io:format("setsteeringval postsend, receive...~n"),
   receive
     {steeringval, WorkingTime, TermTime, Quota, GgtAmount} ->
       steering_val_log(LogFile, WorkingTime, TermTime, Quota, GgtAmount),
-      {WorkingTime, TermTime, Quota, GgtAmount}
+      {WorkingTime, TermTime, Quota, GgtAmount};
+    Any ->
+      io:format("get_steering_val unerwartete Nachricht: ~w~n", [Any]),
+      get_steering_val(LogFile, Coordinator)
   end.
 %--------------------------------------------------------------------
 % config
@@ -61,7 +67,7 @@ get_steering_val(LogFile, Coordinator) ->
 -spec config_list(string()) -> list().
 config_list(LogFile) ->
   {ok, ConfigList} = file:consult(?CONFIG_FILE),
-  log(LogFile, [?CONFIG_FILE, "geöffnet..."]),
+  log(LogFile, [?CONFIG_FILE, " geöffnet..."]),
   ConfigList.
 
 % Returns the cfg entries from the given ConfigList. (config stored in ?CLIENT_FILE)
@@ -73,7 +79,7 @@ cfg_entries(ConfigList, LogFile) ->
   NameServiceName = cfg_entry(?NAME_SERVICE_NAME, ConfigList),
   CoordinatorName = cfg_entry(?COORDINATOR_NAME, ConfigList),
   log(LogFile, [?CONFIG_FILE, " gelesen..."]),
-  {TeamNumber, GroupNumber, {NameServiceNode, NameServiceName}, CoordinatorName}.
+  {TeamNumber, GroupNumber, {NameServiceName, NameServiceNode}, CoordinatorName}.
 
 % returns the value with the same name as the given atom (EntryName) from the ConfigList.
 -spec cfg_entry(atom(), list()) -> any().
@@ -111,5 +117,6 @@ lookup(Nameservice, Name) ->
   Nameservice ! {self(), {lookup, Name}},
   receive
     {pin, {Name, Node}} -> {Name, Node};
-    not_found -> io:format("Name ~w nicht gefunden.~n", [Name])
+    not_found -> io:format("Name ~w nicht gefunden.~n", [Name]);
+    Any -> io:format("Nameservice lookup erwartet, aber ~w bekommen.~n", [Any])
   end.

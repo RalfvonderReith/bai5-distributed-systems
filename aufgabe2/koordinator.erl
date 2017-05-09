@@ -8,7 +8,7 @@ start() ->
 	io:format("starte Server... \r\n",[]),
 	
 	io:format("konfiguriere... \r\n", []),
-	ConfigFile = "server.cfg",
+	ConfigFile = "koordinator.cfg",
 	{ok, ConfigListe} = file:consult(ConfigFile),
 	
 	{ok, Arbeitszeit} = werkzeug:get_config_value(arbeitszeit, ConfigListe),
@@ -23,7 +23,8 @@ start() ->
 	{ok, HostName} = inet:gethostname(),
 	ClientList = [],
 	LogFile = lists:concat([KoordinatorName,"@",HostName,".log"]),
-	
+
+	register(KoordinatorName, self()),
 	io:format("verbinde zu NameServer ~w ...", [NameServiceNode]),
 	pong = net_adm:ping(NameServiceNode),
 	{NameServiceName, NameServiceNode} ! {self(), {rebind, KoordinatorName, node()}},
@@ -70,9 +71,9 @@ sendSteeringVal(PID, ClientList, GGTProzessNummer, Arbeitszeit, Termzeit, Quote,
 getGGTs(ClientList, 0, _LogFile) ->
 	ClientList;
 getGGTs(ClientList, GGTProzessNummer, LogFile) ->
-	receive 
+	receive
 		{hello, ClientName} ->
-			werkzeug:logging(LogFile, ["Hello: ", ClientName, ". ",werkzeug:now2string(erlang:timestamp()), "\r\n"]),
+			werkzeug:logging(LogFile, lists:concat(["Hello: ", ClientName, ". ",werkzeug:now2string(erlang:timestamp()), "\r\n"])),
 			getGGTs([ClientName|ClientList], GGTProzessNummer - 1, LogFile)
 	end.
  

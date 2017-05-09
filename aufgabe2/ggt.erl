@@ -22,6 +22,10 @@
 % numbers
 -define(PRE_MI, 0).
 -define(TERM_VOTE_FACTOR, 0.5).
+% TODO: REMOVE
+%"C:\Program Files\erl8.3\bin\erl" -sname ns -setcookie zummsel
+%"C:\Program Files\erl8.3\bin\erl" -sname chef -setcookie zummsel
+%"C:\Program Files\erl8.3\bin\erl" -sname st -setcookie zummsel
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
