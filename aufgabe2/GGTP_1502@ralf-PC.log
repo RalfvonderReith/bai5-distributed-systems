@@ -1,0 +1,162 @@
+1502 Startzeit: 09.05 13:27:42,843| mit PID <0.83.0> auf start@ralf-PC
+beim Namensdienst und auf der Node lokal registriert.
+beim Koordinator gemeldet
+Linker 1501(1501) gebunden.
+Rechter 1505(1505) gebunden.
+setpm: 2000. (1502)
+sendy: 2772000(2000); keine Berechnung.
+1502: initiiere eine Terminierungsabstimmung (2000). 09.05 13:28:29,722|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:28:29,722|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:28:29,722|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:28:29,722|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:28:29,722|
+Koordinator 1te Terminierung gemeldet mit 2000. 09.05 13:28:29,722|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:28:29,722|
+1502: initiiere eine Terminierungsabstimmung (2000). 09.05 13:28:38,208|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:28:38,208|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:28:38,208|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:28:38,208|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:28:38,208|
+Koordinator 1te Terminierung gemeldet mit 2000. 09.05 13:28:38,208|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:28:38,208|
+setpm: 6166160. (1502)
+sendy: 8063440(6166160); keine Berechnung.
+sendy: 1380400(6166160); berechnet als neues Mi 644560. 09.05 13:28:57,116|
+sendy: 91280(644560); berechnet als neues Mi 5600. 09.05 13:29:01,140|
+sendy: 4480(5600); berechnet als neues Mi 1120. 09.05 13:29:05,165|
+sendy: 1680(1120); keine Berechnung.
+sendy: 560(1120); berechnet als neues Mi 560. 09.05 13:29:09,189|
+sendy: 1120(560); keine Berechnung.
+sendy: 560(560); keine Berechnung.
+1502: initiiere eine Terminierungsabstimmung (560). 09.05 13:29:35,102|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:29:35,102|
+1502: initiiere eine Terminierungsabstimmung (560). 09.05 13:29:39,127|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:29:39,127|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:29:39,127|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:29:39,127|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:29:39,127|
+Koordinator 1te Terminierung gemeldet mit 560. 09.05 13:29:39,127|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:29:39,127|
+1502: initiiere eine Terminierungsabstimmung (560). 09.05 13:29:43,151|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:29:43,151|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:29:43,151|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:29:43,151|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:29:43,151|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:29:43,151|
+1502: initiiere eine Terminierungsabstimmung (560). 09.05 13:29:47,175|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:29:47,175|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:29:47,175|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:29:47,175|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:29:47,175|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:29:47,175|
+1502: initiiere eine Terminierungsabstimmung (560). 09.05 13:29:49,189|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:29:49,189|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:29:49,189|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:29:49,189|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:29:49,189|
+Koordinator 1te Terminierung gemeldet mit 560. 09.05 13:29:49,189|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:29:49,189|
+1502: initiiere eine Terminierungsabstimmung (560). 09.05 13:29:51,201|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:29:51,201|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:29:51,201|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:29:51,201|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:29:51,201|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:29:51,201|
+Koordinator 1te Terminierung gemeldet mit 560. 09.05 13:29:51,201|
+1502: initiiere eine Terminierungsabstimmung (560). 09.05 13:29:53,214|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:29:53,214|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:29:53,214|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:29:53,214|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:29:53,214|
+Koordinator 1te Terminierung gemeldet mit 560. 09.05 13:29:53,214|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:29:53,214|
+1502: initiiere eine Terminierungsabstimmung (560). 09.05 13:29:55,226|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:29:55,226|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:29:55,226|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:29:55,226|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:29:55,226|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:29:55,226|
+Koordinator 1te Terminierung gemeldet mit 560. 09.05 13:29:55,226|
+setpm: 1418342640. (1502)
+sendy: 8576568(1418342640); berechnet als neues Mi 3208920. 09.05 13:30:07,737|
+1502: initiiere eine Terminierungsabstimmung (3208920). 09.05 13:30:49,748|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:30:49,748|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:30:49,748|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:30:49,748|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:30:49,748|
+Koordinator 1te Terminierung gemeldet mit 3208920. 09.05 13:30:49,748|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:30:49,748|
+setpm: 444312. (1502)
+sendy: 4176(444312); berechnet als neues Mi 1656. 09.05 13:31:19,716|
+sendy: 984(1656); berechnet als neues Mi 672. 09.05 13:31:23,741|
+sendy: 864(672); keine Berechnung.
+sendy: 312(672); berechnet als neues Mi 48. 09.05 13:31:27,766|
+sendy: 192(48); keine Berechnung.
+sendy: 24(48); berechnet als neues Mi 24. 09.05 13:31:31,790|
+sendy: 48(24); keine Berechnung.
+sendy: 12(24); berechnet als neues Mi 12. 09.05 13:31:35,814|
+sendy: 12(12); keine Berechnung.
+1502: initiiere eine Terminierungsabstimmung (12). 09.05 13:32:01,726|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:32:01,726|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:32:01,726|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:32:01,726|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:32:01,726|
+Koordinator 1te Terminierung gemeldet mit 12. 09.05 13:32:01,726|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:32:01,726|
+1502: initiiere eine Terminierungsabstimmung (12). 09.05 13:32:05,752|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:32:05,752|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:32:05,752|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:32:05,752|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:32:05,752|
+Koordinator 1te Terminierung gemeldet mit 12. 09.05 13:32:05,752|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:32:05,752|
+1502: initiiere eine Terminierungsabstimmung (12). 09.05 13:32:07,764|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:32:07,764|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:32:07,764|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:32:07,764|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:32:07,764|
+Koordinator 1te Terminierung gemeldet mit 12. 09.05 13:32:07,764|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:32:07,764|
+1502: initiiere eine Terminierungsabstimmung (12). 09.05 13:32:09,777|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:32:09,777|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:32:09,777|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:32:09,777|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:32:09,777|
+Koordinator 1te Terminierung gemeldet mit 12. 09.05 13:32:09,777|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:32:09,777|
+1502: initiiere eine Terminierungsabstimmung (12). 09.05 13:32:11,789|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:32:11,789|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:32:11,789|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:32:11,789|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:32:11,789|
+Koordinator 1te Terminierung gemeldet mit 12. 09.05 13:32:11,789|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:32:11,789|
+1502: initiiere eine Terminierungsabstimmung (12). 09.05 13:32:13,802|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:32:13,802|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:32:13,802|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:32:13,802|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:32:13,802|
+Koordinator 1te Terminierung gemeldet mit 12. 09.05 13:32:13,802|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:32:13,802|
+1502: initiiere eine Terminierungsabstimmung (12). 09.05 13:32:15,814|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:32:15,814|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:32:15,814|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:32:15,814|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:32:15,814|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:32:15,814|
+1502: initiiere eine Terminierungsabstimmung (12). 09.05 13:32:17,826|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:32:17,826|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:32:17,826|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:32:17,826|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:32:17,826|
+Koordinator 1te Terminierung gemeldet mit 12. 09.05 13:32:17,826|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:32:17,826|
+1502: initiiere eine Terminierungsabstimmung (12). 09.05 13:32:19,839|
+1502: stimme ab (1501) mit >JA< gestimmt(Code 2). 09.05 13:32:19,839|
+1502: stimme ab (1502) mit >JA< gestimmt(Code 2). 09.05 13:32:19,839|
+1502: stimme ab (1503) mit >JA< gestimmt(Code 2). 09.05 13:32:19,839|
+1502: stimme ab (1504) mit >JA< gestimmt(Code 2). 09.05 13:32:19,839|
+Koordinator 1te Terminierung gemeldet mit 12. 09.05 13:32:19,839|
+1502: stimme ab (1505) mit >JA< gestimmt(Code 2). 09.05 13:32:19,839|
+setpm: 15779400. (1502)
+Downtime: 09.05 13:34:49,241| vom Client 1502

@@ -138,9 +138,14 @@ bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, L
 			arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName);
 		reset ->
 			reset(ClientList, LogFile, NameService);
+		kill ->
+			kill(ClientList, LogFile, NameService, KoordinatorName);
 		toggle ->
 			werkzeug:logging(LogFile, lists:concat(["Ändere Korrigieren-Flag zu ", not Korrigieren, ". ", werkzeug:now2string(erlang:timestamp()), "\r\n"])),
-			bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, not Korrigieren, NameService, KoordinatorName)
+			bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, not Korrigieren, NameService, KoordinatorName);
+		Any -> 
+			io:format("Received unexpected message: ~p.~n", [Any]),
+			bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName)
 	end.
 
 %sets starting Pis and returns a list of not yet used pis
@@ -198,11 +203,11 @@ arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quo
 			if 
 				Korrigieren == true, CMi > MinimumMi ->
 					werkzeug:logging(LogFile, lists:concat(["Bekanntes Minimum (", MinimumMi, ") ist kleiner als gemeldetes Mi.\r\n"])),
-					sendy(Clientname, MinimumMi, NameService, LogFile);
+					sendy(Clientname, MinimumMi, NameService, LogFile),
+					arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName);
 				true -> 
-					ok
-			end,
-			bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName);
+					bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName)
+			end;
 		prompt ->
 			werkzeug:logging(LogFile, "prompt Kommando erhalten.\r\n"),
 			tellMi(ClientList, LogFile, NameService),
@@ -210,6 +215,9 @@ arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quo
 		nudge ->
 		werkzeug:logging(LogFile, "nudge Kommando erhalten.\r\n"),
 			nudge(ClientList, LogFile, NameService),
+			arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName);
+		Any -> 
+			io:format("Received unexpected message: ~p.~n", [Any]),
 			arbeitsphase(ClientList, MinimumMi, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, LogFile, Korrigieren, NameService, KoordinatorName)
 	end.
 	%do arbeitsphasen stuff
@@ -251,7 +259,7 @@ nudge([Client|Rest], LogFile, NameService) ->
 	end.
 
 kill(ClientList, LogFile, NameService, KoordinatorName) ->
-	werkzeug:logging(LogFile, "kill Kommando erhalten. \r\n", []),
+	werkzeug:logging(LogFile, "kill Kommando erhalten. \r\n"),
 	killGGTS(ClientList, LogFile, NameService),
 	NameService ! {self(), {unbind, KoordinatorName}}.
 
