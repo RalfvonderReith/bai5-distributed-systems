@@ -20,20 +20,24 @@
 % functions
 %----------------------------------------------------------------------------------------------------------------------
 -spec start(list()) -> pid().
-start(InputListener) ->
-  PID = spawn(quelle, loop, [InputListener]),
-  util:log(?FILENAME, ["Quelle gestartet mit PID ", pid_to_list(PID)]),
-  PID.
+start(Nachrichtengenerator) ->
+  file:delete(?FILENAME),
+  util:log(?FILENAME, ["Quelle gestartet mit PID ", pid_to_list(self())]).
+  %loop(Nachrichtengenerator).
 
 
 -spec loop(list()) -> no_return().
-loop(InputListener) ->
+loop(Nachrichtengenerator) ->
   case io:get_chars('', ?INPUT_SIZE) of
     eof ->
-      util:log(?FILENAME, ["Eof erreicht... versuche es nochmal."]);
+      %io:format("Eof erreicht... versuche es nochmal.~n"),
+      loop(Nachrichtengenerator);
     {error, Error} ->
-      io:format(["Quelle: Fehler beim lesen des inputs: ~w~n", Error]);
+      %io:format("Quelle: Fehler beim lesen des inputs: ~w~n", [Error]),
+      loop(Nachrichtengenerator);
     Data ->
-      util:distribute({input, Data}, InputListener)
+      %io:format("Naechste Nachricht: ~p~n", [Data]),
+      Nachrichtengenerator ! {input, Data},
+      loop(Nachrichtengenerator)
   end.
 

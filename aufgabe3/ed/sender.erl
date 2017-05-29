@@ -17,19 +17,19 @@
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
-start(Socket, Addr, Port) ->
-  PID = spawn(sender, loop, [Socket, Addr, Port]),
-  util:log(?FILENAME, ["Sender gestartet mit PID ", pid_to_list(PID)]),
-  PID.
+start(Socket, Interface, Addr, Port) ->
+  file:delete(?FILENAME),
+  %Socket = werkzeug:openSeA(Interface, Port),
+  util:log(?FILENAME, ["Sender gestartet mit PID ", pid_to_list(self())]),
+  loop(Socket, Addr, Port).
 
 loop(Socket, Addr, Port) ->
   receive
     {send_message, Message} ->
-      util:log(?FILENAME, ["Nachricht beim Sender angekommen. (", Message, ")"]),
+      %util:log(?FILENAME, ["Nachricht beim Sender angekommen. (", Message, ")"]),
+      io:format("Nachricht beim Sender angekommen. (~p)~n", [Message]),
       gen_udp:send(Socket, Addr, Port, Message),
       loop(Socket, Addr, Port);
-    kill ->
-      util:logt(?FILENAME, ["Sender beendet."]);
     Any ->
       io:format("Sender Nachricht erwartet, aber ~w bekommen.~n", [Any]),
       loop(Socket, Addr, Port)

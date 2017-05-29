@@ -26,23 +26,27 @@
 % Starts the udp component.
 % UdpMessageListener: A list filled with listeners. After receiving the message, it will be spread between all
 % listeners.
--spec start(list()) -> pid().
-start(UdpMessageListener) ->
-  PID = spawn(udp, loop, [UdpMessageListener]),
-  util:logt(?FILENAME, ["UDP gestartet mit PID ", pid_to_list(PID), " und folgenden Listenern: ", UdpMessageListener]),
-  PID.
+%-spec start(list()) -> pid().
+start(Interface, Address, Port, Empfaenger) ->
+  SocketRec = werkzeug:openRecA(Interface, Address, Port),
+  gen_udp:controlling_process(SocketRec, self()),
+
+  file:delete(?FILENAME),
+  util:logt(?FILENAME, ["UDP gestartet mit PID ", pid_to_list(self())]),
+
+  loop(Empfaenger).
 
 % 1) receive {udp, ReceiveSocket, IP, InPortNo, Packet} -> Receives an udp message and sends it to its listeners.
 % (! {udp_message, Message})
 % 2) receive kill -> Kills this component
 -spec loop(list()) -> any().
-loop(UdpMessageListener) ->
+loop(Empfaenger) ->
   receive
     {udp, Socket, IP, InPortNo, Packet} ->
       util:log(?FILENAME, ["UDP Nachricht angekommen von ", {Socket, IP, InPortNo}, ". Nachricht: ", Packet]),
-      util:distribute({packet, Packet}, UdpMessageListener),
-      loop(UdpMessageListener);
+      Empfaenger ! {packet, Packet},
+      loop(Empfaenger);
     Any ->
       io:format("UDP Nachricht erwartet, aber ~w bekommen.~n", [Any]),
-      loop(UdpMessageListener)
+      loop(Empfaenger)
   end.

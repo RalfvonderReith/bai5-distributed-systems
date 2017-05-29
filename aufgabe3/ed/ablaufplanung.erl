@@ -14,7 +14,7 @@
 %----------------------------------------------------------------------------------------------------------------------
 % names
 -define(FILENAME, "ablaufplanung.log").
--define(ALL_SLOTS, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]).
+-define(ALL_SLOTS, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]).
 
 -define(FRAME_DURATION, 1000).
 -define(MAX_SLOT_AMOUNT, length(?ALL_SLOTS)).
@@ -22,55 +22,62 @@
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
-start(Offset) -> spawn(ablaufplanung, init, [Offset]).
+start(Offset) ->
+  file:delete(?FILENAME),
+  init(Offset).
 
 init(Offset) ->
   receive
-    {listener, {SlotEndListener, SendingTimeListener}} ->
-      PID = spawn(ablaufplanung, loop, [Offset, 0, 0, ?ALL_SLOTS, SlotEndListener, SendingTimeListener]),
-
-      timer:send_after(?SLOT_DURATION - (werkzeug:getUTC() rem ?SLOT_DURATION) + Offset, PID, slot_ended),
-      timer:send_after(?FRAME_DURATION - (werkzeug:getUTC() rem ?FRAME_DURATION) + Offset, PID, frame_ended),
-
-      NextMessageTime = ?FRAME_DURATION + ?SLOT_DURATION * lists:nth(rand:uniform(length(?ALL_SLOTS)), ?ALL_SLOTS),
+    {listener, {Empfaenger, Nachrichtengenerator}} ->
+      %io:format("Ablaufplanung SLOT: ~p~n", [?SLOT_DURATION]),
+      %io:format("Ablaufplanung Offset: ~p~n", [Offset]),
+      %io:format("Ablaufplanung UTC: ~p~n", [werkzeug:getUTC()]),
+      %io:format("Alles: ~p~n", [werkzeug:getUTC() rem ?SLOT_DURATION + Offset]),
+      timer:send_after(?SLOT_DURATION - werkzeug:getUTC() rem ?SLOT_DURATION + Offset, self(), slot_ended),
+      timer:send_after(?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + Offset, self(), frame_ended),
+      NextMessageTime = ?FRAME_DURATION + ?SLOT_DURATION * (lists:nth(rand:uniform(?MAX_SLOT_AMOUNT), ?ALL_SLOTS) - 1),
       timer:send_after(
-        NextMessageTime - (werkzeug:getUTC() rem NextMessageTime) + Offset, PID, sending_time
+        ?FRAME_DURATION - werkzeug:getUTC() rem NextMessageTime + Offset, self(), sending_time
       ),
 
-      util:logt(?FILENAME, ["Ablaufplanung gestartet mit PID ", pid_to_list(PID)]);
+      io:format("Sende Nachricht in... ~p~n", [?FRAME_DURATION - werkzeug:getUTC() rem NextMessageTime + Offset]),
+      util:logt(?FILENAME, ["Ablaufplanung gestartet mit PID ", pid_to_list(self())]),
+      loop(Offset, [Offset], ?ALL_SLOTS, Empfaenger, Nachrichtengenerator);
     Any ->
       io:format("Unerwartete Nachricht an Ablaufplanung (erwarte listener): ~w~n", [Any]),
       init(Offset)
   end.
 
-loop(Offset, ClassAOffset, ClassAAmount, AvailableSlots, SlotEndListener, SendingTimeListener) ->
+loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator) ->
   receive
     {slot, Slot} ->
-      loop(Offset, ClassAOffset, ClassAAmount, lists:delete(Slot, AvailableSlots), SlotEndListener, SendingTimeListener);
+      loop(Offset, ClassAOffsets, lists:delete(Slot, AvailableSlots), Empfaenger, Nachrichtengenerator);
     {slot_time, {NewClassAOffset, Slot}} ->
-      loop(Offset, (ClassAOffset * ClassAAmount + NewClassAOffset) / (ClassAAmount + 1),
-        ClassAAmount, lists:delete(Slot, AvailableSlots), SlotEndListener, SendingTimeListener
-      );
-
+      loop(Offset, [NewClassAOffset|ClassAOffsets], lists:delete(Slot, AvailableSlots), Empfaenger, Nachrichtengenerator);
     slot_ended ->
-      timer:send_after((werkzeug:getUTC() + Offset) rem ?SLOT_DURATION, self(), slot_ended),
-      util:distribute(slot_ended, SlotEndListener),
-      util:logt(?FILENAME, "Ablaufplanung meldet Slotende."),
-      loop(Offset, ClassAAmount, ClassAAmount, AvailableSlots, SlotEndListener, SendingTimeListener);
+      timer:send_after(?SLOT_DURATION - werkzeug:getUTC() rem ?SLOT_DURATION + Offset, self(), slot_ended),
+      Empfaenger ! slot_ended,
+      %util:logt(?FILENAME, ["Ablaufplanung meldet Slotende."]),
+      loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator);
     frame_ended ->
-      timer:send_after((werkzeug:getUTC() + Offset) rem ?FRAME_DURATION, self(), frame_ended),
-      util:logt(?FILENAME, "Ablaufplanung meldet Frameende."),
-      loop((ClassAOffset * ClassAAmount + Offset) / (ClassAAmount + 1), 0, 0,
-        ?ALL_SLOTS, SlotEndListener, SendingTimeListener
+      timer:send_after(?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + Offset, self(), frame_ended),
+      util:logt(?FILENAME, ["Ablaufplanung meldet Frameende."]),
+      loop(
+        trunc(lists:sum(ClassAOffsets) / length(ClassAOffsets)), [Offset], ?ALL_SLOTS, Empfaenger, Nachrichtengenerator
       );
     sending_time ->
+      %io:format("Availableslots: ~p~n", [AvailableSlots]),
       Slot = lists:nth(rand:uniform(length(AvailableSlots)), AvailableSlots),
-      timer:send_after((werkzeug:getUTC() + Offset) rem (?FRAME_DURATION + Slot * ?SLOT_DURATION), self(), sending_time),
-      util:distribute(
-        {sending_time, {Slot, werkzeug:getUTC() + Offset}}, SendingTimeListener
+      SlotTime = ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION  + (Slot - 1) * ?SLOT_DURATION + Offset,
+      timer:send_after(
+        ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION  + (Slot - 1) * ?SLOT_DURATION + Offset, self(), sending_time
       ),
-      loop(Offset, ClassAOffset, ClassAAmount, [], SlotEndListener, SendingTimeListener);
+      %io:format("Sende Nachricht in... ~p~n", [SlotTime]),
+
+      Nachrichtengenerator ! {sending_time, {Slot, werkzeug:getUTC() + Offset}},
+      %io:format("Ablaufplanung Slot: ~p~n", [Slot]),
+      loop(Offset, ClassAOffsets, [], Empfaenger, Nachrichtengenerator);
     Any ->
       io:format("Unerwartete Nachricht an Ablaufplanung: ~w~n", [Any]),
-      loop(Offset, ClassAAmount, ClassAAmount, AvailableSlots, SlotEndListener, SendingTimeListener)
+      loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator)
   end.
