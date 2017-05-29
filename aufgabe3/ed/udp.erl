@@ -42,8 +42,6 @@ loop(UdpMessageListener) ->
       util:log(?FILENAME, ["UDP Nachricht angekommen von ", {Socket, IP, InPortNo}, ". Nachricht: ", Packet]),
       util:distribute({packet, Packet}, UdpMessageListener),
       loop(UdpMessageListener);
-    kill ->
-      util:logt(?FILENAME, ["UDP beendet."]);
     Any ->
       io:format("UDP Nachricht erwartet, aber ~w bekommen.~n", [Any]),
       loop(UdpMessageListener)

@@ -126,11 +126,11 @@ bereitschaftsphase(ClientList, Arbeitszeit, Termzeit, GGTProzessNummer, Quote, L
       io:format("NumberOfGGTs ~p~n", [NumberOfGGTs]),
       NumberOfPis = erlang:round(NumberOfGGTs * 1.2),
       if
-		NumberOfPis < (NumberOfGGTs + 2) ->
-			FinalNumberOfPis = NumberOfGGTs + 2;
-		true -> 
-			FinalNumberOfPis = NumberOfPis
-	  end, 
+        NumberOfPis < (NumberOfGGTs + 2) ->
+          FinalNumberOfPis = NumberOfGGTs + 2;
+        true ->
+          FinalNumberOfPis = NumberOfPis
+      end,
       ListOfPis = werkzeug:bestimme_mis(WggT, FinalNumberOfPis),
       io:format("ListOfPis ~p~n", [ListOfPis]),
       MinimumMi = lists:min(ListOfPis),

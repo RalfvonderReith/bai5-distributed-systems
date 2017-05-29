@@ -18,27 +18,35 @@
 % functions
 %----------------------------------------------------------------------------------------------------------------------
 % Starting function. Call this method to start a station.
-% station:start(["\\DEVICE\\TCPIP_{5312F9A6-7898-4D70-98CA-55F2D9C1FA65}", "225.10.1.2", "15005", "A", "0", "0"]).
+% station:start(["\\DEVICE\\TCPIP_{08DC52FC-C501-4108-9EF2-006431AE9793}", "239.255.255.255", "15005", "A", "0", "0"]).
+% station:start(["\\DEVICE\\TCPIP_{08DC52FC-C501-4108-9EF2-006431AE9793}", "225.10.1.2", "15005", "A", "0", "0"]).
 -spec start(list()) -> pid().
 start([NetworkInterface, MulticastAddress, ReceivePort, Class, Offset, Index]) ->
   spawn(station, init, [NetworkInterface, MulticastAddress, ReceivePort, Class, Offset, Index]).
 
 -spec init(string(), string(), string(), string(), string(), string()) -> none().
-init(NetworkInterface, MulticastAddress, ReceivePort, Class, Offset, Index) ->
-  util:logt(?FILENAME, ["Station ", Index, " gestartet mit PID ", pid_to_list(self())]),
-  parsed(NetworkInterface, MulticastAddress, ReceivePort, Index),
-
-  Socket = werkzeug:openRecA(MulticastAddress, NetworkInterface, ReceivePort),
-
-  Sender = spawn(sender, start, [Socket, MulticastAddress, ReceivePort]),
+init(NetworkInterface, MulticastAddress, ReceivePort, Class, Offset, StationIndex) ->
+  util:logt(?FILENAME, ["Station ", StationIndex, " gestartet mit PID ", pid_to_list(self())]),
+  {Interface, Address, Port, Index} = parsed(NetworkInterface, MulticastAddress, ReceivePort, StationIndex),
+  io:format("DONEO"),
+  SocketSe = werkzeug:openSeA(Interface, Port),
+  io:format("DONEX"),
+  Sender = spawn(sender, start, [SocketSe, Address, Port]),
   Nachrichtengenerator = spawn(nachrichtengenerator, start, [Class, [Sender]]),
   spawn(quelle, start, [[Nachrichtengenerator]]),
+  io:format("DONEY"),
   Ablaufplanung = spawn(ablaufplanung, start, [Offset]),
   Empfaenger = spawn(empfaenger, start, [[Ablaufplanung]]),
+  io:format("DONEZ"),
 
   Udp = spawn(udp, start, [[Empfaenger]]),
+
+  SocketRec = werkzeug:openRecA(Address, Interface, Port),
+  gen_udp:controlling_process(SocketRec, Udp),
+
   Ablaufplanung ! {listener, {[Empfaenger], [Sender]}},
-  gen_udp:controlling_process(Socket, Udp).
+
+  io:format("DONE").
 %----------------------------------------------------------------------------------------------------------------------
 % private helper
 %----------------------------------------------------------------------------------------------------------------------
@@ -46,9 +54,9 @@ init(NetworkInterface, MulticastAddress, ReceivePort, Class, Offset, Index) ->
 % TODO: Werden wirklich strings beim Start übergeben?
 -spec parsed(string(), string(), string(), string()) -> tuple().
 parsed(NetworkInterface, MulticastAddress, ReceivePort, Offset) ->
-  MulticastAddressConverted = inet_parse:address(MulticastAddress),
-  PortConverted = string:to_integer(ReceivePort),
-  OffsetConverted = string:to_integer(Offset),
+  {ok, MulticastAddressConverted} = inet_parse:address(MulticastAddress),
+  {PortConverted, []} = string:to_integer(ReceivePort),
+  {OffsetConverted, []} = string:to_integer(Offset),
 
   {network_address(NetworkInterface), MulticastAddressConverted, PortConverted, OffsetConverted}.
 

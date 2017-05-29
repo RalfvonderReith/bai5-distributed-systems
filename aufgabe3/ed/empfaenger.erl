@@ -46,13 +46,9 @@ loop(PacketAmount, Packet, SequenceInfoListener) ->
           if
             Class == "A" -> util:distribute({slot_time, {Slot, Time}}, SequenceInfoListener);
             true -> util:distribute({slot, Slot}, SequenceInfoListener)
-          end;
-        _ ->
-          util:distribute(collision, SequenceInfoListener)
+          end
       end,
       loop(0, <<>>, SequenceInfoListener);
-    kill ->
-      util:logt(?FILENAME, ["Empfaenger beendet. "]);
     Any ->
       io:format("UDP Empfaenger Nachricht erwartet, aber ~w bekommen.~n", [Any]),
       loop(PacketAmount + 1, Packet, SequenceInfoListener)

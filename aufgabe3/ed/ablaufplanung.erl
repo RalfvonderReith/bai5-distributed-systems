@@ -38,8 +38,6 @@ init(Offset) ->
       ),
 
       util:logt(?FILENAME, ["Ablaufplanung gestartet mit PID ", pid_to_list(PID)]);
-    kill ->
-      util:logt(?FILENAME, ["Ablaufplanung beendet. (im Start)"]);
     Any ->
       io:format("Unerwartete Nachricht an Ablaufplanung (erwarte listener): ~w~n", [Any]),
       init(Offset)
@@ -71,9 +69,7 @@ loop(Offset, ClassAOffset, ClassAAmount, AvailableSlots, SlotEndListener, Sendin
       util:distribute(
         {sending_time, {Slot, werkzeug:getUTC() + Offset}}, SendingTimeListener
       ),
-      loop(Offset, ClassAOffset, ClassAAmount, AvailableSlots, SlotEndListener, SendingTimeListener);
-    kill ->
-      util:logt(?FILENAME, ["Ablaufplanung beendet."]);
+      loop(Offset, ClassAOffset, ClassAAmount, [], SlotEndListener, SendingTimeListener);
     Any ->
       io:format("Unerwartete Nachricht an Ablaufplanung: ~w~n", [Any]),
       loop(Offset, ClassAAmount, ClassAAmount, AvailableSlots, SlotEndListener, SendingTimeListener)
