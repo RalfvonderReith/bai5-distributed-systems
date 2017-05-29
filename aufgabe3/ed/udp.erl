@@ -28,25 +28,21 @@
 % listeners.
 %-spec start(list()) -> pid().
 start(Interface, Address, Port, Empfaenger) ->
-  SocketRec = werkzeug:openRecA(Interface, Address, Port),
-  gen_udp:controlling_process(SocketRec, self()),
+  Socket = werkzeug:openRec(Address, Interface, Port),
+  gen_udp:controlling_process(Socket, self()),
 
   file:delete(?FILENAME),
   util:logt(?FILENAME, ["UDP gestartet mit PID ", pid_to_list(self())]),
 
-  loop(Empfaenger).
+  loop(Socket, Empfaenger).
 
 % 1) receive {udp, ReceiveSocket, IP, InPortNo, Packet} -> Receives an udp message and sends it to its listeners.
 % (! {udp_message, Message})
 % 2) receive kill -> Kills this component
--spec loop(list()) -> any().
-loop(Empfaenger) ->
-  receive
-    {udp, Socket, IP, InPortNo, Packet} ->
-      util:log(?FILENAME, ["UDP Nachricht angekommen von ", {Socket, IP, InPortNo}, ". Nachricht: ", Packet]),
-      Empfaenger ! {packet, Packet},
-      loop(Empfaenger);
-    Any ->
-      io:format("UDP Nachricht erwartet, aber ~w bekommen.~n", [Any]),
-      loop(Empfaenger)
-  end.
+%-spec loop(list()) -> any().
+loop(Socket, Empfaenger) ->
+  {ok, {_, _, Packet}} = gen_udp:recv(Socket, ?MESSAGE_BYTE_AMOUNT),
+  %util:log(?FILENAME, ["UDP Nachricht angekommen Nachricht: ", Packet]),
+  io:format("UDP: Nachricht empfangen ~n~n"),
+  Empfaenger ! {packet, Packet},
+  loop(Socket, Empfaenger).

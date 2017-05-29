@@ -17,9 +17,9 @@
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
-start(Socket, Interface, Addr, Port) ->
+start(Interface, Addr, Port) ->
   file:delete(?FILENAME),
-  %Socket = werkzeug:openSeA(Interface, Port),
+  Socket = werkzeug:openSe(Interface, Port),
   util:log(?FILENAME, ["Sender gestartet mit PID ", pid_to_list(self())]),
   loop(Socket, Addr, Port).
 

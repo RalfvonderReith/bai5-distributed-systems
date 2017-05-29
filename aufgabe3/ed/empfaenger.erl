@@ -18,41 +18,49 @@
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
-start(Socket, Interface, Address, Port, Ablaufplanung) ->
+start(Ablaufplanung) ->
   file:delete(?FILENAME),
   file:delete(?SENKE_FILENAME),
-  PID = spawn(empfaenger, loop, [0, '', Ablaufplanung]),
-  util:log(?FILENAME, ["Empfaenger gestartet mit PID ", pid_to_list(PID)]),
-  gen_udp:controlling_process(Socket, PID),
-
-  PID.
+  util:log(?FILENAME, ["Empfaenger gestartet mit PID ", pid_to_list(self())]),
+  loop(0, '', 0, Ablaufplanung).
 
 
-loop(PacketAmount, Packet, Ablaufplanung) ->
+loop(PacketAmount, Packet, PacketOffset, Ablaufplanung) ->
   receive
-    {udp, Socket, IP, InPortNo, Packet} ->
-      util:log(?FILENAME, ["Empfaenger erhaelt Paket ", Packet, " von ", {Socket, IP, InPortNo}]),
-      <<Class:1/binary, Data:24/binary, Slot:8/integer, Time:64/integer-big>> = Packet,
-      loop(
-        PacketAmount + 1,
-        {erlang:binary_to_list(Class), erlang:binary_to_list(Data), Slot, Time},
-        Ablaufplanung
-      );
+    {packet, NewBPacket} ->
+      <<BClass:1/binary, BData:24/binary, Slot:8/integer, Time:64/integer-big>> = NewBPacket,
+      Ablaufplanung ! time,
+
+      NewPacket = {erlang:binary_to_list(BClass), erlang:binary_to_list(BData), Slot, Time},
+      util:logt(?FILENAME, ["Empfaenger erhaelt Paket ", werkzeug:to_String(NewPacket)]),
+      receive
+        {time, OwnTime} ->
+          loop(
+            PacketAmount + 1,
+            NewPacket,
+            OwnTime - Time,
+            Ablaufplanung
+          )
+      end;
     slot_ended ->
       case PacketAmount of
         0 -> ok;
         1 ->
-          {Class, Data, Slot, Time} = Packet,
-          util:logt(?SENKE_FILENAME, ["Senke erhaelt Datensatz ", Data]),
+          {Class, _, Slot, _} = Packet,
+          util:logt(?SENKE_FILENAME, ["Senke erhaelt Datensatz ", werkzeug:to_String(Packet)]),
 
           if
-            Class == "A" -> Ablaufplanung ! {slot_time, {Slot, Time}};
+            Class == "A" -> Ablaufplanung ! {slot_time, {Slot, PacketOffset}};
             true -> Ablaufplanung ! {slot, Slot}
-          end
-end,
-      loop(0, empty, Ablaufplanung);
+          end;
+        _ -> util:logt(?SENKE_FILENAME, ["Kollision !"])
+      end,
+      loop(0, empty, 0, Ablaufplanung);
     Any ->
       io:format("UDP Empfaenger Nachricht erwartet, aber ~w bekommen.~n", [Any]),
-      loop(PacketAmount + 1, Packet, Ablaufplanung)
+      loop(PacketAmount, Packet, PacketOffset, Ablaufplanung)
   end.
 
+% ---------------------------------------------------------------------------------------------------------------------
+% private helper
+% ---------------------------------------------------------------------------------------------------------------------

@@ -19,6 +19,7 @@
 -define(FRAME_DURATION, 1000).
 -define(MAX_SLOT_AMOUNT, length(?ALL_SLOTS)).
 -define(SLOT_DURATION, trunc(?FRAME_DURATION / ?MAX_SLOT_AMOUNT)).
+-define(ADDITIONAL_TIME, trunc(?SLOT_DURATION / 2 - 5)).
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
@@ -29,18 +30,20 @@ start(Offset) ->
 init(Offset) ->
   receive
     {listener, {Empfaenger, Nachrichtengenerator}} ->
-      %io:format("Ablaufplanung SLOT: ~p~n", [?SLOT_DURATION]),
-      %io:format("Ablaufplanung Offset: ~p~n", [Offset]),
-      %io:format("Ablaufplanung UTC: ~p~n", [werkzeug:getUTC()]),
-      %io:format("Alles: ~p~n", [werkzeug:getUTC() rem ?SLOT_DURATION + Offset]),
+      io:format("Ablaufplanung SLOT: ~p~n", [?SLOT_DURATION]),
+      io:format("Ablaufplanung Offset: ~p~n", [Offset]),
+      io:format("Ablaufplanung UTC: ~p~n", [werkzeug:getUTC()]),
+      io:format("Alles: ~p~n", [werkzeug:getUTC() rem ?SLOT_DURATION + Offset]),
       timer:send_after(?SLOT_DURATION - werkzeug:getUTC() rem ?SLOT_DURATION + Offset, self(), slot_ended),
       timer:send_after(?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + Offset, self(), frame_ended),
-      NextMessageTime = ?FRAME_DURATION + ?SLOT_DURATION * (lists:nth(rand:uniform(?MAX_SLOT_AMOUNT), ?ALL_SLOTS) - 1),
-      timer:send_after(
-        ?FRAME_DURATION - werkzeug:getUTC() rem NextMessageTime + Offset, self(), sending_time
+
+      SlotTime = ?SLOT_DURATION * (lists:nth(rand:uniform(?MAX_SLOT_AMOUNT), ?ALL_SLOTS) - 1),
+      NextFrameTime = ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION,
+        timer:send_after(
+        NextFrameTime + SlotTime + Offset + ?ADDITIONAL_TIME, self(), sending_time
       ),
 
-      io:format("Sende Nachricht in... ~p~n", [?FRAME_DURATION - werkzeug:getUTC() rem NextMessageTime + Offset]),
+      %io:format("Sende Nachricht in... ~p~n", [?FRAME_DURATION - werkzeug:getUTC() ]),
       util:logt(?FILENAME, ["Ablaufplanung gestartet mit PID ", pid_to_list(self())]),
       loop(Offset, [Offset], ?ALL_SLOTS, Empfaenger, Nachrichtengenerator);
     Any ->
@@ -50,6 +53,9 @@ init(Offset) ->
 
 loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator) ->
   receive
+    time ->
+      Empfaenger ! {time, werkzeug:getUTC() + Offset},
+      loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator);
     {slot, Slot} ->
       loop(Offset, ClassAOffsets, lists:delete(Slot, AvailableSlots), Empfaenger, Nachrichtengenerator);
     {slot_time, {NewClassAOffset, Slot}} ->
@@ -66,16 +72,19 @@ loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator) ->
         trunc(lists:sum(ClassAOffsets) / length(ClassAOffsets)), [Offset], ?ALL_SLOTS, Empfaenger, Nachrichtengenerator
       );
     sending_time ->
-      %io:format("Availableslots: ~p~n", [AvailableSlots]),
+      io:format("Availableslots: ~p~n", [AvailableSlots]),
       Slot = lists:nth(rand:uniform(length(AvailableSlots)), AvailableSlots),
-      SlotTime = ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION  + (Slot - 1) * ?SLOT_DURATION + Offset,
+
+      SlotTime = ?SLOT_DURATION * (lists:nth(rand:uniform(?MAX_SLOT_AMOUNT), ?ALL_SLOTS) - 1),
+      NextFrameTime = ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION,
       timer:send_after(
-        ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION  + (Slot - 1) * ?SLOT_DURATION + Offset, self(), sending_time
+        NextFrameTime + SlotTime + Offset + ?ADDITIONAL_TIME, self(), sending_time
       ),
-      %io:format("Sende Nachricht in... ~p~n", [SlotTime]),
+
+      io:format("Sende Nachricht in... ~p~n", [SlotTime]),
 
       Nachrichtengenerator ! {sending_time, {Slot, werkzeug:getUTC() + Offset}},
-      %io:format("Ablaufplanung Slot: ~p~n", [Slot]),
+      io:format("Ablaufplanung Slot: ~p~n", [Slot]),
       loop(Offset, ClassAOffsets, [], Empfaenger, Nachrichtengenerator);
     Any ->
       io:format("Unerwartete Nachricht an Ablaufplanung: ~w~n", [Any]),

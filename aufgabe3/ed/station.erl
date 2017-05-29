@@ -37,12 +37,11 @@ init(NetworkInterface, MulticastAddress, ReceivePort, Class, OffsetS, StationInd
   util:logt(?FILENAME, ["Station ", StationIndex, " gestartet mit PID ", pid_to_list(self())]),
   {Interface, Address, Port, Offset} = parsed(NetworkInterface, MulticastAddress, ReceivePort, OffsetS),
 
-  Socket = werkzeug:openRecA(Interface, Address, Port),
-
   Ablaufplanung = spawn(ablaufplanung, start, [Offset]),
-  Empfaenger = spawn(empfaenger, start, [Socket, Interface, Address, Port, Ablaufplanung]),
+  Empfaenger = spawn(empfaenger, start, [Ablaufplanung]),
+  spawn(udp, start, [Interface, Address, Port, Empfaenger]),
 
-  Sender = spawn(sender, start, [Socket, Interface, Address, Port]),
+  Sender = spawn(sender, start, [Interface, Address, Port]),
   Nachrichtengenerator = spawn(nachrichtengenerator, start, [Class, Sender]),
   spawn(quelle, start, [Nachrichtengenerator]),
 
