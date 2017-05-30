@@ -19,7 +19,7 @@
 -define(FRAME_DURATION, 1000).
 -define(MAX_SLOT_AMOUNT, length(?ALL_SLOTS)).
 -define(SLOT_DURATION, trunc(?FRAME_DURATION / ?MAX_SLOT_AMOUNT)).
--define(ADDITIONAL_TIME, trunc(?SLOT_DURATION / 2 - 5)).
+-define(ADDITIONAL_TIME, trunc(?SLOT_DURATION / 4)).
 %----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
@@ -58,11 +58,11 @@ loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator) ->
       loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator);
     {slot, Slot} ->
       loop(Offset, ClassAOffsets, lists:delete(Slot, AvailableSlots), Empfaenger, Nachrichtengenerator);
-    {slot_time, {NewClassAOffset, Slot}} ->
+    {slot_time, {Slot, NewClassAOffset}} ->
       loop(Offset, [NewClassAOffset|ClassAOffsets], lists:delete(Slot, AvailableSlots), Empfaenger, Nachrichtengenerator);
     slot_ended ->
-      timer:send_after(?SLOT_DURATION - werkzeug:getUTC() rem ?SLOT_DURATION + Offset, self(), slot_ended),
       Empfaenger ! slot_ended,
+      timer:send_after(?SLOT_DURATION - werkzeug:getUTC() rem ?SLOT_DURATION + Offset, self(), slot_ended),
       %util:logt(?FILENAME, ["Ablaufplanung meldet Slotende."]),
       loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator);
     frame_ended ->
@@ -72,18 +72,18 @@ loop(Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator) ->
         trunc(lists:sum(ClassAOffsets) / length(ClassAOffsets)), [Offset], ?ALL_SLOTS, Empfaenger, Nachrichtengenerator
       );
     sending_time ->
-      io:format("Availableslots: ~p~n", [AvailableSlots]),
       Slot = lists:nth(rand:uniform(length(AvailableSlots)), AvailableSlots),
 
-      SlotTime = ?SLOT_DURATION * (lists:nth(rand:uniform(?MAX_SLOT_AMOUNT), ?ALL_SLOTS) - 1),
+      Nachrichtengenerator ! {sending_time, {Slot, werkzeug:getUTC() + Offset}},
+
+      SlotTime = ?SLOT_DURATION * (Slot - 1),
       NextFrameTime = ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION,
       timer:send_after(
-        NextFrameTime + SlotTime + Offset + ?ADDITIONAL_TIME, self(), sending_time
+        NextFrameTime + SlotTime + Offset, self(), sending_time
       ),
 
-      io:format("Sende Nachricht in... ~p~n", [SlotTime]),
+      %io:format("Sende Nachricht in... ~p~n", [SlotTime]),
 
-      Nachrichtengenerator ! {sending_time, {Slot, werkzeug:getUTC() + Offset}},
       io:format("Ablaufplanung Slot: ~p~n", [Slot]),
       loop(Offset, ClassAOffsets, [], Empfaenger, Nachrichtengenerator);
     Any ->

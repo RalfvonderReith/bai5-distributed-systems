@@ -57,7 +57,7 @@ dataSource="./Vessel3"
 #
 # Example: stationCmd="java aufgabe4.MyStation $interfaceName $mcastAddress $receivePort $stationClass"
 ########################################################################################################
-stationCmd="erl -eval station:start(\"$interfaceName\",\"$mcastAddress\",\"$receivePort\",\"$stationClass\",\"$UTCoffsetMs\","
+stationCmd="erl -noshell -eval station:start(\"$interfaceName\",\"$mcastAddress\",\"$receivePort\",\"$stationClass\",\"$UTCoffsetMs\","
 
 
 printUsage() {

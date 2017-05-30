@@ -28,8 +28,8 @@ start(Ablaufplanung) ->
 loop(PacketAmount, Packet, PacketOffset, Ablaufplanung) ->
   receive
     {packet, NewBPacket} ->
-      <<BClass:1/binary, BData:24/binary, Slot:8/integer, Time:64/integer-big>> = NewBPacket,
       Ablaufplanung ! time,
+      <<BClass:1/binary, BData:24/binary, Slot:8/integer, Time:64/integer-big>> = NewBPacket,
 
       NewPacket = {erlang:binary_to_list(BClass), erlang:binary_to_list(BData), Slot, Time},
       util:logt(?FILENAME, ["Empfaenger erhaelt Paket ", werkzeug:to_String(NewPacket)]),
