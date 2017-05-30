@@ -9,28 +9,20 @@
 
 -compile(export_all).
 %----------------------------------------------------------------------------------------------------------------------
-% constants
-%----------------------------------------------------------------------------------------------------------------------
-% names
--define(FILENAME, "sender.log").
-
-%----------------------------------------------------------------------------------------------------------------------
 % functions
 %----------------------------------------------------------------------------------------------------------------------
-start(Interface, Addr, Port) ->
-  file:delete(?FILENAME),
+start(LogFile, Interface, Addr, Port) ->
   Socket = werkzeug:openSe(Interface, Port),
-  util:log(?FILENAME, ["Sender gestartet mit PID ", pid_to_list(self())]),
-  loop(Socket, Addr, Port).
+  util:logt(LogFile, ["Sender: Gestartet mit PID ", pid_to_list(self())]),
+  loop(LogFile, Socket, Addr, Port).
 
-loop(Socket, Addr, Port) ->
+loop(LogFile, Socket, Addr, Port) ->
   receive
     {send_message, Message} ->
-      %util:log(?FILENAME, ["Nachricht beim Sender angekommen. (", Message, ")"]),
-      io:format("Nachricht beim Sender angekommen. (~p)~n", [Message]),
       gen_udp:send(Socket, Addr, Port, Message),
-      loop(Socket, Addr, Port);
+      %util:logt(LogFile, ["Sender: Nachricht abgeschickt: ", werkzeug:to_String(werkzeug:message_to_string(Message)]),
+      loop(LogFile, Socket, Addr, Port);
     Any ->
       io:format("Sender Nachricht erwartet, aber ~w bekommen.~n", [Any]),
-      loop(Socket, Addr, Port)
+      loop(LogFile, Socket, Addr, Port)
   end.

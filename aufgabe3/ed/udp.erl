@@ -15,9 +15,6 @@
 %----------------------------------------------------------------------------------------------------------------------
 % constants
 %----------------------------------------------------------------------------------------------------------------------
-% names
--define(FILENAME, "udp.log").
-
 % numbers
 -define(MESSAGE_BYTE_AMOUNT, 34).
 %----------------------------------------------------------------------------------------------------------------------
@@ -27,13 +24,11 @@
 % UdpMessageListener: A list filled with listeners. After receiving the message, it will be spread between all
 % listeners.
 %-spec start(list()) -> pid().
-start(Interface, Address, Port, Empfaenger) ->
+start(LogFile, Interface, Address, Port, Empfaenger) ->
   Socket = werkzeug:openRec(Address, Interface, Port),
   gen_udp:controlling_process(Socket, self()),
 
-  file:delete(?FILENAME),
-  util:logt(?FILENAME, ["UDP gestartet mit PID ", pid_to_list(self())]),
-
+  util:logt(LogFile, ["UDP: Gestartet mit PID ", pid_to_list(self())]),
   loop(Socket, Empfaenger).
 
 % 1) receive {udp, ReceiveSocket, IP, InPortNo, Packet} -> Receives an udp message and sends it to its listeners.
@@ -42,7 +37,5 @@ start(Interface, Address, Port, Empfaenger) ->
 %-spec loop(list()) -> any().
 loop(Socket, Empfaenger) ->
   {ok, {_, _, Packet}} = gen_udp:recv(Socket, ?MESSAGE_BYTE_AMOUNT),
-  %util:log(?FILENAME, ["UDP Nachricht angekommen Nachricht: ", Packet]),
-  io:format("UDP: Nachricht empfangen ~n~n"),
   Empfaenger ! {packet, Packet},
   loop(Socket, Empfaenger).

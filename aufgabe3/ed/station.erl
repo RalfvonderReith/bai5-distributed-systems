@@ -33,17 +33,19 @@ start(NetworkInterface, MulticastAddress, ReceivePort, Class, Offset, Index) ->
 
 -spec init(string(), string(), string(), string(), string(), string()) -> none().
 init(NetworkInterface, MulticastAddress, ReceivePort, Class, OffsetS, StationIndex) ->
-  file:delete(?FILENAME),
+  file:delete(StationIndex ++ ?FILENAME),
   util:logt(?FILENAME, ["Station ", StationIndex, " gestartet mit PID ", pid_to_list(self())]),
   {Interface, Address, Port, Offset} = parsed(NetworkInterface, MulticastAddress, ReceivePort, OffsetS),
 
-  Ablaufplanung = spawn(ablaufplanung, start, [Offset]),
-  Empfaenger = spawn(empfaenger, start, [Ablaufplanung]),
-  spawn(udp, start, [Interface, Address, Port, Empfaenger]),
+  LogFile = StationIndex ++ ?FILENAME,
 
-  Sender = spawn(sender, start, [Interface, Address, Port]),
-  Nachrichtengenerator = spawn(nachrichtengenerator, start, [Class, Sender]),
-  spawn(quelle, start, [Nachrichtengenerator]),
+  Ablaufplanung = spawn(ablaufplanung, start, [LogFile, Offset]),
+  Empfaenger = spawn(empfaenger, start, [LogFile, StationIndex, Ablaufplanung]),
+  spawn(udp, start, [LogFile, Interface, Address, Port, Empfaenger]),
+
+  Sender = spawn(sender, start, [LogFile, Interface, Address, Port]),
+  Nachrichtengenerator = spawn(nachrichtengenerator, start, [LogFile, Class, Sender]),
+  spawn(quelle, start, [LogFile, Nachrichtengenerator]),
 
   Ablaufplanung ! {listener, {Empfaenger, Nachrichtengenerator}}.
 %----------------------------------------------------------------------------------------------------------------------
