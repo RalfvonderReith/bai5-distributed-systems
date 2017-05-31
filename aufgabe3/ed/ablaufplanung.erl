@@ -25,8 +25,9 @@
 start(LogFile, Offset) ->
   receive
     {listener, {Empfaenger, Nachrichtengenerator}} ->
-      %timer:send_after(?SLOT_DURATION - werkzeug:getUTC() rem ?SLOT_DURATION + Offset, self(), slot_ended),
-      timer:send_after(?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + Offset + ?SLOT_DURATION, self(), slot_ended),
+      timer:send_after(?SLOT_DURATION - werkzeug:getUTC() rem ?SLOT_DURATION + Offset, self(), slot_ended),
+      timer:send_after(?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + Offset, self(), frame_ended),
+
 
       timer:send_after(
         ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + ?SLOT_DURATION *
@@ -54,46 +55,25 @@ loop(LogFile, Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengene
     slot_ended ->
       Empfaenger ! slot_ended,
       timer:send_after(?SLOT_DURATION - werkzeug:getUTC() rem ?SLOT_DURATION + Offset, self(), slot_ended),
-      util:logt(LogFile, ["Ablaufplanung: Slotende. (Nr. ", Counter, ")",
-        " Verfügbare Slots: ", werkzeug:to_String(AvailableSlots)]),
-
-      if
-        Counter == ?MAX_SLOT_AMOUNT ->
-          util:logt(LogFile, ["Ablaufplanung: Frameende."]),
-
-          if
-            not SlotWasAvailable ->
-              ChosenSlot = lists:nth(rand:uniform(length(AvailableSlots)), AvailableSlots),
-              timer:send_after(
-                ?SLOT_DURATION * (ChosenSlot - 1) + Offset + ?ADDITIONAL_TIME, self(), sending_time
-              ),
-              util:log(LogFile,
-                ["Ablaufplanung: Es gab eine Kollision. Wähle aus ",
-                  werkzeug:to_String(AvailableSlots), " Slot ", ChosenSlot,
-                  " für nächsten Frame."]);
-            true -> ok
-          end,
-
-          util:log(LogFile, ["\n"]),
-          loop(
-            LogFile, trunc(lists:sum(ClassAOffsets) / length(ClassAOffsets)), [Offset], ?ALL_SLOTS, Empfaenger, Nachrichtengenerator, true, true, 1
-          );
-        true -> ok
-      end,
-
+      %util:logt(LogFile, ["Ablaufplanung: Slotende. (Nr. ", Counter, ")",
+      %  " Verfügbare Slots: ", werkzeug:to_String(AvailableSlots)]),
 
       loop(LogFile, Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator, true, SlotWasAvailable, Counter + 1);
     frame_ended ->
       timer:send_after(?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + Offset, self(), frame_ended),
+
       util:logt(LogFile, ["Ablaufplanung: Frameende."]),
 
       if
         not SlotWasAvailable ->
-          Slot = lists:nth(rand:uniform(length(AvailableSlots)), AvailableSlots),
+          ChosenSlot = lists:nth(rand:uniform(length(AvailableSlots)), AvailableSlots),
           timer:send_after(
-            ?SLOT_DURATION * (Slot - 1) + Offset + ?ADDITIONAL_TIME + Offset, self(), sending_time
+            ?SLOT_DURATION * (ChosenSlot - 1) + Offset + ?ADDITIONAL_TIME, self(), sending_time
           ),
-          util:log(LogFile, ["Ablaufplanung: Es gab eine Kollision. Wähle aus ", werkzeug:to_String(AvailableSlots), " Slot für nächsten Frame."]);
+          util:log(LogFile,
+            ["Ablaufplanung: Es gab eine Kollision. Wähle aus ",
+              werkzeug:to_String(AvailableSlots), " Slot ", ChosenSlot,
+              " für nächsten Frame."]);
         true -> ok
       end,
 
@@ -112,8 +92,9 @@ loop(LogFile, Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengene
             ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + ?SLOT_DURATION * (Slot - 1) + Offset + ?ADDITIONAL_TIME, self(), sending_time
           ),
           util:log(LogFile, ["Ablaufplanung: Slot war verfügbar. Reserviere ", Slot, " für nächsten Frame aus ", werkzeug:to_String(AvailableSlots)]),
-          util:log(LogFile, ["Ablaufplanung: Sende in ", ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + ?SLOT_DURATION * (Slot - 1) + Offset + ?ADDITIONAL_TIME," Millisekunden."]);
-        true -> util:log(LogFile, ["Ablaufplanung: Sendezeit, aber Slot war besetzt. Momentan verfügbare: ", werkzeug:to_String(AvailableSlots)])
+          util:log(LogFile, ["Ablaufplanung: Sende in ", ?FRAME_DURATION - werkzeug:getUTC() rem ?FRAME_DURATION + ?SLOT_DURATION * (Slot - 1) + Offset + ?ADDITIONAL_TIME, " Millisekunden."]);
+        true ->
+          util:log(LogFile, ["Ablaufplanung: Sendezeit, aber Slot war besetzt. Momentan verfügbare: ", werkzeug:to_String(AvailableSlots)])
       end,
 
       loop(LogFile, Offset, ClassAOffsets, AvailableSlots, Empfaenger, Nachrichtengenerator, SlotAvailable, SlotAvailable, Counter);
