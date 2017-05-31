@@ -23,7 +23,6 @@ start(LogFile, Index, Ablaufplanung) ->
   util:log(LogFile, ["Empfaenger: Gestartet mit PID ", pid_to_list(self())]),
   loop(LogFile, SenkeFile, 0, '', 0, Ablaufplanung).
 
-
 loop(LogFile, SenkeFile, PacketAmount, Packet, PacketOffset, Ablaufplanung) ->
   receive
     {packet, NewBPacket} ->
@@ -31,26 +30,21 @@ loop(LogFile, SenkeFile, PacketAmount, Packet, PacketOffset, Ablaufplanung) ->
       <<BClass:1/binary, BData:24/binary, Slot:8/integer, Time:64/integer-big>> = NewBPacket,
 
       NewPacket = {erlang:binary_to_list(BClass), erlang:binary_to_list(BData), Slot, Time},
-      util:logt(LogFile, ["Empfaenger: Erhaelt Paket ", werkzeug:to_String(NewPacket)]),
+      %util:logt(LogFile, ["Empfaenger: Erhaelt Paket ", werkzeug:to_String(NewPacket)]),
 
-      loop(LogFile, SenkeFile, PacketAmount + 1, NewPacket, 0, Ablaufplanung),
       receive
         {time, OwnTime} ->
           loop(
-            LogFile,
-            SenkeFile,
-            PacketAmount + 1,
-            NewPacket,
-            OwnTime - Time,
-            Ablaufplanung
+            LogFile, SenkeFile, PacketAmount + 1, NewPacket, OwnTime - Time, Ablaufplanung
           )
       end;
+      %loop(LogFile, SenkeFile, PacketAmount + 1, NewPacket, 0, Ablaufplanung);
     slot_ended ->
       case PacketAmount of
         0 -> ok;
         1 ->
           {Class, _, Slot, _} = Packet,
-          util:logt(?SENKE_FILENAME, ["Senke: Erhaelt Datensatz ", werkzeug:to_String(Packet)]),
+          util:logt(SenkeFile, ["Senke: Erhaelt Datensatz ", werkzeug:to_String(Packet)]),
 
           if
             Class == "A" -> Ablaufplanung ! {slot_time, {Slot, PacketOffset}};
@@ -63,7 +57,3 @@ loop(LogFile, SenkeFile, PacketAmount, Packet, PacketOffset, Ablaufplanung) ->
       io:format("UDP Empfaenger Nachricht erwartet, aber ~w bekommen.~n", [Any]),
       loop(LogFile, SenkeFile, PacketAmount, Packet, PacketOffset, Ablaufplanung)
   end.
-
-% ---------------------------------------------------------------------------------------------------------------------
-% private helper
-% ---------------------------------------------------------------------------------------------------------------------
