@@ -1,0 +1,11 @@
+Methodenaufruf
+-	Client erfragt bei mware_lib nach Objektreferenz (resolve)
+-	Client ruft narrowCast auf, um Stellvertreterobjekt zu erzeugen
+-	Client ruft Methode von Stellvertreterobjekt auf (Wrapper)
+
+
+Aufgaben
+-	Mware_lib server, client, Namensdienst
+-	(Init, Aufruf, Objektreferenz holen, Returnwerte zurückschicken, Objekt registrieren, Fehler, shutdown)
+-	Namensdienst (rebind, resolve – string, ip, evnlt port)
+-	Server
