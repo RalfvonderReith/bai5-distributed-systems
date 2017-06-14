@@ -26,7 +26,7 @@
 % server connection
 %--------------------------------------------------------------------
 serverNodeConnection(ServerNode) ->
-  ping = net_adm:ping(ServerNode),
+  net_adm:ping(ServerNode),
   timer:sleep(?SERVER_RESPONSE_TIME).
 
 %--------------------------------------------------------------------

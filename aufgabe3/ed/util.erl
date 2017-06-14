@@ -22,11 +22,12 @@
 % functions
 %----------------------------------------------------------------------------------------------------------------------
 
+
 %--------------------------------------------------------------------
 % server connection
 %--------------------------------------------------------------------
 serverNodeConnection(ServerNode) ->
-  ping = net_adm:ping(ServerNode),
+  net_adm:ping(ServerNode),
   timer:sleep(?SERVER_RESPONSE_TIME).
 
 %--------------------------------------------------------------------
@@ -53,3 +54,15 @@ cfg_entry(EntryName, ConfigList) ->
   {ok, Result} = werkzeug:get_config_value(EntryName, ConfigList),
   io:format("~w wurde aus der config Datei ausgelesen mit dem Wert: ~w~n", [EntryName, Result]),
   Result.
+
+%----------------------------------------------------------------------------------------------------------------------
+% shortcuts
+%----------------------------------------------------------------------------------------------------------------------
+% Used as a shortcut to write a message as a string into the file.
+-spec log(string(), list()) -> atom().
+log(LogFile, Message) -> werkzeug:logging(LogFile, [lists:concat(Message), "\n"]).
+
+% Same as log/2, but adds the current time to the message.
+-spec logt(string(), list()) -> atom().
+logt(LogFile, Message) ->
+  werkzeug:logging(LogFile, [lists:concat(Message), "(", werkzeug:now2string(erlang:timestamp()), ")", "\n"]).

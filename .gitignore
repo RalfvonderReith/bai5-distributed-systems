@@ -5,6 +5,7 @@ deps
 *.plt
 *.cfg
 *.log
+*.idea
 erl_crash.dump
 ebin
 rel/example_project
