@@ -11,22 +11,24 @@ public class NameServiceConnection {
     Socket socket;
     ObjectInputStream ois;
     ObjectOutputStream oos;
+    InetAddress rmiAddress;
+    int rmiPort;
 
-    public static NameServiceConnection connect(InetAddress ip, int port) {
+    public static NameServiceConnection connect(InetAddress nsip, int nsport, InetAddress rmiAddress, int rmiPort) {
         NameServiceConnection nsc = new NameServiceConnection();
-        if(nsc.initialize(ip, port)) {
+        if(nsc.initialize(nsip, nsport, rmiAddress, rmiPort)) {
             return nsc;
         }
         return null;
     }
 
-    private NameServiceConnection() {
+    private NameServiceConnection() {}
 
-    }
-
-    private boolean initialize(InetAddress ip, int port) {
+    private boolean initialize(InetAddress ip, int port, InetAddress rmiAddress, int rmiPort) {
         try {
             socket = new Socket(ip, port);
+            this.rmiAddress = rmiAddress;
+            this.rmiPort = rmiPort;
             ois = new ObjectInputStream(socket.getInputStream());
             oos = new ObjectOutputStream(socket.getOutputStream());
         } catch(IOException e) {
@@ -48,7 +50,7 @@ public class NameServiceConnection {
         return null;
     }
 
-    public void sendRebind(ObjRef ref) throws IOException {
-        oos.writeObject(ref);
+    public void sendRebind(String ref) throws IOException {
+        oos.writeObject(new ObjRef(ref, rmiPort, rmiAddress));
     }
 }

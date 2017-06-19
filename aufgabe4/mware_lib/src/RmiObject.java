@@ -3,8 +3,12 @@ package mware_lib;
 import java.io.Serializable;
 import java.util.Arrays;
 
-public class RmiObject {
-    private final String refName;
+public class RmiObject implements Serializable {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -81011920543959753L;
+	private final String refName;
     private final String methodName;
     private final Serializable params[];
     private final Class<?> paramTypes[];

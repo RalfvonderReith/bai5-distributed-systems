@@ -7,10 +7,14 @@ package mware_lib;
  * @return
  */
 public class ObjectBroker {
-    private final NameService nameService;
-
+	private static final int PORT_DEFAULT = 5001;
+    private final NameServiceImpl nameService;
+    private final MethodCallListener mcl;
+    
     private ObjectBroker(String host, int port, boolean debug) {
         nameService = new NameServiceImpl(host, port, debug);
+        mcl = new MethodCallListener(PORT_DEFAULT, nameService);
+        nameService.initialize(mcl.getPort(), mcl.getInetAddress());
     }
 
     public static ObjectBroker init(String host, int port, boolean debug) {
