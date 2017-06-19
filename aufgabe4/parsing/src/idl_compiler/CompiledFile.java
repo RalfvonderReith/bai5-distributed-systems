@@ -21,10 +21,11 @@ public class CompiledFile {
     public CompiledFile(IDLmodule module, String name) {
         new File(name + ".java").delete();
 
-        try (FileWriter fileWriter = new FileWriter(name + ".java", true)) {
-            fileWriter.write(head(module.getModuleName()));
+        for (IDLclass clazz : module.getClasses()) {
+            try (FileWriter fileWriter = new FileWriter("_" + clazz.getClassName() + "ImplBase.java", true)) {
+                fileWriter.write(head(module.getModuleName()));
 
-            for (IDLclass clazz : module.getClasses()) {
+
                 fileWriter.write(abstractClassHead(clazz.getClassName()));
                 fileWriter.write(" {\n");
                 fileWriter.write(abstractMethods(clazz.getMethods()));
@@ -32,10 +33,11 @@ public class CompiledFile {
                 fileWriter.write("\n\n");
                 fileWriter.write(wrapperClass(clazz.getClassName(), clazz.getMethods()));
                 fileWriter.write("\n}");
-            }
 
-        } catch (IOException e) {
-            e.printStackTrace();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -146,8 +148,8 @@ public class CompiledFile {
         );
 
         return "\n" + methodHead(returnType, method.getName(), params(method.getParamNames(), method.getParamTypes())) + " {\n"
-                + TAB3 + "Serializable[] params = {" + paramNames + "};\n"
-                + TAB3 + "Class<?>[] paramTypes = {" + paramTypes + "};\n"
+                + TAB3 + "Serializable params[] = {" + paramNames + "};\n"
+                + TAB3 + "Class<?> paramTypes[] = {" + paramTypes + "};\n"
                 + TAB3 + "Object result = send(new RmiObject(refName, \"" + method.getName() + "\", params, paramTypes));\n"
                 + TAB3 + "if (result instanceof Exception) throw new Exception((Exception) result);\n"
                 + TAB3 + "return (" + returnType + ") result;\n"
