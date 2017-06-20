@@ -18,13 +18,16 @@ public class MethodCallListener implements Runnable {
     }
 
     private void initialize() {
-        System.out.print("trying to set up server socket...");
+        System.out.print("trying to set up server socket on port "+port+"...");
         try {
             serverSocket = new ServerSocket(port);
+            running = true;
+            System.out.println("Success!");
         } catch (IOException e) {
+        	System.out.println("Fail!");
             throw new IllegalStateException(e);
         }
-        System.out.println("Success!");
+        
     }
 
     @Override

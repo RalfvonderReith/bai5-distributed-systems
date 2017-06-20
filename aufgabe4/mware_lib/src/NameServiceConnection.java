@@ -10,16 +10,17 @@ public class NameServiceConnection {
     private Socket socket;
     private ObjectInputStream ois;
     private ObjectOutputStream oos;
-    private InetAddress rmiAddress;
+    private String rmiAddress;
     private int rmiPort;
 
-    public NameServiceConnection(String host, int nsport, InetAddress rmiAddress, int rmiPort) {
+    public NameServiceConnection(String host, int nsport, String inetAddress, int rmiPort) {
         System.out.println("NameServiceConnection");
         try {
             socket = new Socket(InetAddress.getByName(host), nsport);
             oos = new ObjectOutputStream(socket.getOutputStream());
+            oos.flush();
             ois = new ObjectInputStream(socket.getInputStream());
-            this.rmiAddress = rmiAddress;
+            this.rmiAddress = inetAddress;
             this.rmiPort = rmiPort;
         } catch (IOException e) {
             throw new IllegalStateException(e);
@@ -27,12 +28,12 @@ public class NameServiceConnection {
         System.out.println("NameServiceConnection constructed");
     }
 
-    public ObjRef sendResolve(String refName) throws IOException {
-        oos.writeObject(refName);
+    public String sendResolve(String refName) throws IOException {
+        oos.writeObject("resolve/"+refName);
         try {
             Object obj = ois.readObject();
             if (obj instanceof ObjRef) {
-                return (ObjRef) obj;
+                return ((ObjRef) obj).toString();
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

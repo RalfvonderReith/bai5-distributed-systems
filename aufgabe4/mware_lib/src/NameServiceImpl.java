@@ -1,7 +1,6 @@
 package mware_lib;
 
 import java.io.IOException;
-import java.net.InetAddress;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -19,9 +18,9 @@ public class NameServiceImpl extends NameService {
         this.debug = debug;
     }
     
-    public void initialize(int rmiPort, InetAddress rmiAddress) {
+    public void initialize(int rmiPort, String inetAddress) {
     	System.out.print("Starting NameService...");
-        nsc = new NameServiceConnection(host, port, rmiAddress, rmiPort);
+        nsc = new NameServiceConnection(host, port, inetAddress, rmiPort);
         System.out.println("Success!");
     }
 

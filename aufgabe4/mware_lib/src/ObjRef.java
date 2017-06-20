@@ -10,9 +10,9 @@ public class ObjRef implements Serializable {
 	private static final long serialVersionUID = 1401776112847873409L;
 	private final String refName;
 	private final int port;
-	private final InetAddress ip;
+	private final String ip;
 	
-	public ObjRef(String refName, int port, InetAddress ip) {
+	public ObjRef(String refName, int port, String ip) {
 		this.refName = refName;
 		this.port = port;
 		this.ip = ip;
@@ -26,12 +26,12 @@ public class ObjRef implements Serializable {
 		return port;
 	}
 	
-	public InetAddress getIp() {
+	public String getIp() {
 		return ip;
 	}
 
 	@Override
 	public String toString() {
-		return refName + "/" + port + "/" + ip;
+		return refName + "/" + ip + "/" + port;
 	}
 }
