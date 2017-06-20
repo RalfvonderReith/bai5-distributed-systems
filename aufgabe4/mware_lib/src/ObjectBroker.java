@@ -1,4 +1,6 @@
-package mware_lib;
+import mware_lib.MethodCallListener;
+import mware_lib.NameService;
+import mware_lib.NameServiceImpl;
 
 /**
  * - mutable
@@ -7,14 +9,14 @@ package mware_lib;
  * @return
  */
 public class ObjectBroker {
-	private static final int PORT_DEFAULT = 5001;
+	private static final int PORT_DEFAULT = 15001;
     private final NameServiceImpl nameService;
-    private final MethodCallListener mcl;
     
     private ObjectBroker(String host, int port, boolean debug) {
         nameService = new NameServiceImpl(host, port, debug);
-        mcl = new MethodCallListener(PORT_DEFAULT, nameService);
+        MethodCallListener mcl = new MethodCallListener(PORT_DEFAULT, nameService);
         nameService.initialize(mcl.getPort(), mcl.getInetAddress());
+        new Thread(mcl).start();
     }
 
     public static ObjectBroker init(String host, int port, boolean debug) {
@@ -25,5 +27,7 @@ public class ObjectBroker {
         return nameService;
     }
 
-    public void shutdown() {}
+    public void shutdown() {
+
+    }
 }

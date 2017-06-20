@@ -1,13 +1,15 @@
-package mware_lib;
+import mware_lib.Dispatcher;
+import mware_lib.NameService;
+import mware_lib.NameServiceConnection;
 
 import java.io.IOException;
 import java.net.InetAddress;
-import java.net.UnknownHostException;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class NameServiceImpl extends NameService {
 
-    private ConcurrentHashMap<String, Dispatcher> referenceMap;
+    private Map<String, Dispatcher> referenceMap = new ConcurrentHashMap<>();
     private NameServiceConnection nsc;
     private boolean debug = false;
     private String host;
@@ -22,12 +24,13 @@ public class NameServiceImpl extends NameService {
     public void initialize(int rmiPort, InetAddress rmiAddress) {
     	System.out.print("Starting NameService...");
         try {
-            nsc = NameServiceConnection.connect(InetAddress.getByName(host), port, rmiAddress, rmiPort);
+            nsc = new NameServiceConnection(host, port, rmiAddress, rmiPort);
             System.out.println("Success!");
-        } catch (UnknownHostException e) {
+        } catch (IOException e) {
         	System.out.println("Failed:");
             e.printStackTrace();
         }
+        System.out.println("initialized");
     }
 
     @Override
@@ -37,7 +40,7 @@ public class NameServiceImpl extends NameService {
     	try {
 			nsc.sendRebind(name);
 		} catch (IOException e) {
-			e.printStackTrace();
+			throw new IllegalStateException(e);
 		}
     }
 

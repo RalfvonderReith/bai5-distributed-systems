@@ -1,12 +1,11 @@
-package nameserver;
+import mware_lib.ObjRef;
+import nameserver.NameServer;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
-
-import mware_lib.ObjRef;
 
 public class NameServerConnection implements Runnable {
 
@@ -26,8 +25,8 @@ public class NameServerConnection implements Runnable {
 	}
 	
 	private void initialize() throws IOException {
-		ois = new ObjectInputStream(socket.getInputStream());
 		oos = new ObjectOutputStream(socket.getOutputStream());
+		ois = new ObjectInputStream(socket.getInputStream());
 	}
 	
 	private void process() throws IOException, ClassNotFoundException {
@@ -40,7 +39,7 @@ public class NameServerConnection implements Runnable {
 		String inputString = (String) inputObj;
 		String[] input = inputString.split("/");
 		
-		if(input[COMMAND].equals("rebind")) {
+		if (input[COMMAND].equals("rebind")) {
 			String name = input[REFNAME];
 			int port = Integer.parseInt(input[PORT]);
 			InetAddress address = InetAddress.getByName(input[IP]);
