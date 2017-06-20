@@ -45,13 +45,14 @@ public class NameServerConnection implements Runnable {
 		if (input[COMMAND].equals("rebind")) {
 			String name = input[REFNAME];
 			int port = Integer.parseInt(input[PORT]);
-			InetAddress address = InetAddress.getByName(input[IP]);
+			String address = input[IP];
 			nameServer.addReference(new ObjRef(name, port, address));
 			System.out.println("rebinding ... "+name+" - "+address+":"+port);
 		} else if(input[COMMAND].equals("resolve")) {
 			String name = input[REFNAME];
-			oos.writeObject(nameServer.getReference(name));
-			System.out.println("resolving "+name+"...");
+			ObjRef ref = nameServer.getReference(name);
+			oos.writeObject(ref);
+			System.out.println("resolving "+name+"... "+ref.toString());
 		} else {
 			System.out.println("unexpected message");
 		}
