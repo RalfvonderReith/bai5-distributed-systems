@@ -1,3 +1,5 @@
+package mware_lib;
+
 import mware_lib.ObjRef;
 
 import java.io.IOException;
@@ -15,17 +17,14 @@ public class NameServiceConnection {
 
     public NameServiceConnection(String host, int nsport, InetAddress rmiAddress, int rmiPort) throws IOException {
         System.out.println("NameServiceConnection");
-        try (
-                Socket socket = new Socket(InetAddress.getByName(host), nsport);
-                ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
-                ObjectInputStream ois = new ObjectInputStream(socket.getInputStream())
-        ) {
-            this.socket = socket;
-            this.ois = ois;
-            this.oos = oos;
+        try {
+            this.socket = new Socket(InetAddress.getByName(host), nsport);
+            this.oos = new ObjectOutputStream(socket.getOutputStream());
+            oos.flush();
+            this.ois = new ObjectInputStream(socket.getInputStream());
             this.rmiAddress = rmiAddress;
             this.rmiPort = rmiPort;
-        }
+        } finally {}
         System.out.println("NameServiceConnection constructed");
     }
 
@@ -43,6 +42,17 @@ public class NameServiceConnection {
     }
 
     public void sendRebind(String ref) throws IOException {
-        oos.writeObject(new ObjRef(ref, rmiPort, rmiAddress));
+    	System.out.println(rmiAddress.toString());
+        oos.writeObject("rebind/"+ref+"/"+rmiAddress.toString()+"/"+rmiPort);
+    }
+    
+    public void shutdown() {
+    	try {
+			oos.close();
+	    	ois.close();
+	    	socket.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
     }
 }
