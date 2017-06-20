@@ -1,9 +1,4 @@
 package mware_lib;
-<<<<<<< HEAD
-
-import mware_lib.ObjRef;
-=======
->>>>>>> 5f3641ad89ba0a84bbed4aacb6e6b43b0ac60004
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
