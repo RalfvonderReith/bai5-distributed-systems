@@ -170,15 +170,21 @@ public class CompiledFile {
     }
 
     private String sendMethod() {
-        return TAB2 + "private Object send(RmiObject rmiObject) throws IOException, ClassNotFoundException {\n"
-                + TAB3 + "try (\n"
-                + TAB5 + "Socket socket = new Socket(host, ping);\n"
-                + TAB5 + "ObjectInputStream inStream = new ObjectInputStream(socket.getInputStream());\n"
-                + TAB5 + "ObjectOutputStream outStream = new ObjectOutputStream(socket.getOutputStream());\n"
-                + TAB3 + ") {\n"
-
+        return TAB2 + "private Object send(RmiObject rmiObject) {\n"
+                + TAB3 + "try {\n"
+                + TAB4 + "Socket socket = new Socket(host, ping);\n"
+                + TAB4 + "ObjectOutputStream outStream = new ObjectOutputStream(socket.getOutputStream());\n"
+                + TAB4 + "outStream.flush();\n"
+                + TAB4 + "ObjectInputStream inStream = new ObjectInputStream(socket.getInputStream());\n"
                 + TAB4 + "outStream.writeObject(rmiObject);\n"
+                + TAB4 + "\n\n"
+
+                + TAB4 + "outStream.close();\n"
+                + TAB4 + "inStream.close();\n"
+
                 + TAB4 + "return inStream.readObject();\n"
+                + TAB3 + "} catch (IOException | ClassNotFoundException e) {\n"
+                + TAB4 + "return e;\n"
                 + TAB3 + "}\n"
                 + TAB2 + "}\n";
     }

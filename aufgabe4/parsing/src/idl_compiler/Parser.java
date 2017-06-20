@@ -220,7 +220,7 @@ public class Parser {
      * @throws FileNotFoundException
      */
     public static void main(String[] args) throws IOException {
-        args = new String[] {"calc.idl"};// TODO: Remove it
+        //args = new String[] {"calc.idl"};
 
         if (args != null && args.length == 1) {
             IDLfileReader in = new IDLfileReader(new FileReader(args[0]));

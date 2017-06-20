@@ -49,14 +49,20 @@ public abstract class _CalculatorImplBase {
             return (String) result;
         }
 
-        private Object send(RmiObject rmiObject) throws IOException, ClassNotFoundException {
-            try (
-                    Socket socket = new Socket(host, ping);
-                    ObjectInputStream inStream = new ObjectInputStream(socket.getInputStream());
-                    ObjectOutputStream outStream = new ObjectOutputStream(socket.getOutputStream());
-            ) {
+        private Object send(RmiObject rmiObject) {
+            try {
+                Socket socket = new Socket(host, ping);
+                ObjectOutputStream outStream = new ObjectOutputStream(socket.getOutputStream());
+                outStream.flush();
+                ObjectInputStream inStream = new ObjectInputStream(socket.getInputStream());
                 outStream.writeObject(rmiObject);
+                
+
+                outStream.close();
+                inStream.close();
                 return inStream.readObject();
+            } catch (IOException | ClassNotFoundException e) {
+                return e;
             }
         }
     }
