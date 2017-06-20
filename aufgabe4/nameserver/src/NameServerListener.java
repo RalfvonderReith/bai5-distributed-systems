@@ -3,27 +3,31 @@ package nameserver;
 import java.io.IOException;
 import java.net.ServerSocket;
 
+import mware_lib.Log;
+
 public class NameServerListener implements Runnable {
 
 	private ServerSocket serverSocket;
 	private int port;
 	private NameServer nameServer;
 	private boolean running = false;
+	private final Log logger;
 	
-	NameServerListener(int port, NameServer nameServer) {
+	NameServerListener(int port, NameServer nameServer, Log logger) {
+		this.logger = logger;
 		this.port = port;
 		this.nameServer = nameServer;
 	}
 	
 	private boolean initialize() {
-		System.out.print("trying to set up server Socket...");
+		logger.write("trying to set up server Socket...");
 		try {
 			serverSocket = new ServerSocket(port);
 		} catch(IOException e) {
 			e.printStackTrace();
 			return false;
 		}
-		System.out.println("Success!");
+		logger.write("Success!");
 		return true;
 	}
 	
@@ -32,9 +36,9 @@ public class NameServerListener implements Runnable {
 		running = initialize();
 		if(running) {
 			while(running) {
-				System.out.println("waiting for incoming connection...");
+				logger.write("waiting for incoming connection...");
 				try {
-					NameServerConnection nsc = new NameServerConnection(serverSocket.accept(), nameServer);
+					NameServerConnection nsc = new NameServerConnection(serverSocket.accept(), nameServer, logger);
 					new Thread(nsc).start();
 				} catch(Exception e) {
 					e.printStackTrace();

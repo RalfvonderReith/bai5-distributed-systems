@@ -10,21 +10,23 @@ public class MethodCallListener implements Runnable {
     int port;
     private boolean running = false;
     private final NameServiceImpl nameService;
+    private final Log logger;
 
-    public MethodCallListener(int port, NameServiceImpl nameService) {
+    public MethodCallListener(int port, NameServiceImpl nameService, Log logger) {
         this.port = port;
         this.nameService = nameService;
+        this.logger = logger;
         initialize();
     }
 
     private void initialize() {
-        System.out.print("trying to set up server socket on port "+port+"...");
+    	logger.write("trying to set up server socket on port "+port+"...");
         try {
             serverSocket = new ServerSocket(port);
             running = true;
-            System.out.println("Success!");
+            logger.write("Success!");
         } catch (IOException e) {
-        	System.out.println("Fail!");
+        	logger.write("Fail!");
             throw new IllegalStateException(e);
         }
         
@@ -33,9 +35,9 @@ public class MethodCallListener implements Runnable {
     @Override
     public void run() {
         while (running) {
-            System.out.println("waiting for incoming connection...");
+        	logger.write("waiting for incoming connection...");
             try {
-                RequestHandler rh = new RequestHandler(serverSocket.accept(), nameService);
+                RequestHandler rh = new RequestHandler(serverSocket.accept(), nameService, logger);
                 new Thread(rh).start();
             } catch (Exception e) {
                 e.printStackTrace();

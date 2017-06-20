@@ -1,18 +1,31 @@
 package nameserver;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+import mware_lib.Log;
 import mware_lib.ObjRef;
 
 public class NameServer {
 	
 	private Map<String, ObjRef> referenceMap;
 	private NameServerListener nsl;
+	private String logFileName = "nameserver.log";
+	private String configFileName = "nameserver.config";
+	private boolean debug = true;
+	private int port = 15000;
+	private final Log logger;
 	
-	public NameServer(int port) {
+	public NameServer() {
+		readConfig();
+		logger = new Log(debug, logFileName);
 		referenceMap = new ConcurrentHashMap<>();
-		nsl = new NameServerListener(port, this);
+		nsl = new NameServerListener(port, this, logger);
 		new Thread(nsl).start();
 	}
 	
@@ -24,10 +37,21 @@ public class NameServer {
 		return referenceMap.get(refName);
 	}
 	
+
+    private void readConfig() {
+    	File f = new File(configFileName);
+    	try(BufferedReader br = new BufferedReader(new FileReader(f))) {
+			logFileName = br.readLine();
+			port = Integer.parseInt(br.readLine());
+		} catch (FileNotFoundException e) {
+			System.out.println("File not found!");
+		} catch (IOException e) {
+			System.out.println("incomplete configfile");
+		}
+    }
+	
 	public static void main(String[] args) {
-		int port = 15000;
-		System.out.println("starting NameServer on port " + port);
-		new NameServer(port);
+		new NameServer();
 	}
 	
 }

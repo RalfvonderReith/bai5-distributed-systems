@@ -1,7 +1,6 @@
 package mware_lib;
 
 import java.io.Serializable;
-import java.net.InetAddress;
 
 public class ObjRef implements Serializable {
 	/**

@@ -13,8 +13,8 @@ public class NameServiceConnection {
     private String rmiAddress;
     private int rmiPort;
 
-    public NameServiceConnection(String host, int nsport, String inetAddress, int rmiPort) {
-        System.out.println("NameServiceConnection");
+    public NameServiceConnection(String host, int nsport, String inetAddress, int rmiPort, Log logger) {
+        logger.write("establishing NameServiceConnection");
         try {
             socket = new Socket(InetAddress.getByName(host), nsport);
             oos = new ObjectOutputStream(socket.getOutputStream());
@@ -25,7 +25,7 @@ public class NameServiceConnection {
         } catch (IOException e) {
             throw new IllegalStateException(e);
         }
-        System.out.println("NameServiceConnection constructed");
+        logger.write("Success!");
     }
 
     public String sendResolve(String refName) throws IOException {
@@ -42,7 +42,6 @@ public class NameServiceConnection {
     }
 
     public void sendRebind(String ref) throws IOException {
-    	System.out.println(rmiAddress.toString());
         oos.writeObject("rebind/"+ref+"/"+rmiAddress.toString()+"/"+rmiPort);
     }
 

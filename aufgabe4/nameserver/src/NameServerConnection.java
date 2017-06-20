@@ -3,9 +3,9 @@ package nameserver;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.net.InetAddress;
 import java.net.Socket;
 
+import mware_lib.Log;
 import mware_lib.ObjRef;
 
 public class NameServerConnection implements Runnable {
@@ -18,10 +18,13 @@ public class NameServerConnection implements Runnable {
 	private Socket socket;
 	private ObjectInputStream ois;
 	private ObjectOutputStream oos;
+	
+	private final Log logger;
 
 	private final NameServer nameServer;
 	
-	public NameServerConnection(Socket socket, NameServer nameServer) {
+	public NameServerConnection(Socket socket, NameServer nameServer, Log logger) {
+		this.logger = logger;
 		this.socket = socket;
 		this.nameServer = nameServer;
 	}
@@ -36,7 +39,7 @@ public class NameServerConnection implements Runnable {
 	 	Object inputObj = ois.readObject();
 	 	//expecting a string object containing a rebind or resolve message - if its not a string, its an unexpected message
 		if(!(inputObj instanceof String)) {
-			System.out.println("unexpected object");
+			logger.write("unexpected object");
 			return;
 		}
 		String inputString = (String) inputObj;
@@ -47,14 +50,14 @@ public class NameServerConnection implements Runnable {
 			int port = Integer.parseInt(input[PORT]);
 			String address = input[IP];
 			nameServer.addReference(new ObjRef(name, port, address));
-			System.out.println("rebinding ... "+name+" - "+address+":"+port);
+			logger.write("rebinding ... "+name+" - "+address+":"+port);
 		} else if(input[COMMAND].equals("resolve")) {
 			String name = input[REFNAME];
 			ObjRef ref = nameServer.getReference(name);
 			oos.writeObject(ref);
-			System.out.println("resolving "+name+"... "+ref.toString());
+			logger.write("resolving "+name+"... "+ref.toString());
 		} else {
-			System.out.println("unexpected message");
+			logger.write("unexpected message");
 		}
 		
 		//time outs?
@@ -64,7 +67,7 @@ public class NameServerConnection implements Runnable {
 	public void run() {
 		try {
 			initialize();
-			System.out.println("connection established");
+			logger.write("connection established");
 			process();
 		} catch(IOException | ClassNotFoundException e) {
 			e.printStackTrace();

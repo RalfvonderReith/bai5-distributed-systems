@@ -7,8 +7,12 @@ import java.util.concurrent.ConcurrentHashMap;
 public class NameServiceImpl extends NameService {
 
     private Map<String, Dispatcher> referenceMap = new ConcurrentHashMap<>();
+    private Log logger;
     private NameServiceConnection nsc;
-    private boolean debug = false;
+    
+    @SuppressWarnings("unused")
+	private boolean debug = false;
+    
     private String host;
     private int port;
 
@@ -18,15 +22,16 @@ public class NameServiceImpl extends NameService {
         this.debug = debug;
     }
     
-    public void initialize(int rmiPort, String inetAddress) {
-    	System.out.print("Starting NameService...");
-        nsc = new NameServiceConnection(host, port, inetAddress, rmiPort);
-        System.out.println("Success!");
+    public void initialize(int rmiPort, String inetAddress, Log logger) {
+    	this.logger = logger;
+    	logger.write("Starting NameService...");
+        nsc = new NameServiceConnection(host, port, inetAddress, rmiPort, logger);
+        logger.write("Success!");
     }
 
     @Override
     public void rebind(Object servant, String name) {
-    	System.out.println("rebinding Object with " + name);
+    	logger.write("rebinding Object with " + name);
     	addReference(name, new Dispatcher(servant));
     	try {
 			nsc.sendRebind(name);
@@ -38,7 +43,7 @@ public class NameServiceImpl extends NameService {
     /* returns an ObjRef, which can be narrowCasted */
     @Override
     public Object resolve(String name) {
-    	System.out.println("resolving " + name);
+    	logger.write("resolving " + name);
     	try {
 			return nsc.sendResolve(name);
 		} catch (IOException e) {

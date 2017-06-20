@@ -11,8 +11,10 @@ public class RequestHandler implements Runnable {
 	private ObjectInputStream ois;
 	private ObjectOutputStream oos;
 	private final NameServiceImpl nameService;
+	private final Log logger;
 	
-	public RequestHandler(Socket socket, NameServiceImpl nameService) {
+	public RequestHandler(Socket socket, NameServiceImpl nameService, Log logger) {
+		this.logger = logger;
 		this.socket = socket;
 		this.nameService = nameService;
 	}
@@ -26,17 +28,17 @@ public class RequestHandler implements Runnable {
 	 	Object inputObj = ois.readObject();
 	 	//expecting a string object containing a rebind or resolve message - if its not a string, its an unexpected message
 		if(!(inputObj instanceof RmiObject)) {
-			System.out.println("unexpected object");
+			logger.write("unexpected object");
 			return;
 		}
 		RmiObject rmiObj = (RmiObject) inputObj;
 		
-		System.out.println("received Rmicall for "+rmiObj.refName());
+		logger.write("received Rmicall for "+rmiObj.refName());
 		
 		Dispatcher dp = (Dispatcher) nameService.getReference(rmiObj.refName());
 		Object returnValue;
 		
-		System.out.println("resolved rmicall reference to: "+dp.toString());
+		logger.write("resolved rmicall reference to: "+dp.toString());
 		
 		try{
 			returnValue = dp.call(rmiObj);
@@ -50,7 +52,7 @@ public class RequestHandler implements Runnable {
 	public void run() {
 		try {
 			initialize();
-			System.out.println("connection established");
+			logger.write("connection established");
 			process();
 		} catch(IOException | ClassNotFoundException e) {
 			e.printStackTrace();
