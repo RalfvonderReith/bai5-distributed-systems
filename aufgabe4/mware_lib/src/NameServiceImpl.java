@@ -1,6 +1,4 @@
-import mware_lib.Dispatcher;
-import mware_lib.NameService;
-import mware_lib.NameServiceConnection;
+package mware_lib;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -23,14 +21,8 @@ public class NameServiceImpl extends NameService {
     
     public void initialize(int rmiPort, InetAddress rmiAddress) {
     	System.out.print("Starting NameService...");
-        try {
-            nsc = new NameServiceConnection(host, port, rmiAddress, rmiPort);
-            System.out.println("Success!");
-        } catch (IOException e) {
-        	System.out.println("Failed:");
-            e.printStackTrace();
-        }
-        System.out.println("initialized");
+        nsc = new NameServiceConnection(host, port, rmiAddress, rmiPort);
+        System.out.println("Success!");
     }
 
     @Override

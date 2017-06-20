@@ -29,5 +29,9 @@ public class ObjRef implements Serializable {
 	public InetAddress getIp() {
 		return ip;
 	}
-	
+
+	@Override
+	public String toString() {
+		return refName + "/" + port + "/" + ip;
+	}
 }

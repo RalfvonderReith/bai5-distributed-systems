@@ -1,5 +1,4 @@
-import nameserver.NameServer;
-import nameserver.NameServerConnection;
+package nameserver;
 
 import java.io.IOException;
 import java.net.ServerSocket;
