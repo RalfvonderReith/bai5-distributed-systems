@@ -1,4 +1,9 @@
 package mware_lib;
+<<<<<<< HEAD
+
+import mware_lib.ObjRef;
+=======
+>>>>>>> 5f3641ad89ba0a84bbed4aacb6e6b43b0ac60004
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -41,6 +46,17 @@ public class NameServiceConnection {
     }
 
     public void sendRebind(String ref) throws IOException {
-        oos.writeObject(ref + "/" + rmiPort + "/" + rmiAddress);
+    	System.out.println(rmiAddress.toString());
+        oos.writeObject("rebind/"+ref+"/"+rmiAddress.toString()+"/"+rmiPort);
+    }
+
+    public void shutdown() {
+    	try {
+			oos.close();
+	    	ois.close();
+	    	socket.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
     }
 }
