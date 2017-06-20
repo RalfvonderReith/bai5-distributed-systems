@@ -10,9 +10,9 @@ public class RequestHandler implements Runnable {
 	private Socket socket;
 	private ObjectInputStream ois;
 	private ObjectOutputStream oos;
-	private final NameService nameService;
+	private final NameServiceImpl nameService;
 	
-	public RequestHandler(Socket socket, NameService nameService) {
+	public RequestHandler(Socket socket, NameServiceImpl nameService) {
 		this.socket = socket;
 		this.nameService = nameService;
 	}
@@ -31,8 +31,13 @@ public class RequestHandler implements Runnable {
 		}
 		RmiObject rmiObj = (RmiObject) inputObj;
 		
-		Dispatcher dp = (Dispatcher) nameService.resolve(rmiObj.refName());
+		System.out.println("received Rmicall for "+rmiObj.refName());
+		
+		Dispatcher dp = (Dispatcher) nameService.getReference(rmiObj.refName());
 		Object returnValue;
+		
+		System.out.println("resolved rmicall reference to: "+dp.toString());
+		
 		try{
 			returnValue = dp.call(rmiObj);
 		} catch (Exception e) {

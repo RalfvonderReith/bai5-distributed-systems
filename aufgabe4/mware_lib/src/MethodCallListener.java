@@ -9,9 +9,9 @@ public class MethodCallListener implements Runnable {
     ServerSocket serverSocket;
     int port;
     private boolean running = false;
-    private final NameService nameService;
+    private final NameServiceImpl nameService;
 
-    public MethodCallListener(int port, NameService nameService) {
+    public MethodCallListener(int port, NameServiceImpl nameService) {
         this.port = port;
         this.nameService = nameService;
         initialize();
