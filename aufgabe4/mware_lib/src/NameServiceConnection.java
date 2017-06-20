@@ -1,4 +1,4 @@
-import mware_lib.ObjRef;
+package mware_lib;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -13,18 +13,16 @@ public class NameServiceConnection {
     private InetAddress rmiAddress;
     private int rmiPort;
 
-    public NameServiceConnection(String host, int nsport, InetAddress rmiAddress, int rmiPort) throws IOException {
+    public NameServiceConnection(String host, int nsport, InetAddress rmiAddress, int rmiPort) {
         System.out.println("NameServiceConnection");
-        try (
-                Socket socket = new Socket(InetAddress.getByName(host), nsport);
-                ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
-                ObjectInputStream ois = new ObjectInputStream(socket.getInputStream())
-        ) {
-            this.socket = socket;
-            this.ois = ois;
-            this.oos = oos;
+        try {
+            socket = new Socket(InetAddress.getByName(host), nsport);
+            oos = new ObjectOutputStream(socket.getOutputStream());
+            ois = new ObjectInputStream(socket.getInputStream());
             this.rmiAddress = rmiAddress;
             this.rmiPort = rmiPort;
+        } catch (IOException e) {
+            throw new IllegalStateException(e);
         }
         System.out.println("NameServiceConnection constructed");
     }
@@ -43,6 +41,6 @@ public class NameServiceConnection {
     }
 
     public void sendRebind(String ref) throws IOException {
-        oos.writeObject(new ObjRef(ref, rmiPort, rmiAddress));
+        oos.writeObject(ref + "/" + rmiPort + "/" + rmiAddress);
     }
 }

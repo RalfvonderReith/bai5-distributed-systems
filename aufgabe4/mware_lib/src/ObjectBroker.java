@@ -1,6 +1,4 @@
-import mware_lib.MethodCallListener;
-import mware_lib.NameService;
-import mware_lib.NameServiceImpl;
+package mware_lib;
 
 /**
  * - mutable

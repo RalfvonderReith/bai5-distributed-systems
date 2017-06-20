@@ -1,5 +1,4 @@
-import mware_lib.NameService;
-import mware_lib.RequestHandler;
+package mware_lib;
 
 import java.io.IOException;
 import java.net.InetAddress;

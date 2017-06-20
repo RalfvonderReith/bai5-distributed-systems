@@ -1,11 +1,12 @@
-import mware_lib.ObjRef;
-import nameserver.NameServer;
+package nameserver;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
+
+import mware_lib.ObjRef;
 
 public class NameServerConnection implements Runnable {
 
@@ -17,6 +18,7 @@ public class NameServerConnection implements Runnable {
 	private Socket socket;
 	private ObjectInputStream ois;
 	private ObjectOutputStream oos;
+
 	private final NameServer nameServer;
 	
 	public NameServerConnection(Socket socket, NameServer nameServer) {
@@ -26,6 +28,7 @@ public class NameServerConnection implements Runnable {
 	
 	private void initialize() throws IOException {
 		oos = new ObjectOutputStream(socket.getOutputStream());
+		oos.flush();
 		ois = new ObjectInputStream(socket.getInputStream());
 	}
 	
