@@ -1,8 +1,5 @@
-package Math;
-
 import java.net.Socket;
 import java.io.*;
-import mware_lib.RmiObject;
 
 public abstract class _CalculatorImplBase {
     public abstract int add(int a, int b) throws Exception;
@@ -26,37 +23,43 @@ public abstract class _CalculatorImplBase {
         }
 
         public int add(int a, int b) throws Exception {
-            Serializable[] params = {a, b};
-            Class<?>[] paramTypes = {int.class, int.class};
+            Serializable params[] = {a, b};
+            Class<?> paramTypes[] = {int.class, int.class};
             Object result = send(new RmiObject(refName, "add", params, paramTypes));
             if (result instanceof Exception) throw new Exception((Exception) result);
             return (int) result;
         }
 
         public double div(int a, int b) throws Exception {
-            Serializable[] params = {a, b};
-            Class<?>[] paramTypes = {int.class, int.class};
+            Serializable params[] = {a, b};
+            Class<?> paramTypes[] = {int.class, int.class};
             Object result = send(new RmiObject(refName, "div", params, paramTypes));
             if (result instanceof Exception) throw new Exception((Exception) result);
             return (double) result;
         }
 
         public String asString(int a) throws Exception {
-            Serializable[] params = {a};
-            Class<?>[] paramTypes = {int.class};
+            Serializable params[] = {a};
+            Class<?> paramTypes[] = {int.class};
             Object result = send(new RmiObject(refName, "asString", params, paramTypes));
             if (result instanceof Exception) throw new Exception((Exception) result);
             return (String) result;
         }
 
-        private Object send(RmiObject rmiObject) throws IOException, ClassNotFoundException {
-            try (
-                    Socket socket = new Socket(host, ping);
-                    ObjectInputStream inStream = new ObjectInputStream(socket.getInputStream());
-                    ObjectOutputStream outStream = new ObjectOutputStream(socket.getOutputStream());
-            ) {
+        private Object send(RmiObject rmiObject) {
+            try {
+                Socket socket = new Socket(host, ping);
+                ObjectOutputStream outStream = new ObjectOutputStream(socket.getOutputStream());
+                outStream.flush();
+                ObjectInputStream inStream = new ObjectInputStream(socket.getInputStream());
                 outStream.writeObject(rmiObject);
+                
+
+                outStream.close();
+                inStream.close();
                 return inStream.readObject();
+            } catch (IOException | ClassNotFoundException e) {
+                return e;
             }
         }
     }
