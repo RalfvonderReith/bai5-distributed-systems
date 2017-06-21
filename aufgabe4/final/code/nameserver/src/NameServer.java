@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import mware_lib.*;
 
 public class NameServer {
 	
@@ -38,6 +39,7 @@ public class NameServer {
     	try(BufferedReader br = new BufferedReader(new FileReader(f))) {
 			logFileName = br.readLine();
 			port = Integer.parseInt(br.readLine());
+			//debug = Boolean.parseBoolean(br.readLine());
 		} catch (FileNotFoundException e) {
 			System.out.println("File not found!");
 		} catch (IOException e) {

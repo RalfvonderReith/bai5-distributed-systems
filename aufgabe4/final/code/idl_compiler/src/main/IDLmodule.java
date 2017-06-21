@@ -1,4 +1,4 @@
-package main;
+package idl_compiler;
 
 import java.util.ArrayList;
 

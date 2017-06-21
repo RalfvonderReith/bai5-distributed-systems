@@ -1,4 +1,7 @@
 import java.net.Socket;
+
+import mware_lib.RmiObject;
+
 import java.io.*;
 
 public abstract class _CalculatorImplBase {
@@ -54,10 +57,11 @@ public abstract class _CalculatorImplBase {
                 ObjectInputStream inStream = new ObjectInputStream(socket.getInputStream());
                 outStream.writeObject(rmiObject);
                 
+                Object resultObject = inStream.readObject();
 
                 outStream.close();
                 inStream.close();
-                return inStream.readObject();
+                return resultObject;
             } catch (IOException | ClassNotFoundException e) {
                 return e;
             }

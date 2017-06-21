@@ -1,0 +1,6 @@
+module math_ops {
+  class Calculator {
+      double add(double a, double b);
+      string getStr(double a);
+  };
+};

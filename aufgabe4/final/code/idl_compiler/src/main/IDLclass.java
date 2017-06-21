@@ -1,4 +1,6 @@
-package main;
+package idl_compiler;
+
+import idl_compiler.IDLCompiler.MethodData;
 
 
 /**
@@ -10,9 +12,9 @@ public class IDLclass {
 	// this (IDL-)class's name
 	private String className;
 	// methods of this class
-	private IDLCompiler.MethodData methods[];
+	private MethodData methods[];
 
-	public IDLclass(String name, String module, IDLCompiler.MethodData methods[]) {
+	public IDLclass(String name, String module, MethodData methods[]) {
 		this.className = name;
 		this.moduleName = module;
 		this.methods = methods;
@@ -26,7 +28,7 @@ public class IDLclass {
 		return className;
 	}
 	
-	public IDLCompiler.MethodData[] getMethods() {
+	public MethodData[] getMethods() {
 		return methods;
 	}
 }

@@ -1,8 +1,15 @@
+import mware_lib.ObjectBroker;
 
 public class Application {
     public static void main(String[] args) {
-        String host = "127.0.0.1";
-        int port = 15000;
+    	if (args == null || args.length != 2) {
+    		System.out.println("no params given");
+    		System.out.println("expected params : <ip> <port>");
+    		return;
+    	}
+    	
+        String host = args[0];
+        int port = Integer.parseInt(args[1]);
 
         ObjectBroker objectBroker = ObjectBroker.init(host, port, true);
         Object refObj = objectBroker.getNameService().resolve("calculator");

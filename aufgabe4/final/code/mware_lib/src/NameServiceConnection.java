@@ -1,3 +1,4 @@
+package mware_lib;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -30,8 +31,9 @@ public class NameServiceConnection {
         oos.writeObject("resolve/"+refName);
         try {
             Object obj = ois.readObject();
-            if (obj instanceof ObjRef) {
-                return ((ObjRef) obj).toString();
+            System.out.println(obj);
+            if (obj instanceof String) {
+                return (String) obj;
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

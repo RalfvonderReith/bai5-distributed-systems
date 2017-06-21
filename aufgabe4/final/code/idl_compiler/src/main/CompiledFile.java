@@ -1,9 +1,12 @@
-package main;
+package idl_compiler;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectInput;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.stream.Collectors;
 
 /**
  * This class creates the compiled file, containing the java source code.
@@ -30,6 +33,7 @@ public class CompiledFile {
                 fileWriter.write("\n\n");
                 fileWriter.write(wrapperClass(clazz.getClassName(), clazz.getMethods()));
                 fileWriter.write("\n}");
+
 
             } catch (IOException e) {
                 e.printStackTrace();
@@ -91,7 +95,7 @@ public class CompiledFile {
     private String narrowCast(String className) {
         return TAB1 + "public static _" + className + "ImplBase narrowCast(Object refObj) {\n"
                 + TAB2 + "String[] refObjParts = ((String) refObj).split(\"/\");\n"
-                + TAB2 + "return new Calculator(refObjParts[0], refObjParts[1], Integer.parseInt(refObjParts[2]));\n"
+                + TAB2 + "return new " + className + "(refObjParts[0], refObjParts[1], Integer.parseInt(refObjParts[2]));\n"
                 + TAB1 + "}";
     }
 
@@ -101,7 +105,7 @@ public class CompiledFile {
     private String wrapperClass(String className, IDLCompiler.MethodData[] methods) {
         return classHead(className) + "{\n" +
                 variables() +
-                constructor() +
+                constructor(className) +
                 methods(methods) +
                 sendMethod() +
                 TAB1 + "}\n";
@@ -113,8 +117,8 @@ public class CompiledFile {
                 + TAB2 + "private final int ping;\n\n";
     }
 
-    private String constructor() {
-        return TAB2 + "private Calculator(String refName, String host, int ping) {\n"
+    private String constructor(String className) {
+        return TAB2 + "private " + className + "(String refName, String host, int ping) {\n"
                 + TAB3 + "this.refName = refName;\n"
                 + TAB3 + "this.host = host;\n"
                 + TAB3 + "this.ping = ping;\n"

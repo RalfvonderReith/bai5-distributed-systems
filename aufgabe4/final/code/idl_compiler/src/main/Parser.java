@@ -1,13 +1,14 @@
-package main;
+package idl_compiler;
+
+import idl_compiler.IDLCompiler.MethodData;
+import idl_compiler.IDLCompiler.SupportedDataTypes;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-import main.IDLCompiler.MethodData;
-import main.IDLCompiler.SupportedDataTypes;
 
 /**
- * main.Parser main class.
+ * Parser main class.
  *
  * @author (c) H. Schulz, 2016
  *         This programme is provided 'As-is', without any guarantee of any kind, implied or otherwise and is wholly unsupported.
@@ -106,7 +107,7 @@ public class Parser {
      * @throws IOException
      */
     private static IDLclass parseClass(IDLfileReader in, String currentModuleName) throws IOException {
-        ArrayList<IDLCompiler.MethodData> methodList = new ArrayList<MethodData>();
+        ArrayList<MethodData> methodList = new ArrayList<MethodData>();
 
         String line = in.readLine();
         if (line != null) {
@@ -178,7 +179,7 @@ public class Parser {
                 String[] typeAndParamName = paramEntries[i].trim().split(" ");
 
                 // 0: type, 1: name
-                paramTypes[i] = IDLCompiler.getSupportedTypeForKeyword(typeAndParamName[0]);
+                paramTypes[i] = idl_compiler.IDLCompiler.getSupportedTypeForKeyword(typeAndParamName[0]);
                 if (paramTypes[i] == null) {
                     printError(lineNo, "Error parsing param list");
                     return null;

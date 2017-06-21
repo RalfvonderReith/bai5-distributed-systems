@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import mware_lib.*;
 
 public class NameServerConnection implements Runnable {
 
@@ -13,6 +14,8 @@ public class NameServerConnection implements Runnable {
 	private Socket socket;
 	private ObjectInputStream ois;
 	private ObjectOutputStream oos;
+	
+	private boolean running = true;
 	
 	private final Log logger;
 
@@ -26,7 +29,6 @@ public class NameServerConnection implements Runnable {
 	
 	private void initialize() throws IOException {
 		oos = new ObjectOutputStream(socket.getOutputStream());
-		oos.flush();
 		ois = new ObjectInputStream(socket.getInputStream());
 	}
 	
@@ -44,12 +46,13 @@ public class NameServerConnection implements Runnable {
 			String name = input[REFNAME];
 			int port = Integer.parseInt(input[PORT]);
 			String address = input[IP];
-			nameServer.addReference(new ObjRef(name, port, address));
-			logger.write("rebinding ... "+name+" - "+address+":"+port);
+			ObjRef ref = new ObjRef(name, port, address);
+			nameServer.addReference(ref);
+			logger.write("rebinding ... "+ref.getRefName()+" - "+ref.getIp()+":"+ref.getPort());
 		} else if(input[COMMAND].equals("resolve")) {
 			String name = input[REFNAME];
 			ObjRef ref = nameServer.getReference(name);
-			oos.writeObject(ref);
+			oos.writeObject(ref.toString());
 			logger.write("resolving "+name+"... "+ref.toString());
 		} else {
 			logger.write("unexpected message");
@@ -63,7 +66,10 @@ public class NameServerConnection implements Runnable {
 		try {
 			initialize();
 			logger.write("connection established");
-			process();
+			while(running) {
+				System.out.println("processing next input");
+				process();
+			}
 		} catch(IOException | ClassNotFoundException e) {
 			e.printStackTrace();
 		} finally {

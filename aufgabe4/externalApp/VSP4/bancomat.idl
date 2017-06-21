@@ -1,0 +1,9 @@
+module bancomat {
+	class Bankmanager {
+		string getAccountID(int key);
+	};
+	class Account {
+		double deposit(double param0);
+		double withdraw(double param0);
+	};
+}; 

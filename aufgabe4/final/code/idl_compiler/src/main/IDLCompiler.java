@@ -1,4 +1,5 @@
-package main;
+package idl_compiler;
+
 
 /**
  * IDL compiler main class.

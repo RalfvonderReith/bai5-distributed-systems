@@ -1,3 +1,4 @@
+package mware_lib;
 import java.io.Serializable;
 import java.util.Arrays;
 

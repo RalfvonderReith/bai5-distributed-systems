@@ -1,8 +1,11 @@
+package mware_lib;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 /**
  * - mutable
@@ -18,7 +21,7 @@ public class ObjectBroker {
     
     //filled with default values - will be overriden by config file, if available
     private String logFileName = "mware_client.log";
-    private int rmiPort = 15001;
+    private int rmiPort = 15012;
     private String rmiInetAddress = "127.0.0.1";
     
     private ObjectBroker(String host, int port, boolean debug) {
@@ -26,7 +29,12 @@ public class ObjectBroker {
         logger = new Log(debug, logFileName);
         nameService = new NameServiceImpl(host, port, debug);
         MethodCallListener mcl = new MethodCallListener(rmiPort, nameService, logger);
-        nameService.initialize(rmiPort, rmiInetAddress, logger);
+        try {
+        	nameService.initialize(rmiPort, InetAddress.getLocalHost().getHostName(), logger);
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
         new Thread(mcl).start();
     }
     
@@ -53,5 +61,9 @@ public class ObjectBroker {
 
     public void shutdown() {
 
+    }
+    
+    public static void main(String[] args) {
+    	ObjectBroker.init("127.0.0.1", 15000, true);
     }
 }
